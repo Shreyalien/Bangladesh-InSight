@@ -48,10 +48,9 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
   const next = useCallback(() => goToSlide(slide + 1), [slide, goToSlide]);
   const prev = useCallback(() => goToSlide(slide - 1), [slide, goToSlide]);
 
-  // Smooth auto-advance with pause on hover
+  // Automatic slide progression with live progress line
   useEffect(() => {
-    if (isHovered) return;
-    const intervalTime = 4500;
+    const intervalTime = 4000;
     const tickTime = 50;
 
     const timer = setInterval(next, intervalTime);
@@ -63,7 +62,7 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
       clearInterval(timer);
       clearInterval(progressTimer);
     };
-  }, [next, isHovered]);
+  }, [next]);
 
   // Click on Hero to swap: left half = prev, right half = next
   const handleHeroClick = (e) => {
@@ -267,10 +266,10 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
             ))}
           </div>
 
-          <div className="w-36 h-1 bg-white/20 rounded-full overflow-hidden">
+          <div className="w-48 sm:w-64 h-1.5 bg-white/20 rounded-full overflow-hidden shadow-lg backdrop-blur-md">
             <div
               className="h-full transition-all duration-75 ease-linear rounded-full"
-              style={{ width: `${progress}%`, background: cur.color }}
+              style={{ width: `${progress}%`, background: cur.color, boxShadow: `0 0 10px ${cur.color}` }}
             />
           </div>
         </div>
@@ -304,7 +303,7 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
           <span className="w-1.5 h-8 rounded-full bg-rose-500" />
           <div>
             <h2 className={`text-2xl sm:text-3xl font-black tracking-tight font-display ${isNightMode ? 'text-white' : 'text-slate-900'}`}>
-              {isBengali ? '৮টি বিভাগের প্রবেশদ্বার (ধারাবাহিক ক্রম)' : 'All 8 Division Gateways (Canonical Order)'}
+              {isBengali ? 'বাংলাদেশের ৮টি বিভাগীয় প্রবেশদ্বার' : 'All 8 Division Gateways'}
             </h2>
             <p className={`text-sm mt-0.5 ${sub}`}>
               {isBengali ? 'ঢাকা · চট্টগ্রাম · রাজশাহী · খুলনা · বরিশাল · সিলেট · রংপুর · ময়মনসিংহ' : 'Dhaka · Chittagong · Rajshahi · Khulna · Barishal · Sylhet · Rangpur · Mymensingh'}

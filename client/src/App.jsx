@@ -197,6 +197,7 @@ export default function App() {
         delicacies={[]}
         onSelectDivision={handleSelectDivision}
         onSelectDistrict={(dist) => setSelectedDetailItem(dist)}
+        onSelectLandmark={(landmark) => setSelectedDetailItem(landmark)}
         isBengali={isBengali}
       />
 
