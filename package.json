@@ -1,0 +1,23 @@
+{
+  "name": "bangladesh-insight",
+  "version": "1.0.0",
+  "description": "Bangladesh InSight - 360 Degree Digital National Heritage & Geographic Atlas",
+  "private": true,
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "start": "node server/index.js"
+  },
+  "keywords": [
+    "bangladesh",
+    "heritage",
+    "360-panorama",
+    "64-districts",
+    "divisions",
+    "culture",
+    "delicacies"
+  ],
+  "author": "Amar Desh 360 Team",
+  "license": "MIT"
+}

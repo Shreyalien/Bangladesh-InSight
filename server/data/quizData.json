@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Which is the oldest excavated urban archaeological city in Bangladesh?",
+    "questionBn": "বাংলাদেশের প্রাচীনতম খনন করা নগর প্রত্নতাত্ত্বিক শহর কোনটি?",
+    "options": [
+      "Mainamati Shalban Vihara",
+      "Mahasthangarh (Pundranagar)",
+      "Wari-Bateshwar",
+      "Paharpur Somapura"
+    ],
+    "optionsBn": [
+      "ময়নামতি শালবন বিহার",
+      "মহাস্থানগড় (পুণ্ড্রনগর)",
+      "ওয়ারী-বটেশ্বর",
+      "পাহাড়পুর সোমপুর"
+    ],
+    "answerIndex": 1,
+    "divisionId": "rajshahi",
+    "explanation": "Mahasthangarh (ancient Pundranagar) in Bogura dates back to the 3rd Century BCE and was a flourishing fortified regional capital."
+  },
+  {
+    "id": 2,
+    "question": "Where can you watch both the sunrise and sunset over the sea from the same beach spot in Bangladesh?",
+    "questionBn": "বাংলাদেশের কোন সমুদ্র সৈকত থেকে একই স্থান থেকে সূর্যোদয় ও সূর্যাস্ত উভয়ই দেখা যায়?",
+    "options": [
+      "Patenga Beach",
+      "Inani Beach",
+      "Kuakata Beach",
+      "Saint Martin Island"
+    ],
+    "optionsBn": [
+      "পতেঙ্গা সৈকত",
+      "ইনানী সৈকত",
+      "কুয়াকাটা সৈকত",
+      "সেন্ট মার্টিন দ্বীপ"
+    ],
+    "answerIndex": 2,
+    "divisionId": "barishal",
+    "explanation": "Kuakata in Patuakhali district is popularly called  Sagor Kannya (Daughter of Sea) where the curved coastline provides unobstructed views of dawn and dusk over the Bay of Bengal."
+  },
+  {
+    "id": 3,
+    "question": "Which UNESCO World Heritage mosque features 77 low domes and 4 corner towers?",
+    "questionBn": "কোন ইউনেস্কো বিশ্ব ঐতিহ্য মসজিদে ৭৭টি নিচু গম্বুজ ও ৪টি কোণের মিনার রয়েছে?",
+    "options": [
+      "Star Mosque (Tara Masjid)",
+      "Sixty Dome Mosque (Shat Gombuj)",
+      "Baitul Mukarram",
+      "Bagha Mosque"
+    ],
+    "optionsBn": [
+      "তারা মসজিদ",
+      "ষাট গম্বুজ মসজিদ",
+      "বায়তুল মোকাররম",
+      "বাঘা মসজিদ"
+    ],
+    "answerIndex": 1,
+    "divisionId": "khulna",
+    "explanation": "Despite its name Sixty Dome Mosque, the 15th-century masterpiece built by Khan Jahan Ali in Bagerhat actually possesses 77 primary roof domes and 4 hollow corner tower domes (total 81)."
+  },
+  {
+    "id": 4,
+    "question": "Which river in Bangladesh is the only natural breeding ground in South Asia for major Indian carps (Rui, Katla)?",
+    "questionBn": "বাংলাদেশের কোন নদী দক্ষিণ এশিয়ায় প্রধান দেশি কার্প মাছের (রুই, কাতলা) একমাত্র প্রাকৃতিক প্রজনন ক্ষেত্র?",
+    "options": [
+      "Padma River",
+      "Halda River",
+      "Surma River",
+      "Karnaphuli River"
+    ],
+    "optionsBn": [
+      "পদ্মা নদী",
+      "হালদা নদী",
+      "সুরমা নদী",
+      "কর্ণফুলী নদী"
+    ],
+    "answerIndex": 1,
+    "divisionId": "chattogram",
+    "explanation": "The Halda River in Chattogram is a globally unique river ecosystem where fertilized carp fish eggs are collected directly from running river currents by fishermen."
+  },
+  {
+    "id": 5,
+    "question": "Where was the first government of Independent Bangladesh formally sworn in on April 17, 1971?",
+    "questionBn": "১৯৭১ সালের ১৭ এপ্রিল স্বাধীন বাংলাদেশের প্রথম সরকার কোথায় শপথ গ্রহণ করে?",
+    "options": [
+      "Suhrawardy Udyan, Dhaka",
+      "Mujibnagar (Baidyanathtala), Meherpur",
+      "Alukdia, Chuadanga",
+      "Shadhinota Complex, Chattogram"
+    ],
+    "optionsBn": [
+      "সোহরাওয়ার্দী উদ্যান, ঢাকা",
+      "মুজিবনগর (বৈদ্যনাথতলা), মেহেরপুর",
+      "আলুকদিয়া, চুয়াডাঙ্গা",
+      "স্বাধীনতা কমপ্লেক্স, চট্টগ্রাম"
+    ],
+    "answerIndex": 1,
+    "divisionId": "khulna",
+    "explanation": "The provisional government of Bangladesh (Mujibnagar Government) took solemn oath at the mango grove of Baidyanathtala in Meherpur on April 17, 1971."
+  },
+  {
+    "id": 6,
+    "question": "Which sweet of Bangladesh holds the legendary GI tag with origins in Natore during Maharani Bhabani era?",
+    "questionBn": "মহারানী ভবানীর আমলে নাটোরে উদ্ভূত বাংলাদেশের কোন মিষ্টি কিংবদন্তি জিআই ট্যাগ ধারণ করে?",
+    "options": [
+      "Porabari Chamcham",
+      "Natore Kachagolla",
+      "Bogra Doi",
+      "Muktagacha Monda"
+    ],
+    "optionsBn": [
+      "পোড়াবাড়ির চমচম",
+      "নাটোরের কাঁচাগোল্লা",
+      "বগুড়ার দই",
+      "মুক্তাগাছার মন্ডা"
+    ],
+    "answerIndex": 1,
+    "divisionId": "rajshahi",
+    "explanation": "Natore Kachagolla was created around 1760 by sweetmaker Madhusudan Das when reduced fresh milk chhana was infused with light sugar syrup to preserve it from spoiling."
+  },
+  {
+    "id": 7,
+    "question": "Which is the largest contiguous mangrove forest on Earth, home to the Royal Bengal Tiger?",
+    "questionBn": "পৃথিবীর বৃহত্তম বিস্তৃত ম্যানগ্রোভ বন কোনটি, যা রয়েল বেঙ্গল টাইগারের আবাসস্থল?",
+    "options": [
+      "Ratargul Swamp",
+      "The Sundarbans",
+      "Lawachara Forest",
+      "Bhawal National Park"
+    ],
+    "optionsBn": [
+      "রাতারগুল সোয়াম্প",
+      "সুন্দরবন",
+      "লাওয়াছড়া বন",
+      "ভাওয়াল জাতীয় উদ্যান"
+    ],
+    "answerIndex": 1,
+    "divisionId": "khulna",
+    "explanation": "The Sundarbans encompasses 10,000 sq km of halophytic mangrove delta across southwestern Bangladesh and eastern India."
+  },
+  {
+    "id": 8,
+    "question": "What is the length of Bangladesh's iconic landmark Padma Multipurpose Bridge?",
+    "questionBn": "বাংলাদেশের বিখ্যাত স্থাপনা পদ্মা বহুমুখী সেতুর দৈর্ঘ্য কত?",
+    "options": [
+      "4.8 km",
+      "5.5 km",
+      "6.15 km",
+      "7.2 km"
+    ],
+    "optionsBn": [
+      "৪.৮ কিমি",
+      "৫.৫ কিমি",
+      "৬.১৫ কিমি",
+      "৭.২ কিমি"
+    ],
+    "answerIndex": 2,
+    "divisionId": "dhaka",
+    "explanation": "The double-deck steel truss Padma Bridge measures 6.15 km across 41 steel spans connecting Mawa (Munshiganj) and Janjira (Shariatpur)."
+  }
+]

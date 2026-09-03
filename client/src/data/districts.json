@@ -1,0 +1,1518 @@
+[
+  {
+    "id": "dhaka",
+    "divisionId": "dhaka",
+    "name": "Dhaka",
+    "nameBn": "ঢাকা",
+    "hq": "Dhaka",
+    "area": "1,463 km²",
+    "population": "14.7 Million",
+    "rivers": [
+      "Buriganga",
+      "Turag",
+      "Dhaleshwari",
+      "Balu"
+    ],
+    "landmarks": [
+      "Ahsan Manzil",
+      "Lalbagh Fort",
+      "Tara Masjid",
+      "Curzon Hall",
+      "Jatiya Sangsad Bhaban",
+      "Dhakeshwari Temple"
+    ],
+    "delicacy": "Dhakaiya Biryani, Bakarkhani, Morog Polao",
+    "heritage": "Mughal Capital Jahangirnagar (1610), 1952 Language Movement, 1971 Independence Proclamation at Historic Suhrawardy Udyan.",
+    "touristTips": "Explore Old Dhaka heritage trails on a rickshaw, visit Sadarghat launch terminal at sunset, and taste authentic saffron biryani."
+  },
+  {
+    "id": "gazipur",
+    "divisionId": "dhaka",
+    "name": "Gazipur",
+    "nameBn": "গাজীপুর",
+    "hq": "Gazipur",
+    "area": "1,806 km²",
+    "population": "3.4 Million",
+    "rivers": [
+      "Turag",
+      "Balu",
+      "Shitalakshya",
+      "Banshir"
+    ],
+    "landmarks": [
+      "Bhawal National Park",
+      "Bangabandhu Safari Park",
+      "Bhawal Rajbari",
+      "DUET Campus"
+    ],
+    "delicacy": "Jackfruit (National Fruit of Bangladesh), Traditional Pitha",
+    "heritage": "Historic Bhawal Estate and famous Sannyasi case; premier research institutions and digital industrial hub.",
+    "touristTips": "Visit Bangabandhu Safari Park for open safari jeep rides and Bhawal Sal forest for eco-resort retreats."
+  },
+  {
+    "id": "narayanganj",
+    "divisionId": "dhaka",
+    "name": "Narayanganj",
+    "nameBn": "নারায়ণগঞ্জ",
+    "hq": "Narayanganj",
+    "area": "684 km²",
+    "population": "3.0 Million",
+    "rivers": [
+      "Shitalakshya",
+      "Meghna",
+      "Dhaleshwari"
+    ],
+    "landmarks": [
+      "Panam Nagar (Sonargaon)",
+      "Sonargaon Folk Art Museum",
+      "Hajiganj Fort",
+      "Sonakanda Fort"
+    ],
+    "delicacy": "Sonargaon Jamdani Weave Heritage Sweets, Jhal Chhola",
+    "heritage": "Ancient medieval capital of Bengal under Isa Khan; world capital of UNESCO-inscribed Jamdani handloom.",
+    "touristTips": "Walk through the eerie 19th-century deserted colonial mansions of Panam City and visit Shilpacharya Zainul Abedin Folk Art Museum."
+  },
+  {
+    "id": "tangail",
+    "divisionId": "dhaka",
+    "name": "Tangail",
+    "nameBn": "টাঙ্গাইল",
+    "hq": "Tangail",
+    "area": "3,414 km²",
+    "population": "3.8 Million",
+    "rivers": [
+      "Jamuna",
+      "Dhaleshwari",
+      "Bangshi",
+      "Lohajang"
+    ],
+    "landmarks": [
+      "201 Dome Mosque (Gopalpur)",
+      "Mohera Zamindar Bari",
+      "Pakutia Zamindar Bari",
+      "Atiya Mosque"
+    ],
+    "delicacy": "Porabarir Chamcham (King of Sweets), Tangail Taant Cotton Shari",
+    "heritage": "Birthplace of historic Tangail Taant weaving and authentic 1608 Atiya Mosque depicted on 10 Taka note.",
+    "touristTips": "Tour Mohera Zamindar Palace heritage resort and buy genuine GI-tagged Tangail handloom cotton saris from local weavers."
+  },
+  {
+    "id": "munshiganj",
+    "divisionId": "dhaka",
+    "name": "Munshiganj (Bikrampur)",
+    "nameBn": "মুন্সিগঞ্জ",
+    "hq": "Munshiganj",
+    "area": "1,004 km²",
+    "population": "1.6 Million",
+    "rivers": [
+      "Padma",
+      "Meghna",
+      "Dhaleshwari",
+      "Ichamati"
+    ],
+    "landmarks": [
+      "Padma Bridge North Point (Mawa)",
+      "Idrakpur Fort",
+      "Baba Adam Mosque",
+      "Bikrampur Museum",
+      "Atish Dipankar Birthplace"
+    ],
+    "delicacy": "Bikrampuri Sweet Curd, Mawa Ghat Fresh Fried Ilish with Mustard & Green Chilies",
+    "heritage": "Ancient capital of Bikrampur Kings; birthplace of Buddhist master Atish Dipankar and scientist Sir Jagadish Chandra Bose.",
+    "touristTips": "Drive across the Mawa expressway to enjoy fresh sizzling Padma Ilish fish fries right at the river pier."
+  },
+  {
+    "id": "narsingdi",
+    "divisionId": "dhaka",
+    "name": "Narsingdi",
+    "nameBn": "নরসিংদী",
+    "hq": "Narsingdi",
+    "area": "1,150 km²",
+    "population": "2.2 Million",
+    "rivers": [
+      "Meghna",
+      "Old Brahmaputra",
+      "Shitalakshya"
+    ],
+    "landmarks": [
+      "Wari-Bateshwar Archaeological Site (2500-year-old)",
+      "Bir Sreshtho Matiur Rahman Museum",
+      "Dream Holiday Park"
+    ],
+    "delicacy": "Amriti Sweet, Sagar Kola (Banana), Lal Teer Vegetables",
+    "heritage": "Wari-Bateshwar, ancient 6th century BCE urban civilization trading across the Indian Ocean.",
+    "touristTips": "Discover ancient silver punch-marked coins and Roman glass beads at Wari-Bateshwar excavation center."
+  },
+  {
+    "id": "manikganj",
+    "divisionId": "dhaka",
+    "name": "Manikganj",
+    "nameBn": "মানিকগঞ্জ",
+    "hq": "Manikganj",
+    "area": "1,383 km²",
+    "population": "1.4 Million",
+    "rivers": [
+      "Padma",
+      "Jamuna",
+      "Dhaleshwari",
+      "Kaliganga"
+    ],
+    "landmarks": [
+      "Baliati Palace",
+      "Teota Zamindar Bari",
+      "Aricha Ghat"
+    ],
+    "delicacy": "Hajar Gur (Legendary Date Palm Jaggery), Makhan Peda",
+    "heritage": "Baliati Palace is one of the grandest 19th-century zamindar estates in South Asia with 200+ ornate rooms.",
+    "touristTips": "Marvel at the seven colossal buildings and ionic columns of Baliati Palace in Saturia."
+  },
+  {
+    "id": "faridpur",
+    "divisionId": "dhaka",
+    "name": "Faridpur",
+    "nameBn": "ফরিদপুর",
+    "hq": "Faridpur",
+    "area": "2,052 km²",
+    "population": "2.0 Million",
+    "rivers": [
+      "Padma",
+      "Kumar",
+      "Madhumati",
+      "Arial Khan"
+    ],
+    "landmarks": [
+      "Jasminuddin Ancestral Home (Polli Kobi)",
+      "Kanaipur Zamindar Bari",
+      "Faridpur River Jetty"
+    ],
+    "delicacy": "Khejurer Gur (Date Palm Syrup), Sandesh",
+    "heritage": "Homeland of National Rural Poet Jasimuddin (author of Nakshi Kanthar Math); historic Faraizi movement.",
+    "touristTips": "Visit Jasimuddin folk museum on the banks of Kumar river in Ambikapur during annual Poush mela."
+  },
+  {
+    "id": "gopalganj",
+    "divisionId": "dhaka",
+    "name": "Gopalganj",
+    "nameBn": "গোপালগঞ্জ",
+    "hq": "Gopalganj",
+    "area": "1,468 km²",
+    "population": "1.2 Million",
+    "rivers": [
+      "Madhumati",
+      "Garai",
+      "Ghagar",
+      "Horkhal"
+    ],
+    "landmarks": [
+      "Bangabandhu Mausoleum Complex (Tungipara)",
+      "Ulpur Zamindar Bari",
+      "Orakandi Thakur Bari"
+    ],
+    "delicacy": "Mattha, Rosogolla, Chhana Sweets",
+    "heritage": "Sacred birthplace and eternal resting place of the Father of the Nation Bangabandhu Sheikh Mujibur Rahman.",
+    "touristTips": "Pay respects at the tranquil red-brick and white marble Bangabandhu Mausoleum Complex in Tungipara."
+  },
+  {
+    "id": "madaripur",
+    "divisionId": "dhaka",
+    "name": "Madaripur",
+    "nameBn": "মাদারীপুর",
+    "hq": "Madaripur",
+    "area": "1,125 km²",
+    "population": "1.2 Million",
+    "rivers": [
+      "Padma",
+      "Arial Khan",
+      "Kumar"
+    ],
+    "landmarks": [
+      "Shakuni Lake & Park",
+      "Mithapur Zamindar Bari",
+      "Khatal Bari Ghat"
+    ],
+    "delicacy": "Kashmiri Sweet, Khejur Patali Gur",
+    "heritage": "Named after Sufi Saint Badiuddin Zinda Shah Madar; key hub during anti-British Faraizi resistance led by Haji Shariatullah.",
+    "touristTips": "Stroll around the scenic Shakuni Lake walkway in the heart of Madaripur town."
+  },
+  {
+    "id": "rajbari",
+    "divisionId": "dhaka",
+    "name": "Rajbari",
+    "nameBn": "রাজবাড়ী",
+    "hq": "Rajbari",
+    "area": "1,099 km²",
+    "population": "1.0 Million",
+    "rivers": [
+      "Padma",
+      "Garai",
+      "Chitra",
+      "Kumar"
+    ],
+    "landmarks": [
+      "Mir Mosharraf Hossain Memorial Center (Baliakandi)",
+      "Daulatdia River Confluence",
+      "Godadar Rail Bridge"
+    ],
+    "delicacy": "Rajbari Chamcham, Padma River Hilsa",
+    "heritage": "Homeland of legendary novelist Mir Mosharraf Hossain, author of timeless masterpiece Bishad Shindhu.",
+    "touristTips": "Visit Mir Mosharraf Hossain auditorium and memorial library in Padamdi."
+  },
+  {
+    "id": "shariatpur",
+    "divisionId": "dhaka",
+    "name": "Shariatpur",
+    "nameBn": "শরীয়তপুর",
+    "hq": "Shariatpur",
+    "area": "1,174 km²",
+    "population": "1.2 Million",
+    "rivers": [
+      "Padma",
+      "Meghna",
+      "Kirtinasha",
+      "Arial Khan"
+    ],
+    "landmarks": [
+      "Padma Bridge South Approach (Janjira)",
+      "Fatehabad Zamindar Bari",
+      "Burirhat Mosque"
+    ],
+    "delicacy": "Hilsa from Kirtinasha, Date Jaggery Sandesh",
+    "heritage": "Named in honor of Haji Shariatullah, pioneer of 19th-century socio-religious Faraizi renaissance.",
+    "touristTips": "Experience the modern mega expressway connecting Janjira directly with Padma Bridge."
+  },
+  {
+    "id": "kishoreganj",
+    "divisionId": "dhaka",
+    "name": "Kishoreganj",
+    "nameBn": "কিশোরগঞ্জ",
+    "hq": "Kishoreganj",
+    "area": "2,731 km²",
+    "population": "3.1 Million",
+    "rivers": [
+      "Old Brahmaputra",
+      "Meghna",
+      "Dhanu",
+      "Baulai"
+    ],
+    "landmarks": [
+      "Nikli Haor Waterfront & All-Weather Road",
+      "Pagla Mosque",
+      "Isha Khan Junglebari Fort",
+      "Chandravati Shiva Temple"
+    ],
+    "delicacy": "Haor Fresh Baim & Boal Fish, Kishorganj Balish Mishti (Pillow Sweet)",
+    "heritage": "Birthplace of Chandravati (Bengali literature first woman poet) and Satyajit Ray grandfather Upendrakishore Ray Chowdhury.",
+    "touristTips": "Rent a traditional engine boat on Nikli Haor during monsoon to feel like cruising on an endless ocean."
+  },
+  {
+    "id": "chattogram",
+    "divisionId": "chattogram",
+    "name": "Chattogram",
+    "nameBn": "চট্টগ্রাম",
+    "hq": "Chattogram",
+    "area": "5,282 km²",
+    "population": "9.2 Million",
+    "rivers": [
+      "Karnaphuli",
+      "Halda",
+      "Sangu",
+      "Feni"
+    ],
+    "landmarks": [
+      "Chattogram Port",
+      "Patenga Sea Beach",
+      "Bangabandhu Sheikh Mujibur Rahman Tunnel",
+      "Bayejid Bostami Shrine",
+      "Foys Lake",
+      "World War II Cemetery"
+    ],
+    "delicacy": "Mezban Beef Gosht, Kala Bhuna, Chonakatha Shutki Bhorta",
+    "heritage": "Historic 1930 Chittagong Armoury Raid led by Masterda Surya Sen; sacred Halda River (only natural carp breeding river).",
+    "touristTips": "Drive through South Asia first underwater river tunnel and enjoy red sunset with crab fry at Patenga beach."
+  },
+  {
+    "id": "coxsbazar",
+    "divisionId": "chattogram",
+    "name": "Cox's Bazar",
+    "nameBn": "কক্সবাজার",
+    "hq": "Cox's Bazar",
+    "area": "2,491 km²",
+    "population": "2.8 Million",
+    "rivers": [
+      "Matamuhuri",
+      "Bakkhali",
+      "Naf"
+    ],
+    "landmarks": [
+      "Kolotoli & Laboni Beach",
+      "Inani Coral Beach",
+      "80-km Marine Drive",
+      "Saint Martin Coral Island",
+      "Ramu Buddhist Monasteries",
+      "Himchari National Park"
+    ],
+    "delicacy": "Fresh Coral & Red Snapper BBQ, Loitta Fry, Dried Fish (Shutki), Rupchanda Fish Curry",
+    "heritage": "World longest unbroken natural sandy beach stretching 120 km; ancient Rakhine Buddhist pagodas in Ramu.",
+    "touristTips": "Ride an open-top Jeep down the spectacular Marine Drive highway between crashing ocean waves and emerald green mountains."
+  },
+  {
+    "id": "rangamati",
+    "divisionId": "chattogram",
+    "name": "Rangamati",
+    "nameBn": "রাঙ্গামাটি",
+    "hq": "Rangamati",
+    "area": "6,116 km²",
+    "population": "0.65 Million",
+    "rivers": [
+      "Karnaphuli",
+      "Kaptai",
+      "Chengi",
+      "Maini"
+    ],
+    "landmarks": [
+      "Kaptai Lake",
+      "Rangamati Hanging Bridge",
+      "Rajban Vihara",
+      "Shuvolong Waterfall",
+      "Chakma Royal Palace"
+    ],
+    "delicacy": "Bamboo Chicken, Hebaang (Fish Steamed in Banana Leaf), Pajon Curry",
+    "heritage": "Spiritual heart of Chakma royalty and indigenous communities; largest artificial freshwater lake in South Asia.",
+    "touristTips": "Hire a long-tail boat to navigate through Shuvolong gorge and buy indigenous handmade pinon-hadi fabrics."
+  },
+  {
+    "id": "bandarban",
+    "name": "Bandarban",
+    "nameBn": "বান্দরবান",
+    "divisionId": "chattogram",
+    "hq": "Bandarban",
+    "area": "4,479 km²",
+    "population": "0.45 Million",
+    "rivers": [
+      "Sangu",
+      "Matamuhuri",
+      "Bakkhali"
+    ],
+    "landmarks": [
+      "Nilgiri Resort",
+      "Thanchi & Nafakhum Waterfall",
+      "Buddha Dhatu Jadi (Golden Temple)",
+      "Keokradong & Boga Lake",
+      "Chimbuk Hill"
+    ],
+    "delicacy": "Mundhi Indigenous Noodles, Bamboo Shoot Delicacy, Sangu River Mountain Fish",
+    "heritage": "Home to 11 diverse ethnic communities (Marma, Bawm, Mro, Tripura, etc.) and Bangladesh highest mountain peaks.",
+    "touristTips": "Experience trekking to turquoise crater Boga Lake and sunrise over sea of clouds from Nilgiri top."
+  },
+  {
+    "id": "khagrachhari",
+    "name": "Khagrachhari",
+    "nameBn": "খাগড়াছড়ি",
+    "divisionId": "chattogram",
+    "hq": "Khagrachhari",
+    "area": "2,699 km²",
+    "population": "0.7 Million",
+    "rivers": [
+      "Chengi",
+      "Maini",
+      "Feni"
+    ],
+    "landmarks": [
+      "Sajek Valley (Ruilui & Konglak Para)",
+      "Alutila Mysterious Cave",
+      "Richhang Waterfall",
+      "Hathikatha Stone Staircase"
+    ],
+    "delicacy": "Sabrang Herb Curry, Bamboo Shoot Stir-Fry, Wild Forest Honey",
+    "heritage": "Traditional Marma and Tripura folk culture; ancient natural limestone sub-terrestrial caves at Alutila.",
+    "touristTips": "Walk through the dark limestone Alutila Cave holding a flaming bamboo torch for an adrenaline thrill."
+  },
+  {
+    "id": "cumilla",
+    "name": "Cumilla",
+    "nameBn": "কুমিল্লা",
+    "divisionId": "chattogram",
+    "hq": "Cumilla",
+    "area": "3,085 km²",
+    "population": "6.2 Million",
+    "rivers": [
+      "Gumti",
+      "Meghna",
+      "Dakatia"
+    ],
+    "landmarks": [
+      "Shalban Vihara (Mainamati)",
+      "Kotila Mura",
+      "Cumilla Cantonment War Cemetery",
+      "Dharmasagar Dighi",
+      "BARD Campus"
+    ],
+    "delicacy": "Matri Bhandar Genuine Rasmalai, Khadi Cotton Clothing",
+    "heritage": "8th-century archaeological center of Buddhist Deva and Chandra dynasties; birthplace of world-renowned hand-spun Khadi cloth.",
+    "touristTips": "Buy original Rasmalai directly from historic Matri Bhandar shop at Manoharpur in Cumilla town."
+  },
+  {
+    "id": "feni",
+    "name": "Feni",
+    "nameBn": "ফেনী",
+    "divisionId": "chattogram",
+    "hq": "Feni",
+    "area": "928 km²",
+    "population": "1.6 Million",
+    "rivers": [
+      "Feni",
+      "Muhuri",
+      "Chhagalnaiya"
+    ],
+    "landmarks": [
+      "Muhuri Irrigation Regulator & Dam",
+      "Bijoy Singh Dighi",
+      "Chandgazi Mosque",
+      "Shamsher Gazi Fort"
+    ],
+    "delicacy": "Feni Mahish Curd (Buffalo Yogurt), Khandaler Mishti",
+    "heritage": "Muhuri Project is Bangladesh second largest irrigation project and winter habitat for migratory birds.",
+    "touristTips": "Watch sunset where Muhuri and Feni rivers meet the Bay of Bengal estuary."
+  },
+  {
+    "id": "brahmanbaria",
+    "name": "Brahmanbaria",
+    "nameBn": "ব্রাহ্মণবাড়িয়া",
+    "divisionId": "chattogram",
+    "hq": "Brahmanbaria",
+    "area": "1,927 km²",
+    "population": "3.3 Million",
+    "rivers": [
+      "Titas",
+      "Meghna",
+      "Buri"
+    ],
+    "landmarks": [
+      "Kalbhairab Temple",
+      "Ustad Alauddin Khan Ancestral Estate",
+      "Kailash Tila Gas Field",
+      "Ashuganj Power Hub"
+    ],
+    "delicacy": "Chhanar Mukhi Sweet (GI Tagged), Titas River Hilsa",
+    "heritage": "Cultural capital of classical music; ancestral land of Sarod maestro Ustad Alauddin Khan and epic novel Titash Ekti Nadir Naam.",
+    "touristTips": "Taste authentic melt-in-mouth GI-certified Chhanar Mukhi sweets."
+  },
+  {
+    "id": "noakhali",
+    "name": "Noakhali",
+    "nameBn": "নোয়াখালী",
+    "hq": "Maijdee",
+    "divisionId": "chattogram",
+    "area": "3,685 km²",
+    "population": "3.6 Million",
+    "rivers": [
+      "Meghna",
+      "Dakatia"
+    ],
+    "landmarks": [
+      "Gandhi Ashram (Joyag)",
+      "Nijhum Dwip Deer Sanctuary",
+      "Bajra Shahi Mosque",
+      "Musapur Closer"
+    ],
+    "delicacy": "Narkel Naru, Chital Fish Kofta, Ghol & Buffalo Curd",
+    "heritage": "Mahatma Gandhi peace mission at Joyag during 1946; Nijhum Dwip island home to 40,000+ spotted spotted deer.",
+    "touristTips": "Take a boat to Nijhum Dwip to watch herds of wild spotted deer grazing against mangrove forest margins."
+  },
+  {
+    "id": "lakshmipur",
+    "name": "Lakshmipur",
+    "nameBn": "লক্ষ্মীপুর",
+    "hq": "Lakshmipur",
+    "divisionId": "chattogram",
+    "area": "1,455 km²",
+    "population": "1.9 Million",
+    "rivers": [
+      "Meghna",
+      "Dakatia",
+      "Rahmatkhali"
+    ],
+    "landmarks": [
+      "Tita Khan Jame Mosque",
+      "Mondal Bari Zamindar Palace",
+      "Alexander Embankment",
+      "Kamalnagar Riverfront"
+    ],
+    "delicacy": "Moish Doi (Buffalo Milk Curd), Supera & Paan",
+    "heritage": "Major hub of coastal fish landing, coconut orchards, and fertile alluvial farmland along the Lower Meghna estuary.",
+    "touristTips": "Experience traditional fishing boats pulling ashore fresh sparkling silver Hilsa at Motirhat."
+  },
+  {
+    "id": "chandpur",
+    "name": "Chandpur",
+    "nameBn": "চাঁদপুর",
+    "hq": "Chandpur",
+    "divisionId": "chattogram",
+    "area": "1,704 km²",
+    "population": "2.6 Million",
+    "rivers": [
+      "Padma",
+      "Meghna",
+      "Dakatia"
+    ],
+    "landmarks": [
+      "Mollah Ratan Confluence (Moha Milon)",
+      "Rupsha Zamindar Bari",
+      "Haimchar River Estuary",
+      "Chandpur Launch Terminal"
+    ],
+    "delicacy": "Chandpur Padma-Meghna Hilsa (Ilish Capital of Bangladesh), One-Minute Mishti",
+    "heritage": "Tri-river confluence where the mighty Padma, Meghna, and Dakatia merge together; known globally as the Hilsa Capital.",
+    "touristTips": "Visit Mollah Head point at sunset to observe two distinct river water colors mixing together."
+  },
+  {
+    "id": "rajshahi",
+    "divisionId": "rajshahi",
+    "name": "Rajshahi",
+    "nameBn": "রাজশাহী",
+    "hq": "Rajshahi",
+    "area": "2,407 km²",
+    "population": "2.9 Million",
+    "rivers": [
+      "Padma",
+      "Mahananda",
+      "Shiba"
+    ],
+    "landmarks": [
+      "Varendra Research Museum",
+      "Puthia Temple Complex",
+      "Bagha Mosque",
+      "Rajshahi University Paris Road",
+      "Boro Kuthi"
+    ],
+    "delicacy": "Rajshahi Silk, Himsagar & Langra Mangoes, Kalojam",
+    "heritage": "Capital of ancient Varendra civilization; global pioneer of mulberry silk weaving and cleanest green city in Bangladesh.",
+    "touristTips": "Stroll along the paved Padma T-Groin embankment at dusk and visit the Varendra research antiquities."
+  },
+  {
+    "id": "bogura",
+    "divisionId": "rajshahi",
+    "name": "Bogura",
+    "nameBn": "বগুড়া",
+    "hq": "Bogura",
+    "area": "2,898 km²",
+    "population": "3.8 Million",
+    "rivers": [
+      "Karatoya",
+      "Jamuna",
+      "Nagar",
+      "Bangali"
+    ],
+    "landmarks": [
+      "Mahasthangarh (Pundranagar 3rd Century BCE)",
+      "Govinda Bhita",
+      "Vasav Vihara",
+      "Kherua Mosque",
+      "Gokul Medh (Behula Bashor Ghar)"
+    ],
+    "delicacy": "Bogra Bogurar Doi (World Famous Sweet Curd), Kotkoti",
+    "heritage": "Pundranagar at Mahasthangarh is the earliest fortified urban city site excavated in Bangladesh history.",
+    "touristTips": "Climb the ancient ramparts of Mahasthangarh citadel and savor thick baked red curd from Gourogopal or Asian Sweet."
+  },
+  {
+    "id": "pabna",
+    "divisionId": "rajshahi",
+    "name": "Pabna",
+    "nameBn": "পাবনা",
+    "hq": "Pabna",
+    "area": "2,371 km²",
+    "population": "2.8 Million",
+    "rivers": [
+      "Padma",
+      "Jamuna",
+      "Ichamati"
+    ],
+    "landmarks": [
+      "Hardinge Bridge (Paksey)",
+      "Rooppur Nuclear Power Plant",
+      "Jor Bangla Temple",
+      "Pabna Mental Hospital Heritage Campus"
+    ],
+    "delicacy": "Pabna Pure Ghee, Peda, Chhanar Jilapi",
+    "heritage": "Century-old railway steel truss engineering marvel Hardinge Bridge (1915); home to Bangladesh first nuclear energy plant.",
+    "touristTips": "Admire the architectural juxtaposition of historic 1915 Hardinge Bridge and modern Lalon Shah Highway Bridge over the Padma."
+  },
+  {
+    "id": "sirajganj",
+    "divisionId": "rajshahi",
+    "name": "Sirajganj",
+    "nameBn": "সিরাজগঞ্জ",
+    "hq": "Sirajganj",
+    "area": "2,497 km²",
+    "population": "3.4 Million",
+    "rivers": [
+      "Jamuna",
+      "Karatoya",
+      "Baral",
+      "Phuljhor"
+    ],
+    "landmarks": [
+      "Bangabandhu Jamuna Bridge",
+      "Navaratna Temple (Hatikumrul)",
+      "Rabindra Complex (Shahzadpur)",
+      "Eliot Bridge"
+    ],
+    "delicacy": "Sirajganj Milk Sweets, Dhaner Shish Doi, Handloom Cotton Gamchha & Lungi",
+    "heritage": "Rabindranath Tagore spent years at Shahzadpur Kachharibari writing iconic poems like Sonar Tari and Postmaster.",
+    "touristTips": "Tour the serene Tagore memorial palace at Shahzadpur and admire the 9-towered Navaratna terracotta temple."
+  },
+  {
+    "id": "natore",
+    "divisionId": "rajshahi",
+    "name": "Natore",
+    "nameBn": "নাটোর",
+    "hq": "Natore",
+    "area": "1,896 km²",
+    "population": "1.9 Million",
+    "rivers": [
+      "Baral",
+      "Nagar",
+      "Atrai"
+    ],
+    "landmarks": [
+      "Uttara Ganabhaban (Dighapatia Rajbari)",
+      "Rani Bhabani Rajbari",
+      "Chalan Beel (largest wetland of north)"
+    ],
+    "delicacy": "Natore Kachagolla (GI Tagged King of Sweet Chhana)",
+    "heritage": "Historic capital of Maharani Bhabani who ruled Bengal during 18th century; grand Italian-styled Uttara Ganabhaban palace.",
+    "touristTips": "Walk through the 41-acre royal gardens and deer enclosures of Uttara Ganabhaban and taste fresh warm Kachagolla."
+  },
+  {
+    "id": "naogaon",
+    "divisionId": "rajshahi",
+    "name": "Naogaon",
+    "nameBn": "নওগাঁ",
+    "hq": "Naogaon",
+    "area": "3,435 km²",
+    "population": "2.8 Million",
+    "rivers": [
+      "Atrai",
+      "Punarbhaba",
+      "Chhoto Jamuna"
+    ],
+    "landmarks": [
+      "Somapura Mahavihara at Paharpur (UNESCO World Heritage)",
+      "Kushumba Mosque",
+      "Dubalhati Rajbari",
+      "Patisar Rabindra Kachharibari"
+    ],
+    "delicacy": "Pera Sandesh, Fragrant Chinigura Aromatic Rice",
+    "heritage": "8th-century Somapura Mahavihara built by King Dharmapala is the largest Buddhist vihara south of the Himalayas.",
+    "touristTips": "Spend a quiet afternoon exploring the massive central stupa and terracotta plaques of Paharpur UNESCO heritage site."
+  },
+  {
+    "id": "chapai_nawabganj",
+    "divisionId": "rajshahi",
+    "name": "Chapai Nawabganj",
+    "nameBn": "চাঁপাইনবাবগঞ্জ",
+    "hq": "Chapai Nawabganj",
+    "area": "1,702 km²",
+    "population": "1.8 Million",
+    "rivers": [
+      "Padma",
+      "Mahananda",
+      "Pagla"
+    ],
+    "landmarks": [
+      "Choto Sona Mosque (Gaur)",
+      "Darasbari Mosque & Madrasa",
+      "Tohakhana Palace & Shrine",
+      "Mahananda Riverfront"
+    ],
+    "delicacy": "Fazli & Ashwina Mangoes, Shivganjer Chomchom, Kalaikari Ruti with Duck Curry",
+    "heritage": "Medieval Sultanate capital of Gaur situated along the western frontier; undisputed Mango Capital of Bangladesh.",
+    "touristTips": "Visit the 15-domed black stone Choto Sona Mosque and taste roasted Kalai ruti with spicy duck curry."
+  },
+  {
+    "id": "joypurhat",
+    "divisionId": "rajshahi",
+    "name": "Joypurhat",
+    "nameBn": "জয়পুরহাট",
+    "hq": "Joypurhat",
+    "area": "965 km²",
+    "population": "1.0 Million",
+    "rivers": [
+      "Chhoto Jamuna",
+      "Tulshiganga",
+      "Harabati"
+    ],
+    "landmarks": [
+      "Hinda Kasba Shahi Mosque",
+      "Pahar Parpur Border Vista",
+      "Nandail Dighi",
+      "Lockma Rajbari"
+    ],
+    "delicacy": "Joypurhat Sugar & Sugarcane Gur, Chhoto Jamunar Fish",
+    "heritage": "Ancient sugar hub and limestone deposits; Hinda Kasba mosque featuring pristine white Persian domes.",
+    "touristTips": "Tour the picturesque floral domes of Hinda-Kasba mosque and ancient Nandail water reservoir."
+  },
+  {
+    "id": "khulna",
+    "divisionId": "khulna",
+    "name": "Khulna",
+    "nameBn": "খুলনা",
+    "hq": "Khulna",
+    "area": "4,394 km²",
+    "population": "2.5 Million",
+    "rivers": [
+      "Rupsha",
+      "Bhairab",
+      "Pasur"
+    ],
+    "landmarks": [
+      "Sundarbans Karamjal Wildlife Center",
+      "Khan Jahan Ali Rupsha Bridge",
+      "Khulna University Campus",
+      "Gollamari Memorial"
+    ],
+    "delicacy": "Chui Jhal Spicy Beef & Mutton, Sundarbans Raw Wild Honey, Tiger Prawns (Galda Chingri)",
+    "heritage": "Southern industrial capital; gateway to the UNESCO World Heritage Sundarbans Mangrove Reserve.",
+    "touristTips": "Dine at Khulnas famous Abbas Hotel or Chuknagar to taste authentic slow-cooked Chui Jhal spicy beef."
+  },
+  {
+    "id": "jashore",
+    "divisionId": "khulna",
+    "name": "Jashore",
+    "nameBn": "যশোর",
+    "hq": "Jashore",
+    "area": "2,606 km²",
+    "population": "3.0 Million",
+    "rivers": [
+      "Bhairab",
+      "Kopotakkho",
+      "Chitra"
+    ],
+    "landmarks": [
+      "Gadkhali Flower Capital (Rose & Tulip Hub)",
+      "Michael Madhusudan Dutt Memorial (Sagardari)",
+      "Collectorate Building",
+      "Jessore Airport (Historic 1942 WWII Base)"
+    ],
+    "delicacy": "Jashore Khejur Gur (Date Palm Jaggery Patali), Jamtolar Sweet",
+    "heritage": "First district of Bangladesh to be liberated from Pakistani occupation on December 7, 1971; birthplace of epic poet Madhusudan Dutt.",
+    "touristTips": "Visit Gadkhali early morning to see millions of freshly plucked roses, gerberas, and orchids being traded in color markets."
+  },
+  {
+    "id": "bagerhat",
+    "divisionId": "khulna",
+    "name": "Bagerhat",
+    "nameBn": "বাগেরহাট",
+    "hq": "Bagerhat",
+    "area": "3,959 km²",
+    "population": "1.6 Million",
+    "rivers": [
+      "Pasur",
+      "Baleshwar",
+      "Madhumati"
+    ],
+    "landmarks": [
+      "Sixty Dome Mosque (UNESCO World Heritage)",
+      "Shrine of Khan Jahan Ali (Dighi with sacred crocodiles)",
+      "Singair Mosque",
+      "Nine Dome Mosque",
+      "Sundarbans Katka Beach"
+    ],
+    "delicacy": "Shrimp Curry (Bagda Chingri), Bagerhat Coconut Pitha",
+    "heritage": "15th-century Khalifatabad mosque city founded by Sufi general Khan Jahan Ali, inscribed by UNESCO as World Heritage.",
+    "touristTips": "Marvel at the 77 low brick domes of Sixty Dome Mosque and observe the legendary marsh crocodiles of Khan Jahan Ali Dighi."
+  },
+  {
+    "id": "satkhira",
+    "divisionId": "khulna",
+    "name": "Satkhira",
+    "nameBn": "সাতক্ষীরা",
+    "hq": "Satkhira",
+    "area": "3,858 km²",
+    "population": "2.1 Million",
+    "rivers": [
+      "Ichamati",
+      "Kobadak",
+      "Kholpetua",
+      "Hariabhanga"
+    ],
+    "landmarks": [
+      "Sundarbans Munshiganj Forest Range",
+      "Jessoreshwari Kali Temple (Shakti Peeth)",
+      "Nalta Sharif Shrine",
+      "Mozaffar Garden"
+    ],
+    "delicacy": "Satkhirar Sandesh & Pure Ghee, Sundarbans Khalsi Honey, Tiger Shrimp",
+    "heritage": "Historic kingdom of Maharaja Pratapaditya of Bengal Baro Bhuiyans; home to Sundarbans western deep jungle creeks.",
+    "touristTips": "Take a boat cruise into the Sundarbans forest canopy from Munshiganj Satkhira gateway."
+  },
+  {
+    "id": "kushtia",
+    "divisionId": "khulna",
+    "name": "Kushtia",
+    "nameBn": "কুষ্টিয়া",
+    "hq": "Kushtia",
+    "area": "1,608 km²",
+    "population": "2.0 Million",
+    "rivers": [
+      "Padma",
+      "Garai",
+      "Kumar",
+      "Kaliganga"
+    ],
+    "landmarks": [
+      "Lalon Shah Mazar (Chheuriya)",
+      "Rabindranath Tagore Shilaidaha Kuthibari",
+      "Mir Mosharraf Hossain Memorial",
+      "Hardinge Bridge"
+    ],
+    "delicacy": "Tiler Khaja (Sesame Crunch Sweet), Kulfi Malai",
+    "heritage": "Cultural heart of Baul philosophy and mystic saint Fakir Lalon Shah; Tagore composed many Nobel-winning Gitanjali verses here.",
+    "touristTips": "Attend the mystical Lalon Dol Purnima music festival in Chheuriya where thousands of Bauls perform all night."
+  },
+  {
+    "id": "jhenaidah",
+    "divisionId": "khulna",
+    "name": "Jhenaidah",
+    "nameBn": "ঝিনাইদহ",
+    "hq": "Jhenaidah",
+    "area": "1,964 km²",
+    "population": "1.9 Million",
+    "rivers": [
+      "Kobadak",
+      "Begabati",
+      "Chitra",
+      "Kumar"
+    ],
+    "landmarks": [
+      "Naldanga Rajbari",
+      "Miyar Dalan Heritage Mansion",
+      "Johurpur Ancient Baobab Tree",
+      "Pagla Kanai Shrine"
+    ],
+    "delicacy": "Jhenaidah Banana, Peda, Khejur Gur",
+    "heritage": "Land of folk mystic lyricist Pagla Kanai and mathematician Kazi Motahar Hossain; historic indigo resistance movements.",
+    "touristTips": "Admire the centuries-old African Baobab tree and the ruins of Naldanga Temple complex."
+  },
+  {
+    "id": "magura",
+    "divisionId": "khulna",
+    "name": "Magura",
+    "nameBn": "মাগুরা",
+    "hq": "Magura",
+    "area": "1,048 km²",
+    "population": "1.0 Million",
+    "rivers": [
+      "Gorai",
+      "Madhumati",
+      "Nabaganga",
+      "Fatki"
+    ],
+    "landmarks": [
+      "Siddheswari Math",
+      "Raja Sitaram Ray Palace Ruins",
+      "Khatlagari Bil Waterfront",
+      "Magura Town Gateway"
+    ],
+    "delicacy": "Magurar Sandesh, Sweet Curd, Madhumati Fresh Water Fish",
+    "heritage": "Homeland of world-renowned all-rounder cricketer Shakib Al Hasan; historic kingdom of Raja Sitaram Ray.",
+    "touristTips": "Tour the ancient terracotta Siddheswari temple in Mohammadpur alongside the Gorai river."
+  },
+  {
+    "id": "chuadanga",
+    "divisionId": "khulna",
+    "name": "Chuadanga",
+    "nameBn": "চুয়াডাঙ্গা",
+    "hq": "Chuadanga",
+    "area": "1,170 km²",
+    "population": "1.2 Million",
+    "rivers": [
+      "Mathabhanga",
+      "Bhairab",
+      "Chitra",
+      "Nabaganga"
+    ],
+    "landmarks": [
+      "Carew & Co. Historic Distillery & Sugar Mills (1938)",
+      "Gholdari Shahi Mosque (1006 AD)",
+      "Darshana Border Outpost"
+    ],
+    "delicacy": "Chhana Sweets, Pure Cane Sugar Jaggery, Mathabhanga Fish",
+    "heritage": "Carew & Co established in 1938 is the oldest organic distillery in the subcontinent; historic first provisional capital of 1971.",
+    "touristTips": "Tour the grand industrial heritage architecture of Carew & Co compound in Darshana."
+  },
+  {
+    "id": "meherpur",
+    "divisionId": "khulna",
+    "name": "Meherpur",
+    "nameBn": "মেহেরপুর",
+    "hq": "Meherpur",
+    "area": "751 km²",
+    "population": "0.7 Million",
+    "rivers": [
+      "Bhairab",
+      "Mathabhanga",
+      "Kazla"
+    ],
+    "landmarks": [
+      "Mujibnagar Memorial Complex (Birthplace of Bangladesh Government)",
+      "Amjhupi Indigo Kuthi",
+      "Bhatpara Nilkuthi"
+    ],
+    "delicacy": "Meherpur Sabri Banana, Kalo Jamun, Sweet Mangoes",
+    "heritage": "On April 17, 1971, the first government of Independent Bangladesh took oath at Baidyanathtala (now Mujibnagar).",
+    "touristTips": "Explore the 23-pillar Mujibnagar Monument representing 23 years of Pakistani struggle, with life-size historic war dioramas."
+  },
+  {
+    "id": "narail",
+    "divisionId": "khulna",
+    "name": "Narail",
+    "nameBn": "নড়াইল",
+    "hq": "Narail",
+    "area": "990 km²",
+    "population": "0.8 Million",
+    "rivers": [
+      "Chitra",
+      "Nabaganga",
+      "Madhumati",
+      "Afra"
+    ],
+    "landmarks": [
+      "SM Sultan Bengal Charit Art Gallery & House",
+      "Niribili Picnic Spot",
+      "Chitra River Boat Race Center"
+    ],
+    "delicacy": "Chitra River Crab, Milk Sandesh, Narail Pitha",
+    "heritage": "Birthplace of globally acclaimed master painter SM Sultan, whose gigantic canvases captured the strength of Bengali peasantry.",
+    "touristTips": "Visit SM Sultan Memorial Gallery on the Chitra riverbank to see his original massive oil paintings and preserved boat Shishu Swarga."
+  },
+  {
+    "id": "sylhet",
+    "divisionId": "sylhet",
+    "name": "Sylhet",
+    "nameBn": "সিলেট",
+    "hq": "Sylhet",
+    "area": "3,490 km²",
+    "population": "3.9 Million",
+    "rivers": [
+      "Surma",
+      "Kushiyara",
+      "Piyain",
+      "Sari-Goyain"
+    ],
+    "landmarks": [
+      "Hazrat Shah Jalal (R.) Dargah",
+      "Hazrat Shah Paran (R.) Shrine",
+      "Keane Bridge & Ali Amjad Clock",
+      "Ratargul Swamp Forest",
+      "Jaflong River & Stone Valley",
+      "Bholaganj Sada Pathor",
+      "Bisnakandi"
+    ],
+    "delicacy": "Sylheti Shatkora Beef, Nunor Bora, Bakarkhani, Fresh Assam-Ceylon Black Tea",
+    "heritage": "1303 arrival of Sufi saint Hazrat Shah Jalal (R.); spiritual gateway of South Asia and highest remittance-earning region.",
+    "touristTips": "Take a serene country boat into the submerged mangrove-like canopy of Ratargul Freshwater Swamp Forest."
+  },
+  {
+    "id": "moulvibazar",
+    "divisionId": "sylhet",
+    "name": "Moulvibazar",
+    "nameBn": "মৌলভীবাজার",
+    "hq": "Moulvibazar",
+    "area": "2,799 km²",
+    "population": "2.1 Million",
+    "rivers": [
+      "Manu",
+      "Dhalai",
+      "Kushiyara"
+    ],
+    "landmarks": [
+      "Sreemangal Tea Estates (Tea Capital)",
+      "Lawachara National Park (Hoolock Gibbon Sanctuary)",
+      "Madhabkunda Waterfall",
+      "Baikka Beel Bird Sanctuary",
+      "Hum Hum Waterfall"
+    ],
+    "delicacy": "Nilkantha Seven Layer Tea, Manipuri Pitha, Pineapples",
+    "heritage": "Produces 75%+ of Bangladesh tea; pristine evergreen rainforests with endangered wildlife at Lawachara.",
+    "touristTips": "Taste world-famous 7-colored multi-layered tea at Nilkantha Tea Cabin and trek through Lawachara jungle canopy."
+  },
+  {
+    "id": "habiganj",
+    "divisionId": "sylhet",
+    "name": "Habiganj",
+    "nameBn": "হবিগঞ্জ",
+    "hq": "Habiganj",
+    "area": "2,637 km²",
+    "population": "2.3 Million",
+    "rivers": [
+      "Khowai",
+      "Kushiyara",
+      "Kalni",
+      "Sutang"
+    ],
+    "landmarks": [
+      "Satchari National Park",
+      "Rema-Kalenga Wildlife Sanctuary",
+      "Baniachong (Largest Village in Asia)",
+      "Shankar Pasha Shahi Mosque"
+    ],
+    "delicacy": "Haor Boro Fish Curry, Handloom Manipuri Shawls",
+    "heritage": "Baniachong holds the distinction of being the largest village in Asia; Rema-Kalenga is the second largest natural forest in Bangladesh.",
+    "touristTips": "Walk the tree canopy trail inside Satchari National Park to spot rare birds and capped langurs."
+  },
+  {
+    "id": "sunamganj",
+    "divisionId": "sylhet",
+    "name": "Sunamganj",
+    "nameBn": "সুনামগঞ্জ",
+    "hq": "Sunamganj",
+    "area": "3,670 km²",
+    "population": "2.7 Million",
+    "rivers": [
+      "Surma",
+      "Jadukata",
+      "Rakti",
+      "Baulai"
+    ],
+    "landmarks": [
+      "Tanguar Haor (UNESCO Ramsar Site)",
+      "Jadukata River & Barek Tila",
+      "Shimul Bagan (Red Cotton Flower Forest)",
+      "Hason Raja Palace Museum"
+    ],
+    "delicacy": "Freshwater Haor Fish (Airh, Chital, Baim), Sunamganjer Sandesh",
+    "heritage": "Homeland of mystic philosopher songwriter Hason Raja and Baul king Shah Abdul Karim; Tanguar Haor is a global Ramsar biodiversity wetland.",
+    "touristTips": "Book a luxury wooden houseboat on Tanguar Haor for overnight starlight cruising and swim in turquoise Jadukata river."
+  },
+  {
+    "id": "barishal",
+    "divisionId": "barishal",
+    "name": "Barishal",
+    "nameBn": "বরিশাল",
+    "hq": "Barishal",
+    "area": "2,785 km²",
+    "population": "2.5 Million",
+    "rivers": [
+      "Kirtankhola",
+      "Arial Khan",
+      "Tetulia",
+      "Sandhya"
+    ],
+    "landmarks": [
+      "Bhimruli Floating Guava Market",
+      "Bells Park (Bangabandhu Udyan)",
+      "Oxford Mission Church (1903 Epiphany)",
+      "Durga Sagar Dighi",
+      "BM College Heritage Campus"
+    ],
+    "delicacy": "Ilish Fish Mustard Jhol, Balam Rice, Sweet Amra (Hog Plum), Gournadir Doi",
+    "heritage": "Referred to historically as the Venice of Bengal; homeland of poet Jibanananda Das (author of Banalata Sen) and Sher-e-Bangla A.K. Fazlul Huq.",
+    "touristTips": "Embark on an iconic multi-deck overnight launch journey from Dhaka to Barishal across the illuminated river highways."
+  },
+  {
+    "id": "bhola",
+    "divisionId": "barishal",
+    "name": "Bhola",
+    "nameBn": "ভোলা",
+    "hq": "Bhola",
+    "area": "3,403 km²",
+    "population": "1.9 Million",
+    "rivers": [
+      "Meghna",
+      "Tetulia",
+      "Ilisha"
+    ],
+    "landmarks": [
+      "Jacob Tower (Char Fasson 225-ft Viewpoint)",
+      "Monpura Island (Untouched Coastal Pearl)",
+      "Kukri Mukri Island Deer Sanctuary",
+      "Tazul Islam Eco Park"
+    ],
+    "delicacy": "Bhola Buffalo Milk Curd (Moish Doi), Meghna Coastal Hilsa, Fresh Coconut",
+    "heritage": "The only island district of Bangladesh and largest offshore delta island; blessed with colossal natural gas reserves.",
+    "touristTips": "Ride the high-speed glass elevator of 225-foot Jacob Tower to overlook the vast green island landscapes and sea channels."
+  },
+  {
+    "id": "patuakhali",
+    "divisionId": "barishal",
+    "name": "Patuakhali",
+    "nameBn": "পটুয়াখালী",
+    "hq": "Patuakhali",
+    "area": "3,221 km²",
+    "population": "1.7 Million",
+    "rivers": [
+      "Payra",
+      "Andharmanik",
+      "Lauhati",
+      "Lalua"
+    ],
+    "landmarks": [
+      "Kuakata Sea Beach (Sagor Kannya)",
+      "Fatrar Bon (Sundarbans Extension)",
+      "Payra Deep Seaport",
+      "Rakhine Indigenous Seema Temple",
+      "Kuakata Buddhist Well"
+    ],
+    "delicacy": "Crab Curry, Coral Fish Fry, Coconut Water, Pitha",
+    "heritage": "Kuakata offers the rare panoramic spectacle of watching both sunrise and sunset over the sparkling Bay of Bengal from the same beach spot.",
+    "touristTips": "Wake up before dawn to watch the sunrise at Gangamati point and rent a beach bike along the 18 km sand stretch."
+  },
+  {
+    "id": "pirojpur",
+    "divisionId": "barishal",
+    "name": "Pirojpur",
+    "nameBn": "পিরোজপুর",
+    "hq": "Pirojpur",
+    "area": "1,308 km²",
+    "population": "1.2 Million",
+    "rivers": [
+      "Baleshwar",
+      "Damodar",
+      "Kocha",
+      "Sandhya"
+    ],
+    "landmarks": [
+      "Kuriana Floating Guava Market",
+      "Swarupkathi Timber Market & Plant Nurseries",
+      "Rayerkati Zamindar Bari",
+      "Baleshwar River Bridge"
+    ],
+    "delicacy": "Sweet Guava, Amra, Sandhya River Prawns",
+    "heritage": "Pioneered century-old riverine agricultural canal networks and nursery trading throughout Bangladesh.",
+    "touristTips": "Take a country dinghy boat tour through water canals shaded under lush fruit orchards during monsoon."
+  },
+  {
+    "id": "barguna",
+    "divisionId": "barishal",
+    "name": "Barguna",
+    "nameBn": "বরগুনা",
+    "hq": "Barguna",
+    "area": "1,831 km²",
+    "population": "1.0 Million",
+    "rivers": [
+      "Payra",
+      "Bishkhali",
+      "Baleshwar",
+      "Haringhata"
+    ],
+    "landmarks": [
+      "Shuvo Shondha Sea Beach (Taltali)",
+      "Haringhata Mangrove Forest",
+      "Bibichini Shahi Mosque",
+      "Sonakata Eco Park"
+    ],
+    "delicacy": "Fresh Coastal Dried Fish, Bagda Shrimp, Coconut Treats",
+    "heritage": "Ancient coastal outpost safeguarding southwestern estuaries; pristine mangrove wildlife sanctuary at Haringhata.",
+    "touristTips": "Visit Shuvo Shondha beach where Payra river meets the open sea bordered by thick green Casuarina forests."
+  },
+  {
+    "id": "jhalokati",
+    "divisionId": "barishal",
+    "name": "Jhalokati",
+    "nameBn": "ঝালকাঠি",
+    "hq": "Jhalokati",
+    "area": "749 km²",
+    "population": "0.7 Million",
+    "rivers": [
+      "Sugandha",
+      "Bishkhali",
+      "Gabkhan"
+    ],
+    "landmarks": [
+      "Gabkhan Channel (Suez Canal of Bangladesh)",
+      "Bhimruli Market Point",
+      "Kirtipasha Zamindar Bari",
+      "Suchendra Palace"
+    ],
+    "delicacy": "Shital Pati (Cooling Cane Mats), Jhalokati Sweet Doi, Guava Juice",
+    "heritage": "Gabkhan channel is an artificial 18-km river canal built during British era to connect coastal waterway navigation.",
+    "touristTips": "Watch huge cargo steamers navigate through the high-span Gabkhan bridge channel."
+  },
+  {
+    "id": "rangpur",
+    "divisionId": "rangpur",
+    "name": "Rangpur",
+    "nameBn": "রংপুর",
+    "hq": "Rangpur",
+    "area": "2,308 km²",
+    "population": "3.2 Million",
+    "rivers": [
+      "Teesta",
+      "Ghaghat",
+      "Karatoya"
+    ],
+    "landmarks": [
+      "Tajhat Palace (Rangpur Museum)",
+      "Rangpur Zoo (2nd largest)",
+      "Chikli Water Park",
+      "Carmichael College Historic Campus",
+      "Keramatia Mosque"
+    ],
+    "delicacy": "Haribhanga Sweet Mango, Rangpur Shatranji Handloom Rugs (GI Tagged), Pitha",
+    "heritage": "Royal palace of Maharaja Jagadindra Roy; legendary Shatranji woven carpet craft dating back to Mughal emperor Akbar era.",
+    "touristTips": "Marvel at the marble staircase and colonial chandeliers of Tajhat Palace and Carmichael College red-brick campus."
+  },
+  {
+    "id": "dinajpur",
+    "divisionId": "rangpur",
+    "name": "Dinajpur",
+    "nameBn": "দিনাজপুর",
+    "hq": "Dinajpur",
+    "area": "3,438 km²",
+    "population": "3.3 Million",
+    "rivers": [
+      "Punarbhaba",
+      "Atrai",
+      "Dhepa",
+      "Karatoya"
+    ],
+    "landmarks": [
+      "Kantaji Temple (Finest Terracotta)",
+      "Nayabad Mosque",
+      "Ramsagar National Park (Largest Man-Made Dighi)",
+      "Dinajpur Rajbari",
+      "Shopnopuri Park"
+    ],
+    "delicacy": "Bedana & Madraji Litchi, Fragrant Kataribhog Rice, Papri Sweet",
+    "heritage": "1752 Kantaji Temple is the most spectacular terracotta Hindu temple in South Asia, decorated with Ramayana illustrations.",
+    "touristTips": "Visit Kantaji Temple during sunset to capture the fiery golden glow of its thousands of terracotta relief carvings."
+  },
+  {
+    "id": "panchagarh",
+    "divisionId": "rangpur",
+    "name": "Panchagarh",
+    "nameBn": "পঞ্চগড়",
+    "hq": "Panchagarh",
+    "area": "1,405 km²",
+    "population": "1.1 Million",
+    "rivers": [
+      "Karatoya",
+      "Mahananda",
+      "Dahuk"
+    ],
+    "landmarks": [
+      "Tetulia Kanchenjunga Viewpoint",
+      "Banglabandha Zero Point & Dry Port",
+      "Plainland Organic Tea Gardens",
+      "Mirzapur Shahi Mosque",
+      "Rocks Museum"
+    ],
+    "delicacy": "Panchagarh Plainland Organic Tea, River Stone Trout Fish",
+    "heritage": "Northernmost tip of Bangladesh; only spot in Bangladesh where Himalayan peak Mt. Kanchenjunga can be viewed with naked eyes.",
+    "touristTips": "Visit Tetulia Dak Bungalow in autumn (October-November) on a clear dawn to witness the majestic snow-capped Kanchenjunga."
+  },
+  {
+    "id": "thakurgaon",
+    "divisionId": "rangpur",
+    "name": "Thakurgaon",
+    "nameBn": "ঠাকুরগাঁও",
+    "hq": "Thakurgaon",
+    "area": "1,810 km²",
+    "population": "1.5 Million",
+    "rivers": [
+      "Tangon",
+      "Kulic",
+      "Nagor"
+    ],
+    "landmarks": [
+      "Baliadangi 200-yr Ancient Mango Tree (Suryapuri)",
+      "Jamidar Bari Mosque",
+      "Ranishankail Rajbari",
+      "Haripur Rajbari"
+    ],
+    "delicacy": "Suryapuri Mango, Peda Sweet, River Fish",
+    "heritage": "The legendary Suryapuri mango tree at Baliadangi spans over 2 bighas with 19 major root branches.",
+    "touristTips": "Stand under the colossal umbrella shade of the 200-year-old Baliadangi ancient heritage mango tree."
+  },
+  {
+    "id": "nilphamari",
+    "divisionId": "rangpur",
+    "name": "Nilphamari",
+    "nameBn": "নীলফামারী",
+    "hq": "Nilphamari",
+    "area": "1,581 km²",
+    "population": "2.0 Million",
+    "rivers": [
+      "Teesta",
+      "Jamuneshwari",
+      "Buri Teesta"
+    ],
+    "landmarks": [
+      "Teesta Barrage (Dalia)",
+      "Nilsagar Historic Dighi",
+      "Saidpur Railway Workshop (Subcontinent Oldest 1870)",
+      "Chini Mosque"
+    ],
+    "delicacy": "Teesta Fish, Chini Mosque Sweets, Kataribhog Chira",
+    "heritage": "Saidpur Railway Workshop is the largest and oldest railway repair facility in Bengal established in 1870.",
+    "touristTips": "Tour the dazzling China-porcelain tiled Chini Mosque in Saidpur with 27 minarets."
+  },
+  {
+    "id": "kurigram",
+    "divisionId": "rangpur",
+    "name": "Kurigram",
+    "nameBn": "কুড়িগ্রাম",
+    "hq": "Kurigram",
+    "area": "2,246 km²",
+    "population": "2.3 Million",
+    "rivers": [
+      "Brahmaputra",
+      "Dharla",
+      "Teesta",
+      "Dudhkumar"
+    ],
+    "landmarks": [
+      "Chilmari Port & Riverfront",
+      "Dharla Bridge",
+      "Shahi Mosque of Forkerhat",
+      "Dasherhat Zamindar Bari"
+    ],
+    "delicacy": "Brahmaputra River Boal Fish, Kheer Chomchom, Chilmari Pitha",
+    "heritage": "Immortalized in legendary folk songs such as Oki Gariyal Bhai on the historic Chilmari river ghat.",
+    "touristTips": "Take a boat trip across the wide expanse of the Brahmaputra River during golden hour."
+  },
+  {
+    "id": "lalmonirhat",
+    "divisionId": "rangpur",
+    "name": "Lalmonirhat",
+    "nameBn": "লালমনিরহাট",
+    "hq": "Lalmonirhat",
+    "area": "1,241 km²",
+    "population": "1.4 Million",
+    "rivers": [
+      "Teesta",
+      "Dharla",
+      "Saniazan"
+    ],
+    "landmarks": [
+      "Tin Bigha Corridor",
+      "Burimari Land Port & Zero Point",
+      "Mogolhat Historic Railway Station",
+      "Tushbhandar Zamindar Bari"
+    ],
+    "delicacy": "Corn Dishes, Teesta Fresh Fish, Sweet Sandesh",
+    "heritage": "Strategic enclave corridor Tin Bigha; heritage railway junction connecting pre-partition Assam-Bengal rail routes.",
+    "touristTips": "Visit the historic Tin Bigha Corridor and Burimari border landscape."
+  },
+  {
+    "id": "gaibandha",
+    "divisionId": "rangpur",
+    "name": "Gaibandha",
+    "nameBn": "গাইবান্ধা",
+    "hq": "Gaibandha",
+    "area": "2,179 km²",
+    "population": "2.6 Million",
+    "rivers": [
+      "Brahmaputra",
+      "Teesta",
+      "Ghaghat",
+      "Karatoya"
+    ],
+    "landmarks": [
+      "Balashighat River Terminal",
+      "Naldanga Zamindar Palace",
+      "Ghaghat River Green Walkway",
+      "Karatoya Barrage"
+    ],
+    "delicacy": "Gaibandhar Roshmonjuri (Signature Reduced Milk Sweet), River Ilish",
+    "heritage": "Pioneered river char community development and world-famous Roshmonjuri milk sweet craft.",
+    "touristTips": "Taste authentic hot Roshmonjuri sweet prepared in earthen pans in Gaibandha town."
+  },
+  {
+    "id": "mymensingh",
+    "divisionId": "mymensingh",
+    "name": "Mymensingh",
+    "nameBn": "ময়মনসিংহ",
+    "hq": "Mymensingh",
+    "area": "4,395 km²",
+    "population": "5.8 Million",
+    "rivers": [
+      "Old Brahmaputra",
+      "Bhogai",
+      "Bajua"
+    ],
+    "landmarks": [
+      "Shashi Lodge (Mymensingh Rajbari)",
+      "Bangladesh Agricultural University (BAU)",
+      "Zainul Abedin Art Gallery & Park",
+      "Muktagacha Zamindar Bari",
+      "Ananda Mohan College",
+      "Alexander Castle"
+    ],
+    "delicacy": "Muktagachar Monda (200-year-old Ramgopal Sweet), Malaikari, Fresh Brahmaputra River Fish",
+    "heritage": "Maimansingha Gitika medieval folk ballads compiled by Dinesh Chandra Sen; premier agricultural science research in Asia.",
+    "touristTips": "Taste authentic GI-famed Monda at Muktagacha Gopal Pal heritage shop and stroll through Shashi Lodge Venus marble gardens."
+  },
+  {
+    "id": "jamalpur",
+    "divisionId": "mymensingh",
+    "name": "Jamalpur",
+    "nameBn": "জামালপুর",
+    "hq": "Jamalpur",
+    "area": "2,115 km²",
+    "population": "2.5 Million",
+    "rivers": [
+      "Old Brahmaputra",
+      "Jamuna",
+      "Jhinai"
+    ],
+    "landmarks": [
+      "Nakshi Kantha Handicraft Villages",
+      "Hazrat Shah Jamal (R.) Shrine",
+      "Gandhi Ashram",
+      "Mellandha Eco Park"
+    ],
+    "delicacy": "Milir Pitha, Jamalpur Nakshi Pitha, Chhanar Polao Sweet",
+    "heritage": "World famous artisan hub of intricate Nakshi Kantha hand-embroidered quilts and mustard oil.",
+    "touristTips": "Visit rural artisan cooperatives in Islampur to see women craft exquisite Nakshi Kantha needlework."
+  },
+  {
+    "id": "netrokona",
+    "divisionId": "mymensingh",
+    "name": "Netrokona",
+    "nameBn": "নেত্রকোণা",
+    "hq": "Netrokona",
+    "area": "2,794 km²",
+    "population": "2.4 Million",
+    "rivers": [
+      "Kangsha",
+      "Someshwari",
+      "Dhanu",
+      "Magra"
+    ],
+    "landmarks": [
+      "Birishiri & Ceramic White Clay Lake (Durgapur)",
+      "Someshwari River & Garo Hills",
+      "Ranikhong Catholic Mission",
+      "Hazrat Shah Sultan Kamaruddin Shrine"
+    ],
+    "delicacy": "Balish Mishti of Goyanath (Pillow Sweet), Haor Fish, Someshwari Mahseer",
+    "heritage": "Land of Baul songs and Hajong tribal revolution lead by Comrade Moni Singh; turquoise mineral lakes at Birishiri.",
+    "touristTips": "Ride an engine boat on crystal clear Someshwari River and photograph the turquoise water of Ceramic White Clay Lake in Durgapur."
+  },
+  {
+    "id": "sherpur",
+    "divisionId": "mymensingh",
+    "name": "Sherpur",
+    "nameBn": "শেরপুর",
+    "hq": "Sherpur",
+    "area": "1,364 km²",
+    "population": "1.5 Million",
+    "rivers": [
+      "Brahmaputra",
+      "Bhogai",
+      "Chelakhali",
+      "Someshwari"
+    ],
+    "landmarks": [
+      "Ghazni Leisure Center (Garo Hill Foot)",
+      "Madhutila Eco Park",
+      "Maisaheba Mosque",
+      "Garo Indigenous Heritage Village"
+    ],
+    "delicacy": "Chhana Sandesh, Wild Garo Honey, Sticky Fragrant Biruin Rice",
+    "heritage": "Bordered by lush Meghalaya hills with rich Koch and Garo indigenous customs; historical kingdom of Sher Ali Ghazi.",
+    "touristTips": "Climb the watchtower at Madhutila Eco Park for a panoramic view of the rolling green Garo Hills along the border."
+  }
+]

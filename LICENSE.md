@@ -1,0 +1,1 @@
+# Proprietary & Confidential License\n\n```\n${licenseText}```\n

@@ -1,0 +1,66 @@
+{
+  "countryName": "People's Republic of Bangladesh",
+  "countryNameBn": "গণপ্রজাতন্ত্রী বাংলাদেশ",
+  "tagline": "Land of Green Deltas, Mighty Rivers & Resilient People",
+  "taglineBn": "সবুজ বদ্বীপ, প্রবল নদী ও অদম্য মানুষের দেশ",
+  "stats": {
+    "divisions": 8,
+    "districts": 64,
+    "upazilas": "495+",
+    "unions": "4,571",
+    "area": "147,570 km²",
+    "coastline": "580 km",
+    "rivers": "700+ (Known as Nodi Matrik Desh)",
+    "population": "170+ Million",
+    "capital": "Dhaka",
+    "commercialCapital": "Chattogram",
+    "nationalLanguage": "Bengali (বাংলা)",
+    "independenceDay": "26 March 1971",
+    "victoryDay": "16 December 1971",
+    "currency": "Bangladeshi Taka (BDT ৳)"
+  },
+  "nationalSymbols": {
+    "animal": "Royal Bengal Tiger (Panthera tigris tigris)",
+    "animalBn": "রয়েল বেঙ্গল টাইগার (বাঘ)",
+    "bird": "Oriental Magpie-Robin (Doel)",
+    "birdBn": "দোয়েল",
+    "flower": "White Water Lily (Shapla)",
+    "flowerBn": "সাদা শাপলা",
+    "fruit": "Jackfruit (Kathal)",
+    "fruitBn": "কাঁঠাল",
+    "fish": "Ilish (Tenualosa ilisha)",
+    "fishBn": "ইলিশ মাছ",
+    "tree": "Mango Tree (Aam Gachh)",
+    "treeBn": "আম গাছ",
+    "anthem": "Amar Sonar Bangla (Written by Rabindranath Tagore)",
+    "anthemBn": "আমার সোনার বাংলা, আমি তোমায় ভালোবাসি"
+  },
+  "dayModeHighlights": [
+    {
+      "title": "Golden Daylight Delta",
+      "desc": "Vibrant sunlit paddy fields, buzzing river ghats, green tea slopes, and active commercial ports."
+    },
+    {
+      "title": "River Highways",
+      "desc": "Hundreds of traditional paddle boats, high-speed launches, and country cargo boats traversing 700+ rivers."
+    },
+    {
+      "title": "Cultural Colors",
+      "desc": "Rickshaw painting workshops, Nakshi Kantha needlework, and lively bazaar morning rush."
+    }
+  ],
+  "nightModeHighlights": [
+    {
+      "title": "Illuminated Night Skylines",
+      "desc": "The glowing architectural silhouettes of Hatirjheel, Padma Bridge, and Chattogram Sea Port under starry skies."
+    },
+    {
+      "title": "Serene River Night Cruising",
+      "desc": "Multi-deck passenger launches gliding across the quiet shimmering waters of the Meghna and Padma."
+    },
+    {
+      "title": "Enchanted Wilderness",
+      "desc": "Nocturnal calls of the Sundarbans mangrove forest and glittering fireflies across rural Bengal."
+    }
+  ]
+}

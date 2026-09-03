@@ -1,0 +1,2156 @@
+[
+  {
+    "id": "dhaka",
+    "name": "Dhaka",
+    "nameBn": "ঢাকা",
+    "tagline": "The Sovereign Capital & 400-Year-Old Mughal Nerve Center",
+    "taglineBn": "বাংলাদেশের রাজধানী ও ৪০০ বছরের সমৃদ্ধ মুঘল ঐতিহ্যের কেন্দ্রবিন্দু",
+    "description": "Dhaka division is the political, financial, and cultural powerhouse of Bangladesh. Located in the fertile heart of the Bengal delta along the Buriganga, Meghna, and Padma rivers, it blends ancient Mughal palaces, British colonial landmarks, vibrant riverways, and ultra-modern engineering marvels like the Padma Bridge and Dhaka Metro Rail.",
+    "descriptionBn": "ঢাকা বিভাগ বাংলাদেশের রাজনৈতিক, অর্থনৈতিক ও সাংস্কৃতিক প্রাণকেন্দ্র। বুড়িগঙ্গা, মেঘনা ও পদ্মা বিধৌত এই ভূখণ্ডে রয়েছে ৪০০ বছরের প্রাচীন মুঘল প্রাসাদ, ঔপনিবেশিক আমলের ঐতিহাসিক স্থাপত্য, প্রমত্তা নদী এবং পদ্মা সেতু ও মেট্রোরেলের মতো অত্যাধুনিক মেগা প্রকল্প।",
+    "dayImage": "/panoramas/dhaka_day.jpg",
+    "nightImage": "/panoramas/dhaka_night.jpg",
+    "themeColor": "#e11d48",
+    "stats": {
+      "districts": 13,
+      "upazilas": "93+",
+      "landmarks": "150+",
+      "area": "20,593 km²",
+      "population": "44.2 Million",
+      "majorRiver": "Padma, Buriganga, Meghna, Jamuna, Dhaleshwari, Turag",
+      "literacyRate": "75.2%",
+      "gdpContribution": "45% of National GDP"
+    },
+    "historyOverview": "Founded as a provincial Mughal capital in 1610 under Viceroy Islam Khan Chisti (then named Jahangirnagar), Dhaka flourished as the world capital of fine Muslin fabric. In the 19th and 20th centuries, it evolved under the Nawabs of Dhaka and played a foundational role in the 1952 Language Movement and the 1971 Liberation War.",
+    "foreignTouristGuide": {
+      "howToReach": "Hazrat Shahjalal International Airport (DAC) connects Dhaka directly to Europe, Middle East, and Asia. The Dhaka Elevated Expressway and Metro Rail provide rapid transit across the metropolis.",
+      "bestTimeToVisit": "November to February (Mild, dry winter with pleasant temperatures between 18°C and 26°C).",
+      "topExperiences": "Mughal architecture walking tour in Old Dhaka, sunset cruise over the Padma Bridge, visiting the National Parliament (Louis Kahn masterpiece), and exploring historic Panam Nagar in Sonargaon.",
+      "safetyTips": "Use official ride-sharing apps (Uber/Pathao) and registered tour guides. Bottled mineral water is recommended."
+    },
+    "districts": [
+      "dhaka",
+      "gazipur",
+      "narayanganj",
+      "tangail",
+      "munshiganj",
+      "narsingdi",
+      "manikganj",
+      "faridpur",
+      "gopalganj",
+      "madaripur",
+      "rajbari",
+      "shariatpur",
+      "kishoreganj"
+    ],
+    "majorCities": [
+      {
+        "name": "Dhaka Megacity",
+        "pop": "22.5M+",
+        "role": "National Capital & Financial Core",
+        "access": "DAC Airport, Central Railway (Kamalapur), Metro Line 6"
+      },
+      {
+        "name": "Gazipur City",
+        "pop": "3.2M+",
+        "role": "Industrial Export & High-Tech Zone",
+        "access": "Dhaka-Mymensingh Highway, Gazipur Hi-Tech Park"
+      },
+      {
+        "name": "Narayanganj City",
+        "pop": "1.8M+",
+        "role": "River Port Capital & Knitwear Pioneer",
+        "access": "Dhaka-Chittagong Highway, Shitalakshya River Port"
+      },
+      {
+        "name": "Tangail",
+        "pop": "1.4M+",
+        "role": "Handloom Heritage & Sweet Capital",
+        "access": "Jamuna Bridge Corridor, Tangail Railway"
+      },
+      {
+        "name": "Munshiganj (Bikrampur)",
+        "pop": "0.9M+",
+        "role": "Ancient Buddhist & Cultural Cradle",
+        "access": "Padma Bridge Expressway, Munshiganj River Port"
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "padma_bridge",
+        "title": "Padma Multipurpose Bridge",
+        "titleBn": "পদ্মা বহুমুখী সেতু",
+        "category": "Bridges & Mega Engineering",
+        "icon": "bridge",
+        "x": 46,
+        "y": 22,
+        "est": "2022",
+        "builtBy": "Bangladesh Government",
+        "details": "A 6.15 km monumental two-tier steel truss bridge crossing the ferocious Padma River, connecting 21 south-western districts with Dhaka and catalyzing a 1.5% GDP boost.",
+        "detailsBn": "প্রমত্তা পদ্মার ওপর নির্মিত ৬.১৫ কিমি দীর্ঘ দ্বিতল ইস্পাত ট্রাস সেতু, যা দক্ষিণ-পশ্চিমাঞ্চলের ২১টি জেলাকে রাজধানীর সঙ্গে সরাসরি যুক্ত করে দেশের অর্থনীতিকে যুগান্তকারী গতি প্রদান করেছে।",
+        "image": "/panoramas/dhaka_day.png"
+      },
+      {
+        "id": "lalbagh_fort",
+        "title": "Lalbagh Fort (Fort Aurangabad)",
+        "titleBn": "লালবাগ কেল্লা (কেল্লা আওরঙ্গাবাদ)",
+        "category": "Palaces & Historical Forts",
+        "icon": "fort",
+        "x": 45,
+        "y": 56,
+        "est": "1678",
+        "builtBy": "Mughal Prince Muhammad Azam & Shaista Khan",
+        "details": "An incomplete 17th-century Mughal fort complex comprising the grand Tomb of Pari Bibi, the Diwan-i-Aam palace, a three-domed mosque, and subterranean water fountains.",
+        "detailsBn": "১৭ শতকের মুঘল স্থাপত্যের অন্যতম নিদর্শন। এতে রয়েছে পরী বিবির সমাধি, দরবার হল (দেওয়ান-ই-আম), তিন গম্বুজ মসজিদ এবং চমৎকার মোঘল জলবাগান।",
+        "image": "/panoramas/dhaka_day.png"
+      },
+      {
+        "id": "ahsan_manzil",
+        "title": "Ahsan Manzil (The Pink Palace)",
+        "titleBn": "আহসান মঞ্জিল (গোলাপি প্রাসাদ)",
+        "category": "Palaces & Historical Forts",
+        "icon": "palace",
+        "x": 27,
+        "y": 52,
+        "est": "1872",
+        "builtBy": "Nawab Abdul Ghani",
+        "details": "The official residential palace and seat of the Nawab of Dhaka on the banks of Buriganga, designed in majestic Indo-Saracenic Revival architecture and now a national museum.",
+        "detailsBn": "বুড়িগঙ্গা নদীর তীরে অবস্থিত ঢাকার নবাবদের সুরম্য বাসভবন ও সদর কাচারি। ইন্দো-সারাসেনিক স্থাপত্যশৈলীতে নির্মিত এই গোলাপি প্রাসাদটি বর্তমানে একটি সমৃদ্ধ জাতীয় জাদুঘর।",
+        "image": "/panoramas/dhaka_day.png"
+      },
+      {
+        "id": "jatiya_sangsad",
+        "title": "Jatiya Sangsad Bhaban (National Parliament)",
+        "titleBn": "জাতীয় সংসদ ভবন",
+        "category": "Bridges & Mega Engineering",
+        "icon": "landmark",
+        "x": 52,
+        "y": 38,
+        "est": "1982",
+        "builtBy": "Master Architect Louis I. Kahn",
+        "details": "One of the 20th century's greatest architectural masterpieces, floating majestically on Crescent Lake with monumental geometric concrete marble facades.",
+        "detailsBn": "বিশ্বখ্যাত স্থপতি লুই কানের কালজয়ী স্থাপত্য সৃষ্টি। লেকের পানিতে ভাসমান এই অনন্য ভবনটি আধুনিক জ্যামিতিক স্থাপত্যের এক অনুপম বিস্ময়।",
+        "image": "/panoramas/dhaka_day.png"
+      },
+      {
+        "id": "national_martyrs_memorial",
+        "title": "National Martyrs' Memorial (Savar)",
+        "titleBn": "জাতীয় স্মৃতিসৌধ (সাভার)",
+        "category": "Monuments & Memorials",
+        "icon": "landmark",
+        "x": 62,
+        "y": 48,
+        "est": "1982",
+        "builtBy": "Architect Syed Mainul Hossain",
+        "details": "Standing 150 feet high with seven pairs of triangular wall planes, this sacred national monument honors the 3 million martyrs of the 1971 Liberation War.",
+        "detailsBn": "১৯৭১ সালের মুক্তিযুদ্ধে শহীদদের স্মরণে সাভারে নির্মিত ১৫০ ফুট উঁচু জাতীয় সৌধ। এর সাত জোড়া ত্রিভুজাকার দেয়াল বাঙালির স্বাধীনতা সংগ্রামের সাতটি ঐতিহাসিক পর্যায় নির্দেশ করে।",
+        "image": "/panoramas/dhaka_day.png"
+      },
+      {
+        "id": "panam_nagar",
+        "title": "Panam City & Sonargaon",
+        "titleBn": "পানাম নগর ও প্রাচীন সোনারগাঁও",
+        "category": "Ancient Mosques, Temples & Viharas",
+        "icon": "landmark",
+        "x": 75,
+        "y": 62,
+        "est": "13th - 19th Century",
+        "builtBy": "Isa Khan & Wealthy Cloth Merchants",
+        "details": "The ancient medieval capital of Bengal under Isa Khan. Panam Nagar is a preserved historic street lined with 52 grandiose colonial merchant mansions.",
+        "detailsBn": "সুলতানি ও বারো ভুঁইয়া আমলের বাংলার প্রাচীন রাজধানী। পানাম নগরে সংরক্ষিত রয়েছে উনিশ শতকের ৫২টি কারুকার্যময় ও সুরম্য ঐতিহাসিক প্রাসাদ সারি।",
+        "image": "/panoramas/dhaka_day.png"
+      },
+      {
+        "id": "tara_masjid",
+        "title": "Tara Masjid (Star Mosque)",
+        "titleBn": "তারা মসজিদ (আর্মেনিয়ান রোড)",
+        "category": "Ancient Mosques, Temples & Viharas",
+        "icon": "mosque",
+        "x": 35,
+        "y": 60,
+        "est": "1780 / 1926",
+        "builtBy": "Mirza Golam Pir & Ali Jan Bepari",
+        "details": "Famed for its exquisite Chinitikri mosaic craftsmanship, featuring hundreds of glittering star patterns crafted from Japanese and English porcelain pieces.",
+        "detailsBn": "চিনিতিকরি মোজাইক শিল্পের অপরূপ নিদর্শন। জাপানি ও ব্রিটিশ কাচের উজ্জ্বল নীল তারার নকশায় সজ্জিত এই ঐতিহাসিক মসজিদটি পুরান ঢাকার অনন্য রত্ন।",
+        "image": "/panoramas/dhaka_day.png"
+      },
+      {
+        "id": "baliati_palace",
+        "title": "Baliati Palace (Manikganj)",
+        "titleBn": "বালিয়াটি প্রাসাদ (মানিকগঞ্জ)",
+        "category": "Palaces & Historical Forts",
+        "icon": "palace",
+        "x": 20,
+        "y": 35,
+        "est": "1850",
+        "builtBy": "Zamindar Gobinda Ram Saha",
+        "details": "One of the largest 19th-century zamindar palace complexes in Bangladesh, featuring 200 rooms, seven distinct palace blocks, and neoclassical Corinthian colonnades.",
+        "detailsBn": "বাংলাদেশের অন্যতম বৃহত্তম জমিদার বাড়ি। ৭টি সুরম্য প্রাসাদ ভবন, ২০০টি কক্ষ ও নিও-ক্লাসিক্যাল করিন্থিয়ান স্তম্ভে ঘেরা এই রাজবাড়ি ইতিহাসপ্রেমীদের প্রধান আকর্ষণ।",
+        "image": "/panoramas/dhaka_day.png"
+      },
+      {
+        "id": "hatirjheel",
+        "title": "Hatirjheel Urban Waterfront & Expressways",
+        "titleBn": "হাতিরঝিল লেকফ্রন্ট ও আধুনিক উড়ালসড়ক",
+        "category": "Bridges & Mega Engineering",
+        "icon": "water",
+        "x": 70,
+        "y": 22,
+        "est": "2013",
+        "builtBy": "Bangladesh Army & RAJUK",
+        "details": "A world-class urban renewal water park featuring scenic overpasses, express water taxis, nighttime architectural illumination, and lakeside amphitheaters.",
+        "detailsBn": "ঢাকার কেন্দ্রস্থলে অবস্থিত দৃষ্টিনন্দন লেক ও উড়ালসড়ক কমপ্লেক্স। রাতে দৃষ্টিনন্দন আলোকসজ্জা এবং ওয়াটার ট্যাক্সি নগরবাসীকে আন্তর্জাতিক মানের অভিজ্ঞতা দেয়।",
+        "image": "/panoramas/dhaka_day.png"
+      },
+      {
+        "id": "dhakeshwari_temple",
+        "title": "Dhakeshwari National Temple",
+        "titleBn": "ঢাকেশ্বরী জাতীয় মন্দির",
+        "category": "Ancient Mosques, Temples & Viharas",
+        "icon": "temple",
+        "x": 38,
+        "y": 45,
+        "est": "12th Century",
+        "builtBy": "King Ballal Sena (Sena Dynasty)",
+        "details": "The national Hindu temple of Bangladesh, from whose presiding deity (Dhakeshwari meaning 'Goddess of Dhaka') the city of Dhaka derives its historic name.",
+        "detailsBn": "১২শ শতকে সেন রাজা বল্লাল সেন কর্তৃক প্রতিষ্ঠিত জাতীয় মন্দির, যার নামানুসারে আমাদের রাজধানী ঢাকার নামকরণ হয়েছে বলে বিশ্বাস করা হয়।",
+        "image": "/panoramas/dhaka_day.png"
+      }
+    ],
+    "visualMarkers": [
+      {
+        "id": "dh-padma",
+        "type": "bridge",
+        "label": "Padma Bridge (Mawa)",
+        "labelBn": "পদ্মা বহুমুখী সেতু",
+        "x": 42,
+        "y": 28,
+        "color": "#f59e0b"
+      },
+      {
+        "id": "dh-river",
+        "type": "river",
+        "label": "Buriganga River",
+        "labelBn": "বুড়িগঙ্গা নদী ও জলপথ",
+        "x": 48,
+        "y": 35,
+        "color": "#3b82f6"
+      },
+      {
+        "id": "dh-smriti",
+        "type": "heritage",
+        "label": "National Martyrs Memorial",
+        "labelBn": "জাতীয় স্মৃতিসৌধ",
+        "x": 66,
+        "y": 52,
+        "color": "#ef4444"
+      },
+      {
+        "id": "dh-ahsan",
+        "type": "heritage",
+        "label": "Ahsan Manzil",
+        "labelBn": "আহসান মঞ্জিল (নবাব প্রাসাদ)",
+        "x": 18,
+        "y": 64,
+        "color": "#ef4444"
+      },
+      {
+        "id": "dh-lalbagh",
+        "type": "heritage",
+        "label": "Lalbagh Fort",
+        "labelBn": "লালবাগ কেল্লা ও তোরণ",
+        "x": 42,
+        "y": 72,
+        "color": "#ef4444"
+      },
+      {
+        "id": "dh-hatirjheel",
+        "type": "nature",
+        "label": "Hatirjheel Urban Lake",
+        "labelBn": "হাতিরঝিল লেক ও সেতু",
+        "x": 76,
+        "y": 33,
+        "color": "#10b981"
+      }
+    ],
+    "delicacies": [
+      {
+        "name": "Dhakai Bakarkhani",
+        "nameBn": "ঢাকাই বাকরখানি",
+        "desc": "Crispy flaky unleavened flatbread baked in traditional tandoor, a 250-year-old Old Dhaka legacy.",
+        "descBn": "পুরান ঢাকার ২৫০ বছরের ঐতিহ্যবাহী মুচমুচে তন্দুরি রুটি।"
+      },
+      {
+        "name": "Kachchi Biryani",
+        "nameBn": "পুরান ঢাকার কাচ্চি বিরিয়ানি",
+        "desc": "Fragrant Chinigura or Basmati rice cooked with marinated spiced mutton and saffron-infused potatoes.",
+        "descBn": "সুগন্ধি চাল, সুস্বাদু খাসির মাংস ও জাফরান আলুর রাজকীয় কাচ্চি।"
+      },
+      {
+        "name": "Tangail Chomchom",
+        "nameBn": "পোড়াবাড়ির চমচম",
+        "desc": "GI-certified porous caramel-colored sweet made from pure cow milk chhana soaked in thick syrup.",
+        "descBn": "টাঙ্গাইলের পোড়াবাড়ির শতবর্ষী জিআই সার্টিফাইড রসালো চমচম।"
+      }
+    ],
+    "festivals": [
+      {
+        "name": "Shakrain Kite Carnival",
+        "nameBn": "সাকরাইন ঘুড়ি উৎসব",
+        "period": "Mid-January (Poush Sankranti)",
+        "desc": "Sky filled with thousands of vibrant fighter kites, night fireworks and rooftop music in Old Dhaka.",
+        "descBn": "পুরান ঢাকার আকাশজুড়ে হাজারো ঘুড়ির লড়াই, ফায়ার স্পিনিং ও চোখধাঁধানো আতশবাজি।"
+      },
+      {
+        "name": "Mangal Shobhajatra",
+        "nameBn": "মঙ্গল শোভাযাত্রা (ইউনেস্কো স্বীকৃত)",
+        "period": "Pahela Baishakh (April 14)",
+        "desc": "UNESCO Intangible Cultural Heritage colorful procession celebrating Bengali New Year.",
+        "descBn": "ইউনেস্কোর ইনট্যানজিবল কালচারাল হেরিটেজ হিসেবে স্বীকৃত বাংলা নববর্ষের শোভাযাত্রা।"
+      },
+      {
+        "name": "Amar Ekushey Boi Mela",
+        "nameBn": "অমর একুশে গ্রন্থমেলা",
+        "period": "Whole Month of February",
+        "desc": "The world's largest month-long national book fair held at Bangla Academy & Suhrawardy Udyan.",
+        "descBn": "বাংলা একাডেমি প্রাঙ্গণে অনুষ্ঠিত বিশ্বের দীর্ঘতম মাসব্যাপী জাতীয় বইমেলা।"
+      }
+    ],
+    "traditions": [
+      {
+        "name": "Dhakai Jamdani Weaving",
+        "nameBn": "ঢাকাই জামদানি বয়ন",
+        "desc": "UNESCO World Heritage handloom weaving using delicate floral motifs on superfine cotton.",
+        "descBn": "শীতলক্ষ্যার তীরে প্রাচীন সুতা ও জ্যামিতিক নকশার ইউনেস্কো বিশ্ব ঐতিহ্যবাহী তাঁতশিল্প।"
+      },
+      {
+        "name": "Rickshaw Art & Painting",
+        "nameBn": "ঢাকার রিকশা আর্ট (ইউনেস্কো স্বীকৃত)",
+        "desc": "UNESCO-inscribed vibrant hand-painted floral, cinematic and urban folklore panels.",
+        "descBn": "ইউনেস্কো স্বীকৃত রঙিন লোকজ চিত্রশিল্প ও রিকশার হস্তনির্মিত মোটিফ।"
+      }
+    ],
+    "gallery": [
+      "/panoramas/dhaka_day.jpg",
+      "/panoramas/dhaka_night.jpg"
+    ]
+  },
+  {
+    "id": "chattogram",
+    "name": "Chattogram",
+    "nameBn": "চট্টগ্রাম",
+    "tagline": "The Maritime Gateway & Realm of Towering Hills and Endless Seas",
+    "taglineBn": "বাংলাদেশের বাণিজ্যিক রাজধানী, সুনীল সাগর ও সবুজ পাহাড়ের রানী",
+    "description": "Chattogram is the principal maritime seaport and commercial gateway of Bangladesh. Blessed with the world's longest unbroken natural sandy sea beach (120 km in Cox's Bazar), the misty peaks of Sajek Valley, coral reefs of Saint Martin's Island, and South Asia's first underwater expressway (Bangabandhu Tunnel), it is Bangladesh's top global tourist hub.",
+    "descriptionBn": "চট্টগ্রাম বাংলাদেশের প্রধান সমুদ্রবন্দর ও বাণিজ্যিক রাজধানী। বিশ্বের দীর্ঘতম অবিচ্ছিন্ন বালুকাময় সমুদ্র সৈকত (কক্সবাজার ১২০ কিমি), মেঘের রাজ্য সাজেক ভ্যালি, প্রবাল দ্বীপ সেন্ট মার্টিন এবং দক্ষিণ এশিয়ার প্রথম নদীগর্ভস্থ এক্সপ্রেসওয়ে (বঙ্গবন্ধু টানেল) নিয়ে এটি দেশের পর্যটনের মুকুটমণি।",
+    "dayImage": "/panoramas/chattogram_day.jpg",
+    "nightImage": "/panoramas/chattogram_night.jpg",
+    "themeColor": "#0284c7",
+    "stats": {
+      "districts": 11,
+      "upazilas": "103+",
+      "landmarks": "180+",
+      "area": "33,909 km²",
+      "population": "33.2 Million",
+      "majorRiver": "Karnaphuli, Sangu, Halda (World Natural Carp Breeding River), Feni",
+      "literacyRate": "72.8%",
+      "gdpContribution": "30% of National GDP (Handles 90% of Foreign Trade)"
+    },
+    "historyOverview": "Documented by ancient Greek geographers and Moroccan traveler Ibn Battuta in 1345, Chattogram was an ancient Silk Road trading port ruled by Arakanese, Sultanate, and Portuguese mariners before becoming the focal point of the 1930 Chittagong Armoury Raid by Masterda Surya Sen.",
+    "foreignTouristGuide": {
+      "howToReach": "Shah Amanat International Airport (CGP) & Cox's Bazar International Airport (CXB) connect daily to international and domestic flights. Direct high-speed express trains run from Dhaka to Cox's Bazar.",
+      "bestTimeToVisit": "October to March (Crisp tropical breezes, sunny beaches, and ideal trekking conditions in hill tracts).",
+      "topExperiences": "Driving on Cox's Bazar Marine Drive with sea on one side and green hills on the other, scuba diving in Saint Martin's coral reefs, cloud-watching at Sajek Valley, and exploring naval heritage.",
+      "safetyTips": "Obtain Hill Tracts tourist permits where applicable. Use registered boat tours for Saint Martin island transits."
+    },
+    "districts": [
+      "chattogram",
+      "coxsbazar",
+      "cumilla",
+      "feni",
+      "brahmanbaria",
+      "rangamati",
+      "khagrachhari",
+      "bandarban",
+      "noakhali",
+      "lakshmipur",
+      "chandpur"
+    ],
+    "majorCities": [
+      {
+        "name": "Chattogram Port City",
+        "pop": "5.5M+",
+        "role": "National Maritime Seaport & Heavy Industry",
+        "access": "CGP Airport, Port Expressway, Karnaphuli Tunnel"
+      },
+      {
+        "name": "Cox's Bazar Beach City",
+        "pop": "0.6M+",
+        "role": "Global Beach Resort & Tourism Capital",
+        "access": "CXB Airport, Iconic Oyster Shell Railway Station"
+      },
+      {
+        "name": "Cumilla Historic City",
+        "pop": "1.2M+",
+        "role": "Ancient Buddhist Civilization & Education Hub",
+        "access": "Dhaka-Chittagong Expressway"
+      },
+      {
+        "name": "Rangamati Lake Town",
+        "pop": "0.4M+",
+        "role": "Kaptai Lake & Indigenous Cultural Capital",
+        "access": "Chittagong-Rangamati Scenic Highway"
+      },
+      {
+        "name": "Bandarban Mountain Town",
+        "pop": "0.3M+",
+        "role": "Highest Himalayan Foothills & Eco-Tourism",
+        "access": "Bandarban Mountain Road"
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "bangabandhu_tunnel",
+        "title": "Bangabandhu Sheikh Mujibur Rahman Tunnel (Karnaphuli)",
+        "titleBn": "বঙ্গবন্ধু শেখ মুজিবুর রহমান টানেল (কর্ণফুলী)",
+        "category": "Bridges & Mega Engineering",
+        "icon": "bridge",
+        "x": 48,
+        "y": 35,
+        "est": "2023",
+        "builtBy": "Bangladesh Bridge Authority",
+        "details": "South Asia's first underwater road tunnel, stretching 3.32 km beneath the seabed of the Karnaphuli river, transforming Chattogram into a 'One City Two Towns' metropolis.",
+        "detailsBn": "দক্ষিণ এশিয়ার প্রথম নদীগর্ভস্থ আন্ডারওয়াটার টানেল। কর্ণফুলী নদীর তলদেশ দিয়ে ৩.৩২ কিমি বিস্তৃত এই মেগা প্রকল্পটি চট্টগ্রামকে 'ওয়ান সিটি টু টাউনস' মডেলে রূপান্তর করেছে।",
+        "image": "/panoramas/chattogram_day.png"
+      },
+      {
+        "id": "coxs_bazar_beach",
+        "title": "Cox's Bazar Marine Drive & Beach",
+        "titleBn": "কক্সবাজার সমুদ্র সৈকত ও ৮০ কিমি মেরিন ড্রাইভ",
+        "category": "Nature & Landscape",
+        "icon": "beach",
+        "x": 72,
+        "y": 65,
+        "est": "Natural Wonder / 2018",
+        "builtBy": "Mother Nature & Bangladesh Army Engineers",
+        "details": "The longest unbroken natural sand beach in the world (120 km) accompanied by an 80 km scenic marine drive nestled between the Bay of Bengal and lush green hills.",
+        "detailsBn": "বিশ্বের দীর্ঘতম ১২০ কিমি প্রাকৃতিক সমুদ্র সৈকত এবং একপাশে সবুজ পাহাড় ও অন্যপাশে সুনীল সাগরের ৮০ কিমি দীর্ঘ বিশ্বমানের মেরিন ড্রাইভ সড়ক।",
+        "image": "/panoramas/chattogram_day.png"
+      },
+      {
+        "id": "sajek_valley",
+        "title": "Sajek Valley & Misty Peaks (Rangamati)",
+        "titleBn": "সাজেক ভ্যালি — মেঘের উপত্যকা",
+        "category": "Nature & Landscape",
+        "icon": "mountain",
+        "x": 82,
+        "y": 20,
+        "est": "Natural Wonder",
+        "builtBy": "Nature & Eco-Resort Community",
+        "details": "Situated 1,800 feet above sea level, Sajek is Bangladesh's 'Queen of Hills', where travelers walk through floating white clouds with panoramic views of lush mountain ranges.",
+        "detailsBn": "সমুদ্রপৃষ্ঠ থেকে ১৮০০ ফুট উঁচুতে অবস্থিত মেঘের রাজ্য। চারপাশের ঘন সবুজ পাহাড় আর মেঘের ভেলা পর্যটকদের অপার্থিব অনুভূতি উপহার দেয়।",
+        "image": "/panoramas/chattogram_day.png"
+      },
+      {
+        "id": "saint_martin",
+        "title": "Saint Martin's Coral Island",
+        "titleBn": "সেন্ট মার্টিন প্রবাল দ্বীপ ও ছেঁড়াদ্বীপ",
+        "category": "Nature & Landscape",
+        "icon": "island",
+        "x": 88,
+        "y": 80,
+        "est": "Natural Wonder",
+        "builtBy": "Coral Ecosystems",
+        "details": "Bangladesh's sole coral island situated in the northeastern Bay of Bengal, famous for crystalline turquoise waters, coconut groves, and vibrant marine biodiversity.",
+        "detailsBn": "বাংলাদেশের একমাত্র প্রবাল দ্বীপ। স্বচ্ছ নীল জলরাশি, প্রবাল পাথর, জীবন্ত সামুদ্রিক জীববৈচিত্র্য ও নারিকেল গাছের মনোরম দৃশ্য এই দ্বীপের প্রধান আকর্ষণ।",
+        "image": "/panoramas/chattogram_day.png"
+      },
+      {
+        "id": "chattogram_seaport",
+        "title": "Port of Chattogram & Patenga Coast",
+        "titleBn": "চট্টগ্রাম আন্তর্জাতিক সমুদ্র বন্দর ও পতেঙ্গা",
+        "category": "Bridges & Mega Engineering",
+        "icon": "ship",
+        "x": 25,
+        "y": 42,
+        "est": "Ancient / Modernized 1887",
+        "builtBy": "Chittagong Port Authority",
+        "details": "The economic lifeline handling 92% of Bangladesh's international maritime cargo, flanked by the scenic Patenga sea beach with modern wave protection promenades.",
+        "detailsBn": "দেশের আন্তর্জাতিক বাণিজ্যের ৯২% পরিচালনাকারী প্রধান সমুদ্রবন্দর এবং এর কোল ঘেঁষে অবস্থিত দৃষ্টিনন্দন পতেঙ্গা বিচ ও আধুনিক সান্ধ্য প্রমোদকেন্দ্র।",
+        "image": "/panoramas/chattogram_day.png"
+      },
+      {
+        "id": "mainamati_salban",
+        "title": "Salban Vihara & Mainamati Ruins (Cumilla)",
+        "titleBn": "শালবন বিহার ও ময়নামতি প্রত্নতাত্ত্বিক কেন্দ্র",
+        "category": "Ancient Mosques, Temples & Viharas",
+        "icon": "landmark",
+        "x": 22,
+        "y": 18,
+        "est": "8th Century",
+        "builtBy": "King Bhavadeva (Deva Dynasty)",
+        "details": "A world-renowned 8th-century Buddhist monastic university with 115 monastic cells, stupas, terracotta plaques, and an on-site archaeological museum.",
+        "detailsBn": "৮ম শতকে রাজা ভবদেব প্রতিষ্ঠিত প্রাচীন বৌদ্ধ বিশ্ববিদ্যালয় ও বিহার কমপ্লেক্স। ১১৫টি সন্ন্যাসী কক্ষ ও টেরাকোটা ফলক সমৃদ্ধ এটি আন্তর্জাতিক গুরুত্বপূর্ণ প্রত্নসম্পদ।",
+        "image": "/panoramas/chattogram_day.png"
+      },
+      {
+        "id": "kaptai_lake",
+        "title": "Kaptai Lake & Hanging Bridge",
+        "titleBn": "কাপ্তাই হ্রদ ও ঝুলন্ত সেতু",
+        "category": "Nature & Landscape",
+        "icon": "water",
+        "x": 60,
+        "y": 28,
+        "est": "1960",
+        "builtBy": "Kaptai Hydroelectric Project",
+        "details": "The largest man-made lake in South Asia (68,800 hectares), surrounded by dense rainforest hills, ethnic tribal villages, and the iconic wooden hanging bridge.",
+        "detailsBn": "দক্ষিণ এশিয়ার বৃহত্তম কৃত্রিম হ্রদ। সুবিশাল নীল জলরাশি, পাহাড়ের বুক চিরে চলা স্পিডবোট এবং বিখ্যাত ঝুলন্ত সেতু রাঙামাটির প্রধান আকর্ষণ।",
+        "image": "/panoramas/chattogram_day.png"
+      },
+      {
+        "id": "buddha_dhatu_jadi",
+        "title": "Buddha Dhatu Jadi (Golden Temple, Bandarban)",
+        "titleBn": "স্বর্ণমন্দির (বুদ্ধ ধাতু জাদি, বান্দরবান)",
+        "category": "Ancient Mosques, Temples & Viharas",
+        "icon": "temple",
+        "x": 70,
+        "y": 45,
+        "est": "2000",
+        "builtBy": "Venerable U Pannya Jota Mahathero",
+        "details": "Perched atop a high mountain in Bandarban, this shimmering golden temple houses the second-largest Buddha statue in Bangladesh and sacred Buddhist relics.",
+        "detailsBn": "পাহাড়ের চূড়ায় অবস্থিত মায়ানমার ও থাই স্থাপত্যরীতিতে তৈরি সোনালি রঙের চোখজুড়ানো মন্দির, যা দক্ষিণ এশিয়ার অন্যতম দর্শনীয় বৌদ্ধ উপাসনালয়।",
+        "image": "/panoramas/chattogram_day.png"
+      }
+    ],
+    "visualMarkers": [
+      {
+        "id": "ct-port",
+        "type": "heritage",
+        "label": "Chittagong Port Terminal",
+        "labelBn": "চট্টগ্রাম সমুদ্রবন্দর",
+        "x": 74,
+        "y": 34,
+        "color": "#ef4444"
+      },
+      {
+        "id": "ct-river",
+        "type": "river",
+        "label": "Karnaphuli River Channel",
+        "labelBn": "কর্ণফুলী মোহনা নদীপথ",
+        "x": 22,
+        "y": 44,
+        "color": "#3b82f6"
+      },
+      {
+        "id": "ct-bridge",
+        "type": "bridge",
+        "label": "Shah Amanat Bridge",
+        "labelBn": "শাহ আমানত কর্ণফুলী সেতু",
+        "x": 34,
+        "y": 22,
+        "color": "#f59e0b"
+      },
+      {
+        "id": "ct-beach",
+        "type": "nature",
+        "label": "Cox's Bazar Sea Beach",
+        "labelBn": "কক্সবাজার সমুদ্র সৈকত",
+        "x": 88,
+        "y": 52,
+        "color": "#10b981"
+      },
+      {
+        "id": "ct-minar",
+        "type": "heritage",
+        "label": "Central Shaheed Minar",
+        "labelBn": "শহীদ মিনার ও স্মৃতিস্তম্ভ",
+        "x": 35,
+        "y": 60,
+        "color": "#ef4444"
+      }
+    ],
+    "delicacies": [
+      {
+        "name": "Mezbani Gosht",
+        "nameBn": "মেজবানি মাংস",
+        "desc": "Rich spicy slow-cooked beef with crushed white mustard, fenugreek, and specialized Mezbani spices.",
+        "descBn": "চট্টগ্রামের সুপ্রসিদ্ধ মেজবানের সরিষা ও বিশেষ মশলায় রান্না করা ঝাল মাংস।"
+      },
+      {
+        "name": "Matri Bhandar Rasmalai (Cumilla)",
+        "nameBn": "কুমিল্লার মাতৃভাণ্ডার রসমালাই",
+        "desc": "GI-certified 120-year-old recipe of soft chhana globules in dense clotted milk cream.",
+        "descBn": "১৯০১ সাল থেকে তৈরি কুমিল্লার সুপ্রসিদ্ধ জিআই স্বীকৃত ঘন ক্ষীরের রসমালাই।"
+      },
+      {
+        "name": "Chittagong Dried Fish (Shutki)",
+        "nameBn": "চট্টগ্রামের শুঁটকি ও বেলা বিস্কুট",
+        "desc": "Sun-cured marine delicacies like Loitta, Rupchanda and the 150-year-old crispy Bela biscuit.",
+        "descBn": "বঙ্গোপসাগরের রূপচাঁদা-লইট্টা শুঁটকি এবং চট্টগ্রামের প্রাচীন মুচমুচে বেলা বিস্কুট।"
+      }
+    ],
+    "festivals": [
+      {
+        "name": "Boli Khela (Jabbar er Boli Khela)",
+        "nameBn": "জব্বারের বলীখেলা ও বৈশাখী মেলা",
+        "period": "12th Baishakh (Late April)",
+        "desc": "Century-old historic wrestling championship and massive handicraft fair at Laldighi Maidan.",
+        "descBn": "১৯০৯ সাল থেকে লালদীঘি ময়দানে অনুষ্ঠিত শতবর্ষী ঐতিহ্যবাহী কুস্তি প্রতিযোগিতা।"
+      },
+      {
+        "name": "Biju & Boishabi Festival",
+        "nameBn": "পাহাড়ের বিজু ও বৈসাবি উৎসব",
+        "period": "April (Chaitra Sankranti)",
+        "desc": "Grand three-day water festival, Phool Biju, and traditional dance across the Hill Tracts.",
+        "descBn": "পার্বত্য চট্টগ্রামের চাকমা, মারমা ও ত্রিপুরাদের রঙিন জলকেলি ও ফুল বিজু উৎসব।"
+      }
+    ],
+    "traditions": [
+      {
+        "name": "Sampan & Wooden Boatbuilding",
+        "nameBn": "সাম্পান ও কাঠের নৌকা নির্মাণ",
+        "desc": "Traditional crescent-shaped wooden boats navigating the stormy waves of Karnaphuli River.",
+        "descBn": "কর্ণফুলী ও বঙ্গোপসাগরের বুকে চলমান শতবর্ষী বাঁকানো সাম্পান নৌকা ও মাঝি সংস্কৃতি।"
+      },
+      {
+        "name": "Indigenous Hill Weaving (Khadir Bastra)",
+        "nameBn": "পাহাড়ি কোমর তাঁত ও খাদি বস্ত্র",
+        "desc": "Backstrap loom weaving of bright tribal patterns and Kumilla royal Khadi handspun cotton.",
+        "descBn": "পাহাড়ি নৃগোষ্ঠীর রঙিন কোমর তাঁতের পোশাক ও কুমিল্লার বিখ্যাত স্বদেশী খাদি।"
+      }
+    ],
+    "gallery": [
+      "/panoramas/chattogram_day.jpg",
+      "/panoramas/chattogram_night.jpg"
+    ]
+  },
+  {
+    "id": "rajshahi",
+    "name": "Rajshahi",
+    "nameBn": "রাজশাহী",
+    "tagline": "The Ancient Buddhist Heartland, Silk City & Mango Capital",
+    "taglineBn": "রেশম ও আমের রাজধানী, পদ্মার তীর এবং প্রাচীন বৌদ্ধ-পাল সাম্রাজ্যের পূণ্যভূমি",
+    "description": "Rajshahi division is the archaeological and agricultural treasure chest of Bangladesh. Home to the UNESCO World Heritage Somapura Mahavihara at Paharpur (the largest Buddhist vihara south of the Himalayas), the 4.8 km Jamuna Multipurpose Bridge, pure Mulberry silk mills, and the magnificent Hindu terracotta temples of Puthia, it sits peacefully along the holy Padma River.",
+    "descriptionBn": "রাজশাহী বিভাগ বাংলাদেশের প্রত্নতাত্ত্বিক ও কৃষির স্বর্গরাজ্য। ইউনেস্কো বিশ্ব ঐতিহ্য সোমপুর মহাবিহার (পাহাড়পুর), দেশের অন্যতম বৃহত্তম যমুনা বহুমুখী সেতু, বিশ্বখ্যাত রেশম শিল্প, এবং পুঠিয়ার অপূর্ব টেরাকোটা মন্দির শোভিত এই বিভাগ পদ্মার নির্মল সমীরণে অবস্থিত।",
+    "dayImage": "/panoramas/rajshahi_day.jpg",
+    "nightImage": "/panoramas/rajshahi_night.jpg",
+    "themeColor": "#10b981",
+    "stats": {
+      "districts": 8,
+      "upazilas": "67+",
+      "landmarks": "140+",
+      "area": "18,153 km²",
+      "population": "20.8 Million",
+      "majorRiver": "Padma, Jamuna, Mahananda, Atrai, Karatoya",
+      "literacyRate": "73.5%",
+      "gdpContribution": "National Granary (Produces 70% of high-grade Silk and Mangoes)"
+    },
+    "historyOverview": "The cradle of the glorious Pala Empire (8th-12th Century CE), Rajshahi was the premier center of Buddhist Mahayana learning in South Asia before flourishing under the Sultanate of Bengal with grand terracotta mosques like Bagha and Kusumba.",
+    "foreignTouristGuide": {
+      "howToReach": "Shah Makhdum Airport (RJH) provides daily flights to Dhaka. Express trains like Silk City Express connect directly to Dhaka in 4.5 hours via the Jamuna Bridge.",
+      "bestTimeToVisit": "November to March (Cool winters ideal for outdoor archaeological exploration) or May to July for the world-famous Mango Festival.",
+      "topExperiences": "Walking through the colossal monastic courtyards of Somapura Mahavihara, exploring the 15th-century terracotta carvings at Puthia Temple complex, and strolling along the Padma River embankment promenade at sunset.",
+      "safetyTips": "Rajshahi is ranked as one of the cleanest and safest cities in Bangladesh with pristine air quality."
+    },
+    "districts": [
+      "rajshahi",
+      "bogura",
+      "pabna",
+      "sirajganj",
+      "naogaon",
+      "natore",
+      "chapai_nawabganj",
+      "joypurhat"
+    ],
+    "majorCities": [
+      {
+        "name": "Rajshahi Clean City",
+        "pop": "1.1M+",
+        "role": "Education, Hi-Tech & Clean Green Model City",
+        "access": "RJH Airport, Hi-Tech Park, Rajshahi University"
+      },
+      {
+        "name": "Bogura Historic Town",
+        "pop": "0.9M+",
+        "role": "Ancient Mahasthangarh Citadel & Agro-Hub",
+        "access": "Dhaka-Rangpur Highway, Bogura Railway"
+      },
+      {
+        "name": "Pabna City",
+        "pop": "0.6M+",
+        "role": "Pharmaceutical Capital & Rooppur Nuclear Hub",
+        "access": "Paksey Hardinge Bridge, Pabna Express"
+      },
+      {
+        "name": "Sirajganj River City",
+        "pop": "0.5M+",
+        "role": "Jamuna Gateway & Handloom Weaving Hub",
+        "access": "Bangabandhu Jamuna Bridge Corridor"
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "somapura_mahavihara",
+        "title": "Somapura Mahavihara (Paharpur UNESCO World Heritage)",
+        "titleBn": "সোমপুর মহাবিহার (পাহাড়পুর ইউনেস্কো বিশ্ব ঐতিহ্য)",
+        "category": "Ancient Mosques, Temples & Viharas",
+        "icon": "landmark",
+        "x": 42,
+        "y": 28,
+        "est": "8th Century (circa 780 CE)",
+        "builtBy": "King Dharmapala (Pala Empire)",
+        "details": "The largest pre-modern Buddhist monastic university in South Asia (27 acres), featuring a towering 70-foot central cruciform shrine surrounded by 177 monastic study cells.",
+        "detailsBn": "হিমালয়ের দক্ষিণে অবস্থিত প্রাচীন বিশ্বের বৃহত্তম বৌদ্ধ মহাবিহার। ২৭ একর জুড়ে বিস্তৃত এই ইউনেস্কো বিশ্ব ঐতিহ্যে রয়েছে ১৭৭টি সন্ন্যাসী কক্ষ ও টেরাকোটা ফলকে সজ্জিত মূল স্তূপ।",
+        "image": "/panoramas/rajshahi_day.png"
+      },
+      {
+        "id": "jamuna_bridge",
+        "title": "Bangabandhu Jamuna Multipurpose Bridge",
+        "titleBn": "বঙ্গবন্ধু যমুনা বহুমুখী সেতু",
+        "category": "Bridges & Mega Engineering",
+        "icon": "bridge",
+        "x": 78,
+        "y": 52,
+        "est": "1998",
+        "builtBy": "Bangladesh Bridge Authority",
+        "details": "A 4.8 km engineering marvel spanning the mighty braided Jamuna river, integrating dual railway tracks, power gridlines, and highway lanes unifying North Bengal with the nation.",
+        "detailsBn": "প্রমত্তা যমুনা নদীর বুকে নির্মিত ৪.৮ কিমি দীর্ঘ আইকনিক সেতু, যা উত্তরবঙ্গের ১৬টি জেলাকে রাজধানী ঢাকা এবং পূর্বাঞ্চলের সাথে যুক্ত করে যোগাযোগের বৈপ্লবিক দ্বার উন্মোচন করেছে।",
+        "image": "/panoramas/rajshahi_day.png"
+      },
+      {
+        "id": "puthia_temple_complex",
+        "title": "Puthia Royal Temple Complex",
+        "titleBn": "পুঠিয়া রাজবাড়ি ও টেরাকোটা মন্দির গুচ্ছ",
+        "category": "Palaces & Historical Forts",
+        "icon": "temple",
+        "x": 35,
+        "y": 62,
+        "est": "16th - 19th Century",
+        "builtBy": "Puthia Royal Zamindar Dynasty",
+        "details": "Houses the highest concentration of historic Hindu temples in Bangladesh, including the Pancha Ratna Govinda Temple adorned with masterclass terracotta epics.",
+        "detailsBn": "বাংলাদেশের সবচেয়ে সমৃদ্ধ হিন্দু মন্দির গুচ্ছ। পঞ্চরত্ন গোবিন্দ মন্দির ও শিব মন্দিরসহ এই রাজবাড়ির অনুপম পোড়ামাটির অলঙ্করণ বিশ্বমানের প্রত্নতাত্ত্বিক সম্পদ।",
+        "image": "/panoramas/rajshahi_day.png"
+      },
+      {
+        "id": "mahasthangarh",
+        "title": "Mahasthangarh Ancient Citadel (Pundranagar)",
+        "titleBn": "মহাস্থানগড় প্রাচীন দুর্গনগরী (পুণ্ড্রনগর)",
+        "category": "Ancient Mosques, Temples & Viharas",
+        "icon": "landmark",
+        "x": 65,
+        "y": 20,
+        "est": "3rd Century BCE (2,500+ Years Old)",
+        "builtBy": "Maurya, Gupta & Pala Dynasties",
+        "details": "The oldest fortified urban archaeological site in Bangladesh, serving as the provincial capital of the Maurya Empire along the sacred Karatoya river.",
+        "detailsBn": "বাংলাদেশের প্রাচীনতম দুর্গনগরী ও রাজধানী পুণ্ড্রনগর। ২৫০০ বছরের প্রাচীন মৌর্য ও গুপ্ত যুগের দুর্গপ্রাচীর, গোবিন্দ ভিটা ও জাদুঘর এখানে অবস্থিত।",
+        "image": "/panoramas/rajshahi_day.png"
+      },
+      {
+        "id": "bagha_mosque",
+        "title": "Bagha Historic Terracotta Mosque",
+        "titleBn": "বাঘা ঐতিহাসিক পোড়ামাটির মসজিদ",
+        "category": "Ancient Mosques, Temples & Viharas",
+        "icon": "mosque",
+        "x": 28,
+        "y": 72,
+        "est": "1523 CE",
+        "builtBy": "Sultan Nasiruddin Nusrat Shah",
+        "details": "A 10-domed masterpiece of Sultanate architecture, renowned for its floral terracotta wall carvings and depicted on the historic 50 Taka banknote.",
+        "detailsBn": "সুলতানি আমলের ১০ গম্বুজ বিশিষ্ট অনন্য মসজিদ। এর দেয়ালে খোদাই করা চমৎকার পোড়ামাটির ফুল ও লতাপাতার নকশা বাংলাদেশের ৫০ টাকার নোটে স্থান পেয়েছিল।",
+        "image": "/panoramas/rajshahi_day.png"
+      },
+      {
+        "id": "natore_rajbari",
+        "title": "Natore Rajbari (Rani Bhabani Palace)",
+        "titleBn": "নাটোর রাজবাড়ি ও উত্তরা গণভবন",
+        "category": "Palaces & Historical Forts",
+        "icon": "palace",
+        "x": 48,
+        "y": 65,
+        "est": "1706",
+        "builtBy": "Raja Ramjivan & Philanthropist Queen Rani Bhabani",
+        "details": "The grand seat of the Natore Zamindari surrounded by defensive moats, manicured royal gardens, Italian marble statues, and the Uttara Ganabhaban presidential palace.",
+        "detailsBn": "দানশীল রানি ভবানী এবং নাটোর রাজবংশের স্মৃতিবিজড়িত বিশাল প্রাসাদ কমপ্লেক্স ও লেক বেষ্টিত ঐতিহাসিক উত্তরা গণভবন।",
+        "image": "/panoramas/rajshahi_day.png"
+      },
+      {
+        "id": "varendra_museum",
+        "title": "Varendra Research Museum",
+        "titleBn": "বরেন্দ্র গবেষণা জাদুঘর",
+        "category": "Palaces & Historical Forts",
+        "icon": "landmark",
+        "x": 18,
+        "y": 50,
+        "est": "1910",
+        "builtBy": "Kumar Sarat Kumar Ray & Acharya Akshaya Maitra",
+        "details": "The premier archaeological museum in South Asia, holding over 10,000 rare stone sculptures, ancient Sanskrit manuscripts, and Mughal coins.",
+        "detailsBn": "১৯১০ সালে প্রতিষ্ঠিত দক্ষিণ এশিয়ার অন্যতম প্রাচীন প্রত্নতাত্ত্বিক গবেষণা জাদুঘর। এখানে পাল ও সেন যুগের অসংখ্য দুর্লভ পাথরের ভাস্কর্য সংরক্ষিত রয়েছে।",
+        "image": "/panoramas/rajshahi_day.png"
+      },
+      {
+        "id": "kusumba_mosque",
+        "title": "Kusumba Black Basalt Mosque (Naogaon)",
+        "titleBn": "কুসুম্বা পাথরের মসজিদ (নওগাঁ)",
+        "category": "Ancient Mosques, Temples & Viharas",
+        "icon": "mosque",
+        "x": 32,
+        "y": 36,
+        "est": "1558 CE",
+        "builtBy": "Sulaiman Khan (Suri Dynasty)",
+        "details": "Constructed entirely of solid black basalt stone, this pristine Islamic structure is known as the 'Black Gem of Bengal' and featured on the 5 Taka banknote.",
+        "detailsBn": "কালো ব্যাসল্ট পাথরে নির্মিত ষোড়শ শতকের অপূর্ব মসজিদ। 'বাংলার কালা মানিক' নামে খ্যাত এই মসজিদটি ৫ টাকার নোটে মুদ্রিত ছিল।",
+        "image": "/panoramas/rajshahi_day.png"
+      }
+    ],
+    "visualMarkers": [
+      {
+        "id": "rj-river",
+        "type": "river",
+        "label": "Padma River Channel",
+        "labelBn": "পদ্মা নদী ও চর",
+        "x": 62,
+        "y": 28,
+        "color": "#3b82f6"
+      },
+      {
+        "id": "rj-bridge",
+        "type": "bridge",
+        "label": "Hardinge & Lalon Shah Bridge",
+        "labelBn": "হার্ডিঞ্জ ও লালন শাহ রেলসেতু",
+        "x": 68,
+        "y": 48,
+        "color": "#f59e0b"
+      },
+      {
+        "id": "rj-puthia",
+        "type": "heritage",
+        "label": "Puthia Royal Palace",
+        "labelBn": "পুঠিয়া রাজবাড়ি মন্দির",
+        "x": 56,
+        "y": 28,
+        "color": "#ef4444"
+      },
+      {
+        "id": "rj-varendra",
+        "type": "heritage",
+        "label": "Varendra Research Museum",
+        "labelBn": "বরেন্দ্র গবেষণা জাদুঘর",
+        "x": 32,
+        "y": 28,
+        "color": "#ef4444"
+      },
+      {
+        "id": "rj-minar",
+        "type": "heritage",
+        "label": "Shaheed Minar Rajshahi",
+        "labelBn": "শহীদ মিনার ও চত্বর",
+        "x": 46,
+        "y": 42,
+        "color": "#ef4444"
+      }
+    ],
+    "delicacies": [
+      {
+        "name": "Bogura Curd (বগুড়ার দই)",
+        "nameBn": "বগুড়ার ঐতিহ্যবাহী দই",
+        "desc": "GI-certified sweet curd reduced in red earthen pots, giving a signature smoky caramelized flavor.",
+        "descBn": "লাল মাটির সরায় জমাকৃত শতবর্ষী জিআই স্বীকৃত অনন্য স্বাদের সুস্বাদু ক্ষীরসা দই।"
+      },
+      {
+        "name": "Natore Kachagolla",
+        "nameBn": "নাটোরের কাঁচাগোল্লা",
+        "desc": "Pure fragrant cow milk chhana kneaded with light sugar syrup, invented in 1760 under Rani Bhabani.",
+        "descBn": "রানী ভবানীর আমলের ১৭৬০ সালে উদ্ভাবিত খাঁটি ছানার অমায়িক মিষ্টি কাঁচাগোল্লা।"
+      },
+      {
+        "name": "Barendra Royal Mangoes",
+        "nameBn": "রাজশাহীর আম (হিমসাগর, ল্যাংড়া, ফজলি)",
+        "desc": "World-renowned GI-certified mango cultivars bursting with sweet nectar and distinct aroma.",
+        "descBn": "চাঁপাইনবাবগঞ্জ ও রাজশাহীর সুবিখ্যাত সুমিষ্ট হিমসাগর, ল্যাংড়া ও ফজলি আম।"
+      }
+    ],
+    "festivals": [
+      {
+        "name": "Gambhira Folk Theater",
+        "nameBn": "গম্ভীরা গান ও লোকনাট্য",
+        "period": "Festive Occasions & Baishakh",
+        "desc": "Satirical dialogue song-dance between grandfather (Nana) and grandson (Nati) on social issues.",
+        "descBn": "নানা ও নাতির রসাত্মক সংলাপ, কাঠের কাঠা নৃত্য ও সমাজের বাস্তব চিত্র তুলে ধরার লোকনাট্য।"
+      },
+      {
+        "name": "Puthia Temple Rath Yatra",
+        "nameBn": "পুঠিয়ার ঐতিহাসিক রথযাত্রা মেলা",
+        "period": "Ashadh (Monsoon)",
+        "desc": "Centuries-old festival around the grand terracotta temples of the Puthia Royal Estate.",
+        "descBn": "পুঠিয়া রাজবাড়ির টেরাকোটা মন্দিরের ছায়ায় শত বছরের প্রাচীন ঐতিহ্যবাহী রথযাত্রা।"
+      }
+    ],
+    "traditions": [
+      {
+        "name": "Rajshahi Silk Weaving",
+        "nameBn": "রাজশাহীর রেশম বয়ন শিল্প",
+        "desc": "Famous mulberry silkworm cocoon reeling and weaving of pure luxurious Rajshahi Silk sarees.",
+        "descBn": "তুঁত রেশম পোকা চাষ ও আন্তর্জাতিক মানের রেশমি সুতায় বোনা রাজকীয় সিল্ক শাড়ি।"
+      },
+      {
+        "name": "Shokher Hari Pottery",
+        "nameBn": "শখের হাঁড়ি (ইউনেস্কো তালিকাভুক্ত)",
+        "desc": "Earthen clay vessels painted with yellow, red, and green traditional motifs of birds and fish.",
+        "descBn": "রাজশাহীর বৈকুন্ঠপুর ও তারাপুরের মাটির হাঁড়িতে লাল-হলুদ রঙে আঁকা লোকজ চিত্রকর্ম।"
+      }
+    ],
+    "gallery": [
+      "/panoramas/rajshahi_day.jpg",
+      "/panoramas/rajshahi_night.jpg"
+    ]
+  },
+  {
+    "id": "khulna",
+    "name": "Khulna",
+    "nameBn": "খুলনা",
+    "tagline": "The Realm of the Royal Bengal Tiger & 60 Dome UNESCO World Heritage",
+    "taglineBn": "রয়েল বেঙ্গল টাইগারের সুন্দরবন ও ষাট গম্বুজ মসজিদের পুণ্যভূমি",
+    "description": "Khulna division is home to the world's largest coastal mangrove forest — The Sundarbans (UNESCO World Heritage & Biosphere Reserve), the habitat of the majestic Royal Bengal Tiger. It also features the 15th-century Historic Mosque City of Bagerhat founded by Saint Khan Jahan Ali, Mongla Seaport, and the Khan Jahan Ali Rupsha Bridge.",
+    "descriptionBn": "খুলনা বিভাগে রয়েছে পৃথিবীর বৃহত্তম ম্যানগ্রোভ বন সুন্দরবন (ইউনেস্কো বিশ্ব ঐতিহ্য), যা বিশ্বখ্যাত রয়েল বেঙ্গল টাইগারের আদি নিবাস। এছাড়াও রয়েছে হযরত খান জাহান আলী (রহ.) প্রতিষ্ঠিত ১৫ শতকের ঐতিহাসিক ষাট গম্বুজ মসজিদ, মোংলা সমুদ্র বন্দর এবং রূপসা সেতু।",
+    "dayImage": "/panoramas/khulna_day.jpg",
+    "nightImage": "/panoramas/khulna_night.jpg",
+    "themeColor": "#059669",
+    "stats": {
+      "districts": 10,
+      "upazilas": "59+",
+      "landmarks": "130+",
+      "area": "22,284 km²",
+      "population": "17.4 Million",
+      "majorRiver": "Rupsha, Pasur, Bhairab, Madhumati, Kopotakkho",
+      "literacyRate": "71.2%",
+      "gdpContribution": "Export of Frozen Black Tiger Shrimp, Jute & Mongla Port Trade"
+    },
+    "historyOverview": "In the 15th century, the noble Sufi warrior Hazrat Khan Jahan Ali carved out an urban Islamic oasis 'Khalifatabad' with 360 mosques and freshwater reservoirs in Bagerhat. During 1971, Mujibnagar in Meherpur served as the birthplace where the first provisional Government of Bangladesh took oath.",
+    "foreignTouristGuide": {
+      "howToReach": "Domestic flights land at Jashore Airport (JSR). Direct AC train services connect Dhaka to Khulna through the Padma Rail Link.",
+      "bestTimeToVisit": "November to February (Best season for 3-day deep Sundarbans riverboat ecotourism safari).",
+      "topExperiences": "Sailing through the tidal canals of the Sundarbans tracking wild tigers and spotted deer, visiting the 60 Dome Mosque at dawn, exploring Lalon Shah's mystic Sufi shrine in Kushtia, and watching otter fishing in Narail.",
+      "safetyTips": "Sundarbans tours must be taken with licensed forest armed guards and accredited eco-cruisers."
+    },
+    "districts": [
+      "khulna",
+      "bagerhat",
+      "satkhira",
+      "jashore",
+      "kushtia",
+      "jhenaidah",
+      "chuadanga",
+      "meherpur",
+      "narail",
+      "magura"
+    ],
+    "majorCities": [
+      {
+        "name": "Khulna Metropolis",
+        "pop": "1.6M+",
+        "role": "Industrial, Jute & Seafood Export Capital",
+        "access": "Jashore Airport Link, Khulna Railway Terminus"
+      },
+      {
+        "name": "Bagerhat Heritage City",
+        "pop": "0.4M+",
+        "role": "UNESCO Mosque City & Khan Jahan Shrine",
+        "access": "Padma Bridge South Corridor"
+      },
+      {
+        "name": "Jashore Historic City",
+        "pop": "0.7M+",
+        "role": "Aviation, Flower Capital (Gadkhali) & IT Park",
+        "access": "JSR Airport, Benapole Land Port"
+      },
+      {
+        "name": "Kushtia Cultural Town",
+        "pop": "0.5M+",
+        "role": "Folk Music & Mystic Lalon Shah Capital",
+        "access": "Kushtia Railway, Gorai Bridge"
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "sundarbans_mangrove",
+        "title": "The Sundarbans Mangrove Forest (UNESCO World Heritage)",
+        "titleBn": "সুন্দরবন ম্যানগ্রোভ বনভূমি (ইউনেস্কো বিশ্ব ঐতিহ্য)",
+        "category": "Nature & Landscape",
+        "icon": "tree",
+        "x": 48,
+        "y": 75,
+        "est": "Natural Biosphere",
+        "builtBy": "Ganges-Brahmaputra-Meghna Tidal Delta",
+        "details": "The largest coastal mangrove forest on Earth (10,000 km²), sheltering 100+ Royal Bengal Tigers, saltwater crocodiles, Irrawaddy dolphins, and Sundari trees.",
+        "detailsBn": "বিশ্বের বৃহত্তম অবিচ্ছিন্ন জোয়ার-ভাটার ম্যানগ্রোভ বন। রয়েল বেঙ্গল টাইগার, চিত্রা হরিণ ও সুন্দরবনের গোলপাতার স্বর্গরাজ্য যা ইউনেস্কো প্রাকৃতিক বিশ্ব ঐতিহ্য।",
+        "image": "/panoramas/khulna_day.png"
+      },
+      {
+        "id": "sixty_dome_mosque",
+        "title": "Sixty Dome Mosque (Bagerhat UNESCO World Heritage)",
+        "titleBn": "ষাট গম্বুজ মসজিদ (বাগেরহাট ইউনেস্কো বিশ্ব ঐতিহ্য)",
+        "category": "Ancient Mosques, Temples & Viharas",
+        "icon": "mosque",
+        "x": 52,
+        "y": 45,
+        "est": "1459 CE",
+        "builtBy": "Sufi Saint Ulugh Khan Jahan Ali",
+        "details": "A 15th-century architectural marvel featuring 77 low-pitched domes, 4 corner watchtower domes (total 81 domes), and 60 slender stone pillars supporting the vaulted roof.",
+        "detailsBn": "১৫শ শতকে হযরত খান জাহান আলী (রহ.) প্রতিষ্ঠিত ৮১টি গম্বুজ ও ৬০টি পাথরের স্তম্ভের অপূর্ব মধ্যযুগীয় মসজিদ, যা ইউনেস্কো ঘোষিত বিশ্ব ঐতিহ্য।",
+        "image": "/panoramas/khulna_day.png"
+      },
+      {
+        "id": "rupsha_bridge",
+        "title": "Khan Jahan Ali Rupsha Bridge",
+        "titleBn": "খান জাহান আলী রূপসা সেতু",
+        "category": "Bridges & Mega Engineering",
+        "icon": "bridge",
+        "x": 35,
+        "y": 40,
+        "est": "2005",
+        "builtBy": "Bangladesh Government & JICA",
+        "details": "A graceful 1.36 km bridge spanning the Rupsha River, serving as the strategic transit gateway to Mongla Seaport and the Sundarbans.",
+        "detailsBn": "খুলনার রূপসা নদীর ওপর ১.৩৬ কিমি দীর্ঘ দৃষ্টিনন্দন সেতু, যা মোংলা বন্দর ও দক্ষিণ-পশ্চিমাঞ্চলের অর্থনৈতিক প্রাণরেখা।",
+        "image": "/panoramas/khulna_day.png"
+      },
+      {
+        "id": "lalon_shah_shrine",
+        "title": "Lalon Shah Mazar & Akhra (Kushtia)",
+        "titleBn": "বাউল সম্রাট লালন শাহের মাজার ও আখড়া",
+        "category": "Monuments & Memorials",
+        "icon": "landmark",
+        "x": 22,
+        "y": 18,
+        "est": "1890",
+        "builtBy": "Baul Devotees & Ministry of Cultural Affairs",
+        "details": "The sacred resting place of mystic philosopher and folk icon Fakir Lalon Shah, attracting thousands of musicians and global scholars for soulful Baul music festivals.",
+        "detailsBn": "বাউল সম্রাট ও মানবতাবাদী সাধক ফকির লালন শাহের পবিত্র সমাধি। প্রতি বছর দোল পূর্ণিমায় এখানে বিশ্বখ্যাত লালন স্মরণোৎসব অনুষ্ঠিত হয়।",
+        "image": "/panoramas/khulna_day.png"
+      },
+      {
+        "id": "mujibnagar_memorial",
+        "title": "Mujibnagar Independence Memorial Complex (Meherpur)",
+        "titleBn": "মুজিবনগর স্মৃতিসৌধ কমপ্লেক্স (মেহেরপুর)",
+        "category": "Monuments & Memorials",
+        "icon": "landmark",
+        "x": 15,
+        "y": 28,
+        "est": "1987",
+        "builtBy": "Architect Tanveer Karim",
+        "details": "Commemorates where the first Provisional Government of Bangladesh took its oath on April 17, 1971, featuring 23 symbolic triangular columns.",
+        "detailsBn": "১৯৭১ সালের ১৭ এপ্রিল বাংলাদেশের প্রথম সরকার যেখানে শপথ গ্রহণ করেছিল। ২৩টি স্তম্ভে ঘেরা ঐতিহাসিক জাতীয় স্মারক কমপ্লেক্স।",
+        "image": "/panoramas/khulna_day.png"
+      },
+      {
+        "id": "mongla_port",
+        "title": "Mongla International Seaport & Pasur Channel",
+        "titleBn": "মোংলা আন্তর্জাতিক সমুদ্র বন্দর",
+        "category": "Bridges & Mega Engineering",
+        "icon": "ship",
+        "x": 58,
+        "y": 62,
+        "est": "1950",
+        "builtBy": "Mongla Port Authority",
+        "details": "The second largest seaport of Bangladesh, handling green eco-transits and regional trade connected directly through modern rail and the Padma Bridge corridor.",
+        "detailsBn": "পশুর নদীর মোহনায় অবস্থিত দেশের দ্বিতীয় বৃহত্তম সমুদ্র বন্দর, যা আন্তর্জাতিক বাণিজ্য ও ইকো-ট্যুরিজম ট্রানজিটের অন্যতম কেন্দ্র।",
+        "image": "/panoramas/khulna_day.png"
+      }
+    ],
+    "visualMarkers": [
+      {
+        "id": "khl-bridge",
+        "type": "bridge",
+        "label": "Khan Jahan Ali Setu (Rupsha)",
+        "labelBn": "খান জাহান আলী রূপসা সেতু",
+        "x": 50,
+        "y": 50,
+        "color": "#f59e0b"
+      },
+      {
+        "id": "khl-river",
+        "type": "river",
+        "label": "Rupsha Riverway",
+        "labelBn": "রূপসা নদীপথ ও সুন্দরবন মোহনা",
+        "x": 42,
+        "y": 44,
+        "color": "#3b82f6"
+      },
+      {
+        "id": "khl-sixty",
+        "type": "heritage",
+        "label": "Sixty Dome Mosque",
+        "labelBn": "ষাট গম্বুজ মসজিদ (ইউনেস্কো)",
+        "x": 14,
+        "y": 36,
+        "color": "#ef4444"
+      },
+      {
+        "id": "khl-palace",
+        "type": "heritage",
+        "label": "Jessore Collectorate / Palace",
+        "labelBn": "কালেক্টরেট ভবন ও রাজবাড়ি",
+        "x": 65,
+        "y": 38,
+        "color": "#ef4444"
+      },
+      {
+        "id": "khl-port",
+        "type": "heritage",
+        "label": "Mongla Port Terminal",
+        "labelBn": "মংলা সমুদ্রবন্দর ও জাহাজ",
+        "x": 88,
+        "y": 40,
+        "color": "#f59e0b"
+      }
+    ],
+    "nightImageAlt": "/panoramas/khulna_night_alt.jpg",
+    "delicacies": [
+      {
+        "name": "Khulna Chui Jhal Meat",
+        "nameBn": "খুলনার চুইঝাল মাংস",
+        "desc": "Tender beef or mutton cooked with wild piper chaba (chui) herbal twigs providing aromatic heat.",
+        "descBn": "চুই গাছের সুগন্ধি কান্ডের প্রাকৃতিক ঝাঁঝালো মশলায় রান্না করা খুলনার বিখ্যাত মাংস।"
+      },
+      {
+        "name": "Sundarbans Pure Mangrove Honey",
+        "nameBn": "সুন্দরবনের খাঁটি মধু",
+        "desc": "Raw amber honey hand-harvested by traditional Mouyals from wild Khalsi & Goran blooms.",
+        "descBn": "খলসি ও গরান ফুলের নির্যাস থেকে সুন্দরবনের ঐতিহ্যবাহী মৌয়ালদের সংগৃহীত মধু।"
+      },
+      {
+        "name": "Satkhira Sandesh & Narkel Naru",
+        "nameBn": "সাতক্ষীরার সন্দেশ ও গলদা চিংড়ি",
+        "desc": "Fresh coastal chhana sandesh and giant freshwater river prawns cooked in coconut milk cream.",
+        "descBn": "সাতক্ষীরার খাঁটি ছানার সন্দেশ এবং নারিকেলের দুধে রান্না করা গলদা চিংড়ির মালাইকারি।"
+      }
+    ],
+    "festivals": [
+      {
+        "name": "Rash Mela at Dublar Char",
+        "nameBn": "দুবলার চরের রাসমেলা",
+        "period": "November (Rash Purnima)",
+        "desc": "Spectacular festival deep inside the Sundarbans where thousands gather for sunrise holy baths.",
+        "descBn": "সুন্দরবনের মোহনায় দুবলার চরে অনুষ্ঠিত সমুদ্র স্নান ও বাউল গানের প্রাচীন মহোৎসব।"
+      },
+      {
+        "name": "Lalon Smoronothsob (Kushtia)",
+        "nameBn": "কুষ্টিয়ার লালন স্মরণোৎসব ও দোলমেলা",
+        "period": "Dol Purnima (March) & October",
+        "desc": "Spiritual congregation of thousands of Baul minstrels singing mystic philosopher Lalon Shah's verses.",
+        "descBn": "ছেঁউড়িয়ার লালন আখড়াবাড়িতে দেশ-বিদেশের হাজারো বাউল সাধকের সুরের মহামিলন।"
+      }
+    ],
+    "traditions": [
+      {
+        "name": "Mouyal Honey Hunting Expedition",
+        "nameBn": "সুন্দরবনের মৌয়াল সংস্কৃতি",
+        "desc": "Centuries-old risky venture of honey hunters deep into the Royal Bengal Tiger habitat.",
+        "descBn": "রয়েল বেঙ্গল টাইগারের গভীর অরণ্যে মৌয়ালদের ঐতিহ্যবাহী বুনো মধু সংগ্রহের অভিযান।"
+      },
+      {
+        "name": "Shitol Pati & Clay Tile Making",
+        "nameBn": "নকশী মাদুর ও টেরাকোটা টাইলস",
+        "desc": "Cool water-reed woven sitting mats and Tala-Satkhira heritage clay roofing tiles exported globally.",
+        "descBn": "কলারোয়া ও তালার ঐতিহ্যবাহী মাটির টালি এবং শীতল পাটির হস্তশিল্প।"
+      }
+    ],
+    "gallery": [
+      "/panoramas/khulna_day.jpg",
+      "/panoramas/khulna_day_alt.jpg",
+      "/panoramas/khulna_night.jpg",
+      "/panoramas/khulna_night_alt.jpg"
+    ]
+  },
+  {
+    "id": "barishal",
+    "name": "Barishal",
+    "nameBn": "বরিশাল",
+    "tagline": "The Floating Venice of the East & Daughter of the Sea (Kuakata)",
+    "taglineBn": "প্রাচ্যের ভেনিস, নদ-নদী, ভাসমান পেয়ারা বাজার ও সাগরকন্যা কুয়াকাটা",
+    "description": "Barishal division is an enchanting riverine delta world famous as the 'Venice of the East'. It boasts Kuakata Sea Beach — the rare beach in Asia where one can watch both sunrise and sunset over the Bay of Bengal, the monumental Payra Cable-Stayed Bridge, the magnificent 14-domed Guthia Mosque, and historic floating water markets.",
+    "descriptionBn": "বরিশাল বিভাগ অসংখ্য নদী, খাল আর সবুজে ঘেরা 'প্রাচ্যের ভেনিস'। সাগরকন্যা কুয়াকাটার সৈকত থেকে একই সাথে সূর্যোদয় ও সূর্যাস্ত দেখা যায়। এছাড়াও রয়েছে নান্দনিক পায়রা সেতু (লেবুখালী), দৃষ্টিনন্দন গুঠিয়া মসজিদ এবং ঐতিহ্যবাহী ভাসমান পেয়ারা বাজার।",
+    "dayImage": "/panoramas/barishal_day.jpg",
+    "nightImage": "/panoramas/barishal_night.jpg",
+    "themeColor": "#06b6d4",
+    "stats": {
+      "districts": 6,
+      "upazilas": "42+",
+      "landmarks": "110+",
+      "area": "13,225 km²",
+      "population": "9.3 Million",
+      "majorRiver": "Meghna, Kirtankhola, Payra, Baleshwar, Arial Khan, Sugandha",
+      "literacyRate": "76.8% (Highest Divisional Literacy in Bangladesh)",
+      "gdpContribution": "National Rice & Coconut Granary (Balam Rice Pioneer)"
+    },
+    "historyOverview": "Historically known as 'Chandradwip' and 'Bakla-Satkhira', Barishal has been the celebrated center of progressive literary figures like poet Jibanananda Das (poet of Ruposhi Bangla) and peasant leader Sher-e-Bangla A.K. Fazlul Huq.",
+    "foreignTouristGuide": {
+      "howToReach": "Barishal Airport (BZL) has direct flights to Dhaka. Luxurious multi-deck VIP river cruise ships (Launch) sail nightly from Dhaka Sadarghat along the moonlit rivers.",
+      "bestTimeToVisit": "August to September (for the vibrant Floating Guava Markets) and November to February (for cool sunny Kuakata beach tours).",
+      "topExperiences": "Cruising on a country wooden boat through the emerald canals of Bhimruli floating market, seeing both sunrise and sunset at Kuakata sea beach, and visiting Guthia Mosque under night illumination.",
+      "safetyTips": "When traveling by river launches, book first-class air-conditioned cabins for maximum comfort."
+    },
+    "districts": [
+      "barishal",
+      "patuakhali",
+      "bhola",
+      "pirojpur",
+      "barguna",
+      "jhalokati"
+    ],
+    "majorCities": [
+      {
+        "name": "Barishal River City",
+        "pop": "0.6M+",
+        "role": "Administrative, Educational & River Port Hub",
+        "access": "BZL Airport, Kirtankhola Cruise Terminal"
+      },
+      {
+        "name": "Patuakhali Coastal City",
+        "pop": "0.3M+",
+        "role": "Gateway to Kuakata & Payra Deep Sea Port",
+        "access": "Payra Bridge Highway"
+      },
+      {
+        "name": "Bhola Island City",
+        "pop": "0.4M+",
+        "role": "Largest Island of Bangladesh & Natural Gas Hub",
+        "access": "Bhola River Ferries & Launch Services"
+      },
+      {
+        "name": "Pirojpur & Jhalakathi",
+        "pop": "0.4M+",
+        "role": "Floating Market & River Tourism Capital",
+        "access": "Gabkhan Channel Waterway"
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "kuakata_beach",
+        "title": "Kuakata Sea Beach (Sagar Kannya)",
+        "titleBn": "কুয়াকাটা সমুদ্র সৈকত (সাগরকন্যা)",
+        "category": "Nature & Landscape",
+        "icon": "beach",
+        "x": 62,
+        "y": 78,
+        "est": "Natural Wonder",
+        "builtBy": "Bay of Bengal Shoreline",
+        "details": "An 18 km panoramic sandy beach located at the southernmost tip of Bangladesh, unique globally for offering unobstructed views of both sunrise and sunset over the ocean.",
+        "detailsBn": "সাগরকন্যা খ্যাত ১৮ কিমি দীর্ঘ প্রাকৃতিক সৈকত। এশিয়ার বিরল এই সৈকত থেকে একই স্থানে দাঁড়িয়ে সমুদ্রের বুকে সূর্যোদয় ও সূর্যাস্তের মনোরম দৃশ্য দেখা যায়।",
+        "image": "/panoramas/barishal_day.png"
+      },
+      {
+        "id": "payra_bridge",
+        "title": "Payra Bridge (Lebukhali)",
+        "titleBn": "পায়রা সেতু (লেবুখালী)",
+        "category": "Bridges & Mega Engineering",
+        "icon": "bridge",
+        "x": 48,
+        "y": 42,
+        "est": "2021",
+        "builtBy": "Bangladesh Roads & Highways Department",
+        "details": "A 1.47 km cable-stayed architectural wonder with bridge health monitoring sensors, eliminating ferry delays and enabling non-stop highway travel from Dhaka to Kuakata beach.",
+        "detailsBn": "লেবুখালীতে পায়রা নদীর ওপর ১.৪৭ কিমি দীর্ঘ দৃষ্টিনন্দন কেবল-স্টেড সেতু। রাতের রঙিন আলোকসজ্জা এবং আধুনিক প্রকৌশলে এটি দক্ষিণাঞ্চলের শ্রেষ্ঠ সেতু।",
+        "image": "/panoramas/barishal_day.png"
+      },
+      {
+        "id": "guthia_mosque",
+        "title": "Baitul Aman Jame Masjid (Guthia Mosque)",
+        "titleBn": "বাইতুল আমান জামে মসজিদ (গুঠিয়া মসজিদ)",
+        "category": "Ancient Mosques, Temples & Viharas",
+        "icon": "mosque",
+        "x": 32,
+        "y": 35,
+        "est": "2006",
+        "builtBy": "Philanthropist S. Sharfuddin Ahmed Santu",
+        "details": "A palatial Islamic complex featuring a 193-foot towering minaret, 14 domes, reflecting pools, and world-class nighttime lighting imported from Europe.",
+        "detailsBn": "১৪টি গম্বুজ, ১৯৩ ফুট উঁচু মিনার ও কৃত্রিম লেক বেষ্টিত এক সুরম্য ইসলামিক স্থাপত্য। রাতে এর চোখজুড়ানো আলোকসজ্জা দেখার জন্য দেশ-বিদেশের বহু পর্যটক আসেন।",
+        "image": "/panoramas/barishal_day.png"
+      },
+      {
+        "id": "floating_guava_market",
+        "title": "Bhimruli Floating Guava & Fruit Market",
+        "titleBn": "ভিমরুলী ভাসমান পেয়ারা ও ফলের বাজার",
+        "category": "Nature & Landscape",
+        "icon": "water",
+        "x": 25,
+        "y": 48,
+        "est": "Centuries Old",
+        "builtBy": "Local Delta Farmers & Boat Traders",
+        "details": "South Asia's largest floating wholesale market, where hundreds of wooden canoes assemble on intertwining canals laden with fresh guavas, hog plums, and lotkons.",
+        "detailsBn": "ঝালকাঠি ও পিরোজপুরের নদী ও খালের মোহনায় অবস্থিত শত বছরের ঐতিহ্যবাহী ভাসমান হাট। শত শত ডিঙি নৌকায় কৃষকদের পেয়ারা বিক্রির দৃশ্য অসাধারণ।",
+        "image": "/panoramas/barishal_day.png"
+      },
+      {
+        "id": "durga_sagar",
+        "title": "Durga Sagar Dighi & Bird Sanctuary (Madhabpasha)",
+        "titleBn": "দুর্গাসাগর দিঘি ও অতিথি পাখির অভয়ারণ্য",
+        "category": "Nature & Landscape",
+        "icon": "water",
+        "x": 38,
+        "y": 28,
+        "est": "1780",
+        "builtBy": "Raja Shiv Narayan (Chandradwip)",
+        "details": "The largest historic lake in southern Bangladesh (45 acres), with an island sanctuary in the middle visited every winter by thousands of migratory birds.",
+        "detailsBn": "১৭৮০ সালে রানি দুর্গাবতীর স্মরণে খনন করা ৪৫ একরের বিশাল দিঘি। এর মাঝখানে তৈরি দ্বীপে প্রতি শীতে হাজার হাজার অতিথি পাখি ভিড় জমায়।",
+        "image": "/panoramas/barishal_day.png"
+      },
+      {
+        "id": "bibir_pukur",
+        "title": "Bibir Pukur & Green Promenade (Barishal Sadar)",
+        "titleBn": "বিবির পুকুর ও শহরের কেন্দ্রস্থল",
+        "category": "Monuments & Memorials",
+        "icon": "water",
+        "x": 44,
+        "y": 22,
+        "est": "1908",
+        "builtBy": "Bibi Jinat Begum",
+        "details": "The beating heart of Barishal city, featuring lit fountains, lakeside boardwalks, cultural open stages, and century-old rain trees.",
+        "detailsBn": "বরিশাল শহরের প্রাণকেন্দ্রে অবস্থিত শতবর্ষী মনোরম জলাশয়, যার চারপাশে রয়েছে চমৎকার হাঁটার পথ, আলোকোজ্জ্বল ফোয়ারা ও মুক্তমঞ্চ।",
+        "image": "/panoramas/barishal_day.png"
+      }
+    ],
+    "visualMarkers": [
+      {
+        "id": "bar-minar",
+        "type": "heritage",
+        "label": "Barishal Central Shaheed Minar",
+        "labelBn": "বরিশাল কেন্দ্রীয় শহীদ মিনার",
+        "x": 50,
+        "y": 63,
+        "color": "#ef4444"
+      },
+      {
+        "id": "bar-bridge",
+        "type": "bridge",
+        "label": "Kirtankhola Bridge",
+        "labelBn": "কীর্তনখোলা কেবল সেতু",
+        "x": 76,
+        "y": 32,
+        "color": "#f59e0b"
+      },
+      {
+        "id": "bar-river",
+        "type": "river",
+        "label": "Kirtankhola River Fleet",
+        "labelBn": "কীর্তনখোলা নদী ও নৌবহর",
+        "x": 44,
+        "y": 42,
+        "color": "#3b82f6"
+      },
+      {
+        "id": "bar-tantuni",
+        "type": "heritage",
+        "label": "Tantunir Bari Heritage",
+        "labelBn": "টানটুনির বাড়ি রাজবাড়ি",
+        "x": 18,
+        "y": 62,
+        "color": "#ef4444"
+      },
+      {
+        "id": "bar-launch",
+        "type": "heritage",
+        "label": "Barishal Launch Fleet",
+        "labelBn": "লঞ্চ টার্মিনাল ও বোট বহর",
+        "x": 75,
+        "y": 50,
+        "color": "#f59e0b"
+      }
+    ],
+    "delicacies": [
+      {
+        "name": "Barishal Ilish Paturi & Bhapa",
+        "nameBn": "বরিশালের ইলিশ পাতুড়ি ও ভাপা",
+        "desc": "Fresh silver Hilsa from Meghna-Padma estuary marinated in mustard and green chili, wrapped in banana leaf.",
+        "descBn": "পদ্মা-মেঘনার মোহনার রুপালি ইলিশ, সরিষা বাটা ও কাঁচা মরিচ দিয়ে কলাপাতায় মোড়া পাতুড়ি।"
+      },
+      {
+        "name": "Gournadi Doi & Sandesh",
+        "nameBn": "গৌরনদীর রসালো ছানার সন্দেশ",
+        "desc": "Soft golden milk sandesh simmered in pure molasses or caramelized thick milk.",
+        "descBn": "গৌরনদীর ঐতিহ্যবাহী খাঁটি মহিষ ও গরুর দুধের ছানায় তৈরি মনমাতানো রসালো সন্দেশ।"
+      },
+      {
+        "name": "Pirojpur Sweet Amra & Hogplum",
+        "nameBn": "পিরোজপুরের মিষ্টি আমড়া ও পেয়ারা",
+        "desc": "Crunchy sweet giant hogplums and green guavas from lush floating orchard farms.",
+        "descBn": "স্বরূপকাঠি ও পিরোজপুরের সুবিখ্যাত মিষ্টি আমড়া এবং সুগন্ধি তাজা পেয়ারা।"
+      }
+    ],
+    "festivals": [
+      {
+        "name": "Floating Guava Market Carnival",
+        "nameBn": "ভাসমান পেয়ারা বাজার উৎসব",
+        "period": "July to September (Monsoon)",
+        "desc": "Boats laden with green guavas trading across backwaters in Bhimruli and Kuriana canals.",
+        "descBn": "ভিমরুলির আঁকাবাঁকা খালের মোহনায় নৌকায় নৌকায় বেচাকেনার এশিয়ার বৃহত্তম ভাসমান বাজার।"
+      },
+      {
+        "name": "Traditional Nouka Baich (Boat Race)",
+        "nameBn": "কীর্তনখোলায় ঐতিহ্যবাহী নৌকা বাইচ",
+        "period": "Bhadra & Ashwin (Autumn)",
+        "desc": "Slim 100-oar speed boats chanting rowing songs, racing with vibrant flags and cheering crowds.",
+        "descBn": "কীর্তনখোলা ও সন্ধ্যা নদীর বুকে সারি গানের তালে তালে শতাধিক মাঝির বৈঠার ক্ষিপ্র লড়াই।"
+      }
+    ],
+    "traditions": [
+      {
+        "name": "Inland Rocket Steamer Navigation",
+        "nameBn": "শতবর্ষী রকেট স্টিমার সংস্কৃতি",
+        "desc": "British-era paddle-wheel steamers navigating the Venice-like interconnected delta riverways.",
+        "descBn": "১৮৮৪ সাল থেকে বরিশালের নদীনালায় পরিচালিত প্রাচীন প্যাডেল স্টিমার ঐতিহ্য।"
+      },
+      {
+        "name": "Hogla Leaf Mat Weaving",
+        "nameBn": "হোগলা পাতার নকশী মাদুর বয়ন",
+        "desc": "Riverbank reed harvesting and weaving of eco-friendly mats, baskets, and wall crafts.",
+        "descBn": "দক্ষিণাঞ্চলের নদীতীরের হোগলা পাতা শুকিয়ে তৈরি পরিবেশবান্ধব পাটি ও গৃহসজ্জা শিল্প।"
+      }
+    ],
+    "gallery": [
+      "/panoramas/barishal_day.jpg",
+      "/panoramas/barishal_night.jpg"
+    ]
+  },
+  {
+    "id": "sylhet",
+    "name": "Sylhet",
+    "nameBn": "সিলেট",
+    "tagline": "The Land of Two Leaves and a Bud, Sacred Sufi Shrines & Rain Forests",
+    "taglineBn": "দুটি পাতা একটি কুঁড়ির দেশ, ৩৬০ আউলিয়ার পুণ্যভূমি ও সবুজ চা বাগান",
+    "description": "Sylhet division is the tea capital and eco-paradise of Bangladesh. Known for its rolling emerald tea estates in Sreemangal, the freshwater swamp forest of Ratargul, crystal-clear mountain rivers in Jaflong and Bichanakandi, the century-old steel Keane Bridge, and the sacred 14th-century shrines of Hazrat Shah Jalal (R) and Shah Paran (R).",
+    "descriptionBn": "সিলেট বিভাগ বাংলাদেশের চা রাজধানী ও অন্যতম প্রধান পর্যটন স্বর্গ। শ্রীমঙ্গলের দিগন্তবিস্তৃত সবুজ চা বাগান, রাতারগুল মিঠাপানির জলাবন, জাফলং ও বিছনাকান্দির স্বচ্ছ পাহাড়ি নদী, ঐতিহাসিক কিন ব্রিজ এবং হযরত শাহজালাল (রহ.) ও শাহ পরান (রহ.)-এর পুণ্যভূমি হিসেবে এটি বিশ্ববিখ্যাত।",
+    "dayImage": "/panoramas/sylhet_day.jpg",
+    "nightImage": "/panoramas/sylhet_night.jpg",
+    "themeColor": "#8b5cf6",
+    "stats": {
+      "districts": 4,
+      "upazilas": "41+",
+      "landmarks": "120+",
+      "area": "12,596 km²",
+      "population": "12.1 Million",
+      "majorRiver": "Surma, Kushiyara, Piyain, Sari, Manu, Khowai",
+      "literacyRate": "71.0%",
+      "gdpContribution": "Export of Premium Ceylon Tea, Natural Gas & Expatriate Remittances"
+    },
+    "historyOverview": "Sylhet was known in ancient lore as 'Srihatta'. In 1303 CE, the great saint Hazrat Shah Jalal arrived with 360 Sufi companions, introducing peace, Islamic spirituality, and syncretic culture to the hills of eastern Bengal.",
+    "foreignTouristGuide": {
+      "howToReach": "Osmani International Airport (ZYL) operates non-stop flights to London Heathrow (LHR) and the Middle East, as well as multiple daily flights from Dhaka. The Parabat Express train connects Dhaka to Sylhet.",
+      "bestTimeToVisit": "June to September (Rainy season when waterfalls, Ratargul swamp, and Jaflong are overflowing with fresh crystal water) or October to February (for pleasant tea estate walking).",
+      "topExperiences": "Kayaking through the submerged trees of Ratargul Swamp Forest, sipping 7-layer tea in Sreemangal, taking a country boat ride to Bichnakandi stone valley, and crossing the British-era Keane Bridge.",
+      "safetyTips": "Wear waterproof clothing and proper footwear during monsoons near mountain streams."
+    },
+    "districts": [
+      "sylhet",
+      "moulvibazar",
+      "habiganj",
+      "sunamganj"
+    ],
+    "majorCities": [
+      {
+        "name": "Sylhet Metropolitan",
+        "pop": "1.2M+",
+        "role": "International Aviation, Sufi Heritage & Trade Hub",
+        "access": "ZYL Airport, Surma River Expressways"
+      },
+      {
+        "name": "Sreemangal Tea City",
+        "pop": "0.3M+",
+        "role": "Tea Capital of Bangladesh & Eco-Resort Paradise",
+        "access": "Sreemangal Railway Station"
+      },
+      {
+        "name": "Sunamganj Tanguar Haor",
+        "pop": "0.4M+",
+        "role": "Wetland Biodiversity & Baul Folk Music",
+        "access": "Sunamganj Haor Boats & Highways"
+      },
+      {
+        "name": "Habiganj & Moulvibazar",
+        "pop": "0.5M+",
+        "role": "Natural Gas reserves & Rubber Plantations",
+        "access": "Dhaka-Sylhet National Highway"
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "keane_bridge",
+        "title": "Keane Bridge (Gateway to Surma)",
+        "titleBn": "ঐতিহাসিক কিন ব্রিজ (সুরমা নদী)",
+        "category": "Bridges & Mega Engineering",
+        "icon": "bridge",
+        "x": 48,
+        "y": 35,
+        "est": "1936",
+        "builtBy": "Sir Michael Keane (British Governor)",
+        "details": "A landmark 349-meter bowstring steel girder bridge spanning the Surma River in Sylhet city, known affectionately as the 'Gateway to Sylhet'.",
+        "detailsBn": "১৯৩৬ সালে সুরমা নদীর ওপর নির্মিত ৩৪৯ মিটার দীর্ঘ ধনুকাকৃতি ঐতিহাসিক লোহার সেতু, যা ঐতিহ্যবাহী সিলেট শহরের প্রধান প্রবেশদ্বার হিসেবে পরিচিত।",
+        "image": "/panoramas/sylhet_day.png"
+      },
+      {
+        "id": "ratargul_swamp",
+        "title": "Ratargul Freshwater Swamp Forest",
+        "titleBn": "রাতারগুল মিঠাপানির সোয়াম্প ফরেস্ট",
+        "category": "Nature & Landscape",
+        "icon": "tree",
+        "x": 35,
+        "y": 22,
+        "est": "Natural Biosphere",
+        "builtBy": "Gowain River Submerged Ecosystem",
+        "details": "The only freshwater swamp forest in Bangladesh, where evergreen trees like Millettia and water lilies stand half-submerged under crystal-clear jungle water.",
+        "detailsBn": "বাংলাদেশের একমাত্র মিঠাপানির জলাবন। বর্ষাকালে স্বচ্ছ পানিতে নিমজ্জিত বনের ভেতর ছোট ডিঙি নৌকায় ঘোরার অনুভূতি অত্যন্ত রোমাঞ্চকর।",
+        "image": "/panoramas/sylhet_day.png"
+      },
+      {
+        "id": "jaflong_piyain",
+        "title": "Jaflong & Piyain Stone Valley",
+        "titleBn": "জাফলং ও পিয়াইন নদী",
+        "category": "Nature & Landscape",
+        "icon": "mountain",
+        "x": 72,
+        "y": 18,
+        "est": "Natural Wonder",
+        "builtBy": "Khasia Hills Mountain Runoff",
+        "details": "Nestled beneath the green Meghalaya mountains, Jaflong is famous for rolling river pebbles, tea gardens, Khasia tribal villages, and Mayabi waterfalls.",
+        "detailsBn": "মেঘালয় পাহাড়ের পাদদেশে পিয়াইন নদীর তীরে অবস্থিত পাথরের উপত্যকা। ঝুলন্ত চা বাগান, খাসিয়া পুঞ্জি ও ঝরনাধারা জাফলংয়ের প্রধান আকর্ষণ।",
+        "image": "/panoramas/sylhet_day.png"
+      },
+      {
+        "id": "sreemangal_tea",
+        "title": "Sreemangal Emerald Tea Gardens",
+        "titleBn": "শ্রীমঙ্গল চা বাগান ও লাউয়াছড়া জাতীয় উদ্যান",
+        "category": "Nature & Landscape",
+        "icon": "tree",
+        "x": 42,
+        "y": 68,
+        "est": "1857 / Historic",
+        "builtBy": "Finlay, James Finlay & Bangladesh Tea Board",
+        "details": "Featuring over 40 sprawling tea estates across rolling hillocks, home to the famous Seven-Color Tea and the endangered Hoolock Gibbon in Lawachara rainforest.",
+        "detailsBn": "সবুজ গালিচায় মোড়ানো মাইলের পর মাইল চা বাগান, আদিম রেইনফরেস্ট লাউয়াছড়া এবং বিখ্যাত সাত রঙের চায়ের আঁতুড়ঘর।",
+        "image": "/panoramas/sylhet_day.png"
+      },
+      {
+        "id": "hazrat_shahjalal_shrine",
+        "title": "Hazrat Shah Jalal (R) Mazar Sharif",
+        "titleBn": "হযরত শাহজালাল (রহ.) মাজার শরীফ",
+        "category": "Ancient Mosques, Temples & Viharas",
+        "icon": "mosque",
+        "x": 52,
+        "y": 42,
+        "est": "1346 CE",
+        "builtBy": "Sultan Shamsuddin Firoz Shah & Followers",
+        "details": "The revered 14th-century spiritual complex visited by millions annually, featuring sacred carp ponds, bronze cauldrons, and historic stone mosques.",
+        "detailsBn": "সিলেট বিজয়ী মহান ওলি হযরত শাহজালাল (রহ.)-এর স্মৃতিবিজড়িত পবিত্র মাজার। এর পুকুরের গজার মাছ ও ঐতিহাসিক ডেকচি দর্শনার্থীদের আকর্ষণ করে।",
+        "image": "/panoramas/sylhet_day.png"
+      },
+      {
+        "id": "bichanakandi",
+        "title": "Bichnakandi Riverbed & Mountain Waterfall",
+        "titleBn": "বিছনাকান্দি জলপাথর ও ঝরনাধারা",
+        "category": "Nature & Landscape",
+        "icon": "mountain",
+        "x": 62,
+        "y": 12,
+        "est": "Natural Wonder",
+        "builtBy": "Khasi Mountain Cascades",
+        "details": "Where majestic mountain streams tumble down from Indian waterfalls onto a vast bed of colorful river stones, creating a crystalline natural swimming lagoon.",
+        "detailsBn": "পাহাড় থেকে নেমে আসা বরফশীতল স্বচ্ছ পানির নদী ও পাথরের বিছানা। বর্ষাকালে এর রূপ স্বর্গীয় মনে হয়।",
+        "image": "/panoramas/sylhet_day.png"
+      }
+    ],
+    "visualMarkers": [
+      {
+        "id": "shy-river",
+        "type": "river",
+        "label": "Surma & Piyain Riverway",
+        "labelBn": "সুরমা ও পিয়াইন নদীপ্রবাহ",
+        "x": 24,
+        "y": 72,
+        "color": "#3b82f6"
+      },
+      {
+        "id": "shy-bridge",
+        "type": "bridge",
+        "label": "Historical Keane Bridge",
+        "labelBn": "ঐতিহাসিক ক্বীন ব্রিজ",
+        "x": 24,
+        "y": 46,
+        "color": "#f59e0b"
+      },
+      {
+        "id": "shy-mazar",
+        "type": "heritage",
+        "label": "Hazrat Shah Jalal (R.) Mazar",
+        "labelBn": "হযরত শাহজালাল (র.) মাজার",
+        "x": 44,
+        "y": 36,
+        "color": "#ef4444"
+      },
+      {
+        "id": "shy-tea",
+        "type": "nature",
+        "label": "Emerald Tea Gardens",
+        "labelBn": "শ্রীমঙ্গলের সবুজ চা বাগান",
+        "x": 74,
+        "y": 34,
+        "color": "#10b981"
+      },
+      {
+        "id": "shy-stone",
+        "type": "nature",
+        "label": "Bholaganj Sada Pathor River",
+        "labelBn": "ভোলাগঞ্জ সাদা পাথর নদী",
+        "x": 68,
+        "y": 62,
+        "color": "#10b981"
+      }
+    ],
+    "nightImageAlt": "/panoramas/sylhet_night_alt.jpg",
+    "delicacies": [
+      {
+        "name": "Sylheti Beef with Satkora",
+        "nameBn": "সাতকড়া দিয়ে গরুর মাংস",
+        "desc": "Tender beef curry simmered with wild aromatic bitter-tangy citrus macroptera (Satkora).",
+        "descBn": "সিলেটের পাহাড়ে জন্মানো সুবাসিত সাতকড়া ফলের টুকরো দিয়ে রান্না করা অপূর্ব স্বাদের মাংস।"
+      },
+      {
+        "name": "Sreemangal 7-Layer Tea",
+        "nameBn": "শ্রীমঙ্গলের সাত রঙের চা",
+        "desc": "Layered glass showing 7 distinct densities, tastes and hues from green tea to spiced milk tea.",
+        "descBn": "রমেশ রাম গৌড়ের উদ্ভাবিত শ্রীমঙ্গলের বিশ্ববিখ্যাত স্তরীভূত বহু রঙের চা।"
+      },
+      {
+        "name": "Akhoni Pulao & Bakarkhani",
+        "nameBn": "আখনি পোলাও ও পাহাড়ি মধু",
+        "desc": "Fragrant aromatic spiced rice cooked in meat broth, served with local lemon and pickles.",
+        "descBn": "মাংসের গাঢ় জুসের সাথে সুগন্ধি চাল ও গরম মশলায় সেদ্ধ করা সুস্বাদু আখনি।"
+      }
+    ],
+    "festivals": [
+      {
+        "name": "Manipuri Raas Leela Festival",
+        "nameBn": "মণিপুরী মহারাসলীলা উৎসব",
+        "period": "Kartik Purnima (November)",
+        "desc": "Mesmerizing classical dance of Radha-Krishna performed in Madhabpur & Kamalganj under moonlight.",
+        "descBn": "কমলগঞ্জের মাধবপুরে পূর্ণিমা রাতে মণিপুরীদের অপূর্ব ঐতিহ্যবাহী পোশাক ও পদাবলীর রাস নৃত্য।"
+      },
+      {
+        "name": "Urs Sharif of Hazrat Shah Jalal",
+        "nameBn": "হযরত শাহজালাল (র.) এর বার্ষিক ওরস",
+        "period": "Lunar calendar",
+        "desc": "Spiritual gathering of pilgrims from all faiths, qawwali singing and sacred pond festivities.",
+        "descBn": "দরগাহ শরিফে দেশ-বিদেশের লাখো ভক্তের আগমন, কাওয়ালি পরিবেশন ও গজারি মাছের পুকুর দর্শন।"
+      }
+    ],
+    "traditions": [
+      {
+        "name": "Manipuri Handloom & Moni Weaving",
+        "nameBn": "মণিপুরী তাঁত ও নকশী চাদর",
+        "desc": "Intricate traditional geometric weaving of Inaphi scarves and festive ceremonial shawls.",
+        "descBn": "মৌলভীবাজারের মণিপুরী পাড়ায় হস্তচালিত কাঠের তাঁতে বোনা উজ্জ্বল রঙের পোশাক ও শাল।"
+      },
+      {
+        "name": "Shitol Pati of Sylhet (UNESCO Inscribed)",
+        "nameBn": "সিলেটের শীতল পাটি (ইউনেস্কো স্বীকৃত)",
+        "desc": "UNESCO Intangible Cultural Heritage cane mat that feels naturally cool even in blistering heat.",
+        "descBn": "বালাগঞ্জের মুর্তা বেতের মসৃণ আঁশ দিয়ে শিল্পীদের নিপুণ হাতে বোনা শীতল পাটি।"
+      }
+    ],
+    "gallery": [
+      "/panoramas/sylhet_day.jpg",
+      "/panoramas/sylhet_night.jpg",
+      "/panoramas/sylhet_night_alt.jpg"
+    ]
+  },
+  {
+    "id": "rangpur",
+    "name": "Rangpur",
+    "nameBn": "রংপুর",
+    "tagline": "The Realm of Royal Palaces, Kantajew Terracotta & Teesta Delta",
+    "taglineBn": "তাজহাট রাজবাড়ি, কান্তজিউ মন্দির ও তিস্তা ব্যারেজের ঐতিহ্যবাহী উত্তরাঞ্চল",
+    "description": "Rangpur division is the crown jewel of northern Bangladesh, rich with royal zamindar palaces, world-acclaimed terracotta Hindu art, and agricultural wonders. It is globally celebrated for the Kantajew Temple in Dinajpur (the finest terracotta temple in South Asia), the magnificent 22-domed Tajhat Palace, Ramsagar Lake, and the Teesta Barrage engineering irrigation system.",
+    "descriptionBn": "রংপুর বিভাগ উত্তরবঙ্গের প্রত্নতাত্ত্বিক ও কৃষির অনন্য কেন্দ্র। কান্তজিউ মন্দিরের (দিনাজপুর) মতো দক্ষিণ এশিয়ার শ্রেষ্ঠ টেরাকোটা স্থাপত্য, তাজহাট রাজবাড়ি, রামসাগর দিঘি এবং তিস্তা ব্যারেজ এই বিভাগের চিরন্তন অহংকার।",
+    "dayImage": "/panoramas/rangpur_day.jpg",
+    "nightImage": "/panoramas/rangpur_night.jpg",
+    "themeColor": "#f59e0b",
+    "stats": {
+      "districts": 8,
+      "upazilas": "58+",
+      "landmarks": "115+",
+      "area": "16,184 km²",
+      "population": "17.6 Million",
+      "majorRiver": "Teesta, Brahmaputra, Dharla, Jamuneshwari, Karatoya",
+      "literacyRate": "70.8%",
+      "gdpContribution": "Pioneering Tobacco, Potato & High-Yield Hybrid Rice Granary"
+    },
+    "historyOverview": "Formerly part of the ancient kingdom of Kamarupa and Cooch Behar, Rangpur was ruled by powerful monarchs who built Italian marble palaces and adorned temples with mythological Mahabharata and Ramayana epic terracotta engravings.",
+    "foreignTouristGuide": {
+      "howToReach": "Saidpur Airport (SPD) is the northern aviation hub with up to 15 daily flights from Dhaka. The Kurigram Express & Rangpur Express connect directly to Dhaka in 6-7 hours.",
+      "bestTimeToVisit": "October to March (Crisp, cool winters with clear blue skies and scenic mountain views of the Himalayas in Panchagarh).",
+      "topExperiences": "Photographing the thousand terracotta relief panels at Kantajew Temple, walking through the grand columned halls of Tajhat Palace, boating on Ramsagar Lake, and viewing the Kanchenjunga peak from Tentulia.",
+      "safetyTips": "Hiring a local battery rickshaw or private car in Dinajpur makes visiting all surrounding historic temples easy and affordable."
+    },
+    "districts": [
+      "rangpur",
+      "dinajpur",
+      "kurigram",
+      "gaibandha",
+      "nilphamari",
+      "panchagarh",
+      "thakurgaon",
+      "lalmonirhat"
+    ],
+    "majorCities": [
+      {
+        "name": "Rangpur Metropolitan",
+        "pop": "1.0M+",
+        "role": "Divisional Capital, Education Hub & Tobacco Industry",
+        "access": "Saidpur Airport Corridor, Rangpur Central Station"
+      },
+      {
+        "name": "Dinajpur Historic City",
+        "pop": "0.5M+",
+        "role": "Ancient Terracotta Art & Litchi Capital",
+        "access": "Dinajpur Railway & National Highway"
+      },
+      {
+        "name": "Saidpur Aviation City",
+        "pop": "0.3M+",
+        "role": "Northern Airport Gateway & Historic Railway Workshops",
+        "access": "SPD Airport"
+      },
+      {
+        "name": "Panchagarh (Tentulia)",
+        "pop": "0.2M+",
+        "role": "Northernmost Frontier & Himalayan Tea Foothills",
+        "access": "Tentulia Highway"
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "tajhat_palace",
+        "title": "Tajhat Royal Palace (Rangpur)",
+        "titleBn": "তাজহাট রাজবাড়ি (রংপুর)",
+        "category": "Palaces & Historical Forts",
+        "icon": "palace",
+        "x": 48,
+        "y": 42,
+        "est": "1908",
+        "builtBy": "Maharaja Kumar Gopal Lal Roy",
+        "details": "A breathtaking neoclassical royal palace with a 75-foot frontage, central dome, Italian imported white marble stairs, and rare antiquities museum.",
+        "detailsBn": "বিংশ শতাব্দীর শুরুতে নির্মিত নিও-ক্লাসিক্যাল রাজপ্রাসাদ। সাদা মার্বেল পাথরের রাজকীয় সিঁড়ি, গম্বুজ ও বিশাল বাগান সমৃদ্ধ এটি উত্তরবঙ্গের অন্যতম শ্রেষ্ঠ প্রাসাদ।",
+        "image": "/panoramas/rangpur_day.png"
+      },
+      {
+        "id": "kantajew_temple",
+        "title": "Kantaji (Kantajew) Navaratna Temple (Dinajpur)",
+        "titleBn": "কান্তজিউ নবরত্ন মন্দির (দিনাজপুর)",
+        "category": "Ancient Mosques, Temples & Viharas",
+        "icon": "temple",
+        "x": 28,
+        "y": 35,
+        "est": "1752 CE",
+        "builtBy": "Maharaja Pran Nath & Ram Nath",
+        "details": "South Asia's most magnificent terracotta temple, entirely covered with thousands of exquisitely detailed terracotta plaques illustrating scenes from the Ramayana and Mahabharata.",
+        "detailsBn": "১৭৫২ সালে নির্মিত নবরত্ন মন্দির। এর বাইরের ও ভেতরের দেয়ালের প্রতিটি ইঞ্চিতে পোড়ামাটির ফলকে রামায়ণ ও মহাভারতের কাহিনী উৎকীর্ণ রয়েছে।",
+        "image": "/panoramas/rangpur_day.png"
+      },
+      {
+        "id": "teesta_barrage",
+        "title": "Teesta Barrage (Dalia Irrigation System)",
+        "titleBn": "তিস্তা ব্যারেজ (ডালিয়া)",
+        "category": "Bridges & Mega Engineering",
+        "icon": "bridge",
+        "x": 65,
+        "y": 18,
+        "est": "1990",
+        "builtBy": "Bangladesh Water Development Board",
+        "details": "The largest water control engineering barrage in Bangladesh (615 meters long with 44 radial gates), irrigating over 540,000 hectares of farmland.",
+        "detailsBn": "তিস্তা নদীর ওপর নির্মিত ৬১৫ মিটার দীর্ঘ ৪৪টি জলকপাট সমৃদ্ধ দেশের বৃহত্তম সেচ ব্যারেজ ও অন্যতম প্রধান পর্যটন কেন্দ্র।",
+        "image": "/panoramas/rangpur_day.png"
+      },
+      {
+        "id": "ramsagar_dighi",
+        "title": "Ramsagar Historic Lake & National Park",
+        "titleBn": "রামসাগর জাতীয় উদ্যান ও ঐতিহাসিক দিঘি",
+        "category": "Nature & Landscape",
+        "icon": "water",
+        "x": 32,
+        "y": 52,
+        "est": "1750",
+        "builtBy": "Raja Ram Nath",
+        "details": "The largest man-made historic lake in Bangladesh (4.37 lakh m²), excavated to provide drought relief to starving citizens during the Great Bengal famine.",
+        "detailsBn": "১৭৫০ সালে খরার হাত থেকে প্রজাদের বাঁচাতে রাজা রামনাথ কর্তৃক খনন করা দেশের বৃহত্তম মানবসৃষ্ট দিঘি ও মনোরম জাতীয় উদ্যান।",
+        "image": "/panoramas/rangpur_day.png"
+      },
+      {
+        "id": "carmichael_college",
+        "title": "Carmichael College Grand Red Brick Campus",
+        "titleBn": "কারমাইকেল কলেজ ও ঐতিহাসিক ভিক্টোরিয়ান ভবন",
+        "category": "Palaces & Historical Forts",
+        "icon": "landmark",
+        "x": 42,
+        "y": 62,
+        "est": "1916",
+        "builtBy": "Lord Thomas David Gibson-Carmichael",
+        "details": "A 300-acre lush educational campus highlighted by an iconic 610-foot Indo-Saracenic red-brick building with Mughal domes and minarets.",
+        "detailsBn": "১৯১৬ সালে প্রতিষ্ঠিত ঐতিহ্যবাহী শিক্ষা প্রতিষ্ঠান। ইন্দো-সারাসেনিক স্থাপত্যের সুরম্য লাল ভবনটি উত্তরবঙ্গের শিক্ষার প্রতীক।",
+        "image": "/panoramas/rangpur_day.png"
+      },
+      {
+        "id": "kanchenjunga_tentulia",
+        "title": "Kanchenjunga Himalayan Viewpoint (Tentulia)",
+        "titleBn": "তেঁতুলিয়া হিমালয় ও কাঞ্চনজঙ্ঘা ভিউ পয়েন্ট",
+        "category": "Nature & Landscape",
+        "icon": "mountain",
+        "x": 18,
+        "y": 12,
+        "est": "Natural Wonder",
+        "builtBy": "Himalayan Mountain Range",
+        "details": "The northernmost point of Bangladesh on the banks of Mahananda river, where the world's third highest snow-capped peak (Kanchenjunga) is visibly glowing at sunrise.",
+        "detailsBn": "বাংলাদেশের উত্তরতম সীমান্ত তেঁতুলিয়া, যেখান থেকে শরৎ ও শীতে খালি চোখে বরফাবৃত কাঞ্চনজঙ্ঘা শৃঙ্গের রূপ স্পষ্ট দেখা যায়।",
+        "image": "/panoramas/rangpur_day.png"
+      }
+    ],
+    "visualMarkers": [
+      {
+        "id": "rng-palace",
+        "type": "heritage",
+        "label": "Tajhat Royal Palace",
+        "labelBn": "তাজহাট রাজবাড়ি প্রাসাদ",
+        "x": 48,
+        "y": 52,
+        "color": "#ef4444"
+      },
+      {
+        "id": "rng-river",
+        "type": "river",
+        "label": "Ghaghat River Waterway",
+        "labelBn": "ঘাঘট নদী ও প্লাবনভূমি",
+        "x": 52,
+        "y": 35,
+        "color": "#3b82f6"
+      },
+      {
+        "id": "rng-stadium",
+        "type": "district",
+        "label": "Rangpur Cricket Stadium",
+        "labelBn": "রংপুর স্টেডিয়াম",
+        "x": 73,
+        "y": 58,
+        "color": "#8b5cf6"
+      },
+      {
+        "id": "rng-bridge",
+        "type": "bridge",
+        "label": "City Bypass Bridge",
+        "labelBn": "রংপুর সিটি বাইপাস সেতু",
+        "x": 72,
+        "y": 38,
+        "color": "#f59e0b"
+      }
+    ],
+    "delicacies": [
+      {
+        "name": "Haribhanga Mango of Rangpur",
+        "nameBn": "রংপুরের বিখ্যাত হাঁড়িভাঙ্গা আম",
+        "desc": "GI-certified fleshy, fiberless, sweet mango with tiny flat seed, grown in Mithapukur.",
+        "descBn": "মিঠাপুকুর ও পদাগঞ্জের বিখ্যাত আঁশহীন, মিষ্টি ও সুস্বাদু জিআই সার্টিফাইড হাঁড়িভাঙ্গা আম।"
+      },
+      {
+        "name": "Sidal & Chholar Daal Pitha",
+        "nameBn": "সিডল ভর্তা ও কাউনের ক্ষীর",
+        "desc": "Traditional fermented fish delicacy mashed with dry chilies and mustard oil, loved in the north.",
+        "descBn": "ছোট মাছ কচুপাতা দিয়ে গেঁজিয়ে তৈরি উত্তরবঙ্গের অতি প্রাচীন উপাদেয় সিডল ভর্তা।"
+      },
+      {
+        "name": "Bogra Peda & Gaibandha Ghosh Curd",
+        "nameBn": "গাইবান্ধার রসমঞ্জরী ও ক্ষীরপ্যাঁড়া",
+        "desc": "Dense slow-boiled milk sweets flavored with pure green cardamom.",
+        "descBn": "গাইবান্ধার শতবর্ষী রসমঞ্জরী এবং খাঁটি ক্ষীরসার মিষ্টি প্যাঁড়া।"
+      }
+    ],
+    "festivals": [
+      {
+        "name": "Kantajew Temple Rash Mela (Dinajpur)",
+        "nameBn": "কান্তজীউ রাসমেলা ও লোকজ প্রদর্শনী",
+        "period": "Rash Purnima (November)",
+        "desc": "Month-long historic mela surrounding the 1722 terracotta masterpiece temple of Maharaja Pran Nath.",
+        "descBn": "১৭২২ সালের বিশ্ববিখ্যাত টেরাকোটা কান্তজী মন্দিরের পাদদেশে আয়োজিত শতাব্দী প্রাচীন মেলা।"
+      },
+      {
+        "name": "Bhawaiya Folk Music Festival",
+        "nameBn": "উত্তরবঙ্গের ভাওয়াইয়া সংগীত উৎসব",
+        "period": "Winter Season",
+        "desc": "Soulful cart-driver songs (Gariyal Bhai) echoing the hardships and romantic lore of Teesta plains.",
+        "descBn": "ও কি গাড়িয়াল ভাই... সুরে তিস্তা-ধরম্পাল অববাহিকার মানুষের জীবনগাঁথার ভাওয়াইয়া উৎসব।"
+      }
+    ],
+    "traditions": [
+      {
+        "name": "Shataranji Weaving of Nishbetganj",
+        "nameBn": "নিশবেতগঞ্জের শতরঞ্জি (জিআই পণ্য)",
+        "desc": "GI-certified hand-loomed colorful floor carpets with patterns originating in the Mughal era.",
+        "descBn": "রংপুরের মোঘল আমলের ঐতিহ্যবাহী হস্তচালিত তাঁতে বোনা দৃষ্টিনন্দন রঙিন শতরঞ্জি মাদুর।"
+      },
+      {
+        "name": "Terracotta & Bamboo Bamboo Craft",
+        "nameBn": "বাঁশ ও পোড়ামাটির কারুশিল্প",
+        "desc": "Bespoke woven baskets, fishing gear, and clay terracotta artifacts of Dinajpur artisans.",
+        "descBn": "উত্তরবঙ্গের গ্রামীণ জীবনের ঐতিহ্যবাহী বাঁশের পলই, কুলা ও পোড়ামাটির পুতুল শিল্প।"
+      }
+    ],
+    "gallery": [
+      "/panoramas/rangpur_day.jpg",
+      "/panoramas/rangpur_night.jpg"
+    ]
+  },
+  {
+    "id": "mymensingh",
+    "name": "Mymensingh",
+    "nameBn": "ময়মনসিংহ",
+    "tagline": "The Cradle of Folk Ballads (Maimansingha Gitika) & Garo Hills",
+    "taglineBn": "ময়মনসিংহ গীতিকার দেশ, ব্রহ্মপুত্রের কূল, শশী লজ ও গারো পাহাড়",
+    "description": "Mymensingh division is the folk folklore and educational sanctuary of Bangladesh. Resting along the historic Old Brahmaputra river beneath the foothills of the Garo Hills, it is renowned for the 19th-century Greek-goddess-sculpted Shashi Lodge, the turquoise waters of Birishiri Ceramic Lake, Muktagacha Rajbari (birthplace of Monda), and Bangladesh Agricultural University.",
+    "descriptionBn": "ময়মনসিংহ বিভাগ বাংলার লোকসংস্কৃতি ও প্রাচীন লোকগীতির পীঠস্থান। প্রাচীন ব্রহ্মপুত্র নদের তীরে এবং গারো পাহাড়ের কোলে অবস্থিত এই বিভাগে রয়েছে অনন্য শশী লজ, বিরিশিরির চীনামাটির নীল হ্রদ, মুক্তাগাছা রাজবাড়ি এবং দেশের শীর্ষ কৃষি বিশ্ববিদ্যালয়।",
+    "dayImage": "/panoramas/mymensingh_day.jpg",
+    "nightImage": "/panoramas/mymensingh_night.jpg",
+    "themeColor": "#ec4899",
+    "stats": {
+      "districts": 4,
+      "upazilas": "35+",
+      "landmarks": "95+",
+      "area": "10,584 km²",
+      "population": "12.3 Million",
+      "majorRiver": "Old Brahmaputra, Kangsha, Someshwari, Shitalakshya, Bhogai",
+      "literacyRate": "70.2%",
+      "gdpContribution": "Pioneering National Freshwater Fisheries & Agricultural Research"
+    },
+    "historyOverview": "Famous globally for the 16th-century 'Maimansingha Gitika' (collected by Dr. Dinesh Chandra Sen), this region witnessed flourishing zamindaris like the Muktagacha and Gouripur estates and the tribal traditions of the indigenous Garo and Hajong communities.",
+    "foreignTouristGuide": {
+      "howToReach": "Direct high-speed expressway and commuter trains like Teesta & Brahmaputra Express connect Dhaka to Mymensingh in just 2.5 to 3 hours.",
+      "bestTimeToVisit": "October to March (Pleasant weather for exploring Susang Durgapur, the Garo tribal hills, and riverside walks).",
+      "topExperiences": "Photographing the classical Aphrodite statue and grand ballroom at Shashi Lodge, boating across the turquoise water of Birishiri China Clay Lake, and tasting authentic Muktagachar Monda.",
+      "safetyTips": "Take a local battery rickshaw for easy travel between Mymensingh Town, Shashi Lodge, and the Agricultural University botanical gardens."
+    },
+    "districts": [
+      "mymensingh",
+      "jamalpur",
+      "netrokona",
+      "sherpur"
+    ],
+    "majorCities": [
+      {
+        "name": "Mymensingh Education City",
+        "pop": "0.7M+",
+        "role": "Divisional Capital, Agricultural University & Medical Hub",
+        "access": "Dhaka-Mymensingh 4-Lane Highway, Mymensingh Junction"
+      },
+      {
+        "name": "Jamalpur Handloom Town",
+        "pop": "0.4M+",
+        "role": "Nakshi Kantha Embroidery & Sugar Mills",
+        "access": "Jamalpur Railway Hub"
+      },
+      {
+        "name": "Netrokona (Susang Durgapur)",
+        "pop": "0.3M+",
+        "role": "Birishiri Ceramic Lake & Indigenous Cultural Academy",
+        "access": "Someshwari River Crossing"
+      },
+      {
+        "name": "Sherpur (Garo Hills)",
+        "pop": "0.3M+",
+        "role": "Eco-Tourism & Mountain Foothills",
+        "access": "Sherpur Highway"
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "shashi_lodge",
+        "title": "Shashi Lodge (Mymensingh Rajbari)",
+        "titleBn": "শশী লজ (ময়মনসিংহ রাজবাড়ি)",
+        "category": "Palaces & Historical Forts",
+        "icon": "palace",
+        "x": 45,
+        "y": 45,
+        "est": "1897 / 1905",
+        "builtBy": "Maharaja Suryakanta Acharya Chowdhury",
+        "details": "A stunning neoclassical European-style palace featuring a crystal ballroom, grand Roman arches, expansive gardens, and an original marble statue of the Greek goddess Aphrodite.",
+        "detailsBn": "ইউরোপীয় নিও-ক্লাসিক্যাল স্থাপত্যে নির্মিত অপূর্ব রাজপ্রাসাদ। এর বাগান প্রাঙ্গণে রয়েছে গ্রিক দেবী আফ্রোদিতির মার্বেল ভাস্কর্য ও ঐতিহাসিক সুড়ঙ্গ।",
+        "image": "/panoramas/mymensingh_day.png"
+      },
+      {
+        "id": "birishiri_ceramic_lake",
+        "title": "Birishiri China Clay (Ceramic) Lake & Someshwari",
+        "titleBn": "বিরিশিরি চীনামাটির নীল হ্রদ ও সোমেশ্বরী নদী",
+        "category": "Nature & Landscape",
+        "icon": "water",
+        "x": 72,
+        "y": 22,
+        "est": "Natural Wonder",
+        "builtBy": "Garo Foothills & Geological Deposits",
+        "details": "Famed for its turquoise and emerald crystal-clear waters framed against white porcelain clay hills beneath the picturesque Meghalaya border mountains.",
+        "detailsBn": "সাদা চীনামাটির পাহাড়ের কোল ঘেঁষে তৈরি নীল ও ফিরোজা রঙের স্বচ্ছ হ্রদ। সোমেশ্বরী নদীর বালুকাময় তীর এবং গারো পাহাড় সংলগ্ন এক জাদুকরি স্থান।",
+        "image": "/panoramas/mymensingh_day.png"
+      },
+      {
+        "id": "muktagacha_rajbari",
+        "title": "Muktagacha Royal Palace Complex",
+        "titleBn": "মুক্তাগাছা ঐতিহাসিক রাজবাড়ি",
+        "category": "Palaces & Historical Forts",
+        "icon": "palace",
+        "x": 28,
+        "y": 52,
+        "est": "1727",
+        "builtBy": "Zamindar Srikrishna Acharya Chowdhury",
+        "details": "A vast 16-building palace complex comprising the revolving stage theater, the elephant stable, and the historic home of the 200-year-old Muktagachar Monda sweet.",
+        "detailsBn": "১৬টি সুরম্য প্রাসাদের সমন্বয়ে গঠিত বিশাল জমিদার বাড়ি। এতে রয়েছে ঐতিহাসিক ঘূর্ণায়মান নাট্যমঞ্চ, হাতির আখড়া এবং বিখ্যাত মুক্তাগাছার মণ্ডার ঐতিহ্য।",
+        "image": "/panoramas/mymensingh_day.png"
+      },
+      {
+        "id": "bau_campus",
+        "title": "Bangladesh Agricultural University (BAU) Campus & Botanic Gardens",
+        "titleBn": "বাংলাদেশ কৃষি বিশ্ববিদ্যালয় ও বোটানিক্যাল গার্ডেন",
+        "category": "Palaces & Historical Forts",
+        "icon": "tree",
+        "x": 52,
+        "y": 65,
+        "est": "1961",
+        "builtBy": "Government of Bangladesh",
+        "details": "A 1,200-acre riverside research campus on the banks of the Old Brahmaputra, holding the largest plant biodiversity collection in the country.",
+        "detailsBn": "১২০০ একর জুড়ে ব্রহ্মপুত্র নদের তীরে গড়ে ওঠা দেশের শীর্ষ কৃষি গবেষণা বিশ্ববিদ্যালয়। এর সুবিশাল বোটানিক্যাল গার্ডেন ও জীববৈচিত্র্য অসাধারণ।",
+        "image": "/panoramas/mymensingh_day.png"
+      },
+      {
+        "id": "garo_hills_sherpur",
+        "title": "Gajni Avakash & Madhutila Eco Park (Garo Hills)",
+        "titleBn": "গজনী অবকাশ ও মধুটিলা ইকোপার্ক (শেরপুর)",
+        "category": "Nature & Landscape",
+        "icon": "mountain",
+        "x": 25,
+        "y": 18,
+        "est": "1993",
+        "builtBy": "Forest Department & District Administration",
+        "details": "A serene eco-park situated in the natural sal forests of the Garo Hills, featuring hanging bridges, watchtowers with views into India, and indigenous tribal culture.",
+        "detailsBn": "গারো পাহাড়ের সবুজ শালবনের ভেতর অবস্থিত আকর্ষণীয় ইকোপার্ক। ওয়াচ টাওয়ার, ঝুলন্ত সেতু ও আদিবাসী সংস্কৃতির ছোঁয়া পাওয়া যায় এখানে।",
+        "image": "/panoramas/mymensingh_day.png"
+      },
+      {
+        "id": "brahmaputra_riverfront",
+        "title": "Old Brahmaputra Riverside Promenade & Zainul Park",
+        "titleBn": "পুরাতন ব্রহ্মপুত্র নদী তীর ও শিল্পাচার্য জয়নুল আবেদিন পার্ক",
+        "category": "Monuments & Memorials",
+        "icon": "water",
+        "x": 48,
+        "y": 38,
+        "est": "Historic / 1975",
+        "builtBy": "Mymensingh Municipality & Shilpacharya Zainul Abedin Gallery",
+        "details": "Dedicated to the founding father of modern Bangladeshi art, featuring riverside pathways, the Zainul Abedin Art Gallery, and peaceful riverboat cruises.",
+        "detailsBn": "শিল্পাচার্য জয়নুল আবেদিনের স্মৃতিবিজড়িত সংগ্রহশালা ও শান্ত ব্রহ্মপুত্র নদের তীরে নির্মিত মনোরম পার্ক ও সান্ধ্যকালীন নদীভ্রমণ কেন্দ্র।",
+        "image": "/panoramas/mymensingh_day.png"
+      }
+    ],
+    "visualMarkers": [
+      {
+        "id": "my-river",
+        "type": "river",
+        "label": "Old Brahmaputra River",
+        "labelBn": "পুরাতন ব্রহ্মপুত্র নদ",
+        "x": 60,
+        "y": 55,
+        "color": "#3b82f6"
+      },
+      {
+        "id": "my-bridge",
+        "type": "bridge",
+        "label": "Shambhuganj Bridge",
+        "labelBn": "শম্ভুগঞ্জ ব্রহ্মপুত্র সেতু",
+        "x": 68,
+        "y": 52,
+        "color": "#f59e0b"
+      },
+      {
+        "id": "my-shashi",
+        "type": "heritage",
+        "label": "Shashi Lodge (Rajbari)",
+        "labelBn": "শশী লজ (ময়মনসিংহ রাজবাড়ি)",
+        "x": 46,
+        "y": 35,
+        "color": "#ef4444"
+      },
+      {
+        "id": "my-park",
+        "type": "nature",
+        "label": "Central Park Fountain Circle",
+        "labelBn": "সেন্ট্রাল পার্ক চত্বর ও ফোয়ারা",
+        "x": 40,
+        "y": 46,
+        "color": "#10b981"
+      },
+      {
+        "id": "my-college",
+        "type": "heritage",
+        "label": "Alexander Castle / College",
+        "labelBn": "আলেকজান্ডার ক্যাসেল",
+        "x": 15,
+        "y": 70,
+        "color": "#ef4444"
+      }
+    ],
+    "dayImageAlt": "/panoramas/mymensingh_day_alt.jpg",
+    "delicacies": [
+      {
+        "name": "Muktagachha Monda",
+        "nameBn": "মুক্তাগাছার সুপ্রসিদ্ধ মণ্ডা",
+        "desc": "Invented in 1824 by Ram Gopal Ghosh, royal sweet made of pure cow milk chhana and syrup.",
+        "descBn": "১৮২৪ সালে রামগোপাল ঘোষ উদ্ভাবিত জমিদারদের প্রিয় খাঁটি ছানা ও এলাচ সুবাসিত মণ্ডা।"
+      },
+      {
+        "name": "Haor River Boal & Chitol Curry",
+        "nameBn": "হাওরের বোয়াল ও চিতল মাছ",
+        "desc": "Wild river fish caught from Brahmaputra and Netrokona haors cooked in rich onion-chili gravy.",
+        "descBn": "ব্রহ্মপুত্র ও কংস নদের তাজা মাছের তেল-ঝোল তরকারি এবং হাওরাঞ্চলের ঐতিহ্যবাহী শুঁটকি।"
+      },
+      {
+        "name": "Birishiri Garo Red Rice & Pitha",
+        "nameBn": "বিরিশিরির লাল চালের ক্ষীর ও পিঠা",
+        "desc": "Native aromatic hill rice harvested by indigenous communities near the White Clay hills.",
+        "descBn": "সুসং দুর্গাপুরের চিনামাটির পাহাড়ের পাদদেশে গারোদের উৎপাদিত সুগন্ধি লাল চালের পিঠা।"
+      }
+    ],
+    "festivals": [
+      {
+        "name": "Mymensingh Geetika & Pala Gaan",
+        "nameBn": "ময়মনসিংহ গীতিকা ও মহুয়া পালা",
+        "period": "Winter & Baishakh",
+        "desc": "Centuries-old folk ballads of Mahua, Malua, and Dewan Madina collected by Dr. Dinesh Chandra Sen.",
+        "descBn": "চন্দ্রকুমার দে ও ড. দীনেশচন্দ্র সেন সংগৃহীত বিশ্বের অন্যতম শ্রেষ্ঠ প্রাচীন লোকগাঁথা মহুয়া পালা।"
+      },
+      {
+        "name": "Garo Wangala Festival (Birishiri)",
+        "nameBn": "গারোদের ওয়ানগালা নবান্ন উৎসব",
+        "period": "Late Autumn (October/November)",
+        "desc": "Thanksgiving festival to the Sun God Saljong with 100 drums (Dama), buffalo horn flutes and dances.",
+        "descBn": "সূর্যদেবতা সালজং-এর প্রতি কৃতজ্ঞতা জানিয়ে একশ ঢোলের তালে গারো তরুণ-তরুণীদের বর্ণিল নৃত্য।"
+      }
+    ],
+    "traditions": [
+      {
+        "name": "Nakshi Kantha of Jamalpur",
+        "nameBn": "জামালপুরের বিশ্বখ্যাত নকশীকাঁথা",
+        "desc": "Exquisite needlework embroidered quilts telling stories of rural romance and delta life.",
+        "descBn": "সুই-সুতায় বোনা গ্রামীণ নারী শিল্পীদের নিপুণ হাতের নকশা ও বিশ্বখ্যাত নকশীকাঁথা শিল্প।"
+      },
+      {
+        "name": "Islampur Bell-Metal Craft (Kansha)",
+        "nameBn": "ইসলামপুরের কাঁসা ও পিতল শিল্প",
+        "desc": "Century-old hand-hammered shiny bell-metal plates, bowls, and royal decorative utensils.",
+        "descBn": "জামালপুরের ইসলামপুরের ঐতিহ্যবাহী হাতুড়ি পেটা উজ্জ্বল কাঁসার বাসনপত্র ও বাদ্যযন্ত্র শিল্প।"
+      }
+    ],
+    "gallery": [
+      "/panoramas/mymensingh_day.jpg",
+      "/panoramas/mymensingh_day_alt.jpg",
+      "/panoramas/mymensingh_night.jpg"
+    ]
+  }
+]

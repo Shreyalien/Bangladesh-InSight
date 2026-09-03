@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* No global body background — App.jsx sets it based on isNightMode */
+
+.glass-panel {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.glass-night {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.glass-day {
+  background: rgba(255, 255, 255, 0.90);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+}
+
+.light-glass {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.dark-glass {
+  background: rgba(2, 6, 23, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+
+.glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.glass-card-hover:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px -10px rgba(0, 0, 0, 0.6);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.5);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.8);
+}
+
+/* Hide scrollbar but keep scroll functionality (used by no-scrollbar) */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Display font accent (headlines) */
+.font-display {
+  font-family: 'Hind Siliguri', 'Inter', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/*
+  Lightweight replacement for the "tailwindcss-animate" plugin, which is
+  referenced throughout the components (animate-in, fade-in, zoom-in-95,
+  slide-in-from-*, duration-*) but was never installed/added to
+  tailwind.config.js plugins, so none of the entrance animations were
+  actually running. This restores the same class names with plain CSS.
+*/
+@keyframes enter {
+  from {
+    opacity: var(--tw-enter-opacity, 1);
+    transform: translate3d(var(--tw-enter-translate-x, 0), var(--tw-enter-translate-y, 0), 0)
+      scale3d(var(--tw-enter-scale, 1), var(--tw-enter-scale, 1), var(--tw-enter-scale, 1));
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  }
+}
+
+.animate-in {
+  animation-name: enter;
+  animation-duration: var(--tw-anim-duration, 150ms);
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+}
+.fade-in { --tw-enter-opacity: 0; }
+.zoom-in-95 { --tw-enter-scale: 0.95; }
+.slide-in-from-top-4 { --tw-enter-translate-y: -1rem; }
+
+.duration-100 { --tw-anim-duration: 100ms; }
+.duration-150 { --tw-anim-duration: 150ms; }
+.duration-200 { --tw-anim-duration: 200ms; }
+.duration-300 { --tw-anim-duration: 300ms; }
+.duration-500 { --tw-anim-duration: 500ms; }
+.duration-700 { --tw-anim-duration: 700ms; }
+.duration-1000 { --tw-anim-duration: 1000ms; }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.animate-float {
+  animation: float 3.5s ease-in-out infinite;
+}
+
+@keyframes ping-slow {
+  0% { transform: scale(1); opacity: 0.6; }
+  75%, 100% { transform: scale(1.8); opacity: 0; }
+}
+.animate-ping-slow {
+  animation: ping-slow 2.5s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
