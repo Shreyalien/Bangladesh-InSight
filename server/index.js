@@ -149,32 +149,6 @@ app.post('/api/itinerary', (req, res) => {
 });
 
 
-// Bulletproof Panorama Asset Resolver with case-insensitivity and extension tolerance
-app.get('/panoramas/:filename', (req, res, next) => {
-  const requestedName = req.params.filename;
-  const distPanoramas = path.join(__dirname, '../client/dist/panoramas');
-  const pubPanoramas = path.join(__dirname, '../client/public/panoramas');
-  const candidateDirs = [distPanoramas, pubPanoramas];
-
-  for (const dir of candidateDirs) {
-    if (!fs.existsSync(dir)) continue;
-    const files = fs.readdirSync(dir);
-    if (files.includes(requestedName)) {
-      return res.sendFile(path.join(dir, requestedName));
-    }
-    const ciMatch = files.find(f => f.toLowerCase() === requestedName.toLowerCase());
-    if (ciMatch) {
-      return res.sendFile(path.join(dir, ciMatch));
-    }
-    const base = requestedName.replace(/\.(jpg|png|jpeg)$/i, '').toLowerCase();
-    const extMatch = files.find(f => f.toLowerCase().startsWith(base));
-    if (extMatch) {
-      return res.sendFile(path.join(dir, extMatch));
-    }
-  }
-  next();
-});
-
 // Serve static client build
 const clientDist = path.join(__dirname, '../client/dist');
 if (fs.existsSync(clientDist)) {

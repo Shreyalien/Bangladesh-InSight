@@ -8,7 +8,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Hind Siliguri', 'Inter', 'sans-serif']
+        sans: ['Hind Siliguri', 'Inter', 'sans-serif'],
+        display: ['Hind Siliguri', 'Inter', 'sans-serif'],
+        bengali: ['Hind Siliguri', 'sans-serif']
       }
     }
   },

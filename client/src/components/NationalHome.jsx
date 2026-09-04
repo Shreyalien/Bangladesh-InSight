@@ -34,7 +34,6 @@ const NATIONAL_STATS = [
 
 export default function NationalHome({ nationalData, divisions = [], onSelectDivision, isNightMode, isBengali, onNavigateTab }) {
   const [slide, setSlide] = useState(0);
-  const [isHovered, setIsHovered] = useState(false);
   const [progress, setProgress] = useState(0);
   const dragStartX = useRef(0);
 
@@ -48,7 +47,7 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
   const next = useCallback(() => goToSlide(slide + 1), [slide, goToSlide]);
   const prev = useCallback(() => goToSlide(slide - 1), [slide, goToSlide]);
 
-  // Automatic slide progression with live progress line
+  // Automatic slide progression with live progress line (never halted by hovering)
   useEffect(() => {
     const intervalTime = 4000;
     const tickTime = 50;
@@ -99,12 +98,10 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
 
       {/* ═══ CINEMATIC HERO SLIDER STAGE ═══ */}
       <section
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
         onMouseDown={handleMouseDown}
         onMouseUp={handleMouseUp}
         onClick={handleHeroClick}
-        className="relative w-full h-screen min-h-[640px] max-h-[920px] overflow-hidden select-none cursor-pointer"
+        className="relative w-full h-screen min-h-[620px] max-h-[920px] overflow-hidden select-none cursor-pointer"
         title={isBengali ? 'ক্লিক করে পরের ছবি দেখুন' : 'Click left or right to switch slides'}
       >
         {/* Render all slides with smooth crossfade */}
@@ -123,11 +120,6 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
               <img
                 src={sImg}
                 alt={s.name}
-                onError={(e) => {
-                  const src = e.target.src;
-                  if (src.endsWith('.jpg')) e.target.src = src.replace('.jpg', '.png');
-                  else if (src.endsWith('.png')) e.target.src = src.replace('.png', '.jpg');
-                }}
                 className="w-full h-full object-cover object-center transform transition-transform duration-1000"
                 style={{
                   transform: isActive ? 'scale(1)' : 'scale(1.04)',
@@ -138,11 +130,11 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
         })}
 
         {/* Ambient Overlay Gradients */}
-        <div className="absolute inset-0 z-10 bg-gradient-to-b from-black/50 via-transparent to-black/90 pointer-events-none" />
-        <div className="absolute inset-0 z-10 bg-gradient-to-r from-black/40 via-transparent to-black/20 pointer-events-none" />
+        <div className="absolute inset-0 z-10 bg-gradient-to-b from-black/60 via-transparent to-black/90 pointer-events-none" />
+        <div className="absolute inset-0 z-10 bg-gradient-to-r from-black/50 via-transparent to-black/20 pointer-events-none" />
 
         {/* Top Floating Badge */}
-        <div className="absolute top-28 left-4 sm:left-10 z-20 flex items-center gap-2 pointer-events-none">
+        <div className="absolute top-24 sm:top-28 left-4 sm:left-10 z-20 flex items-center gap-2 pointer-events-none">
           <div
             className="flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold text-white shadow-xl backdrop-blur-xl"
             style={{ background: 'rgba(0,0,0,0.7)', border: `1.5px solid ${cur.color}` }}
@@ -150,7 +142,7 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
             <span className="w-2.5 h-2.5 rounded-full" style={{ background: cur.color }} />
             <span className="font-mono text-xs">{slide + 1}/8</span>
             <span className="text-white/40">·</span>
-            <span className="font-display tracking-wide">{isBengali ? cur.nameBn : cur.name}</span>
+            <span className="tracking-wide font-bold">{isBengali ? cur.nameBn : cur.name}</span>
           </div>
 
           <span className="hidden md:inline-flex items-center gap-1 px-3 py-1 rounded-full text-[11px] font-semibold text-white/80 bg-black/50 backdrop-blur-md border border-white/10">
@@ -158,62 +150,62 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
           </span>
         </div>
 
-        {/* Location Pills */}
-        <div className="absolute bottom-48 left-4 right-4 sm:left-12 z-20 flex flex-wrap gap-2 pointer-events-none">
-          {[cur.pill1, cur.pill2, cur.pill3].map((pill, i) => (
+        {/* ── UNIFIED HERO INFORMATION BLOCK (CLEAN ALIGNMENT, ZERO OVERLAP) ── */}
+        <div
+          className="absolute inset-x-4 sm:inset-x-12 bottom-20 z-20 max-w-4xl flex flex-col items-start gap-3 pointer-events-none"
+          onClick={e => e.stopPropagation()}
+        >
+          {/* Top Tag & Location Pills Row */}
+          <div className="flex flex-wrap items-center gap-2 pointer-events-auto">
             <div
-              key={`${slide}-${i}`}
-              className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-bold text-white shadow-2xl backdrop-blur-xl transition-all duration-300"
-              style={{
-                background: 'rgba(5,10,25,0.75)',
-                border: `1.5px solid ${cur.color}70`,
-                boxShadow: `0 4px 20px ${cur.color}40`,
-              }}
+              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black text-white shadow-lg"
+              style={{ background: cur.color, boxShadow: `0 4px 18px ${cur.color}70` }}
             >
-              {pill}
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>{isBengali ? `${cur.nameBn} বিভাগ` : `${cur.name} Division`}</span>
             </div>
-          ))}
-        </div>
 
-        {/* Hero Title & Action Buttons */}
-        <div className="absolute bottom-12 left-4 right-4 sm:left-12 sm:right-12 z-20 max-w-4xl" onClick={e => e.stopPropagation()}>
-          <div
-            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-black text-white mb-2.5 tracking-wide shadow-xl"
-            style={{ background: cur.color + 'ee', boxShadow: `0 4px 20px ${cur.color}70` }}
-          >
-            <Sparkles className="w-3.5 h-3.5" />
-            {isBengali ? cur.nameBn + ' বিভাগীয় দৃশ্য' : cur.name + ' Division Panorama'}
+            {[cur.pill1, cur.pill2, cur.pill3].map((pill, i) => (
+              <span
+                key={i}
+                className="px-3 py-1 rounded-full text-[11px] font-bold text-white shadow-md backdrop-blur-md border border-white/20 bg-black/60"
+              >
+                {pill}
+              </span>
+            ))}
           </div>
 
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black text-white leading-none mb-2 drop-shadow-2xl font-display tracking-tight">
-            {isBengali ? 'বাংলাদেশ' : 'Bangladesh'}
-            <span
-              className="block text-3xl sm:text-5xl lg:text-6xl mt-1 font-display"
-              style={{ color: cur.color, textShadow: `0 0 35px ${cur.color}90` }}
-            >
-              {isBengali ? 'ইনসাইট ৩৬০°' : 'InSight 360°'}
-            </span>
-          </h1>
+          {/* Grand Title */}
+          <div className="space-y-1">
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-white leading-tight drop-shadow-2xl tracking-tight">
+              {isBengali ? 'বাংলাদেশ' : 'Bangladesh'}
+              <span
+                className="ml-3 font-black"
+                style={{ color: cur.color, textShadow: `0 0 32px ${cur.color}90` }}
+              >
+                {isBengali ? 'ইনসাইট ৩৬০°' : 'InSight 360°'}
+              </span>
+            </h1>
+            <p className="text-xs sm:text-sm md:text-base text-white/95 max-w-2xl leading-relaxed drop-shadow-md font-medium">
+              {isBengali ? `${cur.nameBn} — ${cur.tagline}` : `${cur.name} — ${cur.tagline}`}
+            </p>
+          </div>
 
-          <p className="text-sm sm:text-base text-white/95 max-w-xl leading-relaxed mb-5 drop-shadow-md">
-            {isBengali ? `${cur.nameBn} — ${cur.tagline}` : `${cur.name} — ${cur.tagline}`}
-          </p>
-
-          <div className="flex flex-wrap gap-3">
+          {/* Action Buttons */}
+          <div className="flex flex-wrap items-center gap-3 pt-1 pointer-events-auto">
             <button
               onClick={() => { const div = divisions.find(d => d.id === cur.id); if (div) onSelectDivision(div); }}
-              className="flex items-center gap-2 px-6 py-3 rounded-2xl text-white text-sm font-black shadow-2xl hover:scale-105 transition-all duration-300"
-              style={{ background: `linear-gradient(135deg, ${cur.color}, ${cur.color}cc)`, boxShadow: `0 8px 25px ${cur.color}70` }}
+              className="flex items-center gap-2 px-5 py-2.5 rounded-2xl text-white text-xs sm:text-sm font-black shadow-xl hover:scale-105 transition-all"
+              style={{ background: `linear-gradient(135deg, ${cur.color}, ${cur.color}cc)`, boxShadow: `0 6px 20px ${cur.color}60` }}
             >
               <Compass className="w-4 h-4" />
-              <span>{isBengali ? 'এই বিভাগ ঘুরে দেখুন' : 'Explore Division Portal'}</span>
+              <span>{isBengali ? 'বিভাগ ঘুরে দেখুন' : 'Explore Division Portal'}</span>
               <ArrowRight className="w-4 h-4" />
             </button>
 
             <button
               onClick={() => onNavigateTab('landmarks')}
-              className="flex items-center gap-2 px-6 py-3 rounded-2xl text-sm font-bold text-white hover:scale-105 transition-all duration-300 shadow-xl"
-              style={{ background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(16px)', border: '1px solid rgba(255,255,255,0.25)' }}
+              className="flex items-center gap-2 px-4 py-2.5 rounded-2xl text-xs sm:text-sm font-bold text-white hover:scale-105 transition-all bg-black/60 backdrop-blur-md border border-white/25 shadow-lg"
             >
               <Landmark className="w-4 h-4 text-amber-400" />
               <span>{isBengali ? 'জাতীয় নিদর্শনকোষ' : 'Landmarks Archive'}</span>
@@ -221,11 +213,10 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
 
             <button
               onClick={() => onNavigateTab('gk')}
-              className="flex items-center gap-2 px-6 py-3 rounded-2xl text-sm font-bold text-white hover:scale-105 transition-all duration-300 shadow-xl"
-              style={{ background: 'rgba(16,185,129,0.7)', backdropFilter: 'blur(16px)', border: '1px solid rgba(255,255,255,0.25)' }}
+              className="flex items-center gap-2 px-4 py-2.5 rounded-2xl text-xs sm:text-sm font-bold text-white hover:scale-105 transition-all bg-emerald-600/80 backdrop-blur-md border border-emerald-400/30 shadow-lg"
             >
               <Award className="w-4 h-4 text-yellow-300" />
-              <span>{isBengali ? 'জ্ঞানকোষ ও বিশ্বস্বীকৃত ঐতিহ্য' : 'National GK & UNESCO'}</span>
+              <span>{isBengali ? 'জ্ঞানকোষ ও রেকর্ডস' : 'National Records'}</span>
             </button>
           </div>
         </div>
@@ -251,7 +242,7 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
 
         {/* Interactive Thumbnail Dock & Progress Strip */}
         <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-30 flex flex-col items-center gap-2 max-w-[95vw]" onClick={e => e.stopPropagation()}>
-          <div className="flex items-center gap-1.5 p-1.5 rounded-full backdrop-blur-2xl bg-black/60 border border-white/15 overflow-x-auto no-scrollbar">
+          <div className="flex items-center gap-1.5 p-1.5 rounded-full backdrop-blur-2xl bg-black/70 border border-white/20 overflow-x-auto no-scrollbar">
             {DIVISION_SLIDES.map((s, i) => (
               <button
                 key={i}
@@ -307,7 +298,7 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
         <div className="flex items-center gap-3 mb-8">
           <span className="w-1.5 h-8 rounded-full bg-rose-500" />
           <div>
-            <h2 className={`text-2xl sm:text-3xl font-black tracking-tight font-display ${isNightMode ? 'text-white' : 'text-slate-900'}`}>
+            <h2 className={`text-2xl sm:text-3xl font-black tracking-tight ${isNightMode ? 'text-white' : 'text-slate-900'}`}>
               {isBengali ? 'বাংলাদেশের ৮টি বিভাগীয় প্রবেশদ্বার' : 'All 8 Division Gateways'}
             </h2>
             <p className={`text-sm mt-0.5 ${sub}`}>
@@ -355,7 +346,7 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
 
                   {/* Division name on image */}
                   <div className="absolute bottom-3 left-4 right-4">
-                    <h3 className="text-xl font-black text-white font-display drop-shadow-lg group-hover:text-yellow-300 transition-colors">
+                    <h3 className="text-xl font-black text-white drop-shadow-lg group-hover:text-yellow-300 transition-colors">
                       {isBengali ? div.nameBn : div.name}
                     </h3>
                     <p className="text-xs text-white/80 mt-0.5 line-clamp-1">{div.tagline}</p>
@@ -390,7 +381,7 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
         <div className="flex items-center gap-3 mb-6">
           <Camera className="w-6 h-6 text-rose-500" />
           <div>
-            <h2 className={`text-2xl font-black tracking-tight font-display ${isNightMode ? 'text-white' : 'text-slate-900'}`}>
+            <h2 className={`text-2xl font-black tracking-tight ${isNightMode ? 'text-white' : 'text-slate-900'}`}>
               {isBengali ? 'বিশেষ আলোকচিত্র ও বহু-কোণিক প্যানোরামা গ্যালারি' : 'Signature Panoramic & Multi-Angle Showcase'}
             </h2>
             <p className={`text-xs sm:text-sm mt-0.5 ${sub}`}>
@@ -409,11 +400,6 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
                 <img
                   src={photo.src}
                   alt={photo.title}
-                  onError={(e) => {
-                    const src = e.target.src;
-                    if (src.endsWith('.jpg')) e.target.src = src.replace('.jpg', '.png');
-                    else if (src.endsWith('.png')) e.target.src = src.replace('.png', '.jpg');
-                  }}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
