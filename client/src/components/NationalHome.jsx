@@ -123,6 +123,11 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
               <img
                 src={sImg}
                 alt={s.name}
+                onError={(e) => {
+                  const src = e.target.src;
+                  if (src.endsWith('.jpg')) e.target.src = src.replace('.jpg', '.png');
+                  else if (src.endsWith('.png')) e.target.src = src.replace('.png', '.jpg');
+                }}
                 className="w-full h-full object-cover object-center transform transition-transform duration-1000"
                 style={{
                   transform: isActive ? 'scale(1)' : 'scale(1.04)',
@@ -404,6 +409,11 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
                 <img
                   src={photo.src}
                   alt={photo.title}
+                  onError={(e) => {
+                    const src = e.target.src;
+                    if (src.endsWith('.jpg')) e.target.src = src.replace('.jpg', '.png');
+                    else if (src.endsWith('.png')) e.target.src = src.replace('.png', '.jpg');
+                  }}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>

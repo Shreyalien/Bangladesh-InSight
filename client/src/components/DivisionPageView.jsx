@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import {
   Compass, Landmark, Utensils, Sparkles, Building2, Droplets, Globe,
   MapPin, ChevronRight, ArrowLeft, Eye, EyeOff, X, ExternalLink,
-  ChevronLeft, Trees, Award, Mountain, Navigation, Moon, Sun, Check, Camera
+  ChevronLeft, Trees, Award, Mountain, Navigation, Moon, Sun, Check, Camera,
+  Waves, Anchor, Info, Maximize2, Minimize2
 } from 'lucide-react';
 
 const MARKER_TYPES = {
@@ -136,6 +137,7 @@ export default function DivisionPageView({
   const [activeTypes, setActiveTypes] = useState(new Set(['river', 'bridge', 'heritage', 'nature', 'district']));
   const [selectedImgIndex, setSelectedImgIndex] = useState(0);
   const [activeSection, setActiveSection] = useState('overview');
+  const [fitMode, setFitMode] = useState('cover'); // 'cover' or 'contain'
 
   const gallery = division.gallery && division.gallery.length > 0
     ? division.gallery
@@ -172,19 +174,30 @@ export default function DivisionPageView({
     setSelectedImgIndex((prev) => (prev - 1 + gallery.length) % gallery.length);
   };
 
+  // Image error fallback
+  const handleImageError = (e) => {
+    const src = e.target.src;
+    if (src.endsWith('.jpg')) {
+      e.target.src = src.replace('.jpg', '.png');
+    } else if (src.endsWith('.png')) {
+      e.target.src = src.replace('.png', '.jpg');
+    }
+  };
+
   const bg = isNightMode ? 'bg-slate-950 text-white' : 'bg-slate-50 text-slate-900';
   const sub = isNightMode ? 'text-slate-400' : 'text-slate-600';
   const cardBg = isNightMode ? 'bg-slate-900/80 border-white/10' : 'bg-white border-slate-200 shadow-sm';
 
   const divisionDistricts = districts.filter(d => d.divisionId === division.id || d.division === division.name);
+  const geo = division.geography || {};
 
   const portalTabs = [
     { id: 'overview', label: 'Overview & Atlas', labelBn: 'সামগ্রিক রূপরেখা', icon: Compass },
+    { id: 'rivers', label: 'Rivers & Geography', labelBn: 'নদীনালা ও ভৌগোলিক রূপরেখা', icon: Droplets, highlight: true },
     { id: 'heritage', label: 'Heritage & Landmarks', labelBn: 'ঐতিহাসিক নিদর্শন', icon: Landmark, count: division.landmarks?.length || 8 },
     { id: 'delicacies', label: 'Famous Food & Sweets', labelBn: 'ঐতিহ্যবাহী খাবার ও মিষ্টি', icon: Utensils, count: division.delicacies?.length },
     { id: 'culture', label: 'Festivals & Culture', labelBn: 'উৎসব, মেলা ও সংস্কৃতি', icon: Sparkles, count: (division.festivals?.length || 0) + (division.traditions?.length || 0) },
     { id: 'districts', label: 'Districts of Division', labelBn: 'বিভাগীয় জেলাসমূহ', icon: Building2, count: divisionDistricts.length },
-    { id: 'rivers', label: 'Rivers & Geography', labelBn: 'নদীনালা ও ভৌগোলিক রূপ', icon: Droplets },
     { id: 'gallery', label: 'Multi-Angle Gallery', labelBn: 'বহু-কোণিক আলোকচিত্র', icon: Camera, count: gallery.length },
     { id: 'traveler', label: "Traveler's Guide", labelBn: 'ভ্রমণ নির্দেশিকা', icon: Globe },
   ];
@@ -200,24 +213,25 @@ export default function DivisionPageView({
         }
       `}</style>
 
-      {/* ═══ TRUE FULLSCREEN PANORAMA HERO (EDGE-TO-EDGE, NO CLIPPING) ═══ */}
+      {/* ═══ PANORAMIC STAGE (CALIBRATED FOR 100% SCREEN ZOOM FIT) ═══ */}
       <section
-        onClick={nextAngle}
-        className="relative w-full h-screen min-h-[640px] max-h-[920px] overflow-hidden select-none cursor-pointer bg-slate-950"
-        title={isBengali ? 'ছবির ওপর ক্লিক করে কোণ / ছবি পরিবর্তন করুন' : 'Click on image to switch angles'}
+        className="relative w-full h-[62vh] sm:h-[72vh] lg:h-[76vh] min-h-[460px] max-h-[760px] overflow-hidden select-none bg-slate-950 border-b border-white/10"
       >
-        {/* Master Panoramic Image */}
+        {/* Master Panoramic Image with Error Fallback and Fit Toggle */}
         <img
           src={currentImg}
           alt={division.name}
-          className="w-full h-full object-cover object-center transition-all duration-700"
+          onError={handleImageError}
+          className={`w-full h-full object-center transition-all duration-700 ${
+            fitMode === 'contain' ? 'object-contain' : 'object-cover'
+          }`}
         />
 
         {/* Ambient Overlay Vignettes */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-transparent to-black/50 pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-transparent to-black/40 pointer-events-none" />
 
-        {/* Top Controls Overlay: Back Button & Marker Filter Pills */}
-        <div className="absolute top-28 left-4 right-4 sm:left-8 sm:right-8 z-40 flex items-center justify-between gap-4 pointer-events-none">
+        {/* Top Controls: Back Button, Filters & Fit-to-Screen Toggle */}
+        <div className="absolute top-28 left-4 right-4 sm:left-8 sm:right-8 z-40 flex items-center justify-between gap-3 pointer-events-none">
           <button
             onClick={(e) => { e.stopPropagation(); onBack(); }}
             className="pointer-events-auto flex items-center gap-2 px-4 py-2 rounded-2xl text-xs font-bold transition-all hover:scale-105 border shadow-xl bg-black/60 text-white backdrop-blur-xl border-white/20"
@@ -226,27 +240,42 @@ export default function DivisionPageView({
             <span>{isBengali ? 'মূল পাতায় ফিরে যান' : 'Back to Home'}</span>
           </button>
 
-          {/* Marker Filter Buttons */}
-          <div className="pointer-events-auto flex items-center gap-1.5 p-1 rounded-2xl border shadow-xl bg-black/60 backdrop-blur-xl border-white/20 overflow-x-auto no-scrollbar">
-            {Object.entries(MARKER_TYPES).map(([typeKey, cfg]) => {
-              const isActive = activeTypes.has(typeKey);
-              const Icon = cfg.icon;
-              return (
-                <button
-                  key={typeKey}
-                  onClick={(e) => { e.stopPropagation(); toggleType(typeKey); }}
-                  className={`flex items-center gap-1 px-2.5 py-1 rounded-xl text-[11px] font-bold transition-all ${
-                    isActive
-                      ? 'text-white shadow-md'
-                      : 'text-white/60 hover:text-white'
-                  }`}
-                  style={{ background: isActive ? cfg.color : 'transparent' }}
-                >
-                  <Icon className="w-3 h-3" />
-                  <span>{isBengali ? cfg.labelBn.split(' ')[0] : cfg.label.split(' ')[0]}</span>
-                </button>
-              );
-            })}
+          <div className="flex items-center gap-2">
+            {/* Fit / Cover Toggle Button */}
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                setFitMode(m => m === 'cover' ? 'contain' : 'cover');
+              }}
+              className="pointer-events-auto hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-2xl text-[11px] font-bold border shadow-xl bg-black/60 text-white backdrop-blur-xl border-white/20 hover:bg-black/80 transition-all"
+              title={fitMode === 'cover' ? 'Switch to Full Unclipped View' : 'Switch to Fill View'}
+            >
+              {fitMode === 'cover' ? <Minimize2 className="w-3.5 h-3.5 text-amber-400" /> : <Maximize2 className="w-3.5 h-3.5 text-emerald-400" />}
+              <span>{fitMode === 'cover' ? (isBengali ? 'সম্পূর্ণ ছবি (নো-ক্রপ)' : 'Fit Whole Image') : (isBengali ? 'স্ক্রিন ফিল' : 'Fill Screen')}</span>
+            </button>
+
+            {/* Marker Filter Buttons */}
+            <div className="pointer-events-auto flex items-center gap-1.5 p-1 rounded-2xl border shadow-xl bg-black/60 backdrop-blur-xl border-white/20 overflow-x-auto no-scrollbar">
+              {Object.entries(MARKER_TYPES).map(([typeKey, cfg]) => {
+                const isActive = activeTypes.has(typeKey);
+                const Icon = cfg.icon;
+                return (
+                  <button
+                    key={typeKey}
+                    onClick={(e) => { e.stopPropagation(); toggleType(typeKey); }}
+                    className={`flex items-center gap-1 px-2.5 py-1 rounded-xl text-[11px] font-bold transition-all ${
+                      isActive
+                        ? 'text-white shadow-md'
+                        : 'text-white/60 hover:text-white'
+                    }`}
+                    style={{ background: isActive ? cfg.color : 'transparent' }}
+                  >
+                    <Icon className="w-3 h-3" />
+                    <span>{isBengali ? cfg.labelBn.split(' ')[0] : cfg.label.split(' ')[0]}</span>
+                  </button>
+                );
+              })}
+            </div>
           </div>
         </div>
 
@@ -294,22 +323,26 @@ export default function DivisionPageView({
           </>
         )}
 
-        {/* Bottom Bar on Photo: Division Badge & View/Angle Switcher Dock */}
-        <div className="absolute bottom-8 left-4 right-4 sm:left-8 sm:right-8 z-30 flex items-center justify-between gap-4 pointer-events-none">
+        {/* Bottom Dock on Photo: Division Badge & Angle Switcher */}
+        <div className="absolute bottom-6 left-4 right-4 sm:left-8 sm:right-8 z-30 flex items-center justify-between gap-4 pointer-events-none">
           <div className="pointer-events-auto flex items-center gap-2 px-3.5 py-1.5 rounded-2xl bg-black/70 backdrop-blur-xl border border-white/20 shadow-xl">
             <span className="w-2.5 h-2.5 rounded-full" style={{ background: division.color || '#e11d48' }} />
             <span className="text-xs font-black text-white font-display">
               {isBengali ? division.nameBn : division.name} {isBengali ? 'বিভাগ' : 'Division'}
             </span>
             <span className="text-white/40">·</span>
-            <span className="text-[11px] text-white/80 font-medium hidden sm:inline">
-              {isBengali ? 'ছবির ওপর ক্লিক করে পরিবর্তন করুন' : 'Click photo to change view'}
-            </span>
+            <button
+              onClick={(e) => { e.stopPropagation(); nextAngle(); }}
+              className="text-[11px] text-yellow-300 font-bold hover:underline flex items-center gap-1"
+            >
+              <Camera className="w-3 h-3" />
+              <span>{isBengali ? 'কোণ পরিবর্তন করুন' : 'Click to Swap Angle'}</span>
+            </button>
           </div>
 
           {gallery.length > 1 && (
             <div className="pointer-events-auto flex items-center gap-1.5 p-1.5 rounded-2xl bg-black/70 backdrop-blur-xl border border-white/20 shadow-2xl" onClick={e => e.stopPropagation()}>
-              <Camera className="w-3.5 h-3.5 text-rose-400 ml-1" />
+              <span className="text-[10px] text-white/70 font-bold px-1.5 uppercase tracking-wider">{isBengali ? 'কোণ' : 'View'}</span>
               {gallery.map((_, idx) => (
                 <button
                   key={idx}
@@ -328,12 +361,12 @@ export default function DivisionPageView({
         </div>
       </section>
 
-      {/* ═══ CONTENT AREA (BELOW THE FULLSCREEN PHOTO) ═══ */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-8 py-10 space-y-8">
+      {/* ═══ CONTENT AREA (BELOW THE PANORAMA) ═══ */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-8 py-8 space-y-8">
 
-        {/* ── MINIMAL DIVISION OVERVIEW (COMPACT & CLEAN) ── */}
+        {/* ── MINIMAL DIVISION OVERVIEW (CLEAN & CONCISE) ── */}
         <div
-          className={`p-6 sm:p-7 rounded-3xl border shadow-lg ${cardBg} space-y-3`}
+          className={`p-5 sm:p-6 rounded-3xl border shadow-lg ${cardBg} space-y-3`}
           style={{ borderLeft: `5px solid ${division.color || '#e11d48'}` }}
         >
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
@@ -345,6 +378,11 @@ export default function DivisionPageView({
                 <span className="text-xs font-semibold text-emerald-500">
                   {division.stats?.area || 'Area'}
                 </span>
+                {geo.basinName && (
+                  <span className="hidden md:inline-block text-xs font-semibold text-blue-400">
+                    · {isBengali ? geo.basinNameBn : geo.basinName}
+                  </span>
+                )}
               </div>
               <h1 className="text-2xl sm:text-4xl font-black font-display tracking-tight">
                 {isBengali ? division.nameBn : division.name}
@@ -383,9 +421,13 @@ export default function DivisionPageView({
                 className={`flex items-center gap-2 px-4 py-2.5 rounded-2xl text-xs font-bold transition-all whitespace-nowrap ${
                   isActive
                     ? 'bg-rose-600 text-white shadow-lg scale-105'
-                    : isNightMode
-                      ? 'bg-slate-900 border border-white/8 text-slate-300 hover:bg-slate-800'
-                      : 'bg-white border border-slate-200 text-slate-700 hover:bg-slate-100'
+                    : tab.highlight
+                      ? isNightMode
+                        ? 'bg-blue-950/60 border border-blue-500/40 text-blue-300 hover:bg-blue-900/60'
+                        : 'bg-blue-50 border border-blue-200 text-blue-700 hover:bg-blue-100'
+                      : isNightMode
+                        ? 'bg-slate-900 border border-white/8 text-slate-300 hover:bg-slate-800'
+                        : 'bg-white border border-slate-200 text-slate-700 hover:bg-slate-100'
                 }`}
               >
                 <Icon className="w-4 h-4" />
@@ -400,7 +442,144 @@ export default function DivisionPageView({
           })}
         </div>
 
-        {/* ═══ TAB 1: OVERVIEW ═══ */}
+        {/* ═══ TAB: RIVERS & GEOGRAPHY (AUTHORITATIVE MASTERCLASS ATLAS) ═══ */}
+        {activeSection === 'rivers' && (
+          <div className="space-y-8 animate-in fade-in duration-300">
+
+            {/* Basin Headline Banner */}
+            <div
+              className={`p-6 sm:p-8 rounded-3xl border shadow-xl ${cardBg} relative overflow-hidden`}
+              style={{
+                background: isNightMode
+                  ? 'linear-gradient(135deg, rgba(15,23,42,0.9), rgba(14,165,233,0.1))'
+                  : 'linear-gradient(135deg, #f8fafc, #e0f2fe)'
+              }}
+            >
+              <div className="max-w-4xl space-y-3">
+                <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-black text-white bg-blue-600 shadow-md">
+                  <Waves className="w-3.5 h-3.5" />
+                  <span>{isBengali ? 'নদীমাতৃক ভৌগোলিক মানচিত্রায়ন ও অববাহিকা' : 'Riverine Basin & Geomorphology Matrix'}</span>
+                </div>
+                <h2 className="text-2xl sm:text-4xl font-black font-display tracking-tight text-blue-500">
+                  {isBengali ? (geo.basinNameBn || 'নদীনালা ও ভৌগোলিক অববাহিকা') : (geo.basinName || 'River Basin Network')}
+                </h2>
+                <div className="flex flex-wrap items-center gap-3 pt-1 text-xs">
+                  <span className="px-3 py-1 rounded-xl bg-blue-500/20 text-blue-400 font-bold">
+                    📍 {isBengali ? geo.terrainTypeBn : geo.terrainType}
+                  </span>
+                  {geo.elevation && (
+                    <span className="px-3 py-1 rounded-xl bg-emerald-500/20 text-emerald-400 font-bold">
+                      ⛰️ {isBengali ? geo.elevationBn : geo.elevation}
+                    </span>
+                  )}
+                </div>
+                <p className={`text-sm sm:text-base leading-relaxed pt-2 ${sub}`}>
+                  {isBengali ? geo.geologicalSummaryBn : geo.geologicalSummary}
+                </p>
+              </div>
+            </div>
+
+            {/* Major River Index Cards */}
+            <div className="space-y-4">
+              <div className="flex items-center justify-between">
+                <div>
+                  <h3 className="text-xl font-black font-display text-blue-400 flex items-center gap-2">
+                    <Droplets className="w-5 h-5 text-blue-500" />
+                    <span>{isBengali ? 'প্রধান নদ-নদীসমূহ ও প্রবাহ বিন্যাস' : 'Key River Systems & Flow Architecture'}</span>
+                  </h3>
+                  <p className={`text-xs mt-0.5 ${sub}`}>
+                    {isBengali ? 'উৎস, বিস্তার, নিষ্কাশন এবং অর্থনৈতিক ও পরিবেশগত তাৎপর্য' : 'Origin, path, outflow, and ecological-agrarian importance'}
+                  </p>
+                </div>
+                <span className="text-xs font-mono font-bold px-3 py-1 rounded-full bg-blue-500/20 text-blue-400">
+                  {geo.riverList?.length || 0} {isBengali ? 'নদী নথিভুক্ত' : 'Rivers Indexed'}
+                </span>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {(geo.riverList || []).map((river, rIdx) => (
+                  <div
+                    key={rIdx}
+                    className={`p-6 rounded-3xl border ${cardBg} space-y-4 hover:-translate-y-1.5 transition-all duration-300 shadow-md hover:shadow-2xl`}
+                    style={{ borderTop: '4px solid #38bdf8' }}
+                  >
+                    <div className="flex items-start justify-between gap-2">
+                      <div>
+                        <span className="text-[10px] font-black px-2.5 py-0.5 rounded-full bg-blue-500/20 text-blue-400 uppercase tracking-wider block w-fit mb-1.5">
+                          {isBengali ? river.typeBn : river.type}
+                        </span>
+                        <h4 className="text-lg font-black font-display text-blue-400">
+                          {isBengali ? river.nameBn : river.name}
+                        </h4>
+                      </div>
+                      <span className="text-xs font-mono font-bold text-slate-400 whitespace-nowrap bg-slate-100 dark:bg-white/5 px-2 py-1 rounded-lg">
+                        {river.length}
+                      </span>
+                    </div>
+
+                    <div className="space-y-1.5 text-xs">
+                      <div className="flex items-start gap-1.5">
+                        <span className="text-slate-400 font-semibold min-w-[50px]">{isBengali ? 'উৎস:' : 'Origin:'}</span>
+                        <span className="font-medium text-slate-200">{isBengali ? river.originBn : river.origin}</span>
+                      </div>
+                      <div className="flex items-start gap-1.5">
+                        <span className="text-slate-400 font-semibold min-w-[50px]">{isBengali ? 'পতন:' : 'Outflow:'}</span>
+                        <span className="font-medium text-slate-300">{river.outflow}</span>
+                      </div>
+                    </div>
+
+                    <p className={`text-xs leading-relaxed pt-2 border-t border-slate-100 dark:border-white/5 ${sub}`}>
+                      {isBengali ? river.significanceBn : river.significance}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Wetlands, Haors & Lakes Showcase */}
+            {geo.wetlands && geo.wetlands.length > 0 && (
+              <div className="space-y-4 pt-4">
+                <div>
+                  <h3 className="text-xl font-black font-display text-emerald-400 flex items-center gap-2">
+                    <Anchor className="w-5 h-5 text-emerald-500" />
+                    <span>{isBengali ? 'হাওর, বিল, দীঘি ও অনন্য জলাভূমি' : 'Iconic Wetlands, Haors & Lakes'}</span>
+                  </h3>
+                  <p className={`text-xs mt-0.5 ${sub}`}>
+                    {isBengali ? 'রামসার সাইট, মিঠাপানির বিল ও প্রাকৃতিক মৎস্য প্রজননক্ষেত্র' : 'Ramsar sanctuaries, freshwater marshlands, and biodiversity habitats'}
+                  </p>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                  {geo.wetlands.map((wet, wIdx) => (
+                    <div
+                      key={wIdx}
+                      className={`p-6 rounded-3xl border ${cardBg} space-y-3`}
+                      style={{ borderLeft: '4px solid #10b981' }}
+                    >
+                      <div className="flex items-center justify-between">
+                        <h4 className="text-base font-black text-emerald-400">
+                          {isBengali ? wet.nameBn : wet.name}
+                        </h4>
+                        <span className="text-xs font-mono font-bold px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300">
+                          {wet.area}
+                        </span>
+                      </div>
+                      <span className="text-[11px] font-semibold text-slate-400 block">
+                        📍 {wet.district}
+                      </span>
+                      <p className={`text-xs leading-relaxed ${sub}`}>
+                        {isBengali ? wet.descBn : wet.desc}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+          </div>
+        )}
+
+        {/* ═══ TAB: OVERVIEW ═══ */}
         {activeSection === 'overview' && (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className={`p-6 rounded-3xl border md:col-span-2 ${cardBg} space-y-4`}>
@@ -449,7 +628,7 @@ export default function DivisionPageView({
           </div>
         )}
 
-        {/* ═══ TAB 2: RESEARCHED HERITAGE & LANDMARKS (DEEP & RICH) ═══ */}
+        {/* ═══ TAB: HERITAGE & LANDMARKS ═══ */}
         {activeSection === 'heritage' && (
           <div className="space-y-6">
             <div>
@@ -511,7 +690,7 @@ export default function DivisionPageView({
           </div>
         )}
 
-        {/* ═══ TAB 3: DELICACIES ═══ */}
+        {/* ═══ TAB: DELICACIES ═══ */}
         {activeSection === 'delicacies' && (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {(division.delicacies || []).map((item, idx) => (
@@ -535,7 +714,7 @@ export default function DivisionPageView({
           </div>
         )}
 
-        {/* ═══ TAB 4: CULTURE & FESTIVALS ═══ */}
+        {/* ═══ TAB: CULTURE & FESTIVALS ═══ */}
         {activeSection === 'culture' && (
           <div className="space-y-6">
             <h3 className="text-base font-black">{isBengali ? 'উৎসব ও মেলা' : 'Festivals & Fairs'}</h3>
@@ -562,7 +741,7 @@ export default function DivisionPageView({
           </div>
         )}
 
-        {/* ═══ TAB 5: DISTRICTS ═══ */}
+        {/* ═══ TAB: DISTRICTS ═══ */}
         {activeSection === 'districts' && (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {divisionDistricts.map((dist) => (
@@ -591,22 +770,7 @@ export default function DivisionPageView({
           </div>
         )}
 
-        {/* ═══ TAB 6: RIVERS ═══ */}
-        {activeSection === 'rivers' && (
-          <div className={`p-6 rounded-3xl border ${cardBg} space-y-3`}>
-            <div className="flex items-center gap-2.5">
-              <Droplets className="w-5 h-5 text-blue-400" />
-              <h3 className="text-lg font-black">{isBengali ? 'নদীনালা ও ভৌগোলিক জলপথ' : 'River Systems & Waterways'}</h3>
-            </div>
-            <p className={`text-xs sm:text-sm leading-relaxed ${sub}`}>
-              {isBengali
-                ? `${division.nameBn} বিভাগটি প্রমত্তা নদ-নদী দ্বারা পরিবেষ্টিত। এ অঞ্চলের প্রধান নদীসমূহ: ${division.stats?.majorRivers?.join(', ') || 'নদীপথ'}।`
-                : `${division.name} Division is blessed with vibrant river systems including: ${division.stats?.majorRivers?.join(', ') || 'Major Rivers'}.`}
-            </p>
-          </div>
-        )}
-
-        {/* ═══ TAB 7: PHOTO GALLERY & ALTERNATE ANGLES ═══ */}
+        {/* ═══ TAB: PHOTO GALLERY & ALTERNATE ANGLES ═══ */}
         {activeSection === 'gallery' && (
           <div className="space-y-6">
             <div>
@@ -614,7 +778,7 @@ export default function DivisionPageView({
                 {isBengali ? 'বহু-কোণিক উচ্চ-রেজোলিউশন আলোকচিত্র' : 'Multi-Angle High-Definition Showcase'}
               </h2>
               <p className={`text-xs sm:text-sm mt-1 ${sub}`}>
-                {isBengali ? 'যেকোনো ছবিতে ক্লিক করে ওপরের প্রধান প্যানোরামা স্টেজ পরিবর্তন করুন' : 'Click any image to load it onto the fullscreen stage above'}
+                {isBengali ? 'যেকোনো ছবিতে ক্লিক করে ওপরের প্রধান প্যানোরামা স্টেজ পরিবর্তন করুন' : 'Click any image to load it onto the stage above'}
               </p>
             </div>
 
@@ -634,6 +798,7 @@ export default function DivisionPageView({
                     <img
                       src={imgUrl}
                       alt={`Angle ${gIdx + 1}`}
+                      onError={handleImageError}
                       className="w-full h-full object-cover group-hover:scale-105 transition-all duration-500"
                     />
                     <div className="absolute top-3 left-3 px-2.5 py-0.5 rounded-full text-[10px] font-bold text-white bg-black/60 backdrop-blur-md">
@@ -641,7 +806,7 @@ export default function DivisionPageView({
                     </div>
                   </div>
                   <div className="p-3.5 flex items-center justify-between text-xs font-bold">
-                    <span className="text-slate-300">{isBengali ? 'স্টেজে দেখতে ক্লিক করুন' : 'Click to View Fullscreen'}</span>
+                    <span className="text-slate-300">{isBengali ? 'স্টেজে দেখতে ক্লিক করুন' : 'Click to View on Stage'}</span>
                     <ChevronRight className="w-4 h-4 text-rose-500" />
                   </div>
                 </div>
@@ -650,7 +815,7 @@ export default function DivisionPageView({
           </div>
         )}
 
-        {/* ═══ TAB 8: TRAVELER'S GUIDE ═══ */}
+        {/* ═══ TAB: TRAVELER'S GUIDE ═══ */}
         {activeSection === 'traveler' && (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             <div className={`p-5 rounded-3xl border ${cardBg} space-y-2`}>
