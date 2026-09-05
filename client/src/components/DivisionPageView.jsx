@@ -3,7 +3,7 @@ import {
   Compass, Landmark, Utensils, Sparkles, Building2, Droplets, Globe,
   MapPin, ChevronRight, ArrowLeft, Eye, EyeOff, X, ExternalLink,
   ChevronLeft, Trees, Award, Mountain, Navigation, Moon, Sun, Check, Camera,
-  Waves, Anchor, Info, Calendar
+  Waves, Anchor, Info, Calendar, BookOpen
 } from 'lucide-react';
 
 const MARKER_TYPES = {
@@ -32,7 +32,7 @@ function FloatingMarker({ marker, isBengali, isActive, onClick }) {
       <div
         className="relative flex items-center gap-1.5 px-3 py-1.5 rounded-full shadow-2xl transition-all duration-300 backdrop-blur-xl"
         style={{
-          background: isActive ? marker.color : 'rgba(10, 15, 30, 0.88)',
+          background: isActive ? marker.color : 'rgba(10, 15, 30, 0.9)',
           border: `1.5px solid ${isActive ? '#ffffff' : marker.color}`,
           boxShadow: isActive
             ? `0 0 25px ${marker.color}, 0 0 50px ${marker.color}80`
@@ -60,7 +60,7 @@ function MarkerDetailCard({ marker, isNightMode, isBengali, onClose, onOpenDetai
 
   return (
     <div
-      className="absolute bottom-10 right-4 sm:right-10 z-50 w-80 sm:w-96 rounded-3xl overflow-hidden shadow-2xl animate-in fade-in"
+      className="absolute bottom-6 right-4 sm:right-8 z-50 w-80 sm:w-96 rounded-3xl overflow-hidden shadow-2xl animate-in fade-in"
       style={{
         background: isNightMode ? 'rgba(15,23,42,0.96)' : 'rgba(255,255,255,0.98)',
         backdropFilter: 'blur(24px)',
@@ -165,7 +165,7 @@ export default function DivisionPageView({
 
   const portalTabs = [
     { id: 'overview', label: 'Overview & Atlas', labelBn: 'সামগ্রিক রূপরেখা', icon: Compass },
-    { id: 'heritage', label: 'Heritage & Landmarks', labelBn: 'ঐতিহাসিক নিদর্শন', icon: Landmark, count: division.landmarks?.length || 8 },
+    { id: 'heritage', label: 'Heritage & Landmarks', labelBn: 'ঐতিহাসিক নিদর্শন ও উপাখ্যান', icon: Landmark, count: division.landmarks?.length || 8 },
     { id: 'delicacies', label: 'Famous Food & Sweets', labelBn: 'ঐতিহ্যবাহী খাবার ও মিষ্টি', icon: Utensils, count: division.delicacies?.length || 8 },
     { id: 'rivers', label: 'Rivers & Geography', labelBn: 'নদীনালা ও ভৌগোলিক রূপ', icon: Droplets, count: division.majorRiversDetailed?.length || 5 },
     { id: 'districts', label: 'Districts of Division', labelBn: 'বিভাগীয় জেলাসমূহ', icon: Building2, count: divisionDistricts.length },
@@ -174,8 +174,10 @@ export default function DivisionPageView({
   ];
 
   return (
-    <div className={`w-full min-h-screen ${bg} transition-colors duration-500`} onClick={() => setActiveMarker(null)}>
-
+    <div
+      className={`w-full min-h-screen ${bg} pt-28 sm:pt-32 transition-colors duration-500`}
+      onClick={() => setActiveMarker(null)}
+    >
       {/* Embedded CSS for floating keyframe */}
       <style>{`
         @keyframes markerFloat {
@@ -184,55 +186,56 @@ export default function DivisionPageView({
         }
       `}</style>
 
-      {/* ═══ TRUE FULLSCREEN PANORAMA (ONLY FLOATING INDICATORS ON PHOTO) ═══ */}
-      <section
-        onClick={nextAngle}
-        className="relative w-full h-screen overflow-hidden select-none cursor-pointer bg-slate-950 flex items-center justify-center"
-        title={isBengali ? 'ছবির ওপর ক্লিক করে কোণ / ছবি পরিবর্তন করুন' : 'Click on photo to cycle view angles'}
-      >
-        {/* The Fullscreen Photograph */}
-        <img
-          src={currentImg}
-          alt={division.name}
-          className="w-full h-full object-cover object-center select-none transition-all duration-700"
-        />
-
-        {/* Subtle Edge Vignette */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40 pointer-events-none" />
-
-        {/* ── ONLY FLOATING INDICATORS ON THE PHOTO ── */}
-        <div className="absolute inset-0 pointer-events-auto">
-          {currentMarkers.map(marker => (
-            <FloatingMarker
-              key={marker.id}
-              marker={marker}
-              isBengali={isBengali}
-              isActive={activeMarker?.id === marker.id}
-              onClick={(m) => setActiveMarker(m)}
-            />
-          ))}
-        </div>
-
-        {/* Marker Detail Card Popup (if an indicator is clicked) */}
-        {activeMarker && (
-          <MarkerDetailCard
-            marker={activeMarker}
-            isNightMode={isNightMode}
-            isBengali={isBengali}
-            onClose={() => setActiveMarker(null)}
-            onOpenDetails={onOpenDetails}
+      {/* ═══ CLEAN PANORAMA STAGE (STARTS BELOW NAVBAR — ZERO OVERLAY EXCEPT PURE INDICATORS) ═══ */}
+      <section className="relative w-full max-w-[98vw] mx-auto px-2 sm:px-4">
+        <div
+          onClick={nextAngle}
+          className="relative w-full h-[76vh] sm:h-[82vh] min-h-[540px] max-h-[860px] rounded-3xl overflow-hidden select-none cursor-pointer bg-slate-950 flex items-center justify-center shadow-2xl border border-white/10"
+        >
+          {/* The Fullscreen Photograph */}
+          <img
+            src={currentImg}
+            alt={division.name}
+            className="w-full h-full object-cover object-center select-none transition-all duration-700"
           />
-        )}
+
+          {/* Subtle Ambient Edge Glow */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/20 pointer-events-none" />
+
+          {/* ── ONLY FLOATING INDICATOR PINS ON THE PHOTO (NOTHING ELSE) ── */}
+          <div className="absolute inset-0 pointer-events-auto">
+            {currentMarkers.map(marker => (
+              <FloatingMarker
+                key={marker.id}
+                marker={marker}
+                isBengali={isBengali}
+                isActive={activeMarker?.id === marker.id}
+                onClick={(m) => setActiveMarker(m)}
+              />
+            ))}
+          </div>
+
+          {/* Marker Detail Card Popup (when an indicator pin is clicked) */}
+          {activeMarker && (
+            <MarkerDetailCard
+              marker={activeMarker}
+              isNightMode={isNightMode}
+              isBengali={isBengali}
+              onClose={() => setActiveMarker(null)}
+              onOpenDetails={onOpenDetails}
+            />
+          )}
+        </div>
       </section>
 
-      {/* ═══ BELOW THE PHOTO: NAVIGATION BAR, STATS & DETAILS ═══ */}
+      {/* ═══ BELOW THE PHOTO: NAVIGATION CONTROLS, OVERVIEW & DEEP TABS ═══ */}
       <div className="max-w-7xl mx-auto px-4 sm:px-8 py-8 space-y-8">
 
-        {/* Top Control Bar: Back to Home & Angle Switcher */}
-        <div className="flex flex-wrap items-center justify-between gap-4 pt-2">
+        {/* Control Bar: Back to Home & Angle Switcher */}
+        <div className="flex flex-wrap items-center justify-between gap-4">
           <button
             onClick={onBack}
-            className="flex items-center gap-2 px-5 py-2.5 rounded-2xl text-xs sm:text-sm font-bold transition-all hover:scale-105 border shadow-md bg-rose-600 hover:bg-rose-700 text-white border-rose-500"
+            className="flex items-center gap-2 px-5 py-2.5 rounded-2xl text-xs sm:text-sm font-black transition-all hover:scale-105 border shadow-md bg-rose-600 hover:bg-rose-700 text-white border-rose-500"
           >
             <ArrowLeft className="w-4 h-4" />
             <span>{isBengali ? 'মূল পাতায় ফিরে যান' : 'Back to Home'}</span>
@@ -267,7 +270,7 @@ export default function DivisionPageView({
           )}
         </div>
 
-        {/* ── MINIMAL DIVISION OVERVIEW (COMPACT & CLEAN) ── */}
+        {/* ── DIVISION SUMMARY CARD ── */}
         <div
           className={`p-6 sm:p-7 rounded-3xl border shadow-lg ${cardBg} space-y-3`}
           style={{ borderLeft: `5px solid ${division.color || '#e11d48'}` }}
@@ -307,7 +310,7 @@ export default function DivisionPageView({
           </p>
         </div>
 
-        {/* ── TAB NAVIGATION ── */}
+        {/* ── INTERACTIVE TAB NAVIGATION ── */}
         <div className="flex items-center gap-2 overflow-x-auto pb-2 border-b border-slate-200 dark:border-white/10 no-scrollbar">
           {portalTabs.map(tab => {
             const Icon = tab.icon;
@@ -336,7 +339,7 @@ export default function DivisionPageView({
           })}
         </div>
 
-        {/* ═══ TAB 1: OVERVIEW ═══ */}
+        {/* ═══ TAB 1: OVERVIEW & ATLAS ═══ */}
         {activeSection === 'overview' && (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className={`p-6 rounded-3xl border md:col-span-2 ${cardBg} space-y-4`}>
@@ -385,19 +388,20 @@ export default function DivisionPageView({
           </div>
         )}
 
-        {/* ═══ TAB 2: HERITAGE & LANDMARKS ═══ */}
+        {/* ═══ TAB 2: HERITAGE & LANDMARKS WITH HISTORICAL STORIES ═══ */}
         {activeSection === 'heritage' && (
           <div className="space-y-6">
             <div>
-              <h2 className="text-xl sm:text-2xl font-black font-display text-rose-500">
-                {isBengali ? 'ঐতিহাসিক ও স্থাপত্য নিদর্শনকোষ' : 'Historical & Architectural Landmarks Archive'}
+              <h2 className="text-xl sm:text-2xl font-black font-display text-rose-500 flex items-center gap-2">
+                <Landmark className="w-6 h-6" />
+                <span>{isBengali ? 'ঐতিহাসিক নিদর্শন, স্থাপত্যশৈলী ও প্রাচীন উপাখ্যান' : 'Historical Landmarks, Architecture & Untold Legends'}</span>
               </h2>
               <p className={`text-xs sm:text-sm mt-1 ${sub}`}>
-                {isBengali ? 'যেকোনো নিদর্শনে ক্লিক করে এর সুনির্দিষ্ট ইতিহাস, সাল ও স্থাপত্যশৈলী জানুন' : 'Click on any landmark to open detailed historical facts, year, and architecture'}
+                {isBengali ? 'প্রতিটি নিদর্শনের পেছনের ইতিহাস, নির্মাতা রাজা বা সুবাদার, অলৌকিক উপাখ্যান এবং স্থাপত্য শৈলী জানুন।' : 'Click on any landmark to uncover deep historical legends, architectural facts, and founding stories.'}
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {(division.landmarks || []).map((landmark, idx) => (
                 <div
                   key={idx}
@@ -416,29 +420,39 @@ export default function DivisionPageView({
                       });
                     }
                   }}
-                  className={`group rounded-3xl border cursor-pointer ${cardBg} hover:-translate-y-1.5 transition-all duration-300 p-5 space-y-3 shadow-md hover:shadow-xl`}
+                  className={`group rounded-3xl border cursor-pointer ${cardBg} hover:-translate-y-1.5 transition-all duration-300 p-6 space-y-3.5 shadow-md hover:shadow-2xl`}
                 >
                   <div className="flex items-center justify-between">
-                    <span className="text-[10px] font-black px-2.5 py-0.5 rounded-full bg-rose-500/20 text-rose-400">
+                    <span className="text-[10px] font-black px-2.5 py-0.5 rounded-full bg-rose-500/20 text-rose-400 uppercase tracking-wider">
                       {landmark.type || 'HERITAGE'}
                     </span>
-                    <span className="text-xs text-slate-400 font-mono font-bold">{landmark.district || ''}</span>
+                    <span className="text-xs text-slate-400 font-mono font-bold flex items-center gap-1">
+                      <MapPin className="w-3 h-3 text-rose-400" />
+                      <span>{landmark.district || ''}</span>
+                    </span>
                   </div>
+
                   <div>
                     <h3 className="text-base font-black font-display group-hover:text-rose-500 transition-colors">
                       {isBengali ? (landmark.nameBn || landmark.name) : landmark.name}
                     </h3>
                     {landmark.est && (
-                      <span className="text-[10px] text-amber-400 font-semibold block mt-0.5">
-                        {isBengali ? `প্রতিষ্ঠাকাল: ${landmark.est}` : `Est: ${landmark.est}`}
+                      <span className="text-[11px] text-amber-400 font-bold block mt-0.5 flex items-center gap-1">
+                        <Calendar className="w-3 h-3" />
+                        <span>{isBengali ? `প্রতিষ্ঠাকাল: ${landmark.est}` : `Established: ${landmark.est}`}</span>
                       </span>
                     )}
                   </div>
-                  <p className={`text-xs leading-relaxed line-clamp-3 ${sub}`}>
+
+                  <p className={`text-xs leading-relaxed line-clamp-4 ${sub}`}>
                     {isBengali ? (landmark.descriptionBn || landmark.description) : landmark.description}
                   </p>
+
                   <div className="flex items-center justify-between pt-2 text-xs font-bold text-rose-500 border-t border-slate-100 dark:border-white/5">
-                    <span>{isBengali ? 'বিস্তারিত বিবরণ' : 'Full Details'}</span>
+                    <span className="flex items-center gap-1">
+                      <BookOpen className="w-3.5 h-3.5" />
+                      <span>{isBengali ? 'সম্পূর্ণ ইতিহাস ও উপাখ্যান' : 'Read Full History'}</span>
+                    </span>
                     <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </div>
                 </div>
@@ -457,7 +471,7 @@ export default function DivisionPageView({
               </h2>
               <p className={`text-xs sm:text-sm mt-1 ${sub}`}>
                 {isBengali
-                  ? 'গভীর গবেষণার মাধ্যমে সংগৃহীত প্রতিটি জেলার আদি ও বিশ্বখ্যাত খাবারসমূহ—ইতিহাস ও স্বাদ প্রোফাইল।'
+                  ? 'গভীর গবেষণার মাধ্যমে সংগৃহীত প্রতিটি জেলার আদি ও বিশ্বখ্যাত খাবারসমূহ—ইতিহাস, ঐতিহ্য ও স্বাদ প্রোফাইল।'
                   : 'Extensively researched signature culinary masterworks representing the authentic flavors and sweets of each district.'}
               </p>
             </div>
@@ -492,18 +506,18 @@ export default function DivisionPageView({
           </div>
         )}
 
-        {/* ═══ TAB 4: COMPREHENSIVE RIVERS & GEOGRAPHY ═══ */}
+        {/* ═══ TAB 4: COMPREHENSIVE RIVERS, GEOGRAPHY & RIVER LORE ═══ */}
         {activeSection === 'rivers' && (
           <div className="space-y-6">
             <div>
               <h2 className="text-xl sm:text-2xl font-black font-display text-sky-400 flex items-center gap-2">
                 <Waves className="w-6 h-6" />
-                <span>{isBengali ? 'নদীনালা, জলবিজ্ঞান ও ভৌগোলিক ভূপ্রকৃতি' : 'Rivers, Hydrology & Physical Geography'}</span>
+                <span>{isBengali ? 'নদীনালা, জলবিজ্ঞান, ভৌগোলিক ভূপ্রকৃতি ও নদী-উপাখ্যান' : 'Rivers, Hydrology, Physical Geography & Lore'}</span>
               </h2>
               <p className={`text-xs sm:text-sm mt-1 ${sub}`}>
                 {isBengali
-                  ? 'উৎস, বিস্তার, দৈর্ঘ্য ও অর্থনৈতিক ভূমিকা সহ প্রতিটি বিভাগের পূর্ণাঙ্গ জলতাত্ত্বিক বিবরণী।'
-                  : 'Comprehensive hydrologic and geographic breakdown including origins, paths, lengths, and economic lifelines.'}
+                  ? 'উৎস, বিস্তার, দৈর্ঘ্য, অর্থনৈতিক ভূমিকা এবং রবীন্দ্রনাথ, মধুসূদন ও লোকগীতির নদী-উপাখ্যান।'
+                  : 'Comprehensive hydrologic and geographic breakdown including origins, paths, lengths, and cultural folklore.'}
               </p>
             </div>
 
@@ -530,7 +544,7 @@ export default function DivisionPageView({
             {/* Major Rivers Detailed Grid */}
             <h3 className="text-base font-black flex items-center gap-2 pt-2">
               <Droplets className="w-4 h-4 text-sky-400" />
-              <span>{isBengali ? 'প্রধান নদীসমূহ ও তাদের ভূমিকা' : 'Major River Channels & Basin Roles'}</span>
+              <span>{isBengali ? 'প্রধান নদীসমূহ, উৎপত্তি ও অর্থনৈতিক অবদান' : 'Major River Channels, Origins & Economic Roles'}</span>
             </h3>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">

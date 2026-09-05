@@ -24,7 +24,7 @@ const NATIONAL_STATS = [
 const NATIONAL_SYMBOLS_DATA = [
   {
     id: 'animal',
-    emoji: '🐅',
+    image: '/symbols/tiger.jpg',
     name: 'Royal Bengal Tiger',
     nameBn: 'রয়েল বেঙ্গল টাইগার',
     scientific: 'Panthera tigris tigris',
@@ -42,7 +42,7 @@ const NATIONAL_SYMBOLS_DATA = [
   },
   {
     id: 'bird',
-    emoji: '🐦',
+    image: '/symbols/doel.jpg',
     name: 'Oriental Magpie-Robin (Doel)',
     nameBn: 'দোয়েল',
     scientific: 'Copsychus saularis',
@@ -60,7 +60,7 @@ const NATIONAL_SYMBOLS_DATA = [
   },
   {
     id: 'flower',
-    emoji: '🪷',
+    image: '/symbols/shapla.jpg',
     name: 'White Water Lily (Shapla)',
     nameBn: 'সাদা শাপলা',
     scientific: 'Nymphaea nouchali',
@@ -78,7 +78,7 @@ const NATIONAL_SYMBOLS_DATA = [
   },
   {
     id: 'fruit',
-    emoji: '🍈',
+    image: '/symbols/jackfruit.jpg',
     name: 'Jackfruit (Kanthal)',
     nameBn: 'কাঁঠাল',
     scientific: 'Artocarpus heterophyllus',
@@ -96,7 +96,7 @@ const NATIONAL_SYMBOLS_DATA = [
   },
   {
     id: 'fish',
-    emoji: '🐟',
+    image: '/symbols/ilish.jpg',
     name: 'Hilsa / Ilish',
     nameBn: 'ইলিশ',
     scientific: 'Tenualosa ilisha',
@@ -114,7 +114,7 @@ const NATIONAL_SYMBOLS_DATA = [
   },
   {
     id: 'tree',
-    emoji: '🌳',
+    image: '/symbols/mangotree.jpg',
     name: 'Mango Tree (Aam Gach)',
     nameBn: 'আম গাছ',
     scientific: 'Mangifera indica',
@@ -148,7 +148,7 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
   const next = useCallback(() => goToSlide(slide + 1), [slide, goToSlide]);
   const prev = useCallback(() => goToSlide(slide - 1), [slide, goToSlide]);
 
-  // Automatic slide progression with live progress line
+  // Automatic slide progression
   useEffect(() => {
     const intervalTime = 4000;
     const tickTime = 50;
@@ -201,7 +201,6 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
         onMouseUp={handleMouseUp}
         onClick={handleHeroClick}
         className="relative w-full h-screen min-h-[620px] max-h-[920px] overflow-hidden select-none cursor-pointer"
-        title={isBengali ? 'ক্লিক করে পরের ছবি দেখুন' : 'Click left or right to switch slides'}
       >
         {/* Crossfade Slides */}
         {DIVISION_SLIDES.map((s, idx) => {
@@ -233,7 +232,7 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
         <div className="absolute inset-0 z-10 bg-gradient-to-r from-black/50 via-transparent to-black/20 pointer-events-none" />
 
         {/* Top Floating Badge */}
-        <div className="absolute top-24 sm:top-28 left-4 sm:left-10 z-20 flex items-center gap-2 pointer-events-none">
+        <div className="absolute top-28 sm:top-32 left-4 sm:left-10 z-20 flex items-center gap-2 pointer-events-none">
           <div
             className="flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold text-white shadow-xl backdrop-blur-xl"
             style={{ background: 'rgba(0,0,0,0.7)', border: `1.5px solid ${cur.color}` }}
@@ -339,7 +338,7 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
           <ChevronRight className="w-6 h-6" />
         </button>
 
-        {/* Minimal Live Neon Progress Strip (Division Pill Dock removed as requested) */}
+        {/* Minimal Live Neon Progress Strip */}
         <div className="absolute bottom-3 left-1/2 -translate-x-1/2 z-30 flex items-center justify-center pointer-events-none">
           <div className="w-36 sm:w-48 h-1 bg-white/20 rounded-full overflow-hidden shadow-lg backdrop-blur-md">
             <div
@@ -455,7 +454,7 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
         </div>
       </section>
 
-      {/* ═══ NATIONAL SYMBOLS & SACRED HERITAGE (WITH RICH POPUP MODAL) ═══ */}
+      {/* ═══ NATIONAL SYMBOLS & SACRED HERITAGE (WITH REAL AUTHENTIC PHOTOS) ═══ */}
       <section className="max-w-7xl mx-auto px-4 pb-16">
         <div
           className="rounded-3xl p-6 sm:p-10"
@@ -464,93 +463,120 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
             border: isNightMode ? '1px solid rgba(255,255,255,0.08)' : '1px solid rgba(0,0,0,0.06)',
           }}
         >
-          <div className="flex items-center justify-between gap-4 mb-2">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
             <h2 className={`text-2xl font-black ${isNightMode ? 'text-white' : 'text-slate-900'}`}>
               {isBengali ? 'জাতীয় প্রতীক ও চিরন্তন ঐতিহ্য' : 'National Symbols & Sacred Heritage'}
             </h2>
-            <span className="text-xs font-bold px-3 py-1 rounded-full bg-rose-500/15 text-rose-500">
+            <span className="text-xs font-bold px-3 py-1 rounded-full bg-rose-500/15 text-rose-500 w-fit">
               {isBengali ? 'বিস্তারিত জানতে যেকোনো প্রতীকে ক্লিক করুন' : 'Click any symbol for full details'}
             </span>
           </div>
           <p className={`text-sm mb-8 ${sub}`}>
             {isBengali ? 'বাংলাদেশের সার্বভৌম পরিচয় ও অহংকারের প্রতীকসমূহ—কেন, কীভাবে ও কোথায় পাওয়া যায় তা জানতে ক্লিক করুন।' : 'The timeless emblems defining the soul of Bangladesh. Click on any card to explore why, how, and where.'}
           </p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-5">
             {NATIONAL_SYMBOLS_DATA.map((sym) => (
               <div
                 key={sym.id}
                 onClick={() => setSelectedSymbol(sym)}
-                className={`p-4 rounded-2xl text-center border cursor-pointer hover:scale-105 transition-all shadow-sm hover:shadow-xl group ${
-                  isNightMode ? 'bg-white/4 border-white/8 hover:border-white/20' : 'bg-white border-slate-100'
+                className={`rounded-3xl overflow-hidden border cursor-pointer hover:scale-105 transition-all duration-300 shadow-md hover:shadow-2xl group ${
+                  isNightMode ? 'bg-slate-900/80 border-white/10 hover:border-white/25' : 'bg-white border-slate-200'
                 }`}
                 style={{
-                  borderBottom: `3px solid ${sym.color}`
+                  borderBottom: `4px solid ${sym.color}`
                 }}
               >
-                <span className="text-4xl mb-2.5 block transform group-hover:scale-110 transition-transform">{sym.emoji}</span>
-                <p className={`text-xs font-black ${isNightMode ? 'text-white' : 'text-slate-800'}`}>
-                  {isBengali ? sym.nameBn : sym.name}
-                </p>
-                <p className={`text-[10px] mt-0.5 font-bold`} style={{ color: sym.color }}>
-                  {isBengali ? sym.labelBn : sym.label}
-                </p>
-                <span className="inline-flex items-center gap-1 text-[9px] font-bold text-slate-400 mt-2">
-                  <Info className="w-2.5 h-2.5" />
-                  <span>{isBengali ? 'তথ্য দেখুন' : 'Details'}</span>
-                </span>
+                {/* Authentic Real Image Container */}
+                <div className="relative h-44 overflow-hidden bg-slate-950">
+                  <img
+                    src={sym.image}
+                    alt={sym.name}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+                  
+                  <span
+                    className="absolute top-3 left-3 text-[10px] font-black px-2.5 py-0.5 rounded-full text-white shadow-md backdrop-blur-md"
+                    style={{ background: sym.color }}
+                  >
+                    {isBengali ? sym.labelBn : sym.label}
+                  </span>
+                </div>
+
+                {/* Card Body */}
+                <div className="p-4 text-center space-y-1">
+                  <h3 className={`text-sm font-black ${isNightMode ? 'text-white' : 'text-slate-900'} group-hover:text-rose-500 transition-colors`}>
+                    {isBengali ? sym.nameBn : sym.name}
+                  </h3>
+                  <p className="text-[10px] italic text-slate-400 font-mono">
+                    {sym.scientific}
+                  </p>
+                  <span className="inline-flex items-center gap-1 text-[10px] font-bold text-rose-500 pt-1">
+                    <Info className="w-3 h-3" />
+                    <span>{isBengali ? 'কেন ও কীভাবে দেখুন' : 'View Full Story'}</span>
+                  </span>
+                </div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ═══ NATIONAL SYMBOL POPUP MODAL ═══ */}
+      {/* ═══ NATIONAL SYMBOL POPUP MODAL (WITH LARGE PHOTO & DEEP DETAILS) ═══ */}
       {selectedSymbol && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-in fade-in"
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-md animate-in fade-in"
           onClick={() => setSelectedSymbol(null)}
         >
           <div
-            className="relative w-full max-w-2xl rounded-3xl overflow-hidden shadow-2xl p-6 sm:p-8 space-y-6"
+            className="relative w-full max-w-3xl rounded-3xl overflow-hidden shadow-2xl space-y-5"
             style={{
               background: isNightMode ? '#0f172a' : '#ffffff',
               border: `2px solid ${selectedSymbol.color}70`,
-              boxShadow: `0 25px 60px -15px ${selectedSymbol.color}40`,
+              boxShadow: `0 25px 60px -15px ${selectedSymbol.color}50`,
             }}
             onClick={e => e.stopPropagation()}
           >
-            {/* Header */}
-            <div className="flex items-start justify-between gap-4 border-b border-slate-200 dark:border-white/10 pb-4">
-              <div className="flex items-center gap-4">
-                <span className="text-5xl p-2 rounded-2xl bg-black/5 dark:bg-white/5">{selectedSymbol.emoji}</span>
-                <div>
-                  <span
-                    className="text-[10px] font-black px-2.5 py-0.5 rounded-full uppercase tracking-wider text-white"
-                    style={{ background: selectedSymbol.color }}
-                  >
-                    {isBengali ? selectedSymbol.labelBn : selectedSymbol.label}
-                  </span>
-                  <h3 className="text-2xl font-black mt-1">
-                    {isBengali ? selectedSymbol.nameBn : selectedSymbol.name}
-                  </h3>
-                  <p className="text-xs italic text-slate-400 font-mono">
-                    {selectedSymbol.scientific}
-                  </p>
-                </div>
-              </div>
+            {/* Top Image Banner */}
+            <div className="relative h-60 sm:h-72 overflow-hidden bg-slate-950">
+              <img
+                src={selectedSymbol.image}
+                alt={selectedSymbol.name}
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent" />
+              
+              {/* Close Button */}
               <button
                 onClick={() => setSelectedSymbol(null)}
-                className="w-8 h-8 rounded-full flex items-center justify-center bg-slate-100 dark:bg-white/10 text-slate-500 hover:text-white hover:bg-rose-600 transition-colors"
+                className="absolute top-4 right-4 w-9 h-9 rounded-full flex items-center justify-center bg-black/60 text-white hover:bg-rose-600 transition-colors backdrop-blur-md"
               >
-                <X className="w-4 h-4" />
+                <X className="w-5 h-5" />
               </button>
+
+              {/* Symbol Title overlay */}
+              <div className="absolute bottom-4 left-6 right-6">
+                <span
+                  className="text-[11px] font-black px-3 py-1 rounded-full uppercase tracking-wider text-white shadow-md inline-block mb-1.5"
+                  style={{ background: selectedSymbol.color }}
+                >
+                  {isBengali ? selectedSymbol.labelBn : selectedSymbol.label}
+                </span>
+                <h3 className="text-2xl sm:text-3xl font-black text-white drop-shadow-md">
+                  {isBengali ? selectedSymbol.nameBn : selectedSymbol.name}
+                </h3>
+                <p className="text-xs italic text-slate-300 font-mono mt-0.5">
+                  {selectedSymbol.scientific}
+                </p>
+              </div>
             </div>
 
             {/* Content Sections: Why, How/When, Where, Cultural Impact */}
-            <div className="space-y-4 max-h-[60vh] overflow-y-auto pr-1 text-xs sm:text-sm">
+            <div className="p-6 pt-0 space-y-4 max-h-[50vh] overflow-y-auto pr-2 text-xs sm:text-sm">
               {/* WHY */}
               <div className="p-4 rounded-2xl bg-slate-50 dark:bg-white/5 space-y-1.5 border border-slate-200 dark:border-white/5">
-                <h4 className="font-black text-rose-500 flex items-center gap-1.5">
+                <h4 className="font-black text-rose-500 flex items-center gap-1.5 text-sm">
                   <HelpCircle className="w-4 h-4" />
                   <span>{isBengali ? 'কেন এটি জাতীয় প্রতীক হিসেবে নির্বাচিত?' : 'Why is this the National Symbol?'}</span>
                 </h4>
@@ -561,7 +587,7 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
 
               {/* HOW & WHEN */}
               <div className="p-4 rounded-2xl bg-slate-50 dark:bg-white/5 space-y-1.5 border border-slate-200 dark:border-white/5">
-                <h4 className="font-black text-amber-500 flex items-center gap-1.5">
+                <h4 className="font-black text-amber-500 flex items-center gap-1.5 text-sm">
                   <Calendar className="w-4 h-4" />
                   <span>{isBengali ? 'কখন ও কীভাবে স্বীকৃতি লাভ করেছে?' : 'When and How was it Designated?'}</span>
                 </h4>
@@ -572,7 +598,7 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
 
               {/* WHERE FOUND */}
               <div className="p-4 rounded-2xl bg-slate-50 dark:bg-white/5 space-y-1.5 border border-slate-200 dark:border-white/5">
-                <h4 className="font-black text-emerald-500 flex items-center gap-1.5">
+                <h4 className="font-black text-emerald-500 flex items-center gap-1.5 text-sm">
                   <MapPin className="w-4 h-4" />
                   <span>{isBengali ? 'বাংলাদেশে কোথায় ও কীভাবে পাওয়া যায়?' : 'Where is it Found in Bangladesh?'}</span>
                 </h4>
@@ -583,7 +609,7 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
 
               {/* CULTURAL IMPACT */}
               <div className="p-4 rounded-2xl bg-slate-50 dark:bg-white/5 space-y-1.5 border border-slate-200 dark:border-white/5">
-                <h4 className="font-black text-purple-500 flex items-center gap-1.5">
+                <h4 className="font-black text-purple-500 flex items-center gap-1.5 text-sm">
                   <Award className="w-4 h-4" />
                   <span>{isBengali ? 'সাংস্কৃতিক ও জাতীয় তাৎপর্য:' : 'Cultural & National Significance:'}</span>
                 </h4>
@@ -593,12 +619,12 @@ export default function NationalHome({ nationalData, divisions = [], onSelectDiv
               </div>
             </div>
 
-            {/* Footer */}
-            <div className="flex items-center justify-between pt-2 border-t border-slate-200 dark:border-white/10 text-xs text-slate-400">
-              <span>Bangladesh InSight · National Heritage Archive</span>
+            {/* Modal Footer */}
+            <div className="p-6 pt-0 flex items-center justify-between border-t border-slate-200 dark:border-white/10 text-xs text-slate-400">
+              <span>Bangladesh InSight · Official National Heritage Archive</span>
               <button
                 onClick={() => setSelectedSymbol(null)}
-                className="px-4 py-1.5 rounded-xl font-bold text-white bg-rose-600 hover:bg-rose-700 transition-colors"
+                className="px-5 py-2 rounded-xl font-bold text-white bg-rose-600 hover:bg-rose-700 transition-colors shadow-lg"
               >
                 {isBengali ? 'বন্ধ করুন' : 'Close'}
               </button>
