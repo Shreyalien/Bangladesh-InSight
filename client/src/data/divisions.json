@@ -274,22 +274,60 @@
     ],
     "delicacies": [
       {
-        "name": "Dhakai Bakarkhani",
-        "nameBn": "ঢাকাই বাকরখানি",
-        "desc": "Crispy flaky unleavened flatbread baked in traditional tandoor, a 250-year-old Old Dhaka legacy.",
-        "descBn": "পুরান ঢাকার ২৫০ বছরের ঐতিহ্যবাহী মুচমুচে তন্দুরি রুটি।"
+        "name": "Dhakai Bakorkhani",
+        "nameBn": "পুরান ঢাকার বাকরখানি",
+        "district": "Dhaka",
+        "description": "Crispy layered flatbread baked in traditional clay tandoors since the Mughal era, eaten with sweet milk tea.",
+        "descriptionBn": "মুঘল আমল থেকে ঐতিহ্যবাহী মাটির তন্দুরে সেঁকা মুচমুচে স্তরবিশিষ্ট রুটি, যা মিষ্টি দুধ চায়ের সাথে পরিবেশন করা হয়।"
       },
       {
-        "name": "Kachchi Biryani",
+        "name": "Kacchi Biryani of Old Dhaka",
         "nameBn": "পুরান ঢাকার কাচ্চি বিরিয়ানি",
-        "desc": "Fragrant Chinigura or Basmati rice cooked with marinated spiced mutton and saffron-infused potatoes.",
-        "descBn": "সুগন্ধি চাল, সুস্বাদু খাসির মাংস ও জাফরান আলুর রাজকীয় কাচ্চি।"
+        "district": "Dhaka",
+        "description": "Legendary feast dish of marinated tender mutton slow-cooked with basmati rice, potatoes, and mace over charcoal.",
+        "descriptionBn": "সুগন্ধি বাসমতী বা চিনিগুঁড়া চাল, খাসির মাংস ও আলুর সমন্বয়ে কয়লার মৃদু আঁচে রান্না করা বিখ্যাত শাহী খাবার।"
       },
       {
-        "name": "Tangail Chomchom",
-        "nameBn": "পোড়াবাড়ির চমচম",
-        "desc": "GI-certified porous caramel-colored sweet made from pure cow milk chhana soaked in thick syrup.",
-        "descBn": "টাঙ্গাইলের পোড়াবাড়ির শতবর্ষী জিআই সার্টিফাইড রসালো চমচম।"
+        "name": "Porabarir Chamcham",
+        "nameBn": "পোড়াবাড়ির আদি চমচম",
+        "district": "Tangail",
+        "description": "150-year-old historic sweet with caramelized khoya crust and soft syrup interior made with Dhaleshwari river water.",
+        "descriptionBn": "টাঙ্গাইলের ধলেশ্বরী নদীর মিষ্টি পানিতে তৈরি দেড়শত বছরের প্রাচীন পোড়ামাটির রঙের মাওয়া জড়ানো মিষ্টির রাজা।"
+      },
+      {
+        "name": "Shahi Jilapi of Chawkbazar",
+        "nameBn": "চকবাজারের শাহী জিলাপি",
+        "district": "Dhaka",
+        "description": "Giant coiled golden syrup sweets, a Ramadan centerpiece since the Mughal Nawabs of Bengal.",
+        "descriptionBn": "চকবাজারের রমজানের ঐতিহ্যবাহী সুবিশাল কুন্ডলী পাকানো মচমচে রসাল শাহী জিলাপি।"
+      },
+      {
+        "name": "Nanna Biryani Morog Polao",
+        "nameBn": "নান্না বিরিয়ানির মোরগ পোলাও",
+        "district": "Dhaka",
+        "description": "Fragrant ghee-roasted chicken pilaf served with hard-boiled egg and spiced borhani in Becharam Deori.",
+        "descriptionBn": "বেচারাম দেউড়ির খাঁটি গাওয়া ঘিয়ে ভাজা সুগন্ধি মোরগ পোলাও ও মশলাদার বোরহানি।"
+      },
+      {
+        "name": "Bhorta-Khichuri of Old Dhaka",
+        "nameBn": "নানা পদের ভর্তা ও ভুনা খিচুড়ি",
+        "district": "Dhaka",
+        "description": "20+ varieties of traditional vegetable, dry fish, and mustard mash served with rich beef bhuna khichuri.",
+        "descriptionBn": "সরিষার তেলে মাখা শুঁটকি, আলু, বেগুন, ডাল সহ ২০ পদের ভর্তা এবং ঝাল গরুর মাংসের ভুনা খিচুড়ি।"
+      },
+      {
+        "name": "Manikganjer Khejur Gur",
+        "nameBn": "মানিকগঞ্জের খাঁটি ঝোলা পাটালি গুড়",
+        "district": "Manikganj",
+        "description": "Artisanal organic date palm jaggery, tapped fresh from winter trees across Harirampur.",
+        "descriptionBn": "হরিরামপুরের শতবর্ষী ঐতিহ্যবাহী শীতকালীন খেজুরের খাঁটি পাটালি ও ঝোলা নলেন গুড়।"
+      },
+      {
+        "name": "Comillar Matri Bhandar Rosomalai",
+        "nameBn": "কুমিল্লার মাতৃভাণ্ডারের রসমালাই",
+        "district": "Cumilla",
+        "description": "Soft homemade chhana dumplings steeped in thickened cardamom-scented malai milk.",
+        "descriptionBn": "খাঁটি ছানার ছোট ছোট গুটি ঘন ক্ষীর ও এলাচের সুবাসযুক্ত মালাইয়ে ডোবানো জগৎখ্যাত রসমালাই।"
       }
     ],
     "festivals": [
@@ -511,107 +549,95 @@
       }
     ],
     "geography": {
-      "basinName": "Central Alluvial Floodplain & Meghna-Padma Confluence",
-      "basinNameBn": "মধ্য পলল প্লাবনভূমি ও পদ্মা-মেঘনা অববাহিকা",
-      "terrainType": "Holocene Alluvial Plains & Elevated Pleistocene Madhupur Clay Terrace",
-      "terrainTypeBn": "হলোসিন পলল সমভূমি ও মধুপুর গড়ের প্লাইস্টোসিন লাল মাটির চত্বর",
-      "elevation": "6m – 30m above mean sea level",
-      "elevationBn": "সমুদ্রপৃষ্ঠ থেকে ৬ মিটার – ৩০ মিটার উচ্চতা",
-      "geologicalSummary": "Dhaka division occupies the central heart of the Bengal Basin, bordered by the mighty Jamuna to the west, Old Brahmaputra to the north, and Padma to the south. It features the distinctive Madhupur Tract—an elevated terrace of oxidised red lateritic clay rising 10 to 30 meters above the surrounding floodplains. The southern region comprises fertile active floodplains nourished by monsoon silt from the Ganges-Brahmaputra-Meghna confluence.",
-      "geologicalSummaryBn": "ঢাকা বিভাগ বঙ্গীয় অববাহিকার কেন্দ্রে অবস্থিত, যার পশ্চিমে প্রমত্তা যমুনা, উত্তরে পুরাতন ব্রহ্মপুত্র এবং দক্ষিণে পদ্মা নদী। এই বিভাগের অন্যতম প্রধান বৈশিষ্ট্য হলো মধুপুর গড়—একটি প্রাচীন প্লাইস্টোসিন যুগের লাল মাটির উঁচু চত্বরভূমি যা আশপাশের প্লাবনভূমি থেকে ১০-৩০ মিটার উঁচুতে অবস্থিত। দক্ষিণাংশ সক্রিয় পলল প্লাবনভূমি যা প্রতি বছর বর্ষায় পলি পড়ে উর্বর কৃষিজমিতে রূপান্তরিত হয়।",
-      "wetlands": [
-        {
-          "name": "Arial Beel",
-          "nameBn": "আড়িয়াল বিল",
-          "area": "144 km²",
-          "district": "Munshiganj",
-          "desc": "Vast historical marshland between the Padma and Dhaleshwari rivers, celebrated for winter sweet pumpkins and indigenous freshwater fisheries.",
-          "descBn": "পদ্মা ও ধলেশ্বরীর মধ্যবর্তী ১৪৪ বর্গকিলোমিটারের প্রাচীন মিষ্টি পানির সুবিশাল জলাভূমি, যা বিশালাকার মিষ্টি কুমড়া ও দেশীয় মাছের জন্য সুবিখ্যাত।"
-        },
-        {
-          "name": "Belai Beel",
-          "nameBn": "বেলাই বিল",
-          "area": "32 km²",
-          "district": "Gazipur",
-          "desc": "Serene marsh fed by the Turag and Balu rivers, flanked by ancient Sal forest tracts and lotus blossoms.",
-          "descBn": "তুরাগ ও বালু নদী বিধৌত প্রাকৃতিক মিষ্টি পানির জলাভূমি ও পদ্মফুলের সমাহার।"
-        }
-      ],
-      "riverList": [
+      "overview": "Dhaka Division forms the central hydrologic and geographic heartland of the Bengal Delta, situated at the confluence of the mighty Padma, Meghna, and Jamuna river systems.",
+      "overviewBn": "ঢাকা বিভাগ বঙ্গীয় বদ্বীপের কেন্দ্রীয় জলতাত্ত্বিক ও ভৌগোলিক প্রাণকেন্দ্র, যা প্রমত্তা পদ্মা, মেঘনা ও যমুনার সংযোগস্থলে গঠিত এক উর্বর পলিগঠিত অববাহিকা।",
+      "terrain": "Alluvial floodplains, Pleistocene red clay terraces of the Madhupur Tract, and active river meanders.",
+      "terrainBn": "উর্বর পলিমাটির প্লাবনভূমি, ভাওয়াল ও মধুপুরের লাল মাটির প্লাইস্টোসিন সোপান এবং সর্পিল নদীপ্রবাহ।",
+      "majorRiversDetailed": [
         {
           "name": "Buriganga River",
           "nameBn": "বুড়িগঙ্গা নদী",
-          "length": "18 km (Urban Lifeline)",
-          "origin": "Distributary of Dhaleshwari River",
-          "originBn": "ধলেশ্বরী নদীর অন্যতম শাখা",
-          "outflow": "Dhaleshwari & Meghna River",
-          "type": "Tidal Urban Fluvial Channel",
-          "typeBn": "জোয়ার-ভাটা যুক্ত শহরতলি নদীপথ",
-          "significance": "Historic lifeline of 400-year-old Dhaka. Established as the naval trade gateway under Mughal Viceroy Islam Khan Chishti in 1610.",
-          "significanceBn": "৪০০ বছরের প্রাচীন ঢাকার প্রাণপ্রবাহ। ১৬১০ সালে সুবাদার ইসলাম খাঁ কর্তৃক মুঘল রাজধানী প্রতিষ্ঠার পর থেকে বাণিজ্যের প্রধান প্রবেশদ্বার।"
+          "length": "18 km",
+          "origin": "Dhaleshwari distributary",
+          "role": "Historic commercial lifeline and port gateway of Old Dhaka since Mughal 1610.",
+          "roleBn": "১৬১০ সালে মুঘল সুবাদার ইসলাম খানের আমল থেকে ঢাকার ঐতিহাসিক প্রধান বাণিজ্যিক নৌপথ।"
         },
         {
           "name": "Padma River",
           "nameBn": "পদ্মা নদী",
-          "length": "120 km in Bangladesh",
-          "origin": "Gangotri Glacier (Himalayas) via Ganges",
-          "originBn": "হিমালয়ের গঙ্গোত্রী হিমবাহ (গঙ্গা নদী)",
-          "outflow": "Meghna Confluence at Chandpur",
-          "type": "Major Transboundary Braided River",
-          "typeBn": "আন্তর্জাতিক প্রমত্তা পলল নদী",
-          "significance": "One of the greatest rivers on Earth, spanning up to 8 km wide in monsoon. Home of the legendary Padma Hilsa and spanned by the 6.15 km Padma Bridge.",
-          "significanceBn": "পৃথিবীর অন্যতম প্রমত্তা নদী। বর্ষায় এর প্রস্থ ৮ কিলোমিটার পর্যন্ত পৌঁছায়। সুস্বাদু পদ্মার ইলিশ এবং ৬.১৫ কিমি দীর্ঘ পদ্মা সেতুর জন্য খ্যাত।"
+          "length": "120 km in region",
+          "origin": "Ganges, Himalayas",
+          "role": "Mighty transboundary river spanned by the 6.15 km Padma Bridge, connecting southwest Bangladesh.",
+          "roleBn": "হিমালয় থেকে উৎপন্ন গঙ্গার প্রধান শাখা, যার ওপর ৬.১৫ কিমি দীর্ঘ পদ্মা সেতু অবস্থিত।"
         },
         {
           "name": "Shitalakshya River",
           "nameBn": "শীতলক্ষ্যা নদী",
           "length": "110 km",
-          "origin": "Old Brahmaputra River near Tok",
-          "originBn": "টোকের নিকট পুরাতন ব্রহ্মপুত্র",
-          "outflow": "Dhaleshwari River at Munshiganj",
-          "type": "Meandering Calm River",
-          "typeBn": "শান্ত প্রবাহযুক্ত পলল নদী",
-          "significance": "Celebrated for calm, non-alkaline waters that provided the exact humidity and chemical purity for spinning legendary Dhaka Muslin and UNESCO Jamdani.",
-          "significanceBn": "এর স্নিগ্ধ ও শীতল পানি প্রাচীন সুবর্ণগ্রামের বিখ্যাত মসলিন এবং ইউনেস্কো স্বীকৃত জামদানি বয়নশিল্পের জন্য অপরিহার্য প্রাকৃতিক উপাদান।"
-        },
-        {
-          "name": "Meghna River",
-          "nameBn": "মেঘনা নদী",
-          "length": "130 km in Dhaka Division",
-          "origin": "Surma-Kushiyara Confluence at Bhairab",
-          "originBn": "ভৈরবের কাছে সুরমা-কুশিয়ারা সঙ্গম",
-          "outflow": "Bay of Bengal via Lower Meghna",
-          "type": "Gargantuan Estuarine River",
-          "typeBn": "মহাপ্লাবনযুক্ত সুবিশাল মোহনা নদী",
-          "significance": "Carries the combined aquatic discharge of the Himalayas, Meghalaya, and Assam plateau directly through Dhaka’s eastern frontier into the sea.",
-          "significanceBn": "হিমালয়, আসাম ও মেঘালয়ের সমগ্র জলরাশি ভৈরব হয়ে ঢাকার পূর্ব সীমান্ত দিয়ে সাগরের মুখে প্রবাহিতকারী পৃথিবীর অন্যতম প্রশস্ত নদী।"
+          "origin": "Old Brahmaputra",
+          "role": "Crystal-clear industrial and cotton weaving basin, birthplace of historic Muslin and Jamdani.",
+          "roleBn": "ঐতিহাসিক মসলিন ও জামদানি বয়নশিল্পের উৎসভূমি এবং নারায়ণগঞ্জের নদী বন্দর।"
         },
         {
           "name": "Dhaleshwari River",
           "nameBn": "ধলেশ্বরী নদী",
           "length": "160 km",
-          "origin": "Distributary of Jamuna (Tangail)",
-          "originBn": "যমুনা নদীর অন্যতম প্রধান শাখা (টাঙ্গাইল)",
-          "outflow": "Meghna River (Munshiganj)",
-          "type": "Distributary Floodplain River",
-          "typeBn": "পলল অববাহিকার প্রধান শাখা নদী",
-          "significance": "Major industrial and navigation channel supplying water to central Bangladesh factories and riverine cargo fleets.",
-          "significanceBn": "মধ্যাঞ্চলের অন্যতম প্রধান নৌবাণিজ্যিক জলপথ, যা যমুনা থেকে জলরাশি বহন করে মেঘনায় পৌঁছে দেয়।"
+          "origin": "Jamuna distributary",
+          "role": "Vital inland waterway connecting central Bangladesh with the southern estuary.",
+          "roleBn": "যমুনার অন্যতম প্রধান শাখা যা মুন্সীগঞ্জ ও মানিকগঞ্জের মধ্য দিয়ে প্রবাহিত।"
         },
         {
-          "name": "Turag & Balu Rivers",
-          "nameBn": "তুরাগ ও বালু নদী",
-          "length": "71 km & 44 km",
-          "origin": "Bangsai & Madhupur Highlands",
-          "originBn": "বংশাই নদী ও মধুপুর গড় অববাহিকা",
-          "outflow": "Buriganga and Shitalakshya",
-          "type": "Peri-Urban Waterways",
-          "typeBn": "নগরবেষ্টিত নদীপথ ও নিষ্কাশন প্রণালী",
-          "significance": "Ecological buffer encircling Dhaka metropolis; hosts the historic annual Biswa Ijtema congregation on the Turag riverbank.",
-          "significanceBn": "রাজধানী ঢাকাকে ঘিরে থাকা নদীপথ; প্রতি বছর তুরাগ তীরে বিশ্বের দ্বিতীয় বৃহত্তম মুসলিম মহাসম্মেলন বিশ্ব ইজতেমা অনুষ্ঠিত হয়।"
+          "name": "Meghna River",
+          "nameBn": "মেঘনা নদী",
+          "length": "156 km in division",
+          "origin": "Surma-Kushiyara confluence",
+          "role": "Widest and deepest river channel of Bangladesh discharging into the Bay of Bengal.",
+          "roleBn": "দেশের গভীরতম ও প্রশস্ততম নদী যা বঙ্গোপসাগরে বিপুল পরিমাণ স্বাদুপানি নিষ্কাশন করে।"
         }
       ]
-    }
+    },
+    "majorRiversDetailed": [
+      {
+        "name": "Buriganga River",
+        "nameBn": "বুড়িগঙ্গা নদী",
+        "length": "18 km",
+        "origin": "Dhaleshwari distributary",
+        "role": "Historic commercial lifeline and port gateway of Old Dhaka since Mughal 1610.",
+        "roleBn": "১৬১০ সালে মুঘল সুবাদার ইসলাম খানের আমল থেকে ঢাকার ঐতিহাসিক প্রধান বাণিজ্যিক নৌপথ।"
+      },
+      {
+        "name": "Padma River",
+        "nameBn": "পদ্মা নদী",
+        "length": "120 km in region",
+        "origin": "Ganges, Himalayas",
+        "role": "Mighty transboundary river spanned by the 6.15 km Padma Bridge, connecting southwest Bangladesh.",
+        "roleBn": "হিমালয় থেকে উৎপন্ন গঙ্গার প্রধান শাখা, যার ওপর ৬.১৫ কিমি দীর্ঘ পদ্মা সেতু অবস্থিত।"
+      },
+      {
+        "name": "Shitalakshya River",
+        "nameBn": "শীতলক্ষ্যা নদী",
+        "length": "110 km",
+        "origin": "Old Brahmaputra",
+        "role": "Crystal-clear industrial and cotton weaving basin, birthplace of historic Muslin and Jamdani.",
+        "roleBn": "ঐতিহাসিক মসলিন ও জামদানি বয়নশিল্পের উৎসভূমি এবং নারায়ণগঞ্জের নদী বন্দর।"
+      },
+      {
+        "name": "Dhaleshwari River",
+        "nameBn": "ধলেশ্বরী নদী",
+        "length": "160 km",
+        "origin": "Jamuna distributary",
+        "role": "Vital inland waterway connecting central Bangladesh with the southern estuary.",
+        "roleBn": "যমুনার অন্যতম প্রধান শাখা যা মুন্সীগঞ্জ ও মানিকগঞ্জের মধ্য দিয়ে প্রবাহিত।"
+      },
+      {
+        "name": "Meghna River",
+        "nameBn": "মেঘনা নদী",
+        "length": "156 km in division",
+        "origin": "Surma-Kushiyara confluence",
+        "role": "Widest and deepest river channel of Bangladesh discharging into the Bay of Bengal.",
+        "roleBn": "দেশের গভীরতম ও প্রশস্ততম নদী যা বঙ্গোপসাগরে বিপুল পরিমাণ স্বাদুপানি নিষ্কাশন করে।"
+      }
+    ]
   },
   {
     "id": "chattogram",
@@ -850,21 +876,59 @@
     "delicacies": [
       {
         "name": "Mezbani Gosht",
-        "nameBn": "মেজবানি মাংস",
-        "desc": "Rich spicy slow-cooked beef with crushed white mustard, fenugreek, and specialized Mezbani spices.",
-        "descBn": "চট্টগ্রামের সুপ্রসিদ্ধ মেজবানের সরিষা ও বিশেষ মশলায় রান্না করা ঝাল মাংস।"
+        "nameBn": "ঐতিহ্যবাহী মেযবানি গোশত",
+        "district": "Chattogram",
+        "description": "Celebrated spicy beef stew cooked in massive iron cauldrons with mustard oil, dried red chilies, and radhuni spice.",
+        "descriptionBn": "সরিষার তেল, লাল মরিচ ও রাঁধুনির তীব্র ঝাঁঝে বড় তামার ডেকে রান্না করা চট্টগ্রামের শতাব্দীপ্রাচীন সামাজিক মেজবানের মূল আকর্ষণ।"
       },
       {
-        "name": "Matri Bhandar Rasmalai (Cumilla)",
-        "nameBn": "কুমিল্লার মাতৃভাণ্ডার রসমালাই",
-        "desc": "GI-certified 120-year-old recipe of soft chhana globules in dense clotted milk cream.",
-        "descBn": "১৯০১ সাল থেকে তৈরি কুমিল্লার সুপ্রসিদ্ধ জিআই স্বীকৃত ঘন ক্ষীরের রসমালাই।"
+        "name": "Chittagong Kala Bhuna",
+        "nameBn": "চট্টগ্রামের খাঁটি কালা ভুনা",
+        "district": "Chattogram",
+        "description": "Slow-braised dark caramelized beef infused with crushed nutmeg, mace, roasted cumin, and black cardamom.",
+        "descriptionBn": "লবঙ্গ, জয়ফল, গোলমরিচ ও পেঁয়াজ বেরেস্তায় ঘণ্টার পর ঘণ্টা কড়া আঁচে ভাজা মসলাদার কালো মাংস।"
       },
       {
-        "name": "Chittagong Dried Fish (Shutki)",
-        "nameBn": "চট্টগ্রামের শুঁটকি ও বেলা বিস্কুট",
-        "desc": "Sun-cured marine delicacies like Loitta, Rupchanda and the 150-year-old crispy Bela biscuit.",
-        "descBn": "বঙ্গোপসাগরের রূপচাঁদা-লইট্টা শুঁটকি এবং চট্টগ্রামের প্রাচীন মুচমুচে বেলা বিস্কুট।"
+        "name": "Loitta Fry & Shutki Bhorta",
+        "nameBn": "লইট্টা ফ্রাই ও চনখিয়ার শুটকি ভর্তা",
+        "district": "Chattogram",
+        "description": "Crispy fried marine Bombay duck and fiery sun-dried fish mash seasoned with burned shallots and green chilies.",
+        "descriptionBn": "বঙ্গোপসাগরের তাজা মুচমুচে লইট্টা মাছ ফ্রাই ও পোড়া কাঁচামরিচ-পেঁয়াজে বাটা ঝাল শুঁটকি ভর্তা।"
+      },
+      {
+        "name": "Durus Kura of Cox's Bazar",
+        "nameBn": "কক্সবাজারের দুরুস কুরা",
+        "district": "Cox's Bazar",
+        "description": "Whole dressed indigenous chicken marinated in thick coconut milk, cashew paste, and aromatic whole spices.",
+        "descriptionBn": "নারিকেলের দুধ, বাদাম বাটা ও সুগন্ধি মসলায় মাখানো আস্ত দেশি মুরগির রাজকীয় রোস্ট।"
+      },
+      {
+        "name": "Maheshkhali Rupchanda Dry Curry",
+        "nameBn": "মহেশখালীর রূপচাঁদা শুটকির ঝোল",
+        "district": "Cox's Bazar",
+        "description": "Sun-cured white silver pomfret cooked in coastal clay pots with mustard paste and fresh green chili.",
+        "descriptionBn": "মহেশখালী দ্বীপে রোদে শুকানো রূপচাঁদা মাছের ঝাল ভুনা ও আলু-টমেটোর তরকারি।"
+      },
+      {
+        "name": "Paharer Chander Hash",
+        "nameBn": "পাহাড়ী হাঁসের মাংস ভুনা",
+        "district": "Bandarban",
+        "description": "Free-range hill duck braised with roasted whole spices, dry red chilies, and coconut shreds.",
+        "descriptionBn": "পাহাড়ি ঝরনার পানিতে চরে বেড়ানো দেশি হাঁসের মাংস ঝাল কষা ভুনা।"
+      },
+      {
+        "name": "Burmese Spicy Pickles",
+        "nameBn": "বার্মিজ আচার ও মিষ্টি হালুয়া",
+        "district": "Cox's Bazar",
+        "description": "Artisanal sweet-and-sour fruit preserves and dense coconut confectionery sold in coastal bazaars.",
+        "descriptionBn": "কক্সবাজার বার্মিজ মার্কেটের জিভে জল আনা তেঁতুল, জলপাই, বরইয়ের আচার ও নারিকেলের বরফি।"
+      },
+      {
+        "name": "Rangamati Bamboo Shoot Curry",
+        "nameBn": "রাঙ্গামাটির বাঁশকোড়ল ও পিঠা",
+        "district": "Rangamati",
+        "description": "Indigenous tender bamboo shoots stewed with hill spices and served with steamed rice flour pitha.",
+        "descriptionBn": "পাহাড়ের খাঁটি কচি বাঁশের ডগা ও মসলা দিয়ে রান্না করা চাকমা ও মারমা সম্প্রদায়ের প্রিয় খাবার।"
       }
     ],
     "festivals": [
@@ -1061,107 +1125,95 @@
       }
     ],
     "geography": {
-      "basinName": "Chittagong Hill Tracts & Bay of Bengal Maritime Drainage",
-      "basinNameBn": "পার্বত্য চট্টগ্রাম ও বঙ্গোপসাগর উপকূলীয় নদী অববাহিকা",
-      "terrainType": "Folded Tertiary Alpine Hills, Valleys, Mangroves & Longest Coastal Beach",
-      "terrainTypeBn": "টারশিয়ারি ভাঁজ পর্বতমালা, গিরিখাত, প্যারাবন ও দীর্ঘতম বালুকাময় সৈকত",
-      "elevation": "Sea level to 1,052m (Saka Haphong Peak)",
-      "elevationBn": "সমুদ্রপৃষ্ঠ থেকে ১,০৫২ মিটার (সাকা হাফং শৃঙ্গ)",
-      "geologicalSummary": "Chattogram is the only division in Bangladesh defined by folded tertiary mountain ranges (part of the Arakan Yoma - Indo-Burman Range) consisting of sandstone, siltstone, and shale. It boasts the highest alpine peaks in the nation (Saka Haphong 1,052m, Keokradong 986m), deep river gorges carved through bedrock, pristine coastal estuaries, and the world’s longest natural sandy beach (120 km) along the Bay of Bengal.",
-      "geologicalSummaryBn": "চট্টগ্রাম বাংলাদেশের একমাত্র বিভাগ যা ইন্দো-বার্মা পর্বতমালার অংশ হিসেবে টারশিয়ারি ভাঁজ পর্বতমালা দ্বারা গঠিত। এখানে রয়েছে দেশের সর্বোচ্চ পর্বতশৃঙ্গ (সাকা হাফং ১,০৫২ মিটার, কেওক্রাডং ৯৮৬ মিটার), পাথুরে গিরিখাত, গভীর পার্বত্য নদী এবং বঙ্গোপসাগরের কোল ঘেঁষে পৃথিবীর দীর্ঘতম ১২০ কিলোমিটার অবিচ্ছিন্ন প্রাকৃতিক বালুকাময় সৈকত।",
-      "wetlands": [
-        {
-          "name": "Kaptai Lake",
-          "nameBn": "কাপ্তাই হ্রদ",
-          "area": "742 km²",
-          "district": "Rangamati",
-          "desc": "The largest man-made freshwater lake in Asia, created in 1960 by damming the Karnaphuli River across lush green valleys.",
-          "descBn": "এশিয়ার বৃহত্তম কৃত্রিম মিষ্টি পানির হ্রদ, যা ১৯৬০ সালে কর্ণফুলী নদীতে বাঁধ দিয়ে পাহাড়ের উপত্যকায় সৃষ্টি করা হয়েছিল।"
-        },
-        {
-          "name": "Boga Lake",
-          "nameBn": "বগালেক",
-          "area": "0.6 km² (1,200 ft altitude)",
-          "district": "Bandarban",
-          "desc": "Mystical high-altitude natural volcanic crater lake nestled between alpine ridges, sacred to local Bawm indigenous lore.",
-          "descBn": "বান্দরবানের পাহাড়ি শৈলশিরায় সমুদ্রপৃষ্ঠ থেকে ১২০০ ফুট উঁচুতে অবস্থিত অপার রহস্যময় প্রাকৃতিক আগ্নেয় হ্রদ।"
-        }
-      ],
-      "riverList": [
+      "overview": "Chattogram Division features Bangladesh's only rugged alpine mountain landscape, maritime coastline, coral atolls, and the deepwater Karnaphuli estuary.",
+      "overviewBn": "চট্টগ্রাম বিভাগ দেশের একমাত্র চিরসবুজ পার্বত্য ভূপ্রকৃতি, দীর্ঘতম প্রাকৃতিক সমুদ্রসৈকত, প্রবাল দ্বীপ ও গভীর কর্ণফুলী মোহনার অপূর্ব ভৌগোলিক মেলবন্ধন।",
+      "terrain": "Chittagong Hill Tracts (Tertiary folded mountains up to 1,052m), coastal plains, and islands.",
+      "terrainBn": "টার্শিয়ারি যুগের ভাঁজ পর্বতমালা (সর্বোচ্চ শৃঙ্গ সাকা হাফং ১,০৫২ মি), উপকূলীয় দ্বীপ ও বালিয়াড়ি।",
+      "majorRiversDetailed": [
         {
           "name": "Karnaphuli River",
           "nameBn": "কর্ণফুলী নদী",
-          "length": "180 km in Bangladesh (667 km total)",
-          "origin": "Lushai Hills (Mizoram, India)",
-          "originBn": "ভারতের মিজোরামের লুসাই পাহাড়",
-          "outflow": "Bay of Bengal at Patenga",
-          "type": "Fast-Flowing Mountain River to Deep Tidal Estuary",
-          "typeBn": "পার্বত্য খরস্রোতা নদী থেকে গভীর জোয়ারযুক্ত মোহনা",
-          "significance": "The economic aorta of Bangladesh. Hosts the Port of Chittagong handling over 90% of national maritime export-import trade.",
-          "significanceBn": "বাংলাদেশের অর্থনীতির প্রধান চালিকাশক্তি। দেশের ৯০% আন্তর্জাতিক সামুদ্রিক আমদানি-রপ্তানি বাণিজ্য পরিচালনাকারী চট্টগ্রাম বন্দর এই নদীর মোহনায় অবস্থিত।"
+          "length": "180 km in BD",
+          "origin": "Lushai Hills, Mizoram",
+          "role": "Lifeline of Bangladesh foreign trade, hosting Chittagong Seaport and Bangabandhu Tunnel.",
+          "roleBn": "দেশের আন্তর্জাতিক বাণিজ্যের প্রধান ধমনী, যা দেশের প্রধান সমুদ্রবন্দর ও টানেল ধারণ করে।"
         },
         {
           "name": "Sangu River",
-          "nameBn": "সাঙ্গু নদী (শঙ্খ নদী)",
-          "length": "270 km",
-          "origin": "North Arakan Hills (Myanmar Border Range)",
-          "originBn": "মিয়ানমার সীমান্ত সংলগ্ন উত্তর আরাকান পাহাড়",
-          "outflow": "Bay of Bengal south of Chittagong",
-          "type": "Pristine Alpine Canyon River",
-          "typeBn": "সম্পূর্ণ দেশজ খরস্রোতা পাহাড়ি নদী",
-          "significance": "The only major river originating entirely inside Bangladesh’s remote southern hill borders, carving magnificent white limestone canyons.",
-          "significanceBn": "বাংলাদেশের সীমানার অভ্যন্তরে উৎপত্তি হওয়া একমাত্র প্রধান খরস্রোতা নদী, যা থানচি ও রুমার গভীর শৈল গিরিখাত চিরে বয়ে গেছে।"
+          "nameBn": "সাঙ্গু নদী (শঙ্খ)",
+          "length": "173 km",
+          "origin": "North Arakan Hills",
+          "role": "The only major river flowing entirely within Bangladesh mountain gorges, sacred to hill tribes.",
+          "roleBn": "বাংলাদেশের পাহাড়ি গিরিখাতের ভেতর দিয়ে সম্পূর্ণ অভ্যন্তরীণভাবে প্রবাহিত একমাত্র অনন্য নদী।"
         },
         {
           "name": "Halda River",
           "nameBn": "হালদা নদী",
-          "length": "98 km",
-          "origin": "Badnatali Hill Ranges (Khagrachhari)",
-          "originBn": "খাগড়াছড়ির বাটনাতলী পাহাড়ি শৈলশিরা",
-          "outflow": "Karnaphuli River at Kalurghat",
-          "type": "Tidal Oxbow Breeding River",
-          "typeBn": "অনন্য প্রাকৃতিক মৎস্য প্রজনন নদী",
-          "significance": "The world’s only natural tidal spawning ground where pure major Indian carps (Rui, Katla, Mrigal) spawn fertilized eggs harvested by local fishermen.",
-          "significanceBn": "পৃথিবীর একমাত্র জোয়ার-ভাটার প্রাকৃতিক নদী যেখান থেকে রুই জাতীয় মাছের নিষিক্ত ডিম সরাসরি সংগ্রহ করে রেণু ফোটানো হয়।"
+          "length": "81 km",
+          "origin": "Badnatoli Hill Range",
+          "role": "World-famous natural tidal breeding ground for pure Indian carp species and fertilized fish eggs.",
+          "roleBn": "প্রাকৃতিক মৎস্য প্রজনন ক্ষেত্র হিসেবে বিশ্বস্বীকৃত এবং কার্প জাতীয় মাছের ডিম ছাড়ার অভয়ারণ্য।"
         },
         {
           "name": "Matamuhuri River",
           "nameBn": "মাতামুহুরী নদী",
-          "length": "146 km",
-          "origin": "Mowdok Hill Range (Bandarban)",
-          "originBn": "বান্দরবানের মওদক পর্বতমালা",
-          "outflow": "Bay of Bengal via Cox’s Bazar Estuary",
-          "type": "Mountain Torrent to Coastal Channel",
-          "typeBn": "পাহাড়ি খরস্রোতা নদী ও ব-দ্বীপ মোহনা",
-          "significance": "Flows through Alikadam and Lama, creating a rich agrarian valley in the southern Hill Tracts before branching into the delta.",
-          "significanceBn": "আলীকদম ও লামার মধ্য দিয়ে প্রবাহিত হয়ে পাহাড়ি আদিবাসী ও কৃষকদের জীবন-জীবিকার মূল জলধারা হিসেবে কাজ করে।"
+          "length": "96 km",
+          "origin": "Mowdok Hills, Myanmar border",
+          "role": "Watershed river draining the fertile Chokoria mangrove delta and salt pans.",
+          "roleBn": "বান্দরবানের মওদক পাহাড় থেকে উৎপন্ন হয়ে চকরিয়া সুন্দরবন ডেল্টা হয়ে সাগরে পতিত নদী।"
         },
         {
           "name": "Naf River",
           "nameBn": "নাফ নদী",
-          "length": "62 km",
-          "origin": "Arakan Yoma Hills",
-          "originBn": "আরাকান ইয়োমা পর্বতমালা",
-          "outflow": "Bay of Bengal at Teknaf",
-          "type": "International Boundary Estuary",
-          "typeBn": "আন্তর্জাতিক সীমান্ত মোহনা নদী",
-          "significance": "Historic boundary estuary delineating southeastern Bangladesh from Myanmar, bordering St. Martin’s coral island.",
-          "significanceBn": "বাংলাদেশ ও মিয়ানমারের সীমানা নির্ধারণকারী ৬২ কিলোমিটার দীর্ঘ আন্তর্জাতিক মোহনা নদী।"
-        },
-        {
-          "name": "Feni & Muhuri Rivers",
-          "nameBn": "ফেনী ও মুহুরী নদী",
-          "length": "116 km",
-          "origin": "Tripura Hills (India)",
-          "originBn": "ত্রিপুরার পাহাড়ি বনাঞ্চল",
-          "outflow": "Bay of Bengal / Sandwip Channel",
-          "type": "Transboundary Floodplain System",
-          "typeBn": "আন্তর্জাতিক প্লাবন নদী ও সেচ প্রকল্প",
-          "significance": "Site of the massive Muhuri Irrigation Project, which created a vast water reservoir preventing saline water intrusion into 28,000 hectares of cropland.",
-          "significanceBn": "দেশের অন্যতম প্রধান মুহুরী সেচ প্রকল্প এখানে নির্মিত, যা লবণাক্ততা প্রতিরোধ করে হাজার হাজার হেক্টর ফসলি জমি রক্ষা করে।"
+          "length": "62 km border",
+          "origin": "Arakan Hills",
+          "role": "International border river dividing Bangladesh and Myanmar into the Bay of Bengal.",
+          "roleBn": "বাংলাদেশ ও মিয়ানমার আন্তর্জাতিক সীমানা নির্ধারণকারী গুরুত্বপূর্ণ সীমান্ত নদী।"
         }
       ]
-    }
+    },
+    "majorRiversDetailed": [
+      {
+        "name": "Karnaphuli River",
+        "nameBn": "কর্ণফুলী নদী",
+        "length": "180 km in BD",
+        "origin": "Lushai Hills, Mizoram",
+        "role": "Lifeline of Bangladesh foreign trade, hosting Chittagong Seaport and Bangabandhu Tunnel.",
+        "roleBn": "দেশের আন্তর্জাতিক বাণিজ্যের প্রধান ধমনী, যা দেশের প্রধান সমুদ্রবন্দর ও টানেল ধারণ করে।"
+      },
+      {
+        "name": "Sangu River",
+        "nameBn": "সাঙ্গু নদী (শঙ্খ)",
+        "length": "173 km",
+        "origin": "North Arakan Hills",
+        "role": "The only major river flowing entirely within Bangladesh mountain gorges, sacred to hill tribes.",
+        "roleBn": "বাংলাদেশের পাহাড়ি গিরিখাতের ভেতর দিয়ে সম্পূর্ণ অভ্যন্তরীণভাবে প্রবাহিত একমাত্র অনন্য নদী।"
+      },
+      {
+        "name": "Halda River",
+        "nameBn": "হালদা নদী",
+        "length": "81 km",
+        "origin": "Badnatoli Hill Range",
+        "role": "World-famous natural tidal breeding ground for pure Indian carp species and fertilized fish eggs.",
+        "roleBn": "প্রাকৃতিক মৎস্য প্রজনন ক্ষেত্র হিসেবে বিশ্বস্বীকৃত এবং কার্প জাতীয় মাছের ডিম ছাড়ার অভয়ারণ্য।"
+      },
+      {
+        "name": "Matamuhuri River",
+        "nameBn": "মাতামুহুরী নদী",
+        "length": "96 km",
+        "origin": "Mowdok Hills, Myanmar border",
+        "role": "Watershed river draining the fertile Chokoria mangrove delta and salt pans.",
+        "roleBn": "বান্দরবানের মওদক পাহাড় থেকে উৎপন্ন হয়ে চকরিয়া সুন্দরবন ডেল্টা হয়ে সাগরে পতিত নদী।"
+      },
+      {
+        "name": "Naf River",
+        "nameBn": "নাফ নদী",
+        "length": "62 km border",
+        "origin": "Arakan Hills",
+        "role": "International border river dividing Bangladesh and Myanmar into the Bay of Bengal.",
+        "roleBn": "বাংলাদেশ ও মিয়ানমার আন্তর্জাতিক সীমানা নির্ধারণকারী গুরুত্বপূর্ণ সীমান্ত নদী।"
+      }
+    ]
   },
   {
     "id": "rajshahi",
@@ -1390,22 +1442,60 @@
     ],
     "delicacies": [
       {
-        "name": "Bogura Curd (বগুড়ার দই)",
-        "nameBn": "বগুড়ার ঐতিহ্যবাহী দই",
-        "desc": "GI-certified sweet curd reduced in red earthen pots, giving a signature smoky caramelized flavor.",
-        "descBn": "লাল মাটির সরায় জমাকৃত শতবর্ষী জিআই স্বীকৃত অনন্য স্বাদের সুস্বাদু ক্ষীরসা দই।"
+        "name": "Bogurar Doi (Red Yogurt)",
+        "nameBn": "বগুড়ার ঐতিহ্যবাহী লাল দই",
+        "district": "Bogura",
+        "description": "Nationally celebrated sweet caramelized curd fermented in porous clay pots since the Nawab era, GI certified.",
+        "descriptionBn": "গৌড়গোপাল ঘোষ প্রবর্তিত মাটির সানকিতে পাতা ঘন ক্ষীরসা ও ক্যারামেলাইজড দুধের ঐতিহাসিক লাল দই।"
       },
       {
-        "name": "Natore Kachagolla",
-        "nameBn": "নাটোরের কাঁচাগোল্লা",
-        "desc": "Pure fragrant cow milk chhana kneaded with light sugar syrup, invented in 1760 under Rani Bhabani.",
-        "descBn": "রানী ভবানীর আমলের ১৭৬০ সালে উদ্ভাবিত খাঁটি ছানার অমায়িক মিষ্টি কাঁচাগোল্লা।"
+        "name": "Natarer Kanchagolla",
+        "nameBn": "নাটোরের রাজকীয় কাঁচাগোল্লা",
+        "district": "Natore",
+        "description": "Pure soft cow milk chhana lightly bound in aromatic sugar syrup, famous since the reign of Rani Bhabani.",
+        "descriptionBn": "১৭৬০ সালে রানী ভবানীর রাজত্বকালে সৃষ্ট খাঁটি নরম ছানার রসে মাখানো সুস্বাদু ঐতিহ্যবাহী মিষ্টান্ন।"
       },
       {
-        "name": "Barendra Royal Mangoes",
-        "nameBn": "রাজশাহীর আম (হিমসাগর, ল্যাংড়া, ফজলি)",
-        "desc": "World-renowned GI-certified mango cultivars bursting with sweet nectar and distinct aroma.",
-        "descBn": "চাঁপাইনবাবগঞ্জ ও রাজশাহীর সুবিখ্যাত সুমিষ্ট হিমসাগর, ল্যাংড়া ও ফজলি আম।"
+        "name": "Rajshahi Fazli & Khirsapat",
+        "nameBn": "রাজশাহীর ক্ষীরসাপাত ও ফজলি আম",
+        "district": "Rajshahi",
+        "description": "World-renowned sweetest indigenous summer mango varieties carrying Geographical Indication certification.",
+        "descriptionBn": "বরেন্দ্র অঞ্চলের বিখ্যাত পাতলা চামড়া ও আঁশহীন রসাল ভৌগোলিক নির্দেশক (GI) আম।"
+      },
+      {
+        "name": "Kalai Ruti & Begun Bhorta",
+        "nameBn": "মাষকলাইয়ের রুটি ও বেগুন ভর্তা",
+        "district": "Rajshahi",
+        "description": "Hearty rustic black gram flour flatbread toasted on open clay tawas, served with chili paste and burned eggplant.",
+        "descriptionBn": "পদ্মাপাড়ের ঐতিহ্যবাহী কলাইয়ের আটার গরম রুটি, ঝাল কাঁচামরিচ বাটা ও পোড়া বেগুনের মুখরোচক খাবার।"
+      },
+      {
+        "name": "Shibganjer Chamcham",
+        "nameBn": "শিবগঞ্জের আদি চমচম",
+        "district": "Chapainawabganj",
+        "description": "Dense, caramelized chhana oval sweet with deep brown sugar crust and fragrant khoya topping.",
+        "descriptionBn": "চাঁপাইনবাবগঞ্জের শিবগঞ্জে তৈরি ঘন রসে জারিত সুমিষ্ট খাঁটি ক্ষীরের চমচম।"
+      },
+      {
+        "name": "Sirajganjer Pera Sandesh",
+        "nameBn": "সিরাজগঞ্জের প্যারা সন্দেশ",
+        "district": "Sirajganj",
+        "description": "Pure boiled condensed milk fudge hand-pressed into oval lozenges, gifted during royal zamindar banquets.",
+        "descriptionBn": "খাঁটি গাভীর দুধের ঘন ক্ষীর জ্বাল দিয়ে তৈরি দীর্ঘস্থায়ী ঐতিহ্যবাহী শক্ত শুকনো সন্দেশ।"
+      },
+      {
+        "name": "Puthia Rasgulla",
+        "nameBn": "পুঠিয়া রাজবাড়ির রসগোল্লা",
+        "district": "Rajshahi",
+        "description": "Spongy snow-white cottage cheese balls soaked in warm light cardamom syrup.",
+        "descriptionBn": "পুঠিয়ার শতাব্দীপ্রাচীন মিষ্টির কারিগরদের তৈরি নরম স্পঞ্জি সাদা রসগোল্লা।"
+      },
+      {
+        "name": "Naogaoner Chhana-Murki",
+        "nameBn": "নওগাঁর ছানা মুড়কি",
+        "district": "Naogaon",
+        "description": "Tiny diamond-shaped sweetened chhana bites dusted with sugar crystals and rosewater.",
+        "descriptionBn": "ছোট ছোট ছানার টুকরো চিনির রসে ডুবিয়ে শুকিয়ে তৈরি মিষ্টি নাস্তা।"
       }
     ],
     "festivals": [
@@ -1593,95 +1683,95 @@
       }
     ],
     "geography": {
-      "basinName": "Barind Terraces & Upper Padma Basin",
-      "basinNameBn": "বরেন্দ্র চত্বর ও উচ্চ পদ্মা নদী অববাহিকা",
-      "terrainType": "Pleistocene Red Lateritic Clay Undulating Plateau & Sandy Char Floodplains",
-      "terrainTypeBn": "প্লাইস্টোসিন লাল ক্ষারীয় মাটির উঁচু-নিচু বরেন্দ্র চত্বর ও পদ্মার বালুচর",
-      "elevation": "15m – 45m above mean sea level",
-      "elevationBn": "সমুদ্রপৃষ্ঠ থেকে ১৫ মিটার – ৪৫ মিটার উচ্চতা",
-      "geologicalSummary": "Rajshahi division represents the ancient Barind Tract (Barendra Bhumi), an elevated Pleistocene clay block formed during glacial periods. Its soil is stiff, acidic, reddish-yellow laterite with high clay content. The division experiences a semi-arid continental microclimate with summer temperatures exceeding 42°C in Lalpur. The mighty Padma sweeps along its southern boundary, while the historic Chalan Beel wetland complex spans its southeastern plains.",
-      "geologicalSummaryBn": "রাজশাহী বিভাগ প্রাচীন বরেন্দ্র ভূমির প্রতিনিধিত্ব করে, যা প্লাইস্টোসিন যুগে গঠিত শক্ত লাল মাটির উঁচু চত্বর। এই অঞ্চলের মাটি লালচে-হলুদ এবং শুষ্ক মৌসুমে বেশ শক্ত থাকে। লালপুরে দেশের সর্বনিম্ন গড় বৃষ্টিপাত (১৩৮ সেমি) ও সর্বোচ্চ তাপমাত্রা রেকর্ড হয়। দক্ষিণে প্রমত্তা পদ্মা এবং পূর্বে দেশের বৃহত্তম মিঠাপানির চলন বিল এই অঞ্চলের প্রাণকেন্দ্রে অবস্থিত।",
-      "wetlands": [
-        {
-          "name": "Chalan Beel Complex",
-          "nameBn": "চলন বিল মহাপ্লাবনভূমি",
-          "area": "368 km² (spanning 3 districts)",
-          "district": "Natore, Pabna, Sirajganj",
-          "desc": "The largest inland freshwater wetland complex in Bangladesh, fed by 47 interconnected rivers and providing sanctuary to over 130 indigenous fish species.",
-          "descBn": "বাংলাদেশের বৃহত্তম মিঠাপানির বিল ও জলাভূমি, যা ৪৭টি নদী ও খালের সাথে যুক্ত এবং দেশীয় মৎস্য প্রজাতির অন্যতম প্রধান অভয়াশ্রম।"
-        },
-        {
-          "name": "Padma Charlands",
-          "nameBn": "পদ্মার বিস্তৃত চরাঞ্চল",
-          "area": "Seasonal (~200 km²)",
-          "district": "Rajshahi & Chapainawabganj",
-          "desc": "Dynamic braided islands created by seasonal Ganges silt, famous for sweet seasonal watermelons and winter biodiversity.",
-          "descBn": "পদ্মার পলি জমে সৃষ্টি হওয়া প্রকাণ্ড বালুকাময় চরাঞ্চল, যা গ্রীষ্মকালীন তরমুজ ও বোরো ফসলের জন্য খ্যাত।"
-        }
-      ],
-      "riverList": [
+      "overview": "Rajshahi Division encompasses the high, elevated Pleistocene Barendra red clay plateau (Barind Tract) framed by the torrential flow of the Padma and Jamuna rivers.",
+      "overviewBn": "রাজশাহী বিভাগ বরেন্দ্র অঞ্চলের প্রাচীন উচ্চভূমি, লাল মাটির সোপান এবং প্রমত্তা পদ্মা ও যমুনা নদী দ্বারা বেষ্টিত শস্যভাণ্ডার।",
+      "terrain": "Barind Tract undulating clay hills, fertile char sandbars, and extensive agricultural plains.",
+      "terrainBn": "বরেন্দ্র অঞ্চলের উঁচু-নিচু লাল মাটির টিলা, চরাঞ্চল ও উর্বর কৃষি প্লাবনভূমি।",
+      "majorRiversDetailed": [
         {
           "name": "Padma River (Upper Reach)",
-          "nameBn": "পদ্মা নদী (উচ্চ অববাহিকা)",
-          "length": "145 km in Rajshahi",
-          "origin": "Enters Bangladesh at Shibganj (Chapainawabganj)",
-          "originBn": "চাঁপাইনবাবগঞ্জের শিবগঞ্জে বাংলাদেশে প্রবেশ",
-          "outflow": "Lower Padma & Meghna Basin",
-          "type": "Braided Continental River",
-          "typeBn": "বিশাল বালুচর বিশিষ্ট প্রমত্তা নদী",
-          "significance": "Crucial for groundwater recharging of the drought-prone Barind Tract. Historical embankments protect the city of Rajshahi.",
-          "significanceBn": "শুষ্ক বরেন্দ্র অঞ্চলে ভূগর্ভস্থ পানির অন্যতম উৎস। পদ্মার বাঁধ শত বছর ধরে রাজশাহী শহরকে ভাঙন থেকে রক্ষা করে আসছে।"
+          "nameBn": "পদ্মা নদী (উর্ধ্বাঞ্চল)",
+          "length": "145 km in division",
+          "origin": "Himalayas via India",
+          "role": "Enters Bangladesh at Chapainawabganj, flowing past Rajshahi silk metropolis and Hardinge Bridge.",
+          "roleBn": "চাঁপাইনবাবগঞ্জ দিয়ে বাংলাদেশে প্রবেশ করে রাজশাহী শহর ঘেঁষে হার্ডিঞ্জ ব্রিজের দিকে প্রবাহিত।"
         },
         {
           "name": "Mahananda River",
           "nameBn": "মহানন্দা নদী",
-          "length": "96 km in Bangladesh",
-          "origin": "Darjeeling Hills (Mahaldhiram Range)",
-          "originBn": "দার্জিলিং হিমালয়ের মহলাধিরাম পাহাড়",
-          "outflow": "Padma River at Godagari",
-          "type": "Meandering Hill-Fed River",
-          "typeBn": "হিমালয় বিধৌত পাহাড়ি নদী",
-          "significance": "Nourishes the internationally celebrated Fazli, Langra, and Khirsapat mango orchards of Chapainawabganj and Rajshahi.",
-          "significanceBn": "চাঁপাইনবাবগঞ্জ ও রাজশাহীর বিশ্ববিখ্যাত ফজলি, ল্যাংড়া ও খিরসাপাত আম বাগানগুলোর প্রধান পুষ্টি সরবরাহকারী নদী।"
-        },
-        {
-          "name": "Atrai River",
-          "nameBn": "আত্রাই নদী",
-          "length": "390 km",
-          "origin": "Siliguri Plains (West Bengal)",
-          "originBn": "পশ্চিমবঙ্গের শিলিগুড়ি সমভূমি",
-          "outflow": "Chalan Beel and Jamuna",
-          "type": "Transboundary Wetland Feeding River",
-          "typeBn": "ঐতিহাসিক পলল বিধৌত নদী",
-          "significance": "Historically one of the largest waterways of North Bengal; provided ancient water transport to Somapura Mahavihara at Paharpur.",
-          "significanceBn": "প্রাচীন উত্তরবঙ্গের শ্রেষ্ঠ নদীপথ; বৌদ্ধ পাল সাম্রাজ্যের সোমপুর মহাবিহারে যাতায়াতের প্রাচীন নৌপথ হিসেবে ব্যবহৃত হতো।"
+          "length": "36 km in BD",
+          "origin": "Darjeeling Himalayas",
+          "role": "Pristine mountain-fed border river enriching the mango orchards of Chapainawabganj.",
+          "roleBn": "হিমালয় থেকে উৎপন্ন শীতল পানির নদী যা চাঁপাইনবাবগঞ্জের আম বাগান অঞ্চলকে উর্বর করে।"
         },
         {
           "name": "Karatoya River",
           "nameBn": "করতোয়া নদী",
-          "length": "187 km",
-          "origin": "Himalayan Foothills via Jalpaiguri",
-          "originBn": "জলপাইগুড়ির হিমালয় পাদদেশ",
-          "outflow": "Bangali & Jamuna Rivers",
-          "type": "Historic Silted Watercourse",
-          "typeBn": "ঐতিহাসিক প্রাচীন নদী অববাহিকা",
-          "significance": "One of the most sacred rivers mentioned in the Mahabharata. Guarded the eastern ramparts of ancient Pundranagar (Mahasthangarh).",
-          "significanceBn": "মহাভারতে উল্লেখিত পৌরাণিক পবিত্র নদী। খ্রিস্টপূর্ব ৩য় শতকে পুণ্ড্রনগরের (মহাস্থানগড়) পূর্ব প্রাচীর হিসেবে শহরটিকে রক্ষা করত।"
+          "length": "122 km",
+          "origin": "Baikunthapur forest",
+          "role": "Sacred ancient river on whose bank the 3rd-century BCE citadel of Mahasthangarh was built.",
+          "roleBn": "প্রাচীন বাংলার পুণ্ড্রনগরের দুর্গনগরী মহাস্থানগড় এই করতোয়া নদীর তীরেই গড়ে উঠেছিল।"
         },
         {
-          "name": "Punarbhaba River",
-          "nameBn": "পুনর্ভবা নদী",
-          "length": "160 km",
-          "origin": "Thakurgaon Lowlands",
-          "originBn": "ঠাকুরগাঁওয়ের জলাভূমি",
-          "outflow": "Mahananda River",
-          "type": "Seasonal Fluvial Stream",
-          "typeBn": "আন্তঃসীমান্ত পলল নদী",
-          "significance": "Critical artery draining the western Barind clay plateau through Naogaon into the Mahananda.",
-          "significanceBn": "পশ্চিম বরেন্দ্র অঞ্চলের পানি নিষ্কাশন ও কৃষি সেচের অন্যতম গুরুত্বপূর্ণ আন্তঃসীমান্ত নদী।"
+          "name": "Atrai River",
+          "nameBn": "আত্রাই নদী",
+          "length": "380 km",
+          "origin": "Siliguri, West Bengal",
+          "role": "Flows past the UNESCO World Heritage site of Somapura Mahavihara at Paharpur into Chalan Beel.",
+          "roleBn": "ইউনেস্কো বিশ্ব ঐতিহ্য পাহাড়পুর সোমপুর মহাবিহার ও চলনবিলের মধ্য দিয়ে প্রবাহিত প্রাচীন নদী।"
+        },
+        {
+          "name": "Jamuna River (West Bank)",
+          "nameBn": "যমুনা নদী (পশ্চিম তীর)",
+          "length": "110 km in division",
+          "origin": "Brahmaputra diversion",
+          "role": "Braided mega river defining the eastern frontier of Rajshahi, spanned by Bangabandhu Bridge.",
+          "roleBn": "বঙ্গবন্ধু বহুমুখী সেতু ধারণকারী যমুনা নদী যা বিভাগের পূর্ব সীমান্ত নির্ধারণ করে।"
         }
       ]
-    }
+    },
+    "majorRiversDetailed": [
+      {
+        "name": "Padma River (Upper Reach)",
+        "nameBn": "পদ্মা নদী (উর্ধ্বাঞ্চল)",
+        "length": "145 km in division",
+        "origin": "Himalayas via India",
+        "role": "Enters Bangladesh at Chapainawabganj, flowing past Rajshahi silk metropolis and Hardinge Bridge.",
+        "roleBn": "চাঁপাইনবাবগঞ্জ দিয়ে বাংলাদেশে প্রবেশ করে রাজশাহী শহর ঘেঁষে হার্ডিঞ্জ ব্রিজের দিকে প্রবাহিত।"
+      },
+      {
+        "name": "Mahananda River",
+        "nameBn": "মহানন্দা নদী",
+        "length": "36 km in BD",
+        "origin": "Darjeeling Himalayas",
+        "role": "Pristine mountain-fed border river enriching the mango orchards of Chapainawabganj.",
+        "roleBn": "হিমালয় থেকে উৎপন্ন শীতল পানির নদী যা চাঁপাইনবাবগঞ্জের আম বাগান অঞ্চলকে উর্বর করে।"
+      },
+      {
+        "name": "Karatoya River",
+        "nameBn": "করতোয়া নদী",
+        "length": "122 km",
+        "origin": "Baikunthapur forest",
+        "role": "Sacred ancient river on whose bank the 3rd-century BCE citadel of Mahasthangarh was built.",
+        "roleBn": "প্রাচীন বাংলার পুণ্ড্রনগরের দুর্গনগরী মহাস্থানগড় এই করতোয়া নদীর তীরেই গড়ে উঠেছিল।"
+      },
+      {
+        "name": "Atrai River",
+        "nameBn": "আত্রাই নদী",
+        "length": "380 km",
+        "origin": "Siliguri, West Bengal",
+        "role": "Flows past the UNESCO World Heritage site of Somapura Mahavihara at Paharpur into Chalan Beel.",
+        "roleBn": "ইউনেস্কো বিশ্ব ঐতিহ্য পাহাড়পুর সোমপুর মহাবিহার ও চলনবিলের মধ্য দিয়ে প্রবাহিত প্রাচীন নদী।"
+      },
+      {
+        "name": "Jamuna River (West Bank)",
+        "nameBn": "যমুনা নদী (পশ্চিম তীর)",
+        "length": "110 km in division",
+        "origin": "Brahmaputra diversion",
+        "role": "Braided mega river defining the eastern frontier of Rajshahi, spanned by Bangabandhu Bridge.",
+        "roleBn": "বঙ্গবন্ধু বহুমুখী সেতু ধারণকারী যমুনা নদী যা বিভাগের পূর্ব সীমান্ত নির্ধারণ করে।"
+      }
+    ]
   },
   {
     "id": "khulna",
@@ -1885,22 +1975,60 @@
     "nightImageAlt": "/panoramas/khulna_night_alt.jpg",
     "delicacies": [
       {
-        "name": "Khulna Chui Jhal Meat",
-        "nameBn": "খুলনার চুইঝাল মাংস",
-        "desc": "Tender beef or mutton cooked with wild piper chaba (chui) herbal twigs providing aromatic heat.",
-        "descBn": "চুই গাছের সুগন্ধি কান্ডের প্রাকৃতিক ঝাঁঝালো মশলায় রান্না করা খুলনার বিখ্যাত মাংস।"
+        "name": "Chui Jhal Gosht of Khulna",
+        "nameBn": "খুলনার বিখ্যাত চুইঝাল খাসির মাংস",
+        "district": "Khulna",
+        "description": "World-renowned spicy meat cooked with aromatic Piper chaba wood stalks imparting a unique peppery fragrance.",
+        "descriptionBn": "চুইগাছের ঔষধি ও ঝাঁঝালো ডাল কেটে খাসি বা গরুর মাংসে দিয়ে রান্না করা খুলনার অন্যতম প্রধান সিগনেচার ডিশ।"
       },
       {
-        "name": "Sundarbans Pure Mangrove Honey",
-        "nameBn": "সুন্দরবনের খাঁটি মধু",
-        "desc": "Raw amber honey hand-harvested by traditional Mouyals from wild Khalsi & Goran blooms.",
-        "descBn": "খলসি ও গরান ফুলের নির্যাস থেকে সুন্দরবনের ঐতিহ্যবাহী মৌয়ালদের সংগৃহীত মধু।"
+        "name": "Sundarban Pure Wild Honey",
+        "nameBn": "সুন্দরবনের খলিশা ও পদ্মমধু",
+        "district": "Bagerhat / Khulna",
+        "description": "Pure amber forest honey hand-harvested by hereditary Mawali honey-hunters in deep mangrove reserves.",
+        "descriptionBn": "সুন্দরবনের গহিন বনের খলিশা ও গরান ফুলের খাঁটি সুগন্ধি প্রাকৃতিক মধু।"
       },
       {
-        "name": "Satkhira Sandesh & Narkel Naru",
-        "nameBn": "সাতক্ষীরার সন্দেশ ও গলদা চিংড়ি",
-        "desc": "Fresh coastal chhana sandesh and giant freshwater river prawns cooked in coconut milk cream.",
-        "descBn": "সাতক্ষীরার খাঁটি ছানার সন্দেশ এবং নারিকেলের দুধে রান্না করা গলদা চিংড়ির মালাইকারি।"
+        "name": "Satkhirar Sandesh",
+        "nameBn": "সাতক্ষীরার খাঁটি ক্ষীর সন্দেশ",
+        "district": "Satkhira",
+        "description": "Ultra-fresh dairy cottage cheese confectionery celebrated for soft melt-in-mouth texture and pure milk aroma.",
+        "descriptionBn": "খাঁটি দেশি গাভীর তাজা ছানা ও হালকা চিনির সংমিশ্রণে তৈরি কোমল তুলতুলে সন্দেশ।"
+      },
+      {
+        "name": "Bagerhat Galda Chingri Malai Curry",
+        "nameBn": "বাগেরহাটের গলদা চিংড়ির মালাইকারি",
+        "district": "Bagerhat",
+        "description": "Giant freshwater river prawns simmered in creamy fresh coconut milk, ghee, and sweet spices.",
+        "descriptionBn": "সুন্দরবন অববাহিকার নদী ও ঘেরের বিশাল গলদা চিংড়ি নারকেলের দুধে রান্না করা রাজকীয় পদ।"
+      },
+      {
+        "name": "Jashorer Jamtala Sweet",
+        "nameBn": "যশোরের জামতলার ঐতিহ্যবাহী রসগোল্লা",
+        "district": "Jashore",
+        "description": "Deep-fried dark golden cottage cheese sweet developed in Jamtala bazaar in 1955 by Sadhu Ghosh.",
+        "descriptionBn": "১৯৫৫ সালে সাধু ঘোষের হাতে তৈরি জামতলার অনন্য স্বাদের রসাল গাঢ় বাদামি মিষ্টি।"
+      },
+      {
+        "name": "Meherpurer Sabitri Sweet",
+        "nameBn": "মেহেরপুরের সাবিত্রী ও রসকদম্ব",
+        "district": "Meherpur",
+        "description": "150-year-old secret recipe sweet that never spoils even without refrigeration, made of pure condensed milk.",
+        "descriptionBn": "দেড়শ বছরের ঐতিহ্যবাহী ফ্রিজ ছাড়া দিনের পর দিন ভালো থাকা ক্ষীরের সাবিত্রী মিষ্টি।"
+      },
+      {
+        "name": "Kushtiar Tilkathi & Khaja",
+        "nameBn": "কুষ্টিয়ার তিলের খাজা",
+        "district": "Kushtia",
+        "description": "Crunchy sesame brittle with dozens of airy paper-thin layers made by master artisans of Kushtia.",
+        "descriptionBn": "চিনি ও তিলের সমন্বয়ে বহু স্তরে ফাঁপা মুচমুচে কুষ্টিয়ার বিখ্যাত তিলের খাজা।"
+      },
+      {
+        "name": "Kopotakkho Ilish Paturi",
+        "nameBn": "কপোতাক্ষের ইলিশ পাতুরি",
+        "district": "Jashore",
+        "description": "Fresh estuarine hilsa wrapped in banana leaves with stone-ground mustard paste and slow-roasted.",
+        "descriptionBn": "কলাপাতায় মোড়ানো সরিষা বাটা ও কাঁচামরিচে ভাপা কপোতাক্ষ নদের ইলিশ।"
       }
     ],
     "festivals": [
@@ -2090,95 +2218,95 @@
       }
     ],
     "geography": {
-      "basinName": "The Active Coastal Delta & Sundarbans Mangrove Tidal Network",
-      "basinNameBn": "সক্রিয় উপকূলীয় ব-দ্বীপ ও সুন্দরবন ম্যানগ্রোভ জোয়ার অববাহিকা",
-      "terrainType": "Tidal Halophytic Mangrove Swamps, Intertidal Mudflats & Decaying Oxbow Delta",
-      "terrainTypeBn": "লবণাক্ত ম্যানগ্রোভ বন, জোয়ার-ভাটার কাদামাটি চত্বর ও প্রাচীন ব-দ্বীপ অববাহিকা",
-      "elevation": "Sea level to 8m",
-      "elevationBn": "সমুদ্রপৃষ্ঠ থেকে ০ মিটার – ৮ মিটার",
-      "geologicalSummary": "Khulna division forms the southwestern lower deltaic plain of the Ganges. The southern zone constitutes the world-famous Sundarbans—the planet’s largest continuous tidal mangrove ecosystem (6,017 km² in Bangladesh). It is dissected by hundreds of saline tidal creeks, mudflats, and estuaries where fresh water from the Gorai meets oceanic tides. The northern districts (Kushtia, Jashore) feature moribund delta landscapes with cut-off oxbow lakes (Baors).",
-      "geologicalSummaryBn": "খুলনা বিভাগ গঙ্গা ব-দ্বীপের দক্ষিণ-পশ্চিম প্রান্ত। এর দক্ষিণাংশে অবস্থিত পৃথিবীর বৃহত্তম জোয়ার-বিধৌত শ্বাসমূলীয় ম্যানগ্রোভ বন সুন্দরবন (বাংলাদেশে ৬,০১৭ বর্গকিমি)। এটি শত শত লবণাক্ত নদী, খাল ও খাঁড়ি দ্বারা পরিবেষ্টিত। উত্তরাংশে (যশোর, কুষ্টিয়া) রয়েছে প্রাচীন মৃতপ্রায় ব-দ্বীপ এবং অশ্বক্ষুরাকৃতি বাওড় জলাভূমি।",
-      "wetlands": [
+      "overview": "Khulna Division is the world's largest tidal mangrove deltaic labyrinth, intersected by hundreds of crisscrossing saline and freshwater rivers connecting to the Sundarbans.",
+      "overviewBn": "খুলনা বিভাগ বিশ্বের বৃহত্তম ম্যানগ্রোভ জোয়ার-ভাটার বদ্বীপ এবং সুন্দরবনের মধ্য দিয়ে বঙ্গোপসাগরে পতিত শত শত নদীর মোহনা।",
+      "terrain": "Tidal mangrove forest, active deltaic mudflats, and estuarine coastal islands.",
+      "terrainBn": "ম্যানগ্রোভ বনভূমি, আধা-লবণাক্ত ও স্বাদুপানির জোয়ার-ভাটার প্লাবনভূমি ও সুন্দরবনের কর্দমাক্ত দ্বীপ।",
+      "majorRiversDetailed": [
         {
-          "name": "The Sundarbans Mangrove Forest",
-          "nameBn": "সুন্দরবন বিশ্ব প্রাকৃতিক ঐতিহ্য",
-          "area": "6,017 km² (Bangladesh Part)",
-          "district": "Bagerhat, Khulna, Satkhira",
-          "desc": "UNESCO World Natural Heritage and Ramsar Wetland. Crucial natural bio-shield protecting Bangladesh from devastating super-cyclones.",
-          "descBn": "ইউনেস্কো বিশ্ব প্রাকৃতিক ঐতিহ্য ও রামসার সাইট। প্রলয়ঙ্করী সামুদ্রিক ঘূর্ণিঝড় থেকে বাংলাদেশকে রক্ষাকারী প্রাকৃতিক সবুজ প্রাচীর।"
+          "name": "Rupsha River",
+          "nameBn": "রূপসা নদী",
+          "length": "31 km",
+          "origin": "Bhairab River confluence",
+          "role": "Economic lifeline of Khulna industrial metropolis, spanned by the Khan Jahan Ali Cable Bridge.",
+          "roleBn": "ভৈরব নদের শাখা এবং খুলনা মহানগর ও শিল্পাঞ্চলের প্রধান নদী, যার ওপর রূপসা সেতু অবস্থিত।"
         },
         {
-          "name": "Oxbow Lakes (Baors of Jashore)",
-          "nameBn": "যশোরের অশ্বক্ষুরাকৃতি বাওড়সমূহ",
-          "area": "Over 50 km²",
-          "district": "Jashore, Chuadanga, Jhenaidah",
-          "desc": "Ancient abandoned river meanders of the Bhairab and Kopotakkho, now serving as inland fisheries and bird sanctuaries.",
-          "descBn": "ভৈরব ও কপোতাক্ষ নদের প্রাচীন গতিপথ পরিবর্তনের ফলে সৃষ্ট প্রাকৃতিক মিষ্টি পানির অশ্বক্ষুরাকৃতি হ্রদ।"
-        }
-      ],
-      "riverList": [
-        {
-          "name": "Rupsha & Pasur River System",
-          "nameBn": "রূপসা ও পশুর নদী প্রণালী",
+          "name": "Pashur River",
+          "nameBn": "পশুর নদী",
           "length": "142 km",
-          "origin": "Confluence of Bhairab and Atai Rivers",
-          "originBn": "ভৈরব ও আতাই নদীর সঙ্গমস্থল",
-          "outflow": "Bay of Bengal at Hiron Point",
-          "type": "Deep Tidal Maritime Estuary",
-          "typeBn": "গভীর জোয়ারযুক্ত সামুদ্রিক মোহনা নদী",
-          "significance": "The industrial lifeline of Khulna city and the primary deep-draft navigation corridor for international ships docking at Mongla Port.",
-          "significanceBn": "খুলনা মহানগরীর অর্থনৈতিক মেরুদণ্ড এবং মোংলা সমুদ্রবন্দরে আন্তর্জাতিক মালবাহী জাহাজ চলাচলের প্রধান জলপথ।"
+          "origin": "Rupsha continuation",
+          "role": "Deepwater navigable riverway hosting Mongla Seaport and traversing the heart of Sundarbans.",
+          "roleBn": "মোংলা সমুদ্রবন্দরের প্রধান আন্তর্জাতিক নৌপথ যা সুন্দরবনের বন্যপ্রাণী অভয়ারণ্যের ভেতর দিয়ে সাগরে মিশেছে।"
         },
         {
           "name": "Kopotakkho River",
           "nameBn": "কপোতাক্ষ নদ",
           "length": "180 km",
-          "origin": "Bhairab River near Kotchandpur",
-          "originBn": "কোটচাঁদপুরের নিকট ভৈরব নদী",
-          "outflow": "Kholpetua River & Sundarbans",
-          "type": "Historic Deltaic Meander",
-          "typeBn": "ঐতিহাসিক পলল ব-দ্বীপ নদ",
-          "significance": "Immortalized in Bengali modern poetry by epic bard Michael Madhusudan Dutta in his celebrated sonnet “Kopotakkho Nod”.",
-          "significanceBn": "মহাকবি মাইকেল মধুসূদন দত্তের অমর সনেট \"কপোতাক্ষ নদ\"-এর মাধ্যমে বাংলা সাহিত্যের ইতিহাসে চিরস্মরণীয় জলধারা।"
-        },
-        {
-          "name": "Gorai-Madhumati River",
-          "nameBn": "গড়াই-মধুমতি নদী",
-          "length": "370 km",
-          "origin": "Distributary of Padma River at Kushtia",
-          "originBn": "কুষ্টিয়ায় পদ্মা নদীর প্রধান শাখা",
-          "outflow": "Baleshwar River into Bay of Bengal",
-          "type": "Primary Freshwater Delta Artery",
-          "typeBn": "দক্ষিণ-পশ্চিমের প্রধান মিষ্টি পানির নদী",
-          "significance": "The most vital freshwater lifeline flushing saltwater out of the Sundarbans mangrove to maintain ecological balance.",
-          "significanceBn": "পদ্মা থেকে মিষ্টি পানি সুন্দরবনে সরবরাহকারী প্রধানতম নদী, যা সুন্দরবনের লবণাক্ততা দূর করে জীববৈচিত্র্য টিকিয়ে রাখে।"
+          "origin": "Bhairab distributary",
+          "role": "Immortalized by poet Michael Madhusudan Dutta in his famous sonnets at Sagardari.",
+          "roleBn": "মহাকবি মাইকেল মধুসূদন দত্তের অমর কবিতার স্মৃতিবিজড়িত সাগরদাঁড়ির ঐতিহাসিক নদ।"
         },
         {
           "name": "Bhairab River",
-          "nameBn": "ভৈরব নদী",
-          "length": "250 km",
-          "origin": "Meherpur Border (Offshoot of Ganges)",
-          "originBn": "মেহেরপুর সীমান্ত (গঙ্গার প্রাচীন ধারা)",
-          "outflow": "Rupsha River at Khulna",
-          "type": "Decaying Ancient Fluvial Channel",
-          "typeBn": "প্রাচীন ঐতিহাসিক নদী অববাহিকা",
-          "significance": "Historic trade channel connecting ancient Sultanate settlements including Khan Jahan Ali’s Khalifatabad.",
-          "significanceBn": "প্রাচীন খলিফাতাবাদ ও বাগেরহাটের সাথে অবিভক্ত বাংলার বাণিজ্যের প্রাচীনতম ঐতিহাসিক জলপথ।"
+          "nameBn": "ভৈরব নদ",
+          "length": "160 km",
+          "origin": "Meherpur border",
+          "role": "Historic ancient river along which 15th-century saint Khan Jahan Ali established his mosque city.",
+          "roleBn": "পঞ্চদশ শতাব্দীর ইসলামি শহর বাগেরহাট ও খাঞ্জেলী স্থাপত্য এই ভৈরব নদের অববাহিকায় গড়ে ওঠে।"
         },
         {
-          "name": "Shibsa & Arpangashia Rivers",
-          "nameBn": "শিবসা ও আড়পাঙ্গাশিয়া নদী",
-          "length": "100+ km",
-          "origin": "Tidal Delta Networks",
-          "originBn": "সুন্দরবনের অভ্যন্তরীণ জোয়ার খাঁড়ি",
-          "outflow": "Bay of Bengal",
-          "type": "Saline Tidal Mangrove Channels",
-          "typeBn": "ম্যানগ্রোভ অরণ্যের লবণাক্ত জোয়ার নদী",
-          "significance": "Crisscross the heart of the Royal Bengal Tiger sanctuary, forming tidal mudflats and mangrove estuaries.",
-          "significanceBn": "সুন্দরবনের গভীরে রয়েল বেঙ্গল টাইগার ও চিত্রা হরিণের বিচরণক্ষেত্রের মধ্য দিয়ে প্রবাহিত লবণাক্ত নদীপথ।"
+          "name": "Madhumati River",
+          "nameBn": "মধুমতী নদী",
+          "length": "130 km",
+          "origin": "Gorai distributary",
+          "role": "Freshwater boundary river separating Khulna and Dhaka divisions.",
+          "roleBn": "খুলনা ও ঢাকা বিভাগের মধ্যবর্তী সীমানা নির্ধারণকারী মিঠাপানির সুদৃশ্যক নদী।"
         }
       ]
-    }
+    },
+    "majorRiversDetailed": [
+      {
+        "name": "Rupsha River",
+        "nameBn": "রূপসা নদী",
+        "length": "31 km",
+        "origin": "Bhairab River confluence",
+        "role": "Economic lifeline of Khulna industrial metropolis, spanned by the Khan Jahan Ali Cable Bridge.",
+        "roleBn": "ভৈরব নদের শাখা এবং খুলনা মহানগর ও শিল্পাঞ্চলের প্রধান নদী, যার ওপর রূপসা সেতু অবস্থিত।"
+      },
+      {
+        "name": "Pashur River",
+        "nameBn": "পশুর নদী",
+        "length": "142 km",
+        "origin": "Rupsha continuation",
+        "role": "Deepwater navigable riverway hosting Mongla Seaport and traversing the heart of Sundarbans.",
+        "roleBn": "মোংলা সমুদ্রবন্দরের প্রধান আন্তর্জাতিক নৌপথ যা সুন্দরবনের বন্যপ্রাণী অভয়ারণ্যের ভেতর দিয়ে সাগরে মিশেছে।"
+      },
+      {
+        "name": "Kopotakkho River",
+        "nameBn": "কপোতাক্ষ নদ",
+        "length": "180 km",
+        "origin": "Bhairab distributary",
+        "role": "Immortalized by poet Michael Madhusudan Dutta in his famous sonnets at Sagardari.",
+        "roleBn": "মহাকবি মাইকেল মধুসূদন দত্তের অমর কবিতার স্মৃতিবিজড়িত সাগরদাঁড়ির ঐতিহাসিক নদ।"
+      },
+      {
+        "name": "Bhairab River",
+        "nameBn": "ভৈরব নদ",
+        "length": "160 km",
+        "origin": "Meherpur border",
+        "role": "Historic ancient river along which 15th-century saint Khan Jahan Ali established his mosque city.",
+        "roleBn": "পঞ্চদশ শতাব্দীর ইসলামি শহর বাগেরহাট ও খাঞ্জেলী স্থাপত্য এই ভৈরব নদের অববাহিকায় গড়ে ওঠে।"
+      },
+      {
+        "name": "Madhumati River",
+        "nameBn": "মধুমতী নদী",
+        "length": "130 km",
+        "origin": "Gorai distributary",
+        "role": "Freshwater boundary river separating Khulna and Dhaka divisions.",
+        "roleBn": "খুলনা ও ঢাকা বিভাগের মধ্যবর্তী সীমানা নির্ধারণকারী মিঠাপানির সুদৃশ্যক নদী।"
+      }
+    ]
   },
   {
     "id": "barishal",
@@ -2377,22 +2505,60 @@
     ],
     "delicacies": [
       {
-        "name": "Barishal Ilish Paturi & Bhapa",
-        "nameBn": "বরিশালের ইলিশ পাতুড়ি ও ভাপা",
-        "desc": "Fresh silver Hilsa from Meghna-Padma estuary marinated in mustard and green chili, wrapped in banana leaf.",
-        "descBn": "পদ্মা-মেঘনার মোহনার রুপালি ইলিশ, সরিষা বাটা ও কাঁচা মরিচ দিয়ে কলাপাতায় মোড়া পাতুড়ি।"
+        "name": "Barishaler Ilish Bhapa",
+        "nameBn": "বরিশালের সর্ষে ইলিশ ভাপা",
+        "district": "Barishal",
+        "description": "Freshly caught silver hilsa from Kirtankhola steamed with pungent yellow mustard paste and green chilies.",
+        "descriptionBn": "পদ্মা ও কীর্তনখোলার রূপালি তাজা ইলিশ খাঁটি সরিষা বাটা ও কাঁচা মরিচে ভাপানো অবিসংবাদিত শ্রেষ্ঠ খাবার।"
       },
       {
-        "name": "Gournadi Doi & Sandesh",
-        "nameBn": "গৌরনদীর রসালো ছানার সন্দেশ",
-        "desc": "Soft golden milk sandesh simmered in pure molasses or caramelized thick milk.",
-        "descBn": "গৌরনদীর ঐতিহ্যবাহী খাঁটি মহিষ ও গরুর দুধের ছানায় তৈরি মনমাতানো রসালো সন্দেশ।"
+        "name": "Bhola Mahish Raw Milk Doi",
+        "nameBn": "ভোলার মহিষের খাঁটি কাঁচা দুধের দই",
+        "district": "Bhola",
+        "description": "Extremely thick, dense curd made from free-range island water buffalo milk fermented in unglazed clay pots.",
+        "descriptionBn": "ভোলার চরাঞ্চলের মহিষের কাঁচা দুধে কোনো চিনি ছাড়া মাটির তালাইয়ে পাতা সুস্বাদু ঘন দই।"
       },
       {
-        "name": "Pirojpur Sweet Amra & Hogplum",
-        "nameBn": "পিরোজপুরের মিষ্টি আমড়া ও পেয়ারা",
-        "desc": "Crunchy sweet giant hogplums and green guavas from lush floating orchard farms.",
-        "descBn": "স্বরূপকাঠি ও পিরোজপুরের সুবিখ্যাত মিষ্টি আমড়া এবং সুগন্ধি তাজা পেয়ারা।"
+        "name": "Jhalokatir Amra & Guava",
+        "nameBn": "ঝালকাঠির পেয়ারা ও বরিশালের আমড়া",
+        "district": "Jhalokati",
+        "description": "Crisp sweet guavas traded on floating boat bazaars and juicy golden hog plums famous across the nation.",
+        "descriptionBn": "ভিমরুলীর ভাসমান নৌকার মিষ্টি পেয়ারা ও সুস্বাদু কাসুন্দি মাখা বরিশালের আমড়া।"
+      },
+      {
+        "name": "Pirojpurer Balam Rice Payesh",
+        "nameBn": "পিরোজপুরের বালাম চালের পায়েস",
+        "district": "Pirojpur",
+        "description": "Aromatic heritage grain cooked with pure date palm syrup and full-cream milk.",
+        "descriptionBn": "ঐতিহ্যবাহী সরু বালাম চাল ও শীতের নলেন গুড়ে রান্না করা সুস্বাদু ক্ষীর পায়েস।"
+      },
+      {
+        "name": "Barishali Chital Machher Muitha",
+        "nameBn": "চিতল মাছের মুইঠ্যা ভুনা",
+        "district": "Barishal",
+        "description": "Deboned clown knifefish dumplings simmered in rich spiced onion-garlic tomato gravy.",
+        "descriptionBn": "কাটা ছাড়ানো চিতল মাছের পেটির মাংস গোল বল বানিয়ে ঝাল ঝোল ভুনা।"
+      },
+      {
+        "name": "Patuakhali Hilsha Paturi",
+        "nameBn": "পটুয়াখালীর ইলিশ পাতুরি",
+        "district": "Patuakhali",
+        "description": "Coastal hilsa steaks marinated in grated coconut and baked in aromatic turmeric leaves.",
+        "descriptionBn": "উপকূলীয় হলুদ ও কলাপাতায় মোড়া নারকেল বাটা দিয়ে ভাজা তাজা ইলিশ।"
+      },
+      {
+        "name": "Amtali Soft Chhana Sweet",
+        "nameBn": "আমতলীর নরম ছানার মিষ্টি",
+        "district": "Barguna",
+        "description": "Southern riverine soft curd confectionery soaked in light sweet cardamom broth.",
+        "descriptionBn": "বরগুনার আমতলীতে তৈরি মুখে দিলেই মিলিয়ে যাওয়া নরম তাজা ছানার মিষ্টি।"
+      },
+      {
+        "name": "Narkel Naru & Moa",
+        "nameBn": "বরিশালের নারিকেল নাড়ু ও মুড়ির মোয়া",
+        "district": "Barishal",
+        "description": "Traditional winter crunchy snacks made with freshly grated coconut and liquid date palm jaggery.",
+        "descriptionBn": "খেজুরের গুড় ও তাজা নারিকেল কোরায় পাকানো চিরন্তন লোকজ নাড়ু ও মোয়া।"
       }
     ],
     "festivals": [
@@ -2598,95 +2764,95 @@
       }
     ],
     "geography": {
-      "basinName": "The Lower Meghna Estuary & Tidal Delta Network (Venice of Bengal)",
-      "basinNameBn": "লোয়ার মেঘনা মোহনা ও উপকূলীয় জোয়ার-ভাটা অববাহিকা (বাংলার ভেনিস)",
-      "terrainType": "Low-Lying Active Marine Alluvial Delta, Interconnected Canals & Offshore Barrier Islands",
-      "terrainTypeBn": "নিচু সক্রিয় সামুদ্রিক ব-দ্বীপ, জালের মতো বিস্তৃত খাল ও উপকূলীয় দ্বীপমালা",
-      "elevation": "Sea level to 3m (Tidally Influenced)",
-      "elevationBn": "সমুদ্রপৃষ্ঠ থেকে ০ মিটার – ৩ মিটার (জোয়ার-ভাটা নির্ভর)",
-      "geologicalSummary": "Barishal division is globally renowned as the \"Venice of Bengal\". It represents the youngest, most dynamic marine-fluvial delta on earth, where the combined waters of the Padma, Jamuna, and Meghna discharge into the Bay of Bengal. The division is dissected by thousands of canals, tidal rivers, and creeks. Tides surge 2 to 3 meters twice daily, providing natural irrigation for floating agricultural beds (*dhap*) and fostering vibrant waterborne markets.",
-      "geologicalSummaryBn": "বরিশাল বিভাগ বিশ্বজুড়ে \"বাংলার ভেনিস\" নামে সমাদৃত। এটি পৃথিবীর সর্বকনিষ্ঠ এবং সবচেয়ে গতিশীল ব-দ্বীপ অঞ্চল যেখানে পদ্মা, যমুনা ও মেঘনার মিলিত জলরাশি সাগরে পতিত হয়। হাজার হাজার নদী, খাল ও খাঁড়ি দ্বারা জালের মতো বিস্তৃত এই অঞ্চলে দিনে দুবার জোয়ার ও ভাটা খেলে। এখানে রয়েছে ভাসমান পেয়ারা বাজার এবং ভাসমান ধাপ চাষের প্রাচীন ঐতিহ্য।",
-      "wetlands": [
-        {
-          "name": "Floating Agricultural Polders (Dhap / Baira)",
-          "nameBn": "ভাসমান ধাপ চাষের ঐতিহ্য (ইউনেস্কো স্বীকৃত জিআইএএইচএস)",
-          "area": "Spanning canals of Pirojpur & Jhalokati",
-          "district": "Jhalokati & Pirojpur",
-          "desc": "FAO-recognized Globally Important Agricultural Heritage System (GIAHS) where crops are grown on floating water-hyacinth rafts.",
-          "descBn": "জাতিসংঘের খাদ্য ও কৃষি সংস্থা (FAO) স্বীকৃত বিশ্ব ঐতিহ্যবাহী কৃষি পদ্ধতি যেখানে কচুরিপানার ভাসমান ভেলায় ফসল চাষ করা হয়।"
-        },
-        {
-          "name": "Bhimruli Canal Networks",
-          "nameBn": "ভিমরুলী খাল ও মোহনা",
-          "area": "Canal Estuary",
-          "district": "Jhalokati",
-          "desc": "The hub of Asia’s largest floating guava and hog plum trading market, navigated exclusively via small wooden rowboats.",
-          "descBn": "এশিয়ার বৃহত্তম ভাসমান পেয়ারা ও আমড়া বাজারের কেন্দ্রবিন্দু, যা কাঠের ডিঙি নৌকায় পরিচালিত হয়।"
-        }
-      ],
-      "riverList": [
+      "overview": "Celebrated as the \"Venice of Bengal\", Barishal Division is an aquatic tapestry of interconnected river branches, canals, and deltaic islands where life moves on boats.",
+      "overviewBn": "বাংলার ভেনিস হিসেবে খ্যাত বরিশাল বিভাগ নদীমাতৃক বাংলাদেশের সবচেয়ে জলবেষ্টিত অঞ্চল, যেখানে খাল-নদী ও দ্বীপের মধ্য দিয়ে জীবন আবর্তিত হয়।",
+      "terrain": "Active deltaic coastal islands (Chars), network of tidal river canals, and mangrove margins.",
+      "terrainBn": "সক্রিয় উপকূলীয় বদ্বীপ ও চর, জোয়ার-ভাটার খাল এবং বঙ্গোপসাগরের মোহনা।",
+      "majorRiversDetailed": [
         {
           "name": "Kirtankhola River",
           "nameBn": "কীর্তনখোলা নদী",
-          "length": "160 km",
-          "origin": "Arial Khan River near Shaistabad",
-          "originBn": "শায়েস্তাবাদের কাছে আড়িয়াল খাঁ নদী",
-          "outflow": "Gajalia & Sugandha Rivers",
-          "type": "Meandering Tidal River",
-          "typeBn": "জোয়ার-ভাটার প্রধান নদীপথ",
-          "significance": "The beating pulse of Barishal city. Hosts the grandest fleet of multi-deck luxury passenger river launches in South Asia.",
-          "significanceBn": "বরিশাল নগরীর প্রাণসঞ্চারকারী নদী। দক্ষিণ এশিয়ার সর্ববৃহৎ এবং সর্বাধিক আধুনিক বিলাসবহুল লঞ্চ বহর এই নদী দিয়ে চলাচল করে।"
+          "length": "16 km",
+          "origin": "Arial Khan River",
+          "role": "Barishal city's lifeline, renowned for massive multi-deck luxury passenger launch fleets.",
+          "roleBn": "বরিশাল শহরের বুক চিরে বয়ে চলা দেশের অন্যতম ব্যস্ততম আধুনিক নৌবহর ও লঞ্চ চলাচলের নদী।"
         },
         {
-          "name": "Lower Meghna Estuary",
-          "nameBn": "লোয়ার মেঘনা নদী ও মোহনা",
-          "length": "160 km estuary width up to 15 km",
-          "origin": "Padma-Meghna Confluence at Chandpur",
-          "originBn": "চাঁদপুরে পদ্মা ও মেঘনার মহামিলন",
-          "outflow": "Bay of Bengal around Bhola Island",
-          "type": "Colossal Estuarine Delta Channel",
-          "typeBn": "পৃথিবীর অন্যতম প্রকাণ্ড মোহনা নদী",
-          "significance": "Discharges over 1.4 million m³/s of water into the sea, carving Bhola—the largest island in Bangladesh (3,403 km²).",
-          "significanceBn": "প্রতি সেকেন্ডে ১৪ লক্ষ কিউবিক মিটারের বেশি পানি সাগরে নিষ্কাশন করে; এর বুকে জেগে আছে বাংলাদেশের বৃহত্তম দ্বীপ ভোলা।"
+          "name": "Meghna Lower Estuary",
+          "nameBn": "মেঘনা মোহনা",
+          "length": "90 km in division",
+          "origin": "Padma-Meghna confluence",
+          "role": "Massive marine waterway embracing Bhola island, Bangladesh's largest producer of silver Hilsa.",
+          "roleBn": "দেশের বৃহত্তম দ্বীপ ভোলাকে ঘিরে থাকা রূপালি ইলিশের সবচেয়ে বড় প্রাকৃতিক বিচরণ ক্ষেত্র।"
+        },
+        {
+          "name": "Tetulia River",
+          "nameBn": "তেঁতুলিয়া নদী",
+          "length": "85 km",
+          "origin": "Meghna distributary",
+          "role": "Wide river separating Bhola island from mainland Barishal and Patuakhali.",
+          "roleBn": "ভোলা ও বরিশাল-পটুয়াখালীর মধ্যবর্তী সীমানা নির্ধারণকারী গভীর প্রমত্তা নদী।"
         },
         {
           "name": "Payra River",
           "nameBn": "পায়রা নদী",
-          "length": "120 km",
-          "origin": "Confluence of Kirtankhola & Nalchity Rivers",
-          "originBn": "কীর্তনখোলা ও নলছিটি নদীর সম্মিলন",
-          "outflow": "Bay of Bengal at Kuakata",
-          "type": "Deep Tidal River",
-          "typeBn": "গভীর জোয়ার বিধৌত সামুদ্রিক নদী",
-          "significance": "Deep-water channel serving the Payra Deep Sea Port and the Payra Thermal Power Plant, spanned by the modern Payra Bridge.",
-          "significanceBn": "পায়রা গভীর সমুদ্রবন্দর ও তাপবিদ্যুৎ কেন্দ্রের প্রধান বাণিজ্যিক নৌপথ; এই নদীর ওপর নির্মিত হয়েছে দৃষ্টিনন্দন পায়রা সেতু।"
+          "length": "60 km",
+          "origin": "Buriswar confluence",
+          "role": "Hosts the deepwater Payra Seaport and Payra Four-Lane Bridge connecting Kuakata beach.",
+          "roleBn": "পায়রা গভীর সমুদ্রবন্দর ও কুয়াকাটা সৈকতের সংযোগকারী পায়রা সেতু ধারণকারী নদী।"
         },
         {
-          "name": "Baleshwar & Bishkhali Rivers",
-          "nameBn": "বলেশ্বর ও বিষখালী নদী",
-          "length": "146 km & 96 km",
-          "origin": "Madhumati River & Sugandha River",
-          "originBn": "মধুমতি ও সুগন্ধা নদী",
-          "outflow": "Bay of Bengal via Haringhata Estuary",
-          "type": "Coastal Tidal Rivers",
-          "typeBn": "উপকূলীয় জোয়ারযুক্ত মোহনা নদী",
-          "significance": "Form the eastern aquatic boundary of the Sundarbans; vital migratory passage for prized silver Hilsa fish.",
-          "significanceBn": "সুন্দরবনের পূর্ব সীমানা নির্ধারণকারী নদী এবং সুস্বাদু রূপালী ইলিশের প্রধান প্রজনন ও বিচরণ জলপথ।"
-        },
-        {
-          "name": "Tentulia River",
-          "nameBn": "তেঁতুলিয়া নদী",
-          "length": "90 km",
-          "origin": "Arial Khan River",
-          "originBn": "আড়িয়াল খাঁ নদীর দক্ষিণ শাখা",
-          "outflow": "Bay of Bengal between Barishal and Bhola",
-          "type": "Broad Tidal Channel",
-          "typeBn": "প্রশস্ত জোয়ার-ভাটা নদীপথ",
-          "significance": "Separates the island of Bhola from the Barishal mainland; rich in marine fisheries and river transport.",
-          "significanceBn": "ভোলা দ্বীপকে মূল ভূখণ্ড থেকে পৃথককারী অত্যন্ত প্রশস্ত ও ঢেউসমৃদ্ধ জোয়ার-ভাটার নদী।"
+          "name": "Arial Khan River",
+          "nameBn": "আড়িয়াল খাঁ নদী",
+          "length": "102 km",
+          "origin": "Padma River branch",
+          "role": "Historic meandering tributary carrying freshwater into the central Barishal delta.",
+          "roleBn": "পদ্মা থেকে সৃষ্ট বরিশালের কৃষি ও নদী যোগাযোগের ঐতিহাসিক প্রধান শাখা নদী।"
         }
       ]
-    }
+    },
+    "majorRiversDetailed": [
+      {
+        "name": "Kirtankhola River",
+        "nameBn": "কীর্তনখোলা নদী",
+        "length": "16 km",
+        "origin": "Arial Khan River",
+        "role": "Barishal city's lifeline, renowned for massive multi-deck luxury passenger launch fleets.",
+        "roleBn": "বরিশাল শহরের বুক চিরে বয়ে চলা দেশের অন্যতম ব্যস্ততম আধুনিক নৌবহর ও লঞ্চ চলাচলের নদী।"
+      },
+      {
+        "name": "Meghna Lower Estuary",
+        "nameBn": "মেঘনা মোহনা",
+        "length": "90 km in division",
+        "origin": "Padma-Meghna confluence",
+        "role": "Massive marine waterway embracing Bhola island, Bangladesh's largest producer of silver Hilsa.",
+        "roleBn": "দেশের বৃহত্তম দ্বীপ ভোলাকে ঘিরে থাকা রূপালি ইলিশের সবচেয়ে বড় প্রাকৃতিক বিচরণ ক্ষেত্র।"
+      },
+      {
+        "name": "Tetulia River",
+        "nameBn": "তেঁতুলিয়া নদী",
+        "length": "85 km",
+        "origin": "Meghna distributary",
+        "role": "Wide river separating Bhola island from mainland Barishal and Patuakhali.",
+        "roleBn": "ভোলা ও বরিশাল-পটুয়াখালীর মধ্যবর্তী সীমানা নির্ধারণকারী গভীর প্রমত্তা নদী।"
+      },
+      {
+        "name": "Payra River",
+        "nameBn": "পায়রা নদী",
+        "length": "60 km",
+        "origin": "Buriswar confluence",
+        "role": "Hosts the deepwater Payra Seaport and Payra Four-Lane Bridge connecting Kuakata beach.",
+        "roleBn": "পায়রা গভীর সমুদ্রবন্দর ও কুয়াকাটা সৈকতের সংযোগকারী পায়রা সেতু ধারণকারী নদী।"
+      },
+      {
+        "name": "Arial Khan River",
+        "nameBn": "আড়িয়াল খাঁ নদী",
+        "length": "102 km",
+        "origin": "Padma River branch",
+        "role": "Historic meandering tributary carrying freshwater into the central Barishal delta.",
+        "roleBn": "পদ্মা থেকে সৃষ্ট বরিশালের কৃষি ও নদী যোগাযোগের ঐতিহাসিক প্রধান শাখা নদী।"
+      }
+    ]
   },
   {
     "id": "sylhet",
@@ -2884,22 +3050,60 @@
     "nightImageAlt": "/panoramas/sylhet_night_alt.jpg",
     "delicacies": [
       {
-        "name": "Sylheti Beef with Satkora",
-        "nameBn": "সাতকড়া দিয়ে গরুর মাংস",
-        "desc": "Tender beef curry simmered with wild aromatic bitter-tangy citrus macroptera (Satkora).",
-        "descBn": "সিলেটের পাহাড়ে জন্মানো সুবাসিত সাতকড়া ফলের টুকরো দিয়ে রান্না করা অপূর্ব স্বাদের মাংস।"
+        "name": "Shatkora Beef Curry",
+        "nameBn": "সিলেটের বিখ্যাত সাতকড়া গরুর মাংস",
+        "district": "Sylhet",
+        "description": "Fragrant wild citrus macroptera fruit rind simmered with tender beef chunks, creating an iconic tangy aroma.",
+        "descriptionBn": "পাহাড়ের টক-মিষ্টি সুগন্ধি সাতকড়ার খোসা দিয়ে ভুনা করা সিলেটের ঐতিহ্যবাহী গরুর মাংস।"
       },
       {
-        "name": "Sreemangal 7-Layer Tea",
-        "nameBn": "শ্রীমঙ্গলের সাত রঙের চা",
-        "desc": "Layered glass showing 7 distinct densities, tastes and hues from green tea to spiced milk tea.",
-        "descBn": "রমেশ রাম গৌড়ের উদ্ভাবিত শ্রীমঙ্গলের বিশ্ববিখ্যাত স্তরীভূত বহু রঙের চা।"
+        "name": "Seven-Layer Colored Tea",
+        "nameBn": "শ্রীমঙ্গলের ঐতিহাসিক সাত রঙের চা",
+        "district": "Moulvibazar",
+        "description": "Pioneered by Ramesh Ram Goud in Sreemangal, featuring 7 distinct density layers of green, black, and spiced teas.",
+        "descriptionBn": "নীলকণ্ঠ চা কেবিনের কাচের গ্লাসে ঘনত্ব ও স্তরের বৈচিত্র্যে তৈরি বিশ্বখ্যাত সাত স্তরের চা।"
       },
       {
-        "name": "Akhoni Pulao & Bakarkhani",
-        "nameBn": "আখনি পোলাও ও পাহাড়ি মধু",
-        "desc": "Fragrant aromatic spiced rice cooked in meat broth, served with local lemon and pickles.",
-        "descBn": "মাংসের গাঢ় জুসের সাথে সুগন্ধি চাল ও গরম মশলায় সেদ্ধ করা সুস্বাদু আখনি।"
+        "name": "Sylheti Bakarkhani",
+        "nameBn": "সিলেটের নোনতা বিস্কুট বাকরখানি",
+        "district": "Sylhet",
+        "description": "Savory layered flaky biscuit flatbread paired with spiced morning tea across the Surma valley.",
+        "descriptionBn": "সিলেটের সকালের চায়ের সাথে খাওয়ার মুচমুচে নোনতা ঘিয়ের বাকরখানি।"
+      },
+      {
+        "name": "Chunga Pitha",
+        "nameBn": "ঐতিহাসিক বাঁশের চুঙ্গা পিঠা",
+        "district": "Sylhet",
+        "description": "Aromatic sticky Bora rice slow-steamed inside special wild bamboo tubes over low straw fires.",
+        "descriptionBn": "পাহাড়ি ঢলু বাঁশের ভেতর বিন্নি চাল ভরে খড়ের আগুনে পুড়িয়ে তৈরি আদি উৎসবের পিঠা।"
+      },
+      {
+        "name": "Tanguar Haor Boal & Baim",
+        "nameBn": "টাঙ্গুয়ার হাওরের বাঘাইড় ও বোয়াল ভুনা",
+        "district": "Sunamganj",
+        "description": "Giant freshwater haor catfish cooked with fresh country tomatoes, mustard oil, and fiery green chilies.",
+        "descriptionBn": "মেঘালয়ের পাদদেশের স্বচ্ছ হাওরের বিশালাকার বোয়াল ও বাইন মাছের ঝাল কষা তরকারি।"
+      },
+      {
+        "name": "Akhni Polao of Sylhet",
+        "nameBn": "সিলেটি খাসির আখনি পোলাও",
+        "district": "Sylhet",
+        "description": "Aromatic spiced mutton pilaf cooked with mustard oil and tender meat cubes, signature wedding banquet dish.",
+        "descriptionBn": "বিরিয়ানির সিলেটি সংস্করণ, যাতে সুগন্ধি চাল ও খাসির মাংসের সাথে বিশেষ গরম মসলা ব্লেন্ড করা হয়।"
+      },
+      {
+        "name": "Jaldubi Honey Pineapples",
+        "nameBn": "জলডুবির মিষ্টি আনারস ও কমলা",
+        "district": "Moulvibazar",
+        "description": "Famous sweet honey pineapples and winter mandarin oranges harvested in the hills of Sreemangal.",
+        "descriptionBn": "মৌলভীবাজারের পাহাড়ের গায়ে চাষ করা রসে টইটম্বুর মিষ্টি জলডুবি আনারস ও সিলেটী কমলা।"
+      },
+      {
+        "name": "Hakaluki Fresh Prawn Curry",
+        "nameBn": "হাকালুকি হাওরের তাজা গলদা চিংড়ি",
+        "district": "Moulvibazar",
+        "description": "Sweet freshwater prawns caught in Hakaluki Haor cooked with seasonal country beans and turmeric.",
+        "descriptionBn": "বৃহত্তম হাকালুকি হাওরের মিষ্টি পানির চিংড়ি ও শিমের বিচি দিয়ে রান্না করা তরকারি।"
       }
     ],
     "festivals": [
@@ -3088,115 +3292,95 @@
       }
     ],
     "geography": {
-      "basinName": "The Surma-Kushiyara Haor Depression & Transboundary Tectonic Trough",
-      "basinNameBn": "সুরমা-কুশিয়ারা হাওর অববাহিকা ও মেঘালয় পাদদেশীয় টেকটোনিক খাত",
-      "terrainType": "Subsiding Tectonic Haor Basins, Foothill Piedmonts & Undulating Tea Monadnocks",
-      "terrainTypeBn": "টেকটোনিক অবনমিত হাওর জলাভূমি, পাহাড়ের পাদদেশ ও ঢেউখেলানো চা বাগান টিলা",
-      "elevation": "3m in central haors to 350m in southern hills",
-      "elevationBn": "হাওর সমতলে ৩ মিটার থেকে দক্ষিণের টিলায় ৩৫০ মিটার",
-      "geologicalSummary": "Sylhet division occupies the subsiding Sylhet Trough, a deep tectonic foredeep nestled against the dramatic cliffs of the Meghalaya Plateau (Khasi and Jaintia Hills) to the north and Tripura Hills to the south. It is the wettest region of Bangladesh, receiving up to 5,500 mm of annual rainfall at Lalakhal. During monsoon, the vast tectonic bowl transforms into an inland sea of interconnected Haors (vast bowl-shaped depression wetlands).",
-      "geologicalSummaryBn": "সিলেট বিভাগ একটি অবনমিত টেকটোনিক অববাহিকায় অবস্থিত, যার উত্তরে ভারতের মেঘালয় মালভূমির খাসিয়া-জৈন্তা পাহাড় এবং দক্ষিণে ত্রিপুরা পাহাড়। এটি বাংলাদেশের সর্বাধিক বৃষ্টিপাতের অঞ্চল (লালখালে বছরে প্রায় ৫,৫০০ মিমি)। বর্ষাকালে পাহাড়ি ঢলে এই পুরো অঞ্চল বিশাল অভ্যন্তরীণ সাগরের রূপ নেয়, যা \"হাওর\" নামে পরিচিত।",
-      "wetlands": [
-        {
-          "name": "Tanguar Haor Ramsar Site",
-          "nameBn": "টাঙ্গুয়ার হাওর (রামসার বিশ্ব ঐতিহ্য)",
-          "area": "100 km² (up to 280 km² in monsoon)",
-          "district": "Sunamganj",
-          "desc": "Globally celebrated Ramsar Wetland of International Importance, hosting over 200 species of migratory Siberian waterfowl and endemic flora.",
-          "descBn": "আন্তর্জাতিক গুরুত্বসম্পন্ন রামসার সাইট ও বিশ্ব ঐতিহ্য; শীতকালে সাইবেরিয়া থেকে আগত লাখ লাখ পরিযায়ী পাখির প্রধান স্বর্গরাজ্য।"
-        },
-        {
-          "name": "Hakaluki Haor",
-          "nameBn": "হাকালুকি হাওর",
-          "area": "180 km² (Largest Haor in Bangladesh)",
-          "district": "Moulvibazar & Sylhet",
-          "desc": "The largest haor wetland depression in Bangladesh, encompassing 238 interconnected beels surrounded by tea garden hillocks.",
-          "descBn": "বাংলাদেশের বৃহত্তম হাওর জলাভূমি, যাতে ২৩৮টি ছোট-বড় বিল রয়েছে এবং বর্ষায় এটি মহাসমুদ্রের রূপ ধারণ করে।"
-        },
-        {
-          "name": "Ratargul Swamp Forest",
-          "nameBn": "রাতারগুল মিঠাপানির সোয়াম্প ফরেস্ট",
-          "area": "3.3 km²",
-          "district": "Sylhet",
-          "desc": "Bangladesh’s only freshwater swamp forest, completely submerged under 20-30 feet of water during monsoon rains.",
-          "descBn": "বাংলাদেশের একমাত্র প্রাকৃতিক মিঠাপানির সোয়াম্প ফরেস্ট, যা বর্ষাকালে ২০-৩০ ফুট পানিতে নিমজ্জিত থাকে।"
-        }
-      ],
-      "riverList": [
+      "overview": "Sylhet Division is framed by undulating emerald tea terraces, rainforest hills of the Khasia-Jaintia range, and the colossal seasonal wetland bowl of the Haor basin.",
+      "overviewBn": "সিলেট বিভাগ ভারতের মেঘালয় ও খাসিয়া-জৈন্তা পাহাড়ের পাদদেশে অবস্থিত চা বাগান, সোয়াম্প ফরেস্ট এবং দেশের বৃহত্তম হাওর অববাহিকার অনন্য ভৌগোলিক ভূস্বর্গ।",
+      "terrain": "Haor wetland depression, rolling tea garden hillocks (Tillas), and boulder riverbeds.",
+      "terrainBn": "বর্ষায় সাগরের রূপ নেওয়া হাওর অববাহিকা, সবুজ চা বাগানের টিলা ও স্বচ্ছ পাহাড়ি নদী।",
+      "majorRiversDetailed": [
         {
           "name": "Surma River",
           "nameBn": "সুরমা নদী",
-          "length": "250 km in Bangladesh (part of 900 km Barak)",
-          "origin": "Barak River at Amalshid (India-BD Border)",
-          "originBn": "ভারত-বাংলাদেশ সীমান্তে অমলশীদে বরাক নদী",
-          "outflow": "Meghna River via Kalni",
-          "type": "Meandering Transboundary Valley River",
-          "typeBn": "পাহাড়ি পলি বিধৌত আন্তঃসীমান্ত নদী",
-          "significance": "The cultural heart of Sylhet city; spanned by the historic British-era bowstring steel Keane Bridge (1936).",
-          "significanceBn": "সিলেট নগরীর ঐতিহ্যের প্রতীক। এই নদীর ওপর ১৯৩৬ সালে নির্মিত ঐতিহাসিক ক্বীন ব্রিজ সিলেটের প্রধান প্রবেশদ্বার।"
+          "length": "250 km in BD",
+          "origin": "Barak River, Manipur",
+          "role": "Lifeline of Sylhet city, spanned by the 1936 historic Keane Bridge and Ali Amjad Clock.",
+          "roleBn": "ঐতিহাসিক ক্বীন ব্রিজ ধারণকারী সুরমা নদী যা সিলেটের বাণিজ্য ও সংস্কৃতির প্রধান প্রাণকেন্দ্র।"
         },
         {
           "name": "Kushiyara River",
           "nameBn": "কুশিয়ারা নদী",
-          "length": "228 km",
-          "origin": "Southern branch of Barak River at Amalshid",
-          "originBn": "অমলশীদে বরাক নদীর দক্ষিণ শাখা",
-          "outflow": "Confluence with Surma to form Meghna",
-          "type": "High-Discharge Transboundary River",
-          "typeBn": "উচ্চ প্রবাহযুক্ত পাহাড়ি নদী",
-          "significance": "Carries immense transboundary volume, vital for irrigation across the southern tea plains of Moulvibazar and Habiganj.",
-          "significanceBn": "সিলেটের দক্ষিণাঞ্চলের চা বাগান ও বোরো ফসলের মূল সেচ সরবরাহকারী উচ্চ প্রবাহের নদী।"
+          "length": "228 km in BD",
+          "origin": "Barak bifurcation",
+          "role": "Powerful southern branch feeding the gigantic Hakaluki and Tanguar Ramsar wetlands.",
+          "roleBn": "বরাক নদীর দক্ষিণাঞ্চলীয় শাখা যা হাকালুকি হাওরকে প্লাবিত করে মেহনায় মিলিত হয়।"
         },
         {
-          "name": "Piyain & Dawki River",
-          "nameBn": "পিয়াইন ও ডাউকি নদী",
-          "length": "145 km",
-          "origin": "Khasi Hills of Meghalaya (India)",
-          "originBn": "ভারতের মেঘালয়ের খাসিয়া পাহাড়",
-          "outflow": "Surma River Basin",
-          "type": "Gravel Bed Alpine Torrent",
-          "typeBn": "স্বচ্ছ পাথুরে পাহাড়ি খরস্রোতা নদী",
-          "significance": "Creates the dramatic scenery of Jaflong, carrying natural sand, pebbles, and crystal-clear mountain currents.",
-          "significanceBn": "জাফলংয়ের নয়নাভিরাম রূপ সৃষ্টিকারী নদী, যা মেঘালয় থেকে স্বচ্ছ স্ফটিক জল ও মূল্যবান পাথর বহন করে আনে।"
+          "name": "Piyain River",
+          "nameBn": "পিয়াইন নদী",
+          "length": "35 km",
+          "origin": "Omgot, Meghalaya",
+          "role": "Rapid mountain stream at Jaflong carrying millions of tons of natural stone boulders and sand.",
+          "roleBn": "জাফলংয়ের খাসিয়া পাহাড়ের কোল ঘেঁষে আসা পাথর ও বালু সমৃদ্ধ খরস্রোতা রূপসী নদী।"
         },
         {
-          "name": "Dholai River (Bholaganj)",
-          "nameBn": "ধলাই নদী (ভোলাগঞ্জ)",
-          "length": "75 km",
-          "origin": "Cherrapunji & Meghalaya Heights",
-          "originBn": "মেঘালয়ের চেরাপুঞ্জির সুউচ্চ পাহাড়",
-          "outflow": "Surma River",
-          "type": "Cold Alpine Cobble Stream",
-          "typeBn": "হিমশীতল স্বচ্ছ পাহাড়ি জলধারা",
-          "significance": "Forms the famous Bholaganj Sada Pathor, where glacier-cold emerald water rushes over white limestone boulders.",
-          "significanceBn": "বিখ্যাত ভোলাগঞ্জ সাদা পাথরের জন্মদাতা; হিমশীতল স্বচ্ছ জলরাশি শুভ্র পাথরের ওপর দিয়ে সগৌরবে বয়ে যায়।"
+          "name": "Dholai River",
+          "nameBn": "ধলাই নদী (সাদা পাথর)",
+          "length": "40 km",
+          "origin": "Cherrapunji range",
+          "role": "Crystal-clear glacier-cold mountain water carving the white limestone riverbed at Bholaganj.",
+          "roleBn": "মেঘালয়ের চেরাপুঞ্জি থেকে নেমে আসা স্ফটিক স্বচ্ছ জলের নদী যা ভোলাগঞ্জ সাদা পাথর সৃষ্টি করেছে।"
         },
         {
-          "name": "Sari-Goyain River (Lalakhal)",
-          "nameBn": "সারি-গোয়াইন নদী (লালখাল)",
-          "length": "80 km",
-          "origin": "Jaintia Hills (Meghalaya)",
-          "originBn": "ভারতের মেঘালয়ের জৈন্তা পাহাড়",
-          "outflow": "Surma Basin",
-          "type": "Mineral-Rich Turquoise Waterway",
-          "typeBn": "নীল খনিজ সমৃদ্ধ স্ফটিক জলধারা",
-          "significance": "World-famous for transparent turquoise-blue waters at Lalakhal, resulting from dissolved minerals and pure mountain springs.",
-          "significanceBn": "লালখালে এর স্বচ্ছ ফিরোজা নীল পানির জন্য বিশ্বজুড়ে সুপরিচিত, যা পাহাড়ের বিশেষ খনিজ ও স্বচ্ছতার কারণে তৈরি হয়।"
-        },
-        {
-          "name": "Manu & Khowai Rivers",
-          "nameBn": "মনু ও খোয়াই নদী",
-          "length": "167 km & 140 km",
-          "origin": "Tripura Mountain Ranges (India)",
-          "originBn": "ভারতের ত্রিপুরার পাহাড়ি শৈলশিরা",
-          "outflow": "Kushiyara River",
-          "type": "Flash-Flood Prone Torrential Rivers",
-          "typeBn": "আকস্মিক পাহাড়ি ঢলপ্রবণ নদী",
-          "significance": "Traverse the tea garden valleys of Moulvibazar and Habiganj, subject to sudden high-velocity monsoon runoff.",
-          "significanceBn": "মৌলভীবাজার ও হবিগঞ্জের চা বাগান উপত্যকা দিয়ে প্রবাহিত আকস্মিক পাহাড়ি ঢলের নদী।"
+          "name": "Khowai River",
+          "nameBn": "খোয়াই নদী",
+          "length": "85 km in BD",
+          "origin": "Atharamura Hills, Tripura",
+          "role": "Fast-flowing transboundary river traversing Habiganj tea estates.",
+          "roleBn": "ত্রিপুরার পাহাড় থেকে নেমে এসে হবিগঞ্জ ও চুনারুঘাট দিয়ে প্রবাহিত খরস্রোতা নদী।"
         }
       ]
-    }
+    },
+    "majorRiversDetailed": [
+      {
+        "name": "Surma River",
+        "nameBn": "সুরমা নদী",
+        "length": "250 km in BD",
+        "origin": "Barak River, Manipur",
+        "role": "Lifeline of Sylhet city, spanned by the 1936 historic Keane Bridge and Ali Amjad Clock.",
+        "roleBn": "ঐতিহাসিক ক্বীন ব্রিজ ধারণকারী সুরমা নদী যা সিলেটের বাণিজ্য ও সংস্কৃতির প্রধান প্রাণকেন্দ্র।"
+      },
+      {
+        "name": "Kushiyara River",
+        "nameBn": "কুশিয়ারা নদী",
+        "length": "228 km in BD",
+        "origin": "Barak bifurcation",
+        "role": "Powerful southern branch feeding the gigantic Hakaluki and Tanguar Ramsar wetlands.",
+        "roleBn": "বরাক নদীর দক্ষিণাঞ্চলীয় শাখা যা হাকালুকি হাওরকে প্লাবিত করে মেহনায় মিলিত হয়।"
+      },
+      {
+        "name": "Piyain River",
+        "nameBn": "পিয়াইন নদী",
+        "length": "35 km",
+        "origin": "Omgot, Meghalaya",
+        "role": "Rapid mountain stream at Jaflong carrying millions of tons of natural stone boulders and sand.",
+        "roleBn": "জাফলংয়ের খাসিয়া পাহাড়ের কোল ঘেঁষে আসা পাথর ও বালু সমৃদ্ধ খরস্রোতা রূপসী নদী।"
+      },
+      {
+        "name": "Dholai River",
+        "nameBn": "ধলাই নদী (সাদা পাথর)",
+        "length": "40 km",
+        "origin": "Cherrapunji range",
+        "role": "Crystal-clear glacier-cold mountain water carving the white limestone riverbed at Bholaganj.",
+        "roleBn": "মেঘালয়ের চেরাপুঞ্জি থেকে নেমে আসা স্ফটিক স্বচ্ছ জলের নদী যা ভোলাগঞ্জ সাদা পাথর সৃষ্টি করেছে।"
+      },
+      {
+        "name": "Khowai River",
+        "nameBn": "খোয়াই নদী",
+        "length": "85 km in BD",
+        "origin": "Atharamura Hills, Tripura",
+        "role": "Fast-flowing transboundary river traversing Habiganj tea estates.",
+        "roleBn": "ত্রিপুরার পাহাড় থেকে নেমে এসে হবিগঞ্জ ও চুনারুঘাট দিয়ে প্রবাহিত খরস্রোতা নদী।"
+      }
+    ]
   },
   {
     "id": "rangpur",
@@ -3388,22 +3572,60 @@
     ],
     "delicacies": [
       {
-        "name": "Haribhanga Mango of Rangpur",
-        "nameBn": "রংপুরের বিখ্যাত হাঁড়িভাঙ্গা আম",
-        "desc": "GI-certified fleshy, fiberless, sweet mango with tiny flat seed, grown in Mithapukur.",
-        "descBn": "মিঠাপুকুর ও পদাগঞ্জের বিখ্যাত আঁশহীন, মিষ্টি ও সুস্বাদু জিআই সার্টিফাইড হাঁড়িভাঙ্গা আম।"
+        "name": "Haribhanga Mango",
+        "nameBn": "রংপুরের বিশ্বখ্যাত হাঁড়িভাঙা আম",
+        "district": "Rangpur",
+        "description": "Fibreless, supremely sweet fleshy mango with small seed cultivated in Mithapukur, GI certified.",
+        "descriptionBn": "মিঠাপুকুরের বিশ্বখ্যাত আঁশহীন, রসাল, মাংসল ও অতুলনীয় সুস্বাদু হাঁড়িভাঙা আম।"
       },
       {
-        "name": "Sidal & Chholar Daal Pitha",
-        "nameBn": "সিডল ভর্তা ও কাউনের ক্ষীর",
-        "desc": "Traditional fermented fish delicacy mashed with dry chilies and mustard oil, loved in the north.",
-        "descBn": "ছোট মাছ কচুপাতা দিয়ে গেঁজিয়ে তৈরি উত্তরবঙ্গের অতি প্রাচীন উপাদেয় সিডল ভর্তা।"
+        "name": "Gaibandhar Roshomunjuri",
+        "nameBn": "গাইবান্ধার বিখ্যাত রসমঞ্জরী",
+        "district": "Gaibandha",
+        "description": "Tiny milk-soaked chhana pellets simmered in thick condensed cardamom rabri since 1948 by Ramesh Ghosh.",
+        "descriptionBn": "১৯৪৮ সালে রমেশ ঘোষের হাত ধরে তৈরি খাঁটি ছানার ছোট গুটি ও ক্ষীরসার অনন্য মিষ্টান্ন।"
       },
       {
-        "name": "Bogra Peda & Gaibandha Ghosh Curd",
-        "nameBn": "গাইবান্ধার রসমঞ্জরী ও ক্ষীরপ্যাঁড়া",
-        "desc": "Dense slow-boiled milk sweets flavored with pure green cardamom.",
-        "descBn": "গাইবান্ধার শতবর্ষী রসমঞ্জরী এবং খাঁটি ক্ষীরসার মিষ্টি প্যাঁড়া।"
+        "name": "Dinajpurer Kataribhog Rice",
+        "nameBn": "দিনাজপুরের সুগন্ধি কাটারিভোগ চালের পোলাও",
+        "district": "Dinajpur",
+        "description": "Heritage aromatic needle-fine rice celebrated for subtle aroma and royal ceremonial pilafs.",
+        "descriptionBn": "সুঁচের মতো চিকন ও সুবাসিত কাটারিভোগ চালের সুস্বাদু পোলাও ও ফিরনি।"
+      },
+      {
+        "name": "Teesta River Boal Curry",
+        "nameBn": "তিস্তা নদীর টাটকা বোয়াল মাছের ঝোল",
+        "district": "Lalmonirhat",
+        "description": "Sweet freshwater catfish caught from the rapid torrents of Teesta Barrage, cooked with root vegetables.",
+        "descriptionBn": "তিস্তা ব্যারেজের খরস্রোতা নদীর মিষ্টি পানির তাজা বোয়াল মাছের জিভে জল আনা তরকারি।"
+      },
+      {
+        "name": "Kurigram Shol Machher Jhol",
+        "nameBn": "কুড়িগ্রামের শোল মাছ ও ফুলকপির ঝোল",
+        "district": "Kurigram",
+        "description": "Native snakehead murrel fish stew simmered with winter vegetables and green coriander.",
+        "descriptionBn": "ব্রহ্মপুত্র ও ধরলা নদীর দেশি শোল মাছের হালকা পাতলা ঝোল।"
+      },
+      {
+        "name": "Panchagarh Plainland Green Tea",
+        "nameBn": "পঞ্চগড়ের সমতল ভূমির অর্গানিক চা",
+        "district": "Panchagarh",
+        "description": "Himalayan foothills organic black and green tea harvested from flat tea estates.",
+        "descriptionBn": "হিমালয়ের বাতাস গায়ে মেখে সমতল চা বাগানে উৎপাদিত স্বাস্থ্যকর অর্গানিক চা।"
+      },
+      {
+        "name": "Nilphamari Chhana Sandesh",
+        "nameBn": "নীলফামারীর ছানার মিষ্টি",
+        "district": "Nilphamari",
+        "description": "Artisanal cow milk cottage cheese sweet with delicate cardamom flavor.",
+        "descriptionBn": "উত্তরাঞ্চলের খাঁটি গরুর দুধের নরম মিষ্টি ও ক্ষীর।"
+      },
+      {
+        "name": "Lalmonirhat Special Dal-Puri",
+        "nameBn": "লালমনিরহাটের স্পেশাল ডালপুরি",
+        "district": "Lalmonirhat",
+        "description": "Crispy fried yellow lentil pastry served with spicy mustard gravy and mint sauce.",
+        "descriptionBn": "লালমনিরহাট স্টেশনের ঐতিহ্যবাহী মচমচে গরম ডালপুরি ও তেঁতুলের চাটনি।"
       }
     ],
     "festivals": [
@@ -3573,107 +3795,95 @@
       }
     ],
     "geography": {
-      "basinName": "The Himalayan Piedmont Plains & Upper Teesta-Brahmaputra Basin",
-      "basinNameBn": "হিমালয় পাদদেশীয় সমভূমি ও তিস্তা-ব্রহ্মপুত্র অববাহিকা",
-      "terrainType": "Sandy Loam Piedmont Alluvial Slope & Active Braided River Islands (Chars)",
-      "terrainTypeBn": "বেলে দোআঁশ মাটির পাদদেশীয় ঢালু সমভূমি ও তিস্তা-ব্রহ্মপুত্রের চরমালা",
-      "elevation": "30m – 55m (Highest non-alpine plain in Bangladesh)",
-      "elevationBn": "সমুদ্রপৃষ্ঠ থেকে ৩০ মিটার – ৫৫ মিটার (দেশের সর্বোচ্চ সমতল ভূমি)",
-      "geologicalSummary": "Rangpur division lies on the Himalayan Piedmont Plain (Old Himalayan Outwash), sloping gently from northwest to southeast. The soil is fertile sandy loam deposited by Himalayan torrents. From Tetulia in Panchagarh, the snow-capped peak of Kanchenjunga (8,586m) is visible during clear autumn mornings. The division features the mighty braided Teesta and the Brahmaputra, along with Kurigram’s remarkable concentration of 16 transboundary rivers.",
-      "geologicalSummaryBn": "রংপুর বিভাগ হিমালয়ের পাদদেশীয় পলল সমভূমিতে অবস্থিত, যা উত্তর-পশ্চিম থেকে দক্ষিণ-পূর্বে ঢালু। এখানকার মাটি হিমালয় থেকে নেমে আসা উর্বর বেলে দোআঁশ। পঞ্চগড়ের তেঁতুলিয়া থেকে শরৎ ও হেমন্তের সকালে কাঞ্চনজঙ্ঘা শৃঙ্গ খালি চোখে দেখা যায়। এই বিভাগ তিস্তা ও ব্রহ্মপুত্র নদী দ্বারা সিঞ্চিত, এবং কুড়িগ্রাম জেলায় রয়েছে সর্বাধিক ১৬টি নদীর সম্মিলন।",
-      "wetlands": [
-        {
-          "name": "Ramsagar National Heritage Dighi",
-          "nameBn": "রামসাগর জাতীয় ঐতিহাসিক দীঘি",
-          "area": "4.37 km² (Lake area 0.15 km²)",
-          "district": "Dinajpur",
-          "desc": "The largest historic man-made water reservoir in Bangladesh, excavated in the 1750s by Raja Ramnath to save his people from severe famine.",
-          "descBn": "বাংলাদেশের বৃহত্তম মানবনির্মিত ঐতিহাসিক দীঘি, যা ১৭৫০-এর দশকে রাজা রামনাথ দুর্ভিক্ষপীড়িত প্রজাদের রক্ষার জন্য খনন করেছিলেন।"
-        },
-        {
-          "name": "Kurigram Char Networks",
-          "nameBn": "কুড়িগ্রামের প্রকাণ্ড চরমালা",
-          "area": "Over 250 km²",
-          "district": "Kurigram",
-          "desc": "Immense braided sandbars created by the Brahmaputra, Teesta, and Dharla, supporting unique agrarian communities.",
-          "descBn": "ব্রহ্মপুত্র, তিস্তা ও ধরলা নদীর মোহনায় পলি জমে সৃষ্টি হওয়া প্রকাণ্ড চর যেখানে নদীভাঙা সংগ্রামী মানুষ বসবাস করে।"
-        }
-      ],
-      "riverList": [
+      "overview": "Rangpur Division comprises the vast northern Himalayan piedmont plains, characterized by sandy braided riverbeds of the mighty Teesta, Brahmaputra, and Dharla rivers.",
+      "overviewBn": "রংপুর বিভাগ হিমালয়ের পাদদেশীয় সমতল প্লাবনভূমি, যা খরস্রোতা তিস্তা, ব্রহ্মপুত্র ও ধরলা নদীর বালুকাময় চর ও উর্বর কৃষি অববাহিকা নিয়ে গঠিত।",
+      "terrain": "Himalayan piedmont alluvial plain, sandy braided riverbeds, and northern border enclaves.",
+      "terrainBn": "হিমালয়ের পাদদেশীয় উর্বর বালুকাময় পলিমাটির সমভূমি ও প্রশস্ত নদীচর।",
+      "majorRiversDetailed": [
         {
           "name": "Teesta River",
           "nameBn": "তিস্তা নদী",
-          "length": "115 km in Bangladesh (315 km total)",
-          "origin": "Tso Lhamo Lake (Sikkim Himalayas, 5,280m altitude)",
-          "originBn": "সিকিম হিমালয়ের চো লামো হ্রদ (উচ্চতা ৫,২৮০ মিটার)",
-          "outflow": "Brahmaputra River at Chilmari (Kurigram)",
-          "type": "Glacier-Fed Mountain River to Braided Plain",
-          "typeBn": "হিমবাহ গলিত খরস্রোতা নদী থেকে বিনুনি নদী",
-          "significance": "The supreme agricultural lifeline of northern Bangladesh. Controlled by the massive Teesta Barrage at Dooani (Lalmonirhat), irrigating 111,000 hectares of cropland.",
-          "significanceBn": "উত্তরবঙ্গের কৃষির প্রধানতম লাইফলাইন। লালমনিরহাটের দোয়ানীতে নির্মিত দেশের বৃহত্তম তিস্তা ব্যারেজের মাধ্যমে ১ লক্ষ ১১ হাজার হেক্টর জমিতে সেচ প্রদান করা হয়।"
+          "length": "115 km in BD",
+          "origin": "Tso Lhamo Lake, Sikkim Himalayas",
+          "role": "The wild torrent river of northern Bangladesh, controlled by the colossal Teesta Barrage at Dooani.",
+          "roleBn": "সিকিম হিমালয় থেকে উৎপন্ন তিস্তা নদী, যার ওপর দেশের বৃহত্তম তিস্তা ব্যারেজ ও সেচ প্রকল্প অবস্থিত।"
         },
         {
-          "name": "Brahmaputra River (Upper Reach)",
-          "nameBn": "ব্রহ্মপুত্র নদ (উচ্চ অববাহিকা)",
-          "length": "90 km in Rangpur Division",
-          "origin": "Angsi Glacier (Tibet) as Yarlung Tsangpo",
-          "originBn": "তিব্বতের আংসি হিমবাহ (ইয়ারলুং সাংপো)",
-          "outflow": "Jamuna River in Sirajganj",
-          "type": "Gigantic Braided Transboundary River",
-          "typeBn": "পৃথিবীর অন্যতম প্রকাণ্ড বিনুনি নদীপথ",
-          "significance": "Enters Bangladesh at Majhiali in Kurigram with a width up to 10-12 km. Moves hundreds of millions of tons of fertile Himalayan silt annually.",
-          "significanceBn": "কুড়িগ্রামের সীমান্ত দিয়ে বাংলাদেশে প্রবেশকারী ১০-১২ কিমি চওড়া নদী; প্রতি বছর কোটি কোটি টন উর্বর হিমালয় পলি বয়ে নিয়ে আসে।"
+          "name": "Brahmaputra River (Entry Point)",
+          "nameBn": "ব্রহ্মপুত্র নদ (কুড়িগ্রাম প্রবেশদ্বার)",
+          "length": "120 km in region",
+          "origin": "Tibet / Assam",
+          "role": "Enters Bangladesh at Kurigram as a mammoth multi-channel river up to 10 km wide during floods.",
+          "roleBn": "কুড়িগ্রামের মধ্য দিয়ে বাংলাদেশে প্রবেশ করা সুবিশাল নদী যা উত্তরাঞ্চলের ভূপ্রকৃতি গঠন করেছে।"
         },
         {
           "name": "Dharla River",
           "nameBn": "ধরলা নদী",
-          "length": "75 km in Bangladesh",
-          "origin": "Himalayas via Jalpaiguri as Jaldhaka River",
-          "originBn": "হিমালয়ের জলঢাকা নদী (জলপাইগুড়ি)",
-          "outflow": "Brahmaputra River at Kurigram",
-          "type": "High-Velocity Alluvial Torrent",
-          "typeBn": "উচ্চগতিসম্পন্ন পলল নদী",
-          "significance": "Spanned by the 950-meter Dharla Bridge; notorious for dramatic monsoon swells and prolific winter fish harvesting.",
-          "significanceBn": "কুড়িগ্রামের প্রধান যোগাযোগ লাইফলাইন; এর ওপর নির্মিত ৯৫০ মিটার দীর্ঘ ধরলা সেতু উত্তরাঞ্চলের যোগাযোগের অন্যতম স্তম্ভ।"
-        },
-        {
-          "name": "Dudhkumar River",
-          "nameBn": "দুধকুমার নদী",
-          "length": "65 km in Bangladesh",
-          "origin": "Bhutan Himalayas via Assam",
-          "originBn": "ভুটান হিমালয় ও আসাম উপত্যকা",
-          "outflow": "Brahmaputra River",
-          "type": "Fast-Flowing Braided Channel",
-          "typeBn": "দ্রুতপ্রবাহী বিনুনি নদীপথ",
-          "significance": "Enters Bangladesh in northern Kurigram, carrying glacial cold currents that give its waters a milky frothy appearance, hence the name “Dudhkumar”.",
-          "significanceBn": "ভুটান ও আসাম থেকে নেমে আসা সাদা ফেনিল জলধারার কারণে এর নাম \"দুধকুমার\"; এটি কুড়িগ্রামের ভূপ্রকৃতিকে অত্যন্ত উর্বর করেছে।"
+          "length": "75 km in BD",
+          "origin": "Himalayas via Jalpaiguri",
+          "role": "Traverses Lalmonirhat and Kurigram, nourishing rich tobacco, corn, and mustard fields.",
+          "roleBn": "হিমালয়ের পাদদেশ থেকে নেমে আসা নদী যা কুড়িগ্রামের কৃষিতে গুরুত্বপূর্ণ অবদান রাখে।"
         },
         {
           "name": "Ghaghat River",
           "nameBn": "ঘাঘট নদী",
-          "length": "110 km",
-          "origin": "Teesta River distributary at Nilphamari",
-          "originBn": "নীলফামারীতে তিস্তা নদীর শাখা",
-          "outflow": "Jamuna River at Gaibandha",
-          "type": "Meandering Floodplain Stream",
-          "typeBn": "মৃদুপ্রবাহী প্লাবন সমভূমি নদী",
-          "significance": "Meanders through the center of Rangpur city, serving as its primary urban drainage and historic watercourse.",
-          "significanceBn": "রংপুর শহরের বুক চিরে বয়ে চলা ঐতিহ্যবাহী নদী, যা ঐতিহাসিক রংপুর অঞ্চলের প্রাচীন বাণিজ্যিক জলপথ ছিল।"
+          "length": "100 km",
+          "origin": "Teesta distributary",
+          "role": "Meanders past Rangpur metropolitan city, providing natural drainage to the central plains.",
+          "roleBn": "রংপুর শহরের পাশ দিয়ে বয়ে চলা ঐতিহাসিক নদী যা তাজহাট সংলগ্ন অঞ্চলকে সিঞ্চন করে।"
         },
         {
-          "name": "Karatoya & Atrai (Upper Reach)",
-          "nameBn": "করতোয়া ও আত্রাই (উচ্চধারা)",
-          "length": "90 km in Rangpur",
-          "origin": "Panchagarh & Dinajpur Borders",
-          "originBn": "পঞ্চগড় ও দিনাজপুর সীমান্ত জলাভূমি",
-          "outflow": "Lower Atrai & Jamuna Basin",
-          "type": "Clear Piedmont Streams",
-          "typeBn": "স্বচ্ছ পাদদেশীয় নদীপ্রবাহ",
-          "significance": "Flow past Kantajew Temple and Dinajpur city, sustaining the world-famous aromatic Kataribhog and Chinigura rice cultivation.",
-          "significanceBn": "ঐতিহাসিক কান্তজিউ মন্দির ও দিনাজপুরের পাশ দিয়ে প্রবাহিত; বিখ্যাত সুগন্ধি কাটারিভোগ ও চিনিগুঁড়া ধান চাষের প্রধান পানির উৎস।"
+          "name": "Karatoya (Upper Reach)",
+          "nameBn": "করতোয়া নদী (পঞ্চগড়-দিনাজপুর)",
+          "length": "90 km in region",
+          "origin": "Tetulia border",
+          "role": "Cold mountain-fed headwater stream traversing the northernmost tea gardens.",
+          "roleBn": "তেঁতুলিয়া ও পঞ্চগড়ের সীমান্ত ঘেঁষা হিমালয়ের ঠান্ডা পানির প্রাচীন নদী।"
         }
       ]
-    }
+    },
+    "majorRiversDetailed": [
+      {
+        "name": "Teesta River",
+        "nameBn": "তিস্তা নদী",
+        "length": "115 km in BD",
+        "origin": "Tso Lhamo Lake, Sikkim Himalayas",
+        "role": "The wild torrent river of northern Bangladesh, controlled by the colossal Teesta Barrage at Dooani.",
+        "roleBn": "সিকিম হিমালয় থেকে উৎপন্ন তিস্তা নদী, যার ওপর দেশের বৃহত্তম তিস্তা ব্যারেজ ও সেচ প্রকল্প অবস্থিত।"
+      },
+      {
+        "name": "Brahmaputra River (Entry Point)",
+        "nameBn": "ব্রহ্মপুত্র নদ (কুড়িগ্রাম প্রবেশদ্বার)",
+        "length": "120 km in region",
+        "origin": "Tibet / Assam",
+        "role": "Enters Bangladesh at Kurigram as a mammoth multi-channel river up to 10 km wide during floods.",
+        "roleBn": "কুড়িগ্রামের মধ্য দিয়ে বাংলাদেশে প্রবেশ করা সুবিশাল নদী যা উত্তরাঞ্চলের ভূপ্রকৃতি গঠন করেছে।"
+      },
+      {
+        "name": "Dharla River",
+        "nameBn": "ধরলা নদী",
+        "length": "75 km in BD",
+        "origin": "Himalayas via Jalpaiguri",
+        "role": "Traverses Lalmonirhat and Kurigram, nourishing rich tobacco, corn, and mustard fields.",
+        "roleBn": "হিমালয়ের পাদদেশ থেকে নেমে আসা নদী যা কুড়িগ্রামের কৃষিতে গুরুত্বপূর্ণ অবদান রাখে।"
+      },
+      {
+        "name": "Ghaghat River",
+        "nameBn": "ঘাঘট নদী",
+        "length": "100 km",
+        "origin": "Teesta distributary",
+        "role": "Meanders past Rangpur metropolitan city, providing natural drainage to the central plains.",
+        "roleBn": "রংপুর শহরের পাশ দিয়ে বয়ে চলা ঐতিহাসিক নদী যা তাজহাট সংলগ্ন অঞ্চলকে সিঞ্চন করে।"
+      },
+      {
+        "name": "Karatoya (Upper Reach)",
+        "nameBn": "করতোয়া নদী (পঞ্চগড়-দিনাজপুর)",
+        "length": "90 km in region",
+        "origin": "Tetulia border",
+        "role": "Cold mountain-fed headwater stream traversing the northernmost tea gardens.",
+        "roleBn": "তেঁতুলিয়া ও পঞ্চগড়ের সীমান্ত ঘেঁষা হিমালয়ের ঠান্ডা পানির প্রাচীন নদী।"
+      }
+    ]
   },
   {
     "id": "mymensingh",
@@ -3871,22 +4081,60 @@
     "dayImageAlt": "/panoramas/mymensingh_day_alt.jpg",
     "delicacies": [
       {
-        "name": "Muktagachha Monda",
-        "nameBn": "মুক্তাগাছার সুপ্রসিদ্ধ মণ্ডা",
-        "desc": "Invented in 1824 by Ram Gopal Ghosh, royal sweet made of pure cow milk chhana and syrup.",
-        "descBn": "১৮২৪ সালে রামগোপাল ঘোষ উদ্ভাবিত জমিদারদের প্রিয় খাঁটি ছানা ও এলাচ সুবাসিত মণ্ডা।"
+        "name": "Muktagachar Monda",
+        "nameBn": "মুক্তাগাছার আদি রাজকীয় মণ্ডা",
+        "district": "Mymensingh",
+        "description": "1824 AD royal sweet created by Ramgopal Modak for the Muktagacha zamindars, soft chhana and khoya disc.",
+        "descriptionBn": "১৮২৪ সালে রামগোপাল মোদক কর্তৃক মহারাজা রঘুনন্দনের দরবারে প্রথম প্রস্তুতকৃত ২০০ বছরের ঐতিহ্যবাহী খাঁটি ছানার মণ্ডা।"
       },
       {
-        "name": "Haor River Boal & Chitol Curry",
-        "nameBn": "হাওরের বোয়াল ও চিতল মাছ",
-        "desc": "Wild river fish caught from Brahmaputra and Netrokona haors cooked in rich onion-chili gravy.",
-        "descBn": "ব্রহ্মপুত্র ও কংস নদের তাজা মাছের তেল-ঝোল তরকারি এবং হাওরাঞ্চলের ঐতিহ্যবাহী শুঁটকি।"
+        "name": "Netrokonar Balish Mishti",
+        "nameBn": "নেত্রকোণার ঐতিহাসিক বালিশ মিষ্টি",
+        "district": "Netrokona",
+        "description": "Enormous pillow-shaped cottage cheese sweet soaked in creamy sugar syrup and dusted with dried milk powder.",
+        "descriptionBn": "গয়ানাত ঘোষের সৃষ্ট বালিশের মতো সুবিশাল আকৃতির রসাল ক্ষীরযুক্ত মিষ্টি।"
       },
       {
-        "name": "Birishiri Garo Red Rice & Pitha",
-        "nameBn": "বিরিশিরির লাল চালের ক্ষীর ও পিঠা",
-        "desc": "Native aromatic hill rice harvested by indigenous communities near the White Clay hills.",
-        "descBn": "সুসং দুর্গাপুরের চিনামাটির পাহাড়ের পাদদেশে গারোদের উৎপাদিত সুগন্ধি লাল চালের পিঠা।"
+        "name": "Brahmaputra Bain & Chital Curry",
+        "nameBn": "পুরাতন ব্রহ্মপুত্রের বাইন ও চিতল মাছের ঝোল",
+        "district": "Mymensingh",
+        "description": "Fresh riverine fish caught in the Old Brahmaputra cooked with roasted cumin and dry red chili paste.",
+        "descriptionBn": "শম্ভুগঞ্জ ঘাটের পুরাতন ব্রহ্মপুত্র নদের বড় বাইন মাছের ঝাল ভুনা।"
+      },
+      {
+        "name": "Sherpurer Chhanar Payesh",
+        "nameBn": "শেরপুরের ঐতিহ্যবাহী ছানার পায়েস",
+        "district": "Sherpur",
+        "description": "Delicate cottage cheese granules simmered in thickened condensed milk, saffron, and pistachios.",
+        "descriptionBn": "ঘন দুধে ছোট ছানার দানা ফেলে রান্না করা সুস্বাদু ক্ষীর ও পায়েস।"
+      },
+      {
+        "name": "Muktagacha Petha & Doi",
+        "nameBn": "মুক্তাগাছার সুস্বাদু মিষ্টি দই",
+        "district": "Mymensingh",
+        "description": "Dense sweet clay pot yogurt made with fresh pasture-fed cow milk.",
+        "descriptionBn": "মাটির হাঁড়িতে পাতা প্রাকৃতিক মিষ্টি দই।"
+      },
+      {
+        "name": "Birisiri Garo Traditional Delicacies",
+        "nameBn": "বিরিশিরির গারো উপজাতীয় খাবার ও পিঠা",
+        "district": "Netrokona",
+        "description": "Indigenous wild bamboo shoot stew, steamed sticky bora rice, and herbs cooked in bamboo nodes.",
+        "descriptionBn": "সোমেশ্বরী নদী তীরের গারো ও হাজংদের বাঁশের চোঙায় তৈরি ঐতিহ্যবাহী খাবার ও পিঠা।"
+      },
+      {
+        "name": "Jamalpur Kalo Jam",
+        "nameBn": "জামালপুরের ঐতিহ্যবাহী কালোজাম",
+        "district": "Jamalpur",
+        "description": "Deep-fried dark cottage cheese dumplings soaked in rosewater and cardamom sugar syrup.",
+        "descriptionBn": "জামালপুরের শতবর্ষী রসাল লালচে-কালো সুস্বাদু মিষ্টি।"
+      },
+      {
+        "name": "Mymensingh Pitha Mela Bhapa",
+        "nameBn": "ময়মনসিংহের ধনেপাতা ও শুঁটকির চিতই",
+        "district": "Mymensingh",
+        "description": "Steamed rice pancakes served with spicy coriander and dried fish mash on winter mornings.",
+        "descriptionBn": "শীতের সকালে মাটির খোলায় তৈরি গরম চিতই পিঠা ও লাল শুঁটকির ঝাল ভর্তা।"
       }
     ],
     "festivals": [
@@ -4075,94 +4323,94 @@
       }
     ],
     "geography": {
-      "basinName": "The Old Brahmaputra Basin & Garo Foothill Valleys",
-      "basinNameBn": "পুরাতন ব্রহ্মপুত্র নদ অববাহিকা ও গারো পাহাড় পাদদেশীয় উপত্যকা",
-      "terrainType": "Pleistocene Red Soil Madhupur Terrace & Himalayan Foothill Alluvium",
-      "terrainTypeBn": "মধুপুর গড়ের লাল মাটি, গারো পাহাড়ের পাদদেশ ও ব্রহ্মপুত্র পলল উপত্যকা",
-      "elevation": "10m in floodplains to 100m+ along Garo Border Hills",
-      "elevationBn": "সমতলে ১০ মিটার থেকে গারো পাহাড়ি সীমান্তে ১০০+ মিটার",
-      "geologicalSummary": "Mymensingh division is bounded by the dramatic green Garo Hills of the Meghalaya Plateau to the north and the forested Pleistocene red clay ridges of the Madhupur Tract to the south. Historically, the main channel of the mighty Brahmaputra flowed straight past Mymensingh city until a catastrophic 1787 earthquake and flood diverted the primary discharge into the Jamuna. The division features crystalline streams flowing over ceramic white porcelain clay beds at Birisiri.",
-      "geologicalSummaryBn": "ময়মনসিংহ বিভাগের উত্তরে ভারতের মেঘালয় মালভূমির সুবিশাল গারো পাহাড় এবং দক্ষিণে শালবনে ঘেরা মধুপুর গড়ের লাল মাটির শৈলশিরা। ১৭৮৭ সালের প্রলয়ঙ্করী ভূমিকম্পের পূর্ব পর্যন্ত ব্রহ্মপুত্রের মূল প্রবাহ ময়মনসিংহ শহরের পাশ দিয়ে প্রবাহিত হতো। দুর্গাপুরের বিরিশিরিতে রয়েছে প্রাকৃতিক সাদা চিনামাটির পাহাড় এবং স্ফটিক স্বচ্ছ সোমেশ্বরী নদী।",
-      "wetlands": [
-        {
-          "name": "Birisiri Turquoise Mineral Lakes",
-          "nameBn": "বিরিশিরি চিনামাটির নীল লেক",
-          "area": "2.5 km²",
-          "district": "Netrokona (Durgapur)",
-          "desc": "Striking turquoise-blue waterbodies cradled inside white porcelain kaolin clay cliffs, fed by cold subterranean hill springs.",
-          "descBn": "সাদা চিনামাটির পাহাড়ের কোল ঘেঁষে পাহাড়ের স্বচ্ছ প্রস্রবণের পানিতে তৈরি হওয়া দৃষ্টিনন্দন ফিরোজা রঙের হ্রদ।"
-        },
-        {
-          "name": "Garo Foothill Border Forest",
-          "nameBn": "গারো পাহাড়ের প্রাকৃতিক বনাঞ্চল",
-          "area": "Over 80 km²",
-          "district": "Sherpur & Netrokona",
-          "desc": "Lush undulating hills rich in sal trees, wild elephants, and unique cultural habitats of the indigenous Garo and Hajong peoples.",
-          "descBn": "শেরপুর ও নেত্রকোনা সীমান্তে অবস্থিত বন্যহাতি, শালবন এবং গারো ও হাজং জনগোষ্ঠীর ঐতিহ্যমণ্ডিত সবুজ পাহাড়।"
-        }
-      ],
-      "riverList": [
+      "overview": "Mymensingh Division is cradled between the emerald foothills of the Meghalaya Garo range to the north and the serene historic valley of the Old Brahmaputra river to the south.",
+      "overviewBn": "ময়মনসিংহ বিভাগ উত্তরে ভারতের মেঘালয়ের গারো পাহাড়ের সবুজ পাদদেশ এবং দক্ষিণে পুরাতন ব্রহ্মপুত্র নদের পলিসমৃদ্ধ অববাহিকা নিয়ে গঠিত লোকসংস্কৃতির জনপদ।",
+      "terrain": "Garo foothills, Old Brahmaputra floodplain, and low-lying haor wetlands in Netrokona.",
+      "terrainBn": "গারো পাহাড়ের পাদদেশীয় লালচে মাটির টিলা, পুরাতন ব্রহ্মপুত্রের প্লাবনভূমি ও নেত্রকোণার হাওর অঞ্চল।",
+      "majorRiversDetailed": [
         {
           "name": "Old Brahmaputra River",
           "nameBn": "পুরাতন ব্রহ্মপুত্র নদ",
-          "length": "276 km",
-          "origin": "Braided offshoot of Jamuna at Bahadurabad (Jamalpur)",
-          "originBn": "জামালপুরের বাহাদুরাবাদে যমুনা নদীর প্রাচীন ধারা",
-          "outflow": "Meghna River near Bhairab Bazar",
-          "type": "Historic Meandering River Channel",
-          "typeBn": "ঐতিহাসিক প্রাচীন নদ অববাহিকা",
-          "significance": "The ancient main course of the Brahmaputra River before the 1787 earthquake. Flows past Mymensingh city under the Shambhuganj Bridge.",
-          "significanceBn": "১৭৮৭ সালের ভূমিকম্পের পূর্ব পর্যন্ত এটিই ছিল ব্রহ্মপুত্রের মূল ধারা। ময়মনসিংহ শহরের বুক চিরে বয়ে চলা ঐতিহ্যবাহী নদ।"
+          "length": "180 km",
+          "origin": "Jamuna diversion point at Bahadurabad",
+          "role": "Historic channel that was the main Brahmaputra before the 1787 earthquake, lifeline of Mymensingh city.",
+          "roleBn": "১৭৮৭ সালের ভূমিকম্পের পূর্ব পর্যন্ত মূল ব্রহ্মপুত্র, যা শম্ভুগঞ্জ সেতু ধারণ করে এবং শহরের প্রাণ।"
         },
         {
           "name": "Shomeshwari River",
           "nameBn": "সোমেশ্বরী নদী",
-          "length": "120 km",
-          "origin": "Garo Hills (Meghalaya, India)",
-          "originBn": "ভারতের মেঘালয়ের গারো পাহাড়",
-          "outflow": "Kangsha River at Netrokona",
-          "type": "Crystalline Mountain Stream over White Kaolin Beds",
-          "typeBn": "স্বচ্ছ চিনামাটির অববাহিকার পাহাড়ি নদী",
-          "significance": "Legendary for crystal-clear mountain currents washing over white ceramic clay beds in Durgapur, rich in indigenous folk songs and ballads.",
-          "significanceBn": "সুসং দুর্গাপুরের সাদা চিনামাটির বুক চিরে নেমে আসা স্বচ্ছ জলের নদী, যা ময়মনসিংহের লোকগীতি ও গীতিকার মূল অনুপ্রেরণা।"
+          "length": "45 km in BD",
+          "origin": "Garo Hills, Meghalaya",
+          "role": "Famed for crystal-clear turquoise waters and ceramic white kaolin clay hills at Birisiri, Durgapur.",
+          "roleBn": "বিরিশিরির চীনামাটির পাহাড়ের পাশ দিয়ে বয়ে চলা মেঘালয়ের স্বচ্ছ কাঁচের মতো ঠান্ডা পানির পাহাড়ি নদী।"
         },
         {
           "name": "Kangsha River",
           "nameBn": "কংস নদী",
-          "length": "225 km",
-          "origin": "Garo Hills via Purba Dhala",
-          "originBn": "গারো পাহাড়ের ঝরনাধারা",
-          "outflow": "Dhanu River & Haor Basin",
-          "type": "Meandering Haor Basin River",
-          "typeBn": "হাওর সংযোগকারী পলল নদী",
-          "significance": "Transports waters from the northern hills into the eastern haor depression, celebrated in local Baul music and rural folklore.",
-          "significanceBn": "নেত্রকোনার সংস্কৃতি ও লোকসংগীতের প্রাণ; পাহাড়ি জলরাশি বয়ে নিয়ে হাওর অববাহিকায় পতিত হয়।"
+          "length": "120 km",
+          "origin": "Garo Hills via Netrokona",
+          "role": "Flows through Netrokona into the haors, immortalized in Bengali folk songs and ballads.",
+          "roleBn": "ময়মনসিংহ গীতিকা ও লোকসাহিত্যের স্মৃতিবিজড়িত নদী যা নেত্রকোণার হাওরাঞ্চলে মিশেছে।"
         },
         {
           "name": "Bhogai River",
           "nameBn": "ভোগাই নদী",
-          "length": "85 km",
-          "origin": "Tura Peak of Garo Hills (Meghalaya)",
-          "originBn": "মেঘালয়ের তুরা পাহাড় শৃঙ্গ",
-          "outflow": "Kangsha River in Sherpur",
-          "type": "Gravel & Sand Rich Foothill Torrent",
-          "typeBn": "পাথর ও বালুসমৃদ্ধ খরস্রোতা পাহাড়ি নদী",
-          "significance": "Crucial for boulder, stone, and silica sand mining in Sherpur district, nourishing the green paddy terraces at Nalitabari.",
-          "significanceBn": "নালিতাবাড়ী ও শেরপুরের কৃষি সেচ এবং উন্নতমানের সিলিকা বালু ও পাথরের প্রধান প্রাকৃতিক উৎস।"
+          "length": "40 km",
+          "origin": "Meghalaya foothills",
+          "role": "Rapid hill river carrying mineral-rich sands and river pebbles into Nalitabari, Sherpur.",
+          "roleBn": "শেরপুরের নালিতাবাড়ী সীমান্ত দিয়ে নেমে আসা খরস্রোতা পাহাড়ি নদী।"
         },
         {
           "name": "Nitai River",
           "nameBn": "নিতাই নদী",
-          "length": "55 km",
-          "origin": "Garo Hills (India Border)",
-          "originBn": "ভারত সীমান্ত সংলগ্ন গারো পাহাড়",
-          "outflow": "Kangsha River",
-          "type": "Transboundary Foothill Stream",
-          "typeBn": "আন্তঃসীমান্ত পাহাড়ি জলধারা",
-          "significance": "Transboundary stream descending directly from Meghalaya, famous for wild elephants visiting its forested riverbanks in Sherpur.",
-          "significanceBn": "মেঘালয় সীমান্ত থেকে নেমে আসা পাহাড়ি নদী, যার তীরে প্রতি বছর বুনো হাতির দল জলপান করতে আসে।"
+          "length": "35 km in BD",
+          "origin": "Garo Hills",
+          "role": "Transboundary hill stream feeding the northern agricultural border belt of Haluaghat.",
+          "roleBn": "হালুয়াঘাট সীমান্ত দিয়ে মেঘালয় পাহাড় থেকে নেমে আসা পরিচ্ছন্ন মিষ্টি পানির নদী।"
         }
       ]
-    }
+    },
+    "majorRiversDetailed": [
+      {
+        "name": "Old Brahmaputra River",
+        "nameBn": "পুরাতন ব্রহ্মপুত্র নদ",
+        "length": "180 km",
+        "origin": "Jamuna diversion point at Bahadurabad",
+        "role": "Historic channel that was the main Brahmaputra before the 1787 earthquake, lifeline of Mymensingh city.",
+        "roleBn": "১৭৮৭ সালের ভূমিকম্পের পূর্ব পর্যন্ত মূল ব্রহ্মপুত্র, যা শম্ভুগঞ্জ সেতু ধারণ করে এবং শহরের প্রাণ।"
+      },
+      {
+        "name": "Shomeshwari River",
+        "nameBn": "সোমেশ্বরী নদী",
+        "length": "45 km in BD",
+        "origin": "Garo Hills, Meghalaya",
+        "role": "Famed for crystal-clear turquoise waters and ceramic white kaolin clay hills at Birisiri, Durgapur.",
+        "roleBn": "বিরিশিরির চীনামাটির পাহাড়ের পাশ দিয়ে বয়ে চলা মেঘালয়ের স্বচ্ছ কাঁচের মতো ঠান্ডা পানির পাহাড়ি নদী।"
+      },
+      {
+        "name": "Kangsha River",
+        "nameBn": "কংস নদী",
+        "length": "120 km",
+        "origin": "Garo Hills via Netrokona",
+        "role": "Flows through Netrokona into the haors, immortalized in Bengali folk songs and ballads.",
+        "roleBn": "ময়মনসিংহ গীতিকা ও লোকসাহিত্যের স্মৃতিবিজড়িত নদী যা নেত্রকোণার হাওরাঞ্চলে মিশেছে।"
+      },
+      {
+        "name": "Bhogai River",
+        "nameBn": "ভোগাই নদী",
+        "length": "40 km",
+        "origin": "Meghalaya foothills",
+        "role": "Rapid hill river carrying mineral-rich sands and river pebbles into Nalitabari, Sherpur.",
+        "roleBn": "শেরপুরের নালিতাবাড়ী সীমান্ত দিয়ে নেমে আসা খরস্রোতা পাহাড়ি নদী।"
+      },
+      {
+        "name": "Nitai River",
+        "nameBn": "নিতাই নদী",
+        "length": "35 km in BD",
+        "origin": "Garo Hills",
+        "role": "Transboundary hill stream feeding the northern agricultural border belt of Haluaghat.",
+        "roleBn": "হালুয়াঘাট সীমান্ত দিয়ে মেঘালয় পাহাড় থেকে নেমে আসা পরিচ্ছন্ন মিষ্টি পানির নদী।"
+      }
+    ]
   }
 ]

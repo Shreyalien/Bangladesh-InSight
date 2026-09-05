@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import {
   Compass, Landmark, Utensils, Sparkles, Building2, Droplets, Globe,
   MapPin, ChevronRight, ArrowLeft, Eye, EyeOff, X, ExternalLink,
-  ChevronLeft, Trees, Award, Mountain, Navigation, Moon, Sun, Check, Camera, Maximize2
+  ChevronLeft, Trees, Award, Mountain, Navigation, Moon, Sun, Check, Camera,
+  Waves, Anchor, Info, Calendar
 } from 'lucide-react';
 
 const MARKER_TYPES = {
@@ -29,7 +30,7 @@ function FloatingMarker({ marker, isBengali, isActive, onClick }) {
       onClick={(e) => { e.stopPropagation(); onClick(marker); }}
     >
       <div
-        className="relative flex items-center gap-1.5 px-3 py-1 rounded-full shadow-2xl transition-all duration-300 backdrop-blur-xl"
+        className="relative flex items-center gap-1.5 px-3 py-1.5 rounded-full shadow-2xl transition-all duration-300 backdrop-blur-xl"
         style={{
           background: isActive ? marker.color : 'rgba(10, 15, 30, 0.88)',
           border: `1.5px solid ${isActive ? '#ffffff' : marker.color}`,
@@ -59,11 +60,11 @@ function MarkerDetailCard({ marker, isNightMode, isBengali, onClose, onOpenDetai
 
   return (
     <div
-      className="absolute bottom-6 right-4 sm:right-8 z-50 w-80 rounded-3xl overflow-hidden shadow-2xl animate-in fade-in"
+      className="absolute bottom-10 right-4 sm:right-10 z-50 w-80 sm:w-96 rounded-3xl overflow-hidden shadow-2xl animate-in fade-in"
       style={{
-        background: isNightMode ? 'rgba(10,15,30,0.96)' : 'rgba(255,255,255,0.98)',
+        background: isNightMode ? 'rgba(15,23,42,0.96)' : 'rgba(255,255,255,0.98)',
         backdropFilter: 'blur(24px)',
-        border: `1.5px solid ${marker.color}60`,
+        border: `1.5px solid ${marker.color}70`,
         boxShadow: `0 25px 50px -12px rgba(0,0,0,0.8), 0 0 30px ${marker.color}40`,
       }}
       onClick={(e) => e.stopPropagation()}
@@ -133,7 +134,6 @@ export default function DivisionPageView({
   onBack
 }) {
   const [activeMarker, setActiveMarker] = useState(null);
-  const [activeTypes, setActiveTypes] = useState(new Set(['river', 'bridge', 'heritage', 'nature', 'district']));
   const [selectedImgIndex, setSelectedImgIndex] = useState(0);
   const [activeSection, setActiveSection] = useState('overview');
 
@@ -148,28 +148,13 @@ export default function DivisionPageView({
     ? division.visualMarkersNight
     : (division.visualMarkersDay || division.visualMarkers || []);
 
-  const visibleMarkers = currentMarkers.filter(m => activeTypes.has(m.type));
-
   useEffect(() => {
     setSelectedImgIndex(isNightMode && gallery.length > 1 ? 1 : 0);
     setActiveMarker(null);
   }, [division.id, isNightMode]);
 
-  const toggleType = (type) => {
-    setActiveTypes(prev => {
-      const next = new Set(prev);
-      if (next.has(type)) next.delete(type);
-      else next.add(type);
-      return next;
-    });
-  };
-
   const nextAngle = () => {
     setSelectedImgIndex((prev) => (prev + 1) % gallery.length);
-  };
-
-  const prevAngle = () => {
-    setSelectedImgIndex((prev) => (prev - 1 + gallery.length) % gallery.length);
   };
 
   const bg = isNightMode ? 'bg-slate-950 text-white' : 'bg-slate-50 text-slate-900';
@@ -181,16 +166,15 @@ export default function DivisionPageView({
   const portalTabs = [
     { id: 'overview', label: 'Overview & Atlas', labelBn: 'সামগ্রিক রূপরেখা', icon: Compass },
     { id: 'heritage', label: 'Heritage & Landmarks', labelBn: 'ঐতিহাসিক নিদর্শন', icon: Landmark, count: division.landmarks?.length || 8 },
-    { id: 'delicacies', label: 'Famous Food & Sweets', labelBn: 'ঐতিহ্যবাহী খাবার ও মিষ্টি', icon: Utensils, count: division.delicacies?.length },
-    { id: 'culture', label: 'Festivals & Culture', labelBn: 'উৎসব, মেলা ও সংস্কৃতি', icon: Sparkles, count: (division.festivals?.length || 0) + (division.traditions?.length || 0) },
+    { id: 'delicacies', label: 'Famous Food & Sweets', labelBn: 'ঐতিহ্যবাহী খাবার ও মিষ্টি', icon: Utensils, count: division.delicacies?.length || 8 },
+    { id: 'rivers', label: 'Rivers & Geography', labelBn: 'নদীনালা ও ভৌগোলিক রূপ', icon: Droplets, count: division.majorRiversDetailed?.length || 5 },
     { id: 'districts', label: 'Districts of Division', labelBn: 'বিভাগীয় জেলাসমূহ', icon: Building2, count: divisionDistricts.length },
-    { id: 'rivers', label: 'Rivers & Geography', labelBn: 'নদীনালা ও ভৌগোলিক রূপ', icon: Droplets },
-    { id: 'gallery', label: 'Multi-Angle Gallery', labelBn: 'বহু-কোণিক আলোকচিত্র', icon: Camera, count: gallery.length },
+    { id: 'culture', label: 'Festivals & Culture', labelBn: 'উৎসব, মেলা ও সংস্কৃতি', icon: Sparkles, count: (division.festivals?.length || 0) + (division.traditions?.length || 0) },
     { id: 'traveler', label: "Traveler's Guide", labelBn: 'ভ্রমণ নির্দেশিকা', icon: Globe },
   ];
 
   return (
-    <div className={`w-full min-h-screen ${bg} pt-24 transition-colors duration-500`} onClick={() => setActiveMarker(null)}>
+    <div className={`w-full min-h-screen ${bg} transition-colors duration-500`} onClick={() => setActiveMarker(null)}>
 
       {/* Embedded CSS for floating keyframe */}
       <style>{`
@@ -200,148 +184,88 @@ export default function DivisionPageView({
         }
       `}</style>
 
-      {/* ═══ AMBIENT THEATER PANORAMA STAGE (100% FULL VISIBILITY, ZERO CLIPPING) ═══ */}
+      {/* ═══ TRUE FULLSCREEN PANORAMA (ONLY FLOATING INDICATORS ON PHOTO) ═══ */}
       <section
-        className="relative w-full h-[78vh] sm:h-[82vh] min-h-[520px] max-h-[820px] flex items-center justify-center overflow-hidden select-none bg-slate-950 px-4 sm:px-8"
-        title={isBengali ? 'ছবির ওপর ক্লিক করে কোণ / ছবি পরিবর্তন করুন' : 'Click on image to switch view'}
+        onClick={nextAngle}
+        className="relative w-full h-screen overflow-hidden select-none cursor-pointer bg-slate-950 flex items-center justify-center"
+        title={isBengali ? 'ছবির ওপর ক্লিক করে কোণ / ছবি পরিবর্তন করুন' : 'Click on photo to cycle view angles'}
       >
-        {/* Atmospheric Ambient Blurred Background */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img
-            src={currentImg}
-            alt=""
-            className="w-full h-full object-cover blur-3xl opacity-30 scale-110 transition-all duration-700"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-slate-950/70" />
+        {/* The Fullscreen Photograph */}
+        <img
+          src={currentImg}
+          alt={division.name}
+          className="w-full h-full object-cover object-center select-none transition-all duration-700"
+        />
+
+        {/* Subtle Edge Vignette */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40 pointer-events-none" />
+
+        {/* ── ONLY FLOATING INDICATORS ON THE PHOTO ── */}
+        <div className="absolute inset-0 pointer-events-auto">
+          {currentMarkers.map(marker => (
+            <FloatingMarker
+              key={marker.id}
+              marker={marker}
+              isBengali={isBengali}
+              isActive={activeMarker?.id === marker.id}
+              onClick={(m) => setActiveMarker(m)}
+            />
+          ))}
         </div>
 
-        {/* Top Controls Overlay: Back Button & Marker Filter Pills */}
-        <div className="absolute top-4 left-4 right-4 sm:left-8 sm:right-8 z-40 flex items-center justify-between gap-4 pointer-events-none">
+        {/* Marker Detail Card Popup (if an indicator is clicked) */}
+        {activeMarker && (
+          <MarkerDetailCard
+            marker={activeMarker}
+            isNightMode={isNightMode}
+            isBengali={isBengali}
+            onClose={() => setActiveMarker(null)}
+            onOpenDetails={onOpenDetails}
+          />
+        )}
+      </section>
+
+      {/* ═══ BELOW THE PHOTO: NAVIGATION BAR, STATS & DETAILS ═══ */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-8 py-8 space-y-8">
+
+        {/* Top Control Bar: Back to Home & Angle Switcher */}
+        <div className="flex flex-wrap items-center justify-between gap-4 pt-2">
           <button
-            onClick={(e) => { e.stopPropagation(); onBack(); }}
-            className="pointer-events-auto flex items-center gap-2 px-3.5 py-1.5 rounded-2xl text-xs font-bold transition-all hover:scale-105 border shadow-xl bg-black/70 text-white backdrop-blur-xl border-white/20"
+            onClick={onBack}
+            className="flex items-center gap-2 px-5 py-2.5 rounded-2xl text-xs sm:text-sm font-bold transition-all hover:scale-105 border shadow-md bg-rose-600 hover:bg-rose-700 text-white border-rose-500"
           >
-            <ArrowLeft className="w-4 h-4 text-rose-500" />
+            <ArrowLeft className="w-4 h-4" />
             <span>{isBengali ? 'মূল পাতায় ফিরে যান' : 'Back to Home'}</span>
           </button>
 
-          {/* Marker Filter Buttons */}
-          <div className="pointer-events-auto flex items-center gap-1.5 p-1 rounded-2xl border shadow-xl bg-black/70 backdrop-blur-xl border-white/20 overflow-x-auto no-scrollbar">
-            {Object.entries(MARKER_TYPES).map(([typeKey, cfg]) => {
-              const isActive = activeTypes.has(typeKey);
-              const Icon = cfg.icon;
-              return (
-                <button
-                  key={typeKey}
-                  onClick={(e) => { e.stopPropagation(); toggleType(typeKey); }}
-                  className={`flex items-center gap-1 px-2.5 py-1 rounded-xl text-[11px] font-bold transition-all ${
-                    isActive
-                      ? 'text-white shadow-md'
-                      : 'text-white/60 hover:text-white'
-                  }`}
-                  style={{ background: isActive ? cfg.color : 'transparent' }}
-                >
-                  <Icon className="w-3 h-3" />
-                  <span>{isBengali ? cfg.labelBn.split(' ')[0] : cfg.label.split(' ')[0]}</span>
-                </button>
-              );
-            })}
-          </div>
-        </div>
-
-        {/* ── EXACT IMAGE CONTAINER (FIT TO BOUNDS, ZERO CLIPPING, MARKERS LOCKED) ── */}
-        <div
-          className="relative max-h-[74vh] sm:h-[76vh] max-w-full flex items-center justify-center shadow-2xl rounded-3xl overflow-hidden border border-white/20 z-20 cursor-pointer"
-          onClick={nextAngle}
-        >
-          {/* Main Panorama Image */}
-          <img
-            src={currentImg}
-            alt={division.name}
-            className="max-h-[74vh] sm:max-h-[76vh] max-w-full w-auto h-auto object-contain rounded-3xl select-none transition-all duration-500 shadow-2xl"
-          />
-
-          {/* Markers placed EXACTLY on the physical image surface */}
-          <div className="absolute inset-0 pointer-events-auto">
-            {visibleMarkers.map(marker => (
-              <FloatingMarker
-                key={marker.id}
-                marker={marker}
-                isBengali={isBengali}
-                isActive={activeMarker?.id === marker.id}
-                onClick={(m) => setActiveMarker(m)}
-              />
-            ))}
-          </div>
-
-          {/* Active Marker Detail Card Popup */}
-          {activeMarker && (
-            <MarkerDetailCard
-              marker={activeMarker}
-              isNightMode={isNightMode}
-              isBengali={isBengali}
-              onClose={() => setActiveMarker(null)}
-              onOpenDetails={onOpenDetails}
-            />
-          )}
-        </div>
-
-        {/* Left & Right Angle Switcher Arrows */}
-        {gallery.length > 1 && (
-          <>
-            <button
-              onClick={(e) => { e.stopPropagation(); prevAngle(); }}
-              className="absolute left-4 sm:left-8 top-1/2 -translate-y-1/2 z-30 w-11 h-11 rounded-full flex items-center justify-center text-white bg-black/60 hover:bg-rose-600 backdrop-blur-md border border-white/20 shadow-2xl transition-all hover:scale-110"
-              title="Previous Angle"
-            >
-              <ChevronLeft className="w-6 h-6" />
-            </button>
-            <button
-              onClick={(e) => { e.stopPropagation(); nextAngle(); }}
-              className="absolute right-4 sm:right-8 top-1/2 -translate-y-1/2 z-30 w-11 h-11 rounded-full flex items-center justify-center text-white bg-black/60 hover:bg-rose-600 backdrop-blur-md border border-white/20 shadow-2xl transition-all hover:scale-110"
-              title="Next Angle"
-            >
-              <ChevronRight className="w-6 h-6" />
-            </button>
-          </>
-        )}
-
-        {/* Bottom Bar: Division Badge & Angle Switcher */}
-        <div className="absolute bottom-4 left-4 right-4 sm:left-8 sm:right-8 z-30 flex items-center justify-between gap-4 pointer-events-none">
-          <div className="pointer-events-auto flex items-center gap-2 px-3 py-1 rounded-2xl bg-black/70 backdrop-blur-xl border border-white/20 shadow-xl">
-            <span className="w-2.5 h-2.5 rounded-full" style={{ background: division.color || '#e11d48' }} />
-            <span className="text-xs font-black text-white font-display">
-              {isBengali ? division.nameBn : division.name} {isBengali ? 'বিভাগ' : 'Division'}
-            </span>
-            <span className="text-white/40">·</span>
-            <span className="text-[11px] text-white/80 font-medium hidden sm:inline">
-              {isBengali ? 'ছবির ওপর ক্লিক করে কোণ পরিবর্তন করুন' : 'Click image to switch view'}
-            </span>
-          </div>
-
+          {/* Photo Angle Switcher (Cleanly placed below the photo) */}
           {gallery.length > 1 && (
-            <div className="pointer-events-auto flex items-center gap-1.5 p-1 rounded-2xl bg-black/70 backdrop-blur-xl border border-white/20 shadow-2xl" onClick={e => e.stopPropagation()}>
-              <Camera className="w-3.5 h-3.5 text-rose-400 ml-1" />
+            <div className={`flex items-center gap-2 p-1.5 rounded-2xl border ${cardBg} shadow-sm`}>
+              <Camera className="w-4 h-4 text-rose-500 ml-1.5" />
+              <span className="text-xs font-bold text-slate-400 mr-1">
+                {isBengali ? 'কোণ পরিবর্তন:' : 'Switch Angle:'}
+              </span>
               {gallery.map((_, idx) => (
                 <button
                   key={idx}
-                  onClick={() => setSelectedImgIndex(idx)}
-                  className={`px-2.5 py-0.5 rounded-xl text-xs font-bold transition-all ${
+                  onClick={() => {
+                    setSelectedImgIndex(idx);
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                  className={`px-3 py-1 rounded-xl text-xs font-bold transition-all ${
                     selectedImgIndex === idx
-                      ? 'bg-rose-600 text-white shadow-lg scale-105'
-                      : 'text-white/70 hover:text-white hover:bg-white/10'
+                      ? 'bg-rose-600 text-white shadow-md scale-105'
+                      : isNightMode
+                        ? 'text-slate-400 hover:text-white hover:bg-white/10'
+                        : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
                   }`}
                 >
-                  {idx + 1}
+                  {isBengali ? `কোণ ${idx + 1}` : `Angle ${idx + 1}`}
                 </button>
               ))}
             </div>
           )}
         </div>
-      </section>
-
-      {/* ═══ CONTENT AREA (BELOW THE PANORAMA) ═══ */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-8 py-10 space-y-8">
 
         {/* ── MINIMAL DIVISION OVERVIEW (COMPACT & CLEAN) ── */}
         <div
@@ -378,7 +302,7 @@ export default function DivisionPageView({
             </div>
           </div>
 
-          <p className={`text-xs sm:text-sm leading-relaxed line-clamp-2 ${sub}`}>
+          <p className={`text-xs sm:text-sm leading-relaxed ${sub}`}>
             {isBengali ? division.descriptionBn : division.description}
           </p>
         </div>
@@ -392,7 +316,7 @@ export default function DivisionPageView({
               <button
                 key={tab.id}
                 onClick={() => setActiveSection(tab.id)}
-                className={`flex items-center gap-2 px-4 py-2 rounded-2xl text-xs font-bold transition-all whitespace-nowrap ${
+                className={`flex items-center gap-2 px-4 py-2.5 rounded-2xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap ${
                   isActive
                     ? 'bg-rose-600 text-white shadow-lg scale-105'
                     : isNightMode
@@ -461,7 +385,7 @@ export default function DivisionPageView({
           </div>
         )}
 
-        {/* ═══ TAB 2: RESEARCHED HERITAGE & LANDMARKS (DEEP & RICH) ═══ */}
+        {/* ═══ TAB 2: HERITAGE & LANDMARKS ═══ */}
         {activeSection === 'heritage' && (
           <div className="space-y-6">
             <div>
@@ -523,51 +447,116 @@ export default function DivisionPageView({
           </div>
         )}
 
-        {/* ═══ TAB 3: DELICACIES ═══ */}
+        {/* ═══ TAB 3: WIDELY EXPANDED FOOD & DELICACIES ═══ */}
         {activeSection === 'delicacies' && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {(division.delicacies || []).map((item, idx) => (
-              <div key={idx} className={`p-5 rounded-3xl border ${cardBg} space-y-2.5`}>
-                <div className="w-9 h-9 rounded-2xl flex items-center justify-center bg-amber-500/20 text-amber-500">
-                  <Utensils className="w-4 h-4" />
-                </div>
-                <h3 className="text-sm font-black text-amber-400">
-                  {isBengali ? (item.nameBn || item.name) : item.name}
-                </h3>
-                <p className={`text-xs leading-relaxed ${sub}`}>
-                  {isBengali ? (item.descriptionBn || item.description) : item.description}
-                </p>
-                {item.district && (
-                  <p className="text-[10px] font-semibold text-slate-400">
-                    {isBengali ? 'উৎস জেলা:' : 'Origin:'} {item.district}
-                  </p>
-                )}
-              </div>
-            ))}
-          </div>
-        )}
-
-        {/* ═══ TAB 4: CULTURE & FESTIVALS ═══ */}
-        {activeSection === 'culture' && (
           <div className="space-y-6">
-            <h3 className="text-base font-black">{isBengali ? 'উৎসব ও মেলা' : 'Festivals & Fairs'}</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {(division.festivals || []).map((f, i) => (
-                <div key={i} className={`p-4 rounded-3xl border ${cardBg} space-y-1.5`}>
-                  <Sparkles className="w-4 h-4 text-purple-400" />
-                  <h4 className="text-xs font-black">{isBengali ? (f.nameBn || f.name) : f.name}</h4>
-                  <p className={`text-xs leading-relaxed ${sub}`}>{isBengali ? (f.descriptionBn || f.description) : f.description}</p>
+            <div>
+              <h2 className="text-xl sm:text-2xl font-black font-display text-amber-500 flex items-center gap-2">
+                <Utensils className="w-6 h-6" />
+                <span>{isBengali ? 'বিভাগীয় ঐতিহ্যবাহী খাবার, মিষ্টি ও রন্ধনশিল্প' : 'Celebrated Regional Delicacies & Culinary Heritage'}</span>
+              </h2>
+              <p className={`text-xs sm:text-sm mt-1 ${sub}`}>
+                {isBengali
+                  ? 'গভীর গবেষণার মাধ্যমে সংগৃহীত প্রতিটি জেলার আদি ও বিশ্বখ্যাত খাবারসমূহ—ইতিহাস ও স্বাদ প্রোফাইল।'
+                  : 'Extensively researched signature culinary masterworks representing the authentic flavors and sweets of each district.'}
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+              {(division.delicacies || []).map((item, idx) => (
+                <div key={idx} className={`p-5 rounded-3xl border ${cardBg} space-y-3 hover:-translate-y-1 transition-all shadow-sm hover:shadow-lg`}>
+                  <div className="flex items-center justify-between">
+                    <span className="text-[10px] font-black px-2.5 py-0.5 rounded-full bg-amber-500/20 text-amber-400">
+                      {item.district || 'Origin'}
+                    </span>
+                    <Utensils className="w-3.5 h-3.5 text-amber-500/60" />
+                  </div>
+
+                  <div>
+                    <h3 className="text-sm font-black text-amber-400">
+                      {isBengali ? (item.nameBn || item.name) : item.name}
+                    </h3>
+                  </div>
+
+                  <p className={`text-xs leading-relaxed ${sub}`}>
+                    {isBengali ? (item.descriptionBn || item.description) : item.description}
+                  </p>
+
+                  <div className="pt-2 border-t border-slate-100 dark:border-white/5 flex items-center justify-between text-[11px] font-semibold text-slate-400">
+                    <span>{isBengali ? 'উৎস জেলা:' : 'Origin District:'}</span>
+                    <span className="text-amber-500 font-bold">{item.district}</span>
+                  </div>
                 </div>
               ))}
             </div>
+          </div>
+        )}
 
-            <h3 className="text-base font-black pt-2">{isBengali ? 'লোকঐতিহ্য ও সাংস্কৃতিক রীতি' : 'Folk Traditions'}</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {(division.traditions || []).map((t, i) => (
-                <div key={i} className={`p-4 rounded-3xl border ${cardBg} space-y-1.5`}>
-                  <Award className="w-4 h-4 text-emerald-400" />
-                  <h4 className="text-xs font-black">{isBengali ? (t.titleBn || t.title) : t.title}</h4>
-                  <p className={`text-xs leading-relaxed ${sub}`}>{isBengali ? (t.descriptionBn || t.description) : t.description}</p>
+        {/* ═══ TAB 4: COMPREHENSIVE RIVERS & GEOGRAPHY ═══ */}
+        {activeSection === 'rivers' && (
+          <div className="space-y-6">
+            <div>
+              <h2 className="text-xl sm:text-2xl font-black font-display text-sky-400 flex items-center gap-2">
+                <Waves className="w-6 h-6" />
+                <span>{isBengali ? 'নদীনালা, জলবিজ্ঞান ও ভৌগোলিক ভূপ্রকৃতি' : 'Rivers, Hydrology & Physical Geography'}</span>
+              </h2>
+              <p className={`text-xs sm:text-sm mt-1 ${sub}`}>
+                {isBengali
+                  ? 'উৎস, বিস্তার, দৈর্ঘ্য ও অর্থনৈতিক ভূমিকা সহ প্রতিটি বিভাগের পূর্ণাঙ্গ জলতাত্ত্বিক বিবরণী।'
+                  : 'Comprehensive hydrologic and geographic breakdown including origins, paths, lengths, and economic lifelines.'}
+              </p>
+            </div>
+
+            {/* Geographic & Terrain Topography Card */}
+            {division.geography && (
+              <div className={`p-6 sm:p-7 rounded-3xl border ${cardBg} space-y-3 bg-gradient-to-r from-sky-500/10 via-transparent to-blue-500/10`}>
+                <div className="flex items-center gap-2">
+                  <Mountain className="w-5 h-5 text-sky-400" />
+                  <h3 className="text-base font-black text-sky-400">
+                    {isBengali ? 'ভৌগোলিক অববাহিকা ও ভূমিরূপ:' : 'Geographic Basin & Terrain Profile:'}
+                  </h3>
+                </div>
+                <p className="text-xs sm:text-sm leading-relaxed text-slate-700 dark:text-slate-200 font-medium">
+                  {isBengali ? division.geography.overviewBn : division.geography.overview}
+                </p>
+                <div className="pt-2 flex flex-wrap gap-2 text-xs">
+                  <span className="px-3 py-1 rounded-xl bg-sky-500/20 text-sky-300 font-bold">
+                    {isBengali ? 'ভূমিরূপ:' : 'Terrain:'} {isBengali ? division.geography.terrainBn : division.geography.terrain}
+                  </span>
+                </div>
+              </div>
+            )}
+
+            {/* Major Rivers Detailed Grid */}
+            <h3 className="text-base font-black flex items-center gap-2 pt-2">
+              <Droplets className="w-4 h-4 text-sky-400" />
+              <span>{isBengali ? 'প্রধান নদীসমূহ ও তাদের ভূমিকা' : 'Major River Channels & Basin Roles'}</span>
+            </h3>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {(division.majorRiversDetailed || []).map((river, rIdx) => (
+                <div key={rIdx} className={`p-5 rounded-3xl border ${cardBg} space-y-3 shadow-md hover:shadow-xl transition-all`}>
+                  <div className="flex items-center justify-between">
+                    <span className="text-[10px] font-black px-2.5 py-0.5 rounded-full bg-sky-500/20 text-sky-400">
+                      {river.length ? river.length : 'River Basin'}
+                    </span>
+                    <Anchor className="w-3.5 h-3.5 text-sky-400/70" />
+                  </div>
+
+                  <div>
+                    <h4 className="text-base font-black text-sky-400">
+                      {isBengali ? river.nameBn : river.name}
+                    </h4>
+                    {river.origin && (
+                      <p className="text-[10px] text-slate-400 mt-0.5">
+                        <strong>{isBengali ? 'উৎস:' : 'Origin:'}</strong> {river.origin}
+                      </p>
+                    )}
+                  </div>
+
+                  <p className={`text-xs leading-relaxed ${sub}`}>
+                    {isBengali ? river.roleBn : river.role}
+                  </p>
                 </div>
               ))}
             </div>
@@ -603,66 +592,34 @@ export default function DivisionPageView({
           </div>
         )}
 
-        {/* ═══ TAB 6: RIVERS ═══ */}
-        {activeSection === 'rivers' && (
-          <div className={`p-6 rounded-3xl border ${cardBg} space-y-3`}>
-            <div className="flex items-center gap-2.5">
-              <Droplets className="w-5 h-5 text-blue-400" />
-              <h3 className="text-lg font-black">{isBengali ? 'নদীনালা ও ভৌগোলিক জলপথ' : 'River Systems & Waterways'}</h3>
-            </div>
-            <p className={`text-xs sm:text-sm leading-relaxed ${sub}`}>
-              {isBengali
-                ? `${division.nameBn} বিভাগটি প্রমত্তা নদ-নদী দ্বারা পরিবেষ্টিত। এ অঞ্চলের প্রধান নদীসমূহ: ${division.stats?.majorRivers?.join(', ') || 'নদীপথ'}।`
-                : `${division.name} Division is blessed with vibrant river systems including: ${division.stats?.majorRivers?.join(', ') || 'Major Rivers'}.`}
-            </p>
-          </div>
-        )}
-
-        {/* ═══ TAB 7: PHOTO GALLERY & ALTERNATE ANGLES ═══ */}
-        {activeSection === 'gallery' && (
+        {/* ═══ TAB 6: CULTURE & FESTIVALS ═══ */}
+        {activeSection === 'culture' && (
           <div className="space-y-6">
-            <div>
-              <h2 className="text-xl sm:text-2xl font-black font-display text-rose-500">
-                {isBengali ? 'বহু-কোণিক উচ্চ-রেজোলিউশন আলোকচিত্র' : 'Multi-Angle High-Definition Showcase'}
-              </h2>
-              <p className={`text-xs sm:text-sm mt-1 ${sub}`}>
-                {isBengali ? 'যেকোনো ছবিতে ক্লিক করে ওপরের প্রধান প্যানোরামা স্টেজ পরিবর্তন করুন' : 'Click any image to load it onto the fullscreen stage above'}
-              </p>
+            <h3 className="text-base font-black">{isBengali ? 'উৎসব ও মেলা' : 'Festivals & Fairs'}</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {(division.festivals || []).map((f, i) => (
+                <div key={i} className={`p-4 rounded-3xl border ${cardBg} space-y-1.5`}>
+                  <Sparkles className="w-4 h-4 text-purple-400" />
+                  <h4 className="text-xs font-black">{isBengali ? (f.nameBn || f.name) : f.name}</h4>
+                  <p className={`text-xs leading-relaxed ${sub}`}>{isBengali ? (f.descriptionBn || f.description) : f.description}</p>
+                </div>
+              ))}
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {gallery.map((imgUrl, gIdx) => (
-                <div
-                  key={gIdx}
-                  onClick={() => {
-                    setSelectedImgIndex(gIdx);
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }}
-                  className={`group rounded-3xl overflow-hidden border cursor-pointer ${cardBg} hover:-translate-y-1.5 transition-all shadow-md ${
-                    selectedImgIndex === gIdx ? 'ring-4 ring-rose-500' : ''
-                  }`}
-                >
-                  <div className="relative h-44 overflow-hidden bg-slate-950">
-                    <img
-                      src={imgUrl}
-                      alt={`Angle ${gIdx + 1}`}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-all duration-500"
-                    />
-                    <div className="absolute top-3 left-3 px-2.5 py-0.5 rounded-full text-[10px] font-bold text-white bg-black/60 backdrop-blur-md">
-                      {isBengali ? `কোণ ${gIdx + 1}` : `Angle ${gIdx + 1}`}
-                    </div>
-                  </div>
-                  <div className="p-3.5 flex items-center justify-between text-xs font-bold">
-                    <span className="text-slate-300">{isBengali ? 'স্টেজে দেখতে ক্লিক করুন' : 'Click to View Fullscreen'}</span>
-                    <ChevronRight className="w-4 h-4 text-rose-500" />
-                  </div>
+            <h3 className="text-base font-black pt-2">{isBengali ? 'লোকঐতিহ্য ও সাংস্কৃতিক রীতি' : 'Folk Traditions'}</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {(division.traditions || []).map((t, i) => (
+                <div key={i} className={`p-4 rounded-3xl border ${cardBg} space-y-1.5`}>
+                  <Award className="w-4 h-4 text-emerald-400" />
+                  <h4 className="text-xs font-black">{isBengali ? (t.titleBn || t.title) : t.title}</h4>
+                  <p className={`text-xs leading-relaxed ${sub}`}>{isBengali ? (t.descriptionBn || t.description) : t.description}</p>
                 </div>
               ))}
             </div>
           </div>
         )}
 
-        {/* ═══ TAB 8: TRAVELER'S GUIDE ═══ */}
+        {/* ═══ TAB 7: TRAVELER'S GUIDE ═══ */}
         {activeSection === 'traveler' && (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             <div className={`p-5 rounded-3xl border ${cardBg} space-y-2`}>
