@@ -278,56 +278,64 @@
         "nameBn": "পুরান ঢাকার বাকরখানি",
         "district": "Dhaka",
         "description": "Crispy layered flatbread baked in traditional clay tandoors since the Mughal era, eaten with sweet milk tea.",
-        "descriptionBn": "মুঘল আমল থেকে ঐতিহ্যবাহী মাটির তন্দুরে সেঁকা মুচমুচে স্তরবিশিষ্ট রুটি, যা মিষ্টি দুধ চায়ের সাথে পরিবেশন করা হয়।"
+        "descriptionBn": "মুঘল আমল থেকে ঐতিহ্যবাহী মাটির তন্দুরে সেঁকা মুচমুচে স্তরবিশিষ্ট রুটি, যা মিষ্টি দুধ চায়ের সাথে পরিবেশন করা হয়।",
+        "image": "/delicacies/dhakai_bakarkhani.jpg"
       },
       {
         "name": "Kacchi Biryani of Old Dhaka",
         "nameBn": "পুরান ঢাকার কাচ্চি বিরিয়ানি",
         "district": "Dhaka",
         "description": "Legendary feast dish of marinated tender mutton slow-cooked with basmati rice, potatoes, and mace over charcoal.",
-        "descriptionBn": "সুগন্ধি বাসমতী বা চিনিগুঁড়া চাল, খাসির মাংস ও আলুর সমন্বয়ে কয়লার মৃদু আঁচে রান্না করা বিখ্যাত শাহী খাবার।"
+        "descriptionBn": "সুগন্ধি বাসমতী বা চিনিগুঁড়া চাল, খাসির মাংস ও আলুর সমন্বয়ে কয়লার মৃদু আঁচে রান্না করা বিখ্যাত শাহী খাবার।",
+        "image": "/delicacies/kacchi_biryani.jpg"
       },
       {
         "name": "Porabarir Chamcham",
         "nameBn": "পোড়াবাড়ির আদি চমচম",
         "district": "Tangail",
         "description": "150-year-old historic sweet with caramelized khoya crust and soft syrup interior made with Dhaleshwari river water.",
-        "descriptionBn": "টাঙ্গাইলের ধলেশ্বরী নদীর মিষ্টি পানিতে তৈরি দেড়শত বছরের প্রাচীন পোড়ামাটির রঙের মাওয়া জড়ানো মিষ্টির রাজা।"
+        "descriptionBn": "টাঙ্গাইলের ধলেশ্বরী নদীর মিষ্টি পানিতে তৈরি দেড়শত বছরের প্রাচীন পোড়ামাটির রঙের মাওয়া জড়ানো মিষ্টির রাজা।",
+        "image": "/delicacies/porabarir_chamcham.jpg"
       },
       {
         "name": "Shahi Jilapi of Chawkbazar",
         "nameBn": "চকবাজারের শাহী জিলাপি",
         "district": "Dhaka",
         "description": "Giant coiled golden syrup sweets, a Ramadan centerpiece since the Mughal Nawabs of Bengal.",
-        "descriptionBn": "চকবাজারের রমজানের ঐতিহ্যবাহী সুবিশাল কুন্ডলী পাকানো মচমচে রসাল শাহী জিলাপি।"
+        "descriptionBn": "চকবাজারের রমজানের ঐতিহ্যবাহী সুবিশাল কুন্ডলী পাকানো মচমচে রসাল শাহী জিলাপি।",
+        "image": "/delicacies/shahi_jilapi.jpg"
       },
       {
         "name": "Nanna Biryani Morog Polao",
         "nameBn": "নান্না বিরিয়ানির মোরগ পোলাও",
         "district": "Dhaka",
         "description": "Fragrant ghee-roasted chicken pilaf served with hard-boiled egg and spiced borhani in Becharam Deori.",
-        "descriptionBn": "বেচারাম দেউড়ির খাঁটি গাওয়া ঘিয়ে ভাজা সুগন্ধি মোরগ পোলাও ও মশলাদার বোরহানি।"
+        "descriptionBn": "বেচারাম দেউড়ির খাঁটি গাওয়া ঘিয়ে ভাজা সুগন্ধি মোরগ পোলাও ও মশলাদার বোরহানি।",
+        "image": "/delicacies/nanna_biryani_polao.jpg"
       },
       {
         "name": "Bhorta-Khichuri of Old Dhaka",
         "nameBn": "নানা পদের ভর্তা ও ভুনা খিচুড়ি",
         "district": "Dhaka",
         "description": "20+ varieties of traditional vegetable, dry fish, and mustard mash served with rich beef bhuna khichuri.",
-        "descriptionBn": "সরিষার তেলে মাখা শুঁটকি, আলু, বেগুন, ডাল সহ ২০ পদের ভর্তা এবং ঝাল গরুর মাংসের ভুনা খিচুড়ি।"
+        "descriptionBn": "সরিষার তেলে মাখা শুঁটকি, আলু, বেগুন, ডাল সহ ২০ পদের ভর্তা এবং ঝাল গরুর মাংসের ভুনা খিচুড়ি।",
+        "image": "/delicacies/bhorta_khichuri.jpg"
       },
       {
         "name": "Manikganjer Khejur Gur",
         "nameBn": "মানিকগঞ্জের খাঁটি ঝোলা পাটালি গুড়",
         "district": "Manikganj",
         "description": "Artisanal organic date palm jaggery, tapped fresh from winter trees across Harirampur.",
-        "descriptionBn": "হরিরামপুরের শতবর্ষী ঐতিহ্যবাহী শীতকালীন খেজুরের খাঁটি পাটালি ও ঝোলা নলেন গুড়।"
+        "descriptionBn": "হরিরামপুরের শতবর্ষী ঐতিহ্যবাহী শীতকালীন খেজুরের খাঁটি পাটালি ও ঝোলা নলেন গুড়।",
+        "image": "/delicacies/manikganjer_gur.jpg"
       },
       {
         "name": "Comillar Matri Bhandar Rosomalai",
         "nameBn": "কুমিল্লার মাতৃভাণ্ডারের রসমালাই",
         "district": "Cumilla",
         "description": "Soft homemade chhana dumplings steeped in thickened cardamom-scented malai milk.",
-        "descriptionBn": "খাঁটি ছানার ছোট ছোট গুটি ঘন ক্ষীর ও এলাচের সুবাসযুক্ত মালাইয়ে ডোবানো জগৎখ্যাত রসমালাই।"
+        "descriptionBn": "খাঁটি ছানার ছোট ছোট গুটি ঘন ক্ষীর ও এলাচের সুবাসযুক্ত মালাইয়ে ডোবানো জগৎখ্যাত রসমালাই।",
+        "image": "/delicacies/comilla_rosomalai.jpg"
       }
     ],
     "festivals": [
@@ -336,21 +344,24 @@
         "nameBn": "সাকরাইন ঘুড়ি উৎসব",
         "period": "Mid-January (Poush Sankranti)",
         "desc": "Sky filled with thousands of vibrant fighter kites, night fireworks and rooftop music in Old Dhaka.",
-        "descBn": "পুরান ঢাকার আকাশজুড়ে হাজারো ঘুড়ির লড়াই, ফায়ার স্পিনিং ও চোখধাঁধানো আতশবাজি।"
+        "descBn": "পুরান ঢাকার আকাশজুড়ে হাজারো ঘুড়ির লড়াই, ফায়ার স্পিনিং ও চোখধাঁধানো আতশবাজি।",
+        "image": "/culture/shakrain_carnival.jpg"
       },
       {
         "name": "Mangal Shobhajatra",
         "nameBn": "মঙ্গল শোভাযাত্রা (ইউনেস্কো স্বীকৃত)",
         "period": "Pahela Baishakh (April 14)",
         "desc": "UNESCO Intangible Cultural Heritage colorful procession celebrating Bengali New Year.",
-        "descBn": "ইউনেস্কোর ইনট্যানজিবল কালচারাল হেরিটেজ হিসেবে স্বীকৃত বাংলা নববর্ষের শোভাযাত্রা।"
+        "descBn": "ইউনেস্কোর ইনট্যানজিবল কালচারাল হেরিটেজ হিসেবে স্বীকৃত বাংলা নববর্ষের শোভাযাত্রা।",
+        "image": "/culture/mangal_shobhajatra.jpg"
       },
       {
         "name": "Amar Ekushey Boi Mela",
         "nameBn": "অমর একুশে গ্রন্থমেলা",
         "period": "Whole Month of February",
         "desc": "The world's largest month-long national book fair held at Bangla Academy & Suhrawardy Udyan.",
-        "descBn": "বাংলা একাডেমি প্রাঙ্গণে অনুষ্ঠিত বিশ্বের দীর্ঘতম মাসব্যাপী জাতীয় বইমেলা।"
+        "descBn": "বাংলা একাডেমি প্রাঙ্গণে অনুষ্ঠিত বিশ্বের দীর্ঘতম মাসব্যাপী জাতীয় বইমেলা।",
+        "image": "/culture/boimela.jpg"
       }
     ],
     "traditions": [
@@ -368,7 +379,8 @@
       }
     ],
     "gallery": [
-      "/panoramas/dhaka_day.jpg",
+      "/panoramas/Dhaka_Day.jpg",
+      "/panoramas/Dhaka_Evening.jpg",
       "/panoramas/dhaka_night.jpg"
     ],
     "landmarks": [
@@ -611,7 +623,8 @@
         "length": "18 km",
         "origin": "Dhaleshwari distributary",
         "role": "Historic commercial lifeline and port gateway of Old Dhaka since Mughal 1610.",
-        "roleBn": "১৬১০ সালে মুঘল সুবাদার ইসলাম খানের আমল থেকে ঢাকার ঐতিহাসিক প্রধান বাণিজ্যিক নৌপথ।"
+        "roleBn": "১৬১০ সালে মুঘল সুবাদার ইসলাম খানের আমল থেকে ঢাকার ঐতিহাসিক প্রধান বাণিজ্যিক নৌপথ।",
+        "image": "/rivers/buriganga_river.jpg"
       },
       {
         "name": "Padma River",
@@ -619,7 +632,8 @@
         "length": "120 km in region",
         "origin": "Ganges, Himalayas",
         "role": "Mighty transboundary river spanned by the 6.15 km Padma Bridge, connecting southwest Bangladesh.",
-        "roleBn": "হিমালয় থেকে উৎপন্ন গঙ্গার প্রধান শাখা, যার ওপর ৬.১৫ কিমি দীর্ঘ পদ্মা সেতু অবস্থিত।"
+        "roleBn": "হিমালয় থেকে উৎপন্ন গঙ্গার প্রধান শাখা, যার ওপর ৬.১৫ কিমি দীর্ঘ পদ্মা সেতু অবস্থিত।",
+        "image": "/rivers/padma_river.jpg"
       },
       {
         "name": "Shitalakshya River",
@@ -627,7 +641,8 @@
         "length": "110 km",
         "origin": "Old Brahmaputra",
         "role": "Crystal-clear industrial and cotton weaving basin, birthplace of historic Muslin and Jamdani.",
-        "roleBn": "ঐতিহাসিক মসলিন ও জামদানি বয়নশিল্পের উৎসভূমি এবং নারায়ণগঞ্জের নদী বন্দর।"
+        "roleBn": "ঐতিহাসিক মসলিন ও জামদানি বয়নশিল্পের উৎসভূমি এবং নারায়ণগঞ্জের নদী বন্দর।",
+        "image": "/rivers/shitalakshya_river.jpg"
       },
       {
         "name": "Dhaleshwari River",
@@ -635,7 +650,8 @@
         "length": "160 km",
         "origin": "Jamuna distributary",
         "role": "Vital inland waterway connecting central Bangladesh with the southern estuary.",
-        "roleBn": "যমুনার অন্যতম প্রধান শাখা যা মুন্সীগঞ্জ ও মানিকগঞ্জের মধ্য দিয়ে প্রবাহিত।"
+        "roleBn": "যমুনার অন্যতম প্রধান শাখা যা মুন্সীগঞ্জ ও মানিকগঞ্জের মধ্য দিয়ে প্রবাহিত।",
+        "image": "/rivers/dhaleshwari_river.jpg"
       },
       {
         "name": "Meghna River",
@@ -643,7 +659,8 @@
         "length": "156 km in division",
         "origin": "Surma-Kushiyara confluence",
         "role": "Widest and deepest river channel of Bangladesh discharging into the Bay of Bengal.",
-        "roleBn": "দেশের গভীরতম ও প্রশস্ততম নদী যা বঙ্গোপসাগরে বিপুল পরিমাণ স্বাদুপানি নিষ্কাশন করে।"
+        "roleBn": "দেশের গভীরতম ও প্রশস্ততম নদী যা বঙ্গোপসাগরে বিপুল পরিমাণ স্বাদুপানি নিষ্কাশন করে।",
+        "image": "/rivers/meghna_river.jpg"
       }
     ]
   },
@@ -887,56 +904,64 @@
         "nameBn": "ঐতিহ্যবাহী মেযবানি গোশত",
         "district": "Chattogram",
         "description": "Celebrated spicy beef stew cooked in massive iron cauldrons with mustard oil, dried red chilies, and radhuni spice.",
-        "descriptionBn": "সরিষার তেল, লাল মরিচ ও রাঁধুনির তীব্র ঝাঁঝে বড় তামার ডেকে রান্না করা চট্টগ্রামের শতাব্দীপ্রাচীন সামাজিক মেজবানের মূল আকর্ষণ।"
+        "descriptionBn": "সরিষার তেল, লাল মরিচ ও রাঁধুনির তীব্র ঝাঁঝে বড় তামার ডেকে রান্না করা চট্টগ্রামের শতাব্দীপ্রাচীন সামাজিক মেজবানের মূল আকর্ষণ।",
+        "image": "/delicacies/mezbani_gosht.jpg"
       },
       {
         "name": "Chittagong Kala Bhuna",
         "nameBn": "চট্টগ্রামের খাঁটি কালা ভুনা",
         "district": "Chattogram",
         "description": "Slow-braised dark caramelized beef infused with crushed nutmeg, mace, roasted cumin, and black cardamom.",
-        "descriptionBn": "লবঙ্গ, জয়ফল, গোলমরিচ ও পেঁয়াজ বেরেস্তায় ঘণ্টার পর ঘণ্টা কড়া আঁচে ভাজা মসলাদার কালো মাংস।"
+        "descriptionBn": "লবঙ্গ, জয়ফল, গোলমরিচ ও পেঁয়াজ বেরেস্তায় ঘণ্টার পর ঘণ্টা কড়া আঁচে ভাজা মসলাদার কালো মাংস।",
+        "image": "/delicacies/chittagong_kala_bhuna.jpg"
       },
       {
         "name": "Loitta Fry & Shutki Bhorta",
         "nameBn": "লইট্টা ফ্রাই ও চনখিয়ার শুটকি ভর্তা",
         "district": "Chattogram",
         "description": "Crispy fried marine Bombay duck and fiery sun-dried fish mash seasoned with burned shallots and green chilies.",
-        "descriptionBn": "বঙ্গোপসাগরের তাজা মুচমুচে লইট্টা মাছ ফ্রাই ও পোড়া কাঁচামরিচ-পেঁয়াজে বাটা ঝাল শুঁটকি ভর্তা।"
+        "descriptionBn": "বঙ্গোপসাগরের তাজা মুচমুচে লইট্টা মাছ ফ্রাই ও পোড়া কাঁচামরিচ-পেঁয়াজে বাটা ঝাল শুঁটকি ভর্তা।",
+        "image": "/delicacies/loitta_fry_shutki.jpg"
       },
       {
         "name": "Durus Kura of Cox's Bazar",
         "nameBn": "কক্সবাজারের দুরুস কুরা",
         "district": "Cox's Bazar",
         "description": "Whole dressed indigenous chicken marinated in thick coconut milk, cashew paste, and aromatic whole spices.",
-        "descriptionBn": "নারিকেলের দুধ, বাদাম বাটা ও সুগন্ধি মসলায় মাখানো আস্ত দেশি মুরগির রাজকীয় রোস্ট।"
+        "descriptionBn": "নারিকেলের দুধ, বাদাম বাটা ও সুগন্ধি মসলায় মাখানো আস্ত দেশি মুরগির রাজকীয় রোস্ট।",
+        "image": "/delicacies/durus_kura.jpg"
       },
       {
         "name": "Maheshkhali Rupchanda Dry Curry",
         "nameBn": "মহেশখালীর রূপচাঁদা শুটকির ঝোল",
         "district": "Cox's Bazar",
         "description": "Sun-cured white silver pomfret cooked in coastal clay pots with mustard paste and fresh green chili.",
-        "descriptionBn": "মহেশখালী দ্বীপে রোদে শুকানো রূপচাঁদা মাছের ঝাল ভুনা ও আলু-টমেটোর তরকারি।"
+        "descriptionBn": "মহেশখালী দ্বীপে রোদে শুকানো রূপচাঁদা মাছের ঝাল ভুনা ও আলু-টমেটোর তরকারি।",
+        "image": "/delicacies/rupchanda_dry_curry.jpg"
       },
       {
         "name": "Paharer Chander Hash",
         "nameBn": "পাহাড়ী হাঁসের মাংস ভুনা",
         "district": "Bandarban",
         "description": "Free-range hill duck braised with roasted whole spices, dry red chilies, and coconut shreds.",
-        "descriptionBn": "পাহাড়ি ঝরনার পানিতে চরে বেড়ানো দেশি হাঁসের মাংস ঝাল কষা ভুনা।"
+        "descriptionBn": "পাহাড়ি ঝরনার পানিতে চরে বেড়ানো দেশি হাঁসের মাংস ঝাল কষা ভুনা।",
+        "image": "/delicacies/paharer_chander_hash.jpg"
       },
       {
         "name": "Burmese Spicy Pickles",
         "nameBn": "বার্মিজ আচার ও মিষ্টি হালুয়া",
         "district": "Cox's Bazar",
         "description": "Artisanal sweet-and-sour fruit preserves and dense coconut confectionery sold in coastal bazaars.",
-        "descriptionBn": "কক্সবাজার বার্মিজ মার্কেটের জিভে জল আনা তেঁতুল, জলপাই, বরইয়ের আচার ও নারিকেলের বরফি।"
+        "descriptionBn": "কক্সবাজার বার্মিজ মার্কেটের জিভে জল আনা তেঁতুল, জলপাই, বরইয়ের আচার ও নারিকেলের বরফি।",
+        "image": "/delicacies/burmese_spicy_pickles.jpg"
       },
       {
         "name": "Rangamati Bamboo Shoot Curry",
         "nameBn": "রাঙ্গামাটির বাঁশকোড়ল ও পিঠা",
         "district": "Rangamati",
         "description": "Indigenous tender bamboo shoots stewed with hill spices and served with steamed rice flour pitha.",
-        "descriptionBn": "পাহাড়ের খাঁটি কচি বাঁশের ডগা ও মসলা দিয়ে রান্না করা চাকমা ও মারমা সম্প্রদায়ের প্রিয় খাবার।"
+        "descriptionBn": "পাহাড়ের খাঁটি কচি বাঁশের ডগা ও মসলা দিয়ে রান্না করা চাকমা ও মারমা সম্প্রদায়ের প্রিয় খাবার।",
+        "image": "/delicacies/bamboo_shoot_curry.jpg"
       }
     ],
     "festivals": [
@@ -945,14 +970,16 @@
         "nameBn": "জব্বারের বলীখেলা ও বৈশাখী মেলা",
         "period": "12th Baishakh (Late April)",
         "desc": "Century-old historic wrestling championship and massive handicraft fair at Laldighi Maidan.",
-        "descBn": "১৯০৯ সাল থেকে লালদীঘি ময়দানে অনুষ্ঠিত শতবর্ষী ঐতিহ্যবাহী কুস্তি প্রতিযোগিতা।"
+        "descBn": "১৯০৯ সাল থেকে লালদীঘি ময়দানে অনুষ্ঠিত শতবর্ষী ঐতিহ্যবাহী কুস্তি প্রতিযোগিতা।",
+        "image": "/culture/boli_khela.jpg"
       },
       {
         "name": "Biju & Boishabi Festival",
         "nameBn": "পাহাড়ের বিজু ও বৈসাবি উৎসব",
         "period": "April (Chaitra Sankranti)",
         "desc": "Grand three-day water festival, Phool Biju, and traditional dance across the Hill Tracts.",
-        "descBn": "পার্বত্য চট্টগ্রামের চাকমা, মারমা ও ত্রিপুরাদের রঙিন জলকেলি ও ফুল বিজু উৎসব।"
+        "descBn": "পার্বত্য চট্টগ্রামের চাকমা, মারমা ও ত্রিপুরাদের রঙিন জলকেলি ও ফুল বিজু উৎসব।",
+        "image": "/culture/biju_festival.jpg"
       }
     ],
     "traditions": [
@@ -971,6 +998,8 @@
     ],
     "gallery": [
       "/panoramas/chattogram_day.jpg",
+      "/panoramas/Chittagong_Evening.jpg",
+      "/panoramas/chattogram_cinematic_ultra.jpg",
       "/panoramas/chattogram_night.jpg"
     ],
     "landmarks": [
@@ -1195,7 +1224,8 @@
         "length": "180 km in BD",
         "origin": "Lushai Hills, Mizoram",
         "role": "Lifeline of Bangladesh foreign trade, hosting Chittagong Seaport and Bangabandhu Tunnel.",
-        "roleBn": "দেশের আন্তর্জাতিক বাণিজ্যের প্রধান ধমনী, যা দেশের প্রধান সমুদ্রবন্দর ও টানেল ধারণ করে।"
+        "roleBn": "দেশের আন্তর্জাতিক বাণিজ্যের প্রধান ধমনী, যা দেশের প্রধান সমুদ্রবন্দর ও টানেল ধারণ করে।",
+        "image": "/rivers/karnaphuli_river.jpg"
       },
       {
         "name": "Sangu River",
@@ -1203,7 +1233,8 @@
         "length": "173 km",
         "origin": "North Arakan Hills",
         "role": "The only major river flowing entirely within Bangladesh mountain gorges, sacred to hill tribes.",
-        "roleBn": "বাংলাদেশের পাহাড়ি গিরিখাতের ভেতর দিয়ে সম্পূর্ণ অভ্যন্তরীণভাবে প্রবাহিত একমাত্র অনন্য নদী।"
+        "roleBn": "বাংলাদেশের পাহাড়ি গিরিখাতের ভেতর দিয়ে সম্পূর্ণ অভ্যন্তরীণভাবে প্রবাহিত একমাত্র অনন্য নদী।",
+        "image": "/rivers/sangu_river.jpg"
       },
       {
         "name": "Halda River",
@@ -1211,7 +1242,8 @@
         "length": "81 km",
         "origin": "Badnatoli Hill Range",
         "role": "World-famous natural tidal breeding ground for pure Indian carp species and fertilized fish eggs.",
-        "roleBn": "প্রাকৃতিক মৎস্য প্রজনন ক্ষেত্র হিসেবে বিশ্বস্বীকৃত এবং কার্প জাতীয় মাছের ডিম ছাড়ার অভয়ারণ্য।"
+        "roleBn": "প্রাকৃতিক মৎস্য প্রজনন ক্ষেত্র হিসেবে বিশ্বস্বীকৃত এবং কার্প জাতীয় মাছের ডিম ছাড়ার অভয়ারণ্য।",
+        "image": "/rivers/halda_river.jpg"
       },
       {
         "name": "Matamuhuri River",
@@ -1219,7 +1251,8 @@
         "length": "96 km",
         "origin": "Mowdok Hills, Myanmar border",
         "role": "Watershed river draining the fertile Chokoria mangrove delta and salt pans.",
-        "roleBn": "বান্দরবানের মওদক পাহাড় থেকে উৎপন্ন হয়ে চকরিয়া সুন্দরবন ডেল্টা হয়ে সাগরে পতিত নদী।"
+        "roleBn": "বান্দরবানের মওদক পাহাড় থেকে উৎপন্ন হয়ে চকরিয়া সুন্দরবন ডেল্টা হয়ে সাগরে পতিত নদী।",
+        "image": "/rivers/matamuhuri_river.jpg"
       },
       {
         "name": "Naf River",
@@ -1227,7 +1260,8 @@
         "length": "62 km border",
         "origin": "Arakan Hills",
         "role": "International border river dividing Bangladesh and Myanmar into the Bay of Bengal.",
-        "roleBn": "বাংলাদেশ ও মিয়ানমার আন্তর্জাতিক সীমানা নির্ধারণকারী গুরুত্বপূর্ণ সীমান্ত নদী।"
+        "roleBn": "বাংলাদেশ ও মিয়ানমার আন্তর্জাতিক সীমানা নির্ধারণকারী গুরুত্বপূর্ণ সীমান্ত নদী।",
+        "image": "/rivers/naf_river.jpg"
       }
     ]
   },
@@ -1462,56 +1496,64 @@
         "nameBn": "বগুড়ার ঐতিহ্যবাহী লাল দই",
         "district": "Bogura",
         "description": "Nationally celebrated sweet caramelized curd fermented in porous clay pots since the Nawab era, GI certified.",
-        "descriptionBn": "গৌড়গোপাল ঘোষ প্রবর্তিত মাটির সানকিতে পাতা ঘন ক্ষীরসা ও ক্যারামেলাইজড দুধের ঐতিহাসিক লাল দই।"
+        "descriptionBn": "গৌড়গোপাল ঘোষ প্রবর্তিত মাটির সানকিতে পাতা ঘন ক্ষীরসা ও ক্যারামেলাইজড দুধের ঐতিহাসিক লাল দই।",
+        "image": "/delicacies/bogra_doi.jpg"
       },
       {
         "name": "Natarer Kanchagolla",
         "nameBn": "নাটোরের রাজকীয় কাঁচাগোল্লা",
         "district": "Natore",
         "description": "Pure soft cow milk chhana lightly bound in aromatic sugar syrup, famous since the reign of Rani Bhabani.",
-        "descriptionBn": "১৭৬০ সালে রানী ভবানীর রাজত্বকালে সৃষ্ট খাঁটি নরম ছানার রসে মাখানো সুস্বাদু ঐতিহ্যবাহী মিষ্টান্ন।"
+        "descriptionBn": "১৭৬০ সালে রানী ভবানীর রাজত্বকালে সৃষ্ট খাঁটি নরম ছানার রসে মাখানো সুস্বাদু ঐতিহ্যবাহী মিষ্টান্ন।",
+        "image": "/delicacies/natore_kanchagolla.jpg"
       },
       {
         "name": "Rajshahi Fazli & Khirsapat",
         "nameBn": "রাজশাহীর ক্ষীরসাপাত ও ফজলি আম",
         "district": "Rajshahi",
         "description": "World-renowned sweetest indigenous summer mango varieties carrying Geographical Indication certification.",
-        "descriptionBn": "বরেন্দ্র অঞ্চলের বিখ্যাত পাতলা চামড়া ও আঁশহীন রসাল ভৌগোলিক নির্দেশক (GI) আম।"
+        "descriptionBn": "বরেন্দ্র অঞ্চলের বিখ্যাত পাতলা চামড়া ও আঁশহীন রসাল ভৌগোলিক নির্দেশক (GI) আম।",
+        "image": "/delicacies/rajshahi_mango.jpg"
       },
       {
         "name": "Kalai Ruti & Begun Bhorta",
         "nameBn": "মাষকলাইয়ের রুটি ও বেগুন ভর্তা",
         "district": "Rajshahi",
         "description": "Hearty rustic black gram flour flatbread toasted on open clay tawas, served with chili paste and burned eggplant.",
-        "descriptionBn": "পদ্মাপাড়ের ঐতিহ্যবাহী কলাইয়ের আটার গরম রুটি, ঝাল কাঁচামরিচ বাটা ও পোড়া বেগুনের মুখরোচক খাবার।"
+        "descriptionBn": "পদ্মাপাড়ের ঐতিহ্যবাহী কলাইয়ের আটার গরম রুটি, ঝাল কাঁচামরিচ বাটা ও পোড়া বেগুনের মুখরোচক খাবার।",
+        "image": "/delicacies/kalai_ruti.jpg"
       },
       {
         "name": "Shibganjer Chamcham",
         "nameBn": "শিবগঞ্জের আদি চমচম",
         "district": "Chapainawabganj",
         "description": "Dense, caramelized chhana oval sweet with deep brown sugar crust and fragrant khoya topping.",
-        "descriptionBn": "চাঁপাইনবাবগঞ্জের শিবগঞ্জে তৈরি ঘন রসে জারিত সুমিষ্ট খাঁটি ক্ষীরের চমচম।"
+        "descriptionBn": "চাঁপাইনবাবগঞ্জের শিবগঞ্জে তৈরি ঘন রসে জারিত সুমিষ্ট খাঁটি ক্ষীরের চমচম।",
+        "image": "/delicacies/shibganj_chamcham.jpg"
       },
       {
         "name": "Sirajganjer Pera Sandesh",
         "nameBn": "সিরাজগঞ্জের প্যারা সন্দেশ",
         "district": "Sirajganj",
         "description": "Pure boiled condensed milk fudge hand-pressed into oval lozenges, gifted during royal zamindar banquets.",
-        "descriptionBn": "খাঁটি গাভীর দুধের ঘন ক্ষীর জ্বাল দিয়ে তৈরি দীর্ঘস্থায়ী ঐতিহ্যবাহী শক্ত শুকনো সন্দেশ।"
+        "descriptionBn": "খাঁটি গাভীর দুধের ঘন ক্ষীর জ্বাল দিয়ে তৈরি দীর্ঘস্থায়ী ঐতিহ্যবাহী শক্ত শুকনো সন্দেশ।",
+        "image": "/delicacies/sirajganj_pera_sandesh.jpg"
       },
       {
         "name": "Puthia Rasgulla",
         "nameBn": "পুঠিয়া রাজবাড়ির রসগোল্লা",
         "district": "Rajshahi",
         "description": "Spongy snow-white cottage cheese balls soaked in warm light cardamom syrup.",
-        "descriptionBn": "পুঠিয়ার শতাব্দীপ্রাচীন মিষ্টির কারিগরদের তৈরি নরম স্পঞ্জি সাদা রসগোল্লা।"
+        "descriptionBn": "পুঠিয়ার শতাব্দীপ্রাচীন মিষ্টির কারিগরদের তৈরি নরম স্পঞ্জি সাদা রসগোল্লা।",
+        "image": "/delicacies/puthia_rasgulla.jpg"
       },
       {
         "name": "Naogaoner Chhana-Murki",
         "nameBn": "নওগাঁর ছানা মুড়কি",
         "district": "Naogaon",
         "description": "Tiny diamond-shaped sweetened chhana bites dusted with sugar crystals and rosewater.",
-        "descriptionBn": "ছোট ছোট ছানার টুকরো চিনির রসে ডুবিয়ে শুকিয়ে তৈরি মিষ্টি নাস্তা।"
+        "descriptionBn": "ছোট ছোট ছানার টুকরো চিনির রসে ডুবিয়ে শুকিয়ে তৈরি মিষ্টি নাস্তা।",
+        "image": "/delicacies/naogaon_chhana_murki.jpg"
       }
     ],
     "festivals": [
@@ -1520,14 +1562,16 @@
         "nameBn": "গম্ভীরা গান ও লোকনাট্য",
         "period": "Festive Occasions & Baishakh",
         "desc": "Satirical dialogue song-dance between grandfather (Nana) and grandson (Nati) on social issues.",
-        "descBn": "নানা ও নাতির রসাত্মক সংলাপ, কাঠের কাঠা নৃত্য ও সমাজের বাস্তব চিত্র তুলে ধরার লোকনাট্য।"
+        "descBn": "নানা ও নাতির রসাত্মক সংলাপ, কাঠের কাঠা নৃত্য ও সমাজের বাস্তব চিত্র তুলে ধরার লোকনাট্য।",
+        "image": "/culture/gambhira.jpg"
       },
       {
         "name": "Puthia Temple Rath Yatra",
         "nameBn": "পুঠিয়ার ঐতিহাসিক রথযাত্রা মেলা",
         "period": "Ashadh (Monsoon)",
         "desc": "Centuries-old festival around the grand terracotta temples of the Puthia Royal Estate.",
-        "descBn": "পুঠিয়া রাজবাড়ির টেরাকোটা মন্দিরের ছায়ায় শত বছরের প্রাচীন ঐতিহ্যবাহী রথযাত্রা।"
+        "descBn": "পুঠিয়া রাজবাড়ির টেরাকোটা মন্দিরের ছায়ায় শত বছরের প্রাচীন ঐতিহ্যবাহী রথযাত্রা।",
+        "image": "/culture/rath_yatra.jpg"
       }
     ],
     "traditions": [
@@ -1545,7 +1589,8 @@
       }
     ],
     "gallery": [
-      "/panoramas/rajshahi_day.jpg",
+      "/panoramas/Rajshahi_Day.jpg",
+      "/panoramas/Rajshahi_Evening.jpg",
       "/panoramas/rajshahi_night.jpg"
     ],
     "landmarks": [
@@ -1761,7 +1806,8 @@
         "length": "145 km in division",
         "origin": "Himalayas via India",
         "role": "Enters Bangladesh at Chapainawabganj, flowing past Rajshahi silk metropolis and Hardinge Bridge.",
-        "roleBn": "চাঁপাইনবাবগঞ্জ দিয়ে বাংলাদেশে প্রবেশ করে রাজশাহী শহর ঘেঁষে হার্ডিঞ্জ ব্রিজের দিকে প্রবাহিত।"
+        "roleBn": "চাঁপাইনবাবগঞ্জ দিয়ে বাংলাদেশে প্রবেশ করে রাজশাহী শহর ঘেঁষে হার্ডিঞ্জ ব্রিজের দিকে প্রবাহিত।",
+        "image": "/rivers/padma_river.jpg"
       },
       {
         "name": "Mahananda River",
@@ -1769,7 +1815,8 @@
         "length": "36 km in BD",
         "origin": "Darjeeling Himalayas",
         "role": "Pristine mountain-fed border river enriching the mango orchards of Chapainawabganj.",
-        "roleBn": "হিমালয় থেকে উৎপন্ন শীতল পানির নদী যা চাঁপাইনবাবগঞ্জের আম বাগান অঞ্চলকে উর্বর করে।"
+        "roleBn": "হিমালয় থেকে উৎপন্ন শীতল পানির নদী যা চাঁপাইনবাবগঞ্জের আম বাগান অঞ্চলকে উর্বর করে।",
+        "image": "/rivers/mahananda_river.jpg"
       },
       {
         "name": "Karatoya River",
@@ -1777,7 +1824,8 @@
         "length": "122 km",
         "origin": "Baikunthapur forest",
         "role": "Sacred ancient river on whose bank the 3rd-century BCE citadel of Mahasthangarh was built.",
-        "roleBn": "প্রাচীন বাংলার পুণ্ড্রনগরের দুর্গনগরী মহাস্থানগড় এই করতোয়া নদীর তীরেই গড়ে উঠেছিল।"
+        "roleBn": "প্রাচীন বাংলার পুণ্ড্রনগরের দুর্গনগরী মহাস্থানগড় এই করতোয়া নদীর তীরেই গড়ে উঠেছিল।",
+        "image": "/rivers/karatoya_river.jpg"
       },
       {
         "name": "Atrai River",
@@ -1785,7 +1833,8 @@
         "length": "380 km",
         "origin": "Siliguri, West Bengal",
         "role": "Flows past the UNESCO World Heritage site of Somapura Mahavihara at Paharpur into Chalan Beel.",
-        "roleBn": "ইউনেস্কো বিশ্ব ঐতিহ্য পাহাড়পুর সোমপুর মহাবিহার ও চলনবিলের মধ্য দিয়ে প্রবাহিত প্রাচীন নদী।"
+        "roleBn": "ইউনেস্কো বিশ্ব ঐতিহ্য পাহাড়পুর সোমপুর মহাবিহার ও চলনবিলের মধ্য দিয়ে প্রবাহিত প্রাচীন নদী।",
+        "image": "/rivers/atrai_river.jpg"
       },
       {
         "name": "Jamuna River (West Bank)",
@@ -1793,7 +1842,8 @@
         "length": "110 km in division",
         "origin": "Brahmaputra diversion",
         "role": "Braided mega river defining the eastern frontier of Rajshahi, spanned by Bangabandhu Bridge.",
-        "roleBn": "বঙ্গবন্ধু বহুমুখী সেতু ধারণকারী যমুনা নদী যা বিভাগের পূর্ব সীমান্ত নির্ধারণ করে।"
+        "roleBn": "বঙ্গবন্ধু বহুমুখী সেতু ধারণকারী যমুনা নদী যা বিভাগের পূর্ব সীমান্ত নির্ধারণ করে।",
+        "image": "/rivers/jamuna_river.jpg"
       }
     ]
   },
@@ -2003,56 +2053,64 @@
         "nameBn": "খুলনার বিখ্যাত চুইঝাল খাসির মাংস",
         "district": "Khulna",
         "description": "World-renowned spicy meat cooked with aromatic Piper chaba wood stalks imparting a unique peppery fragrance.",
-        "descriptionBn": "চুইগাছের ঔষধি ও ঝাঁঝালো ডাল কেটে খাসি বা গরুর মাংসে দিয়ে রান্না করা খুলনার অন্যতম প্রধান সিগনেচার ডিশ।"
+        "descriptionBn": "চুইগাছের ঔষধি ও ঝাঁঝালো ডাল কেটে খাসি বা গরুর মাংসে দিয়ে রান্না করা খুলনার অন্যতম প্রধান সিগনেচার ডিশ।",
+        "image": "/delicacies/chui_jhal_gosht.jpg"
       },
       {
         "name": "Sundarban Pure Wild Honey",
         "nameBn": "সুন্দরবনের খলিশা ও পদ্মমধু",
         "district": "Bagerhat / Khulna",
         "description": "Pure amber forest honey hand-harvested by hereditary Mawali honey-hunters in deep mangrove reserves.",
-        "descriptionBn": "সুন্দরবনের গহিন বনের খলিশা ও গরান ফুলের খাঁটি সুগন্ধি প্রাকৃতিক মধু।"
+        "descriptionBn": "সুন্দরবনের গহিন বনের খলিশা ও গরান ফুলের খাঁটি সুগন্ধি প্রাকৃতিক মধু।",
+        "image": "/delicacies/sundarban_honey.jpg"
       },
       {
         "name": "Satkhirar Sandesh",
         "nameBn": "সাতক্ষীরার খাঁটি ক্ষীর সন্দেশ",
         "district": "Satkhira",
         "description": "Ultra-fresh dairy cottage cheese confectionery celebrated for soft melt-in-mouth texture and pure milk aroma.",
-        "descriptionBn": "খাঁটি দেশি গাভীর তাজা ছানা ও হালকা চিনির সংমিশ্রণে তৈরি কোমল তুলতুলে সন্দেশ।"
+        "descriptionBn": "খাঁটি দেশি গাভীর তাজা ছানা ও হালকা চিনির সংমিশ্রণে তৈরি কোমল তুলতুলে সন্দেশ।",
+        "image": "/delicacies/satkhira_sandesh.jpg"
       },
       {
         "name": "Bagerhat Galda Chingri Malai Curry",
         "nameBn": "বাগেরহাটের গলদা চিংড়ির মালাইকারি",
         "district": "Bagerhat",
         "description": "Giant freshwater river prawns simmered in creamy fresh coconut milk, ghee, and sweet spices.",
-        "descriptionBn": "সুন্দরবন অববাহিকার নদী ও ঘেরের বিশাল গলদা চিংড়ি নারকেলের দুধে রান্না করা রাজকীয় পদ।"
+        "descriptionBn": "সুন্দরবন অববাহিকার নদী ও ঘেরের বিশাল গলদা চিংড়ি নারকেলের দুধে রান্না করা রাজকীয় পদ।",
+        "image": "/delicacies/galda_chingri_malai_curry.jpg"
       },
       {
         "name": "Jashorer Jamtala Sweet",
         "nameBn": "যশোরের জামতলার ঐতিহ্যবাহী রসগোল্লা",
         "district": "Jashore",
         "description": "Deep-fried dark golden cottage cheese sweet developed in Jamtala bazaar in 1955 by Sadhu Ghosh.",
-        "descriptionBn": "১৯৫৫ সালে সাধু ঘোষের হাতে তৈরি জামতলার অনন্য স্বাদের রসাল গাঢ় বাদামি মিষ্টি।"
+        "descriptionBn": "১৯৫৫ সালে সাধু ঘোষের হাতে তৈরি জামতলার অনন্য স্বাদের রসাল গাঢ় বাদামি মিষ্টি।",
+        "image": "/delicacies/jashore_jamtala_sweet.jpg"
       },
       {
         "name": "Meherpurer Sabitri Sweet",
         "nameBn": "মেহেরপুরের সাবিত্রী ও রসকদম্ব",
         "district": "Meherpur",
         "description": "150-year-old secret recipe sweet that never spoils even without refrigeration, made of pure condensed milk.",
-        "descriptionBn": "দেড়শ বছরের ঐতিহ্যবাহী ফ্রিজ ছাড়া দিনের পর দিন ভালো থাকা ক্ষীরের সাবিত্রী মিষ্টি।"
+        "descriptionBn": "দেড়শ বছরের ঐতিহ্যবাহী ফ্রিজ ছাড়া দিনের পর দিন ভালো থাকা ক্ষীরের সাবিত্রী মিষ্টি।",
+        "image": "/delicacies/meherpur_sabitri.jpg"
       },
       {
         "name": "Kushtiar Tilkathi & Khaja",
         "nameBn": "কুষ্টিয়ার তিলের খাজা",
         "district": "Kushtia",
         "description": "Crunchy sesame brittle with dozens of airy paper-thin layers made by master artisans of Kushtia.",
-        "descriptionBn": "চিনি ও তিলের সমন্বয়ে বহু স্তরে ফাঁপা মুচমুচে কুষ্টিয়ার বিখ্যাত তিলের খাজা।"
+        "descriptionBn": "চিনি ও তিলের সমন্বয়ে বহু স্তরে ফাঁপা মুচমুচে কুষ্টিয়ার বিখ্যাত তিলের খাজা।",
+        "image": "/delicacies/kushtia_tilkathi.jpg"
       },
       {
         "name": "Kopotakkho Ilish Paturi",
         "nameBn": "কপোতাক্ষের ইলিশ পাতুরি",
         "district": "Jashore",
         "description": "Fresh estuarine hilsa wrapped in banana leaves with stone-ground mustard paste and slow-roasted.",
-        "descriptionBn": "কলাপাতায় মোড়ানো সরিষা বাটা ও কাঁচামরিচে ভাপা কপোতাক্ষ নদের ইলিশ।"
+        "descriptionBn": "কলাপাতায় মোড়ানো সরিষা বাটা ও কাঁচামরিচে ভাপা কপোতাক্ষ নদের ইলিশ।",
+        "image": "/delicacies/kopotakkho_ilish_paturi.jpg"
       }
     ],
     "festivals": [
@@ -2061,14 +2119,16 @@
         "nameBn": "দুবলার চরের রাসমেলা",
         "period": "November (Rash Purnima)",
         "desc": "Spectacular festival deep inside the Sundarbans where thousands gather for sunrise holy baths.",
-        "descBn": "সুন্দরবনের মোহনায় দুবলার চরে অনুষ্ঠিত সমুদ্র স্নান ও বাউল গানের প্রাচীন মহোৎসব।"
+        "descBn": "সুন্দরবনের মোহনায় দুবলার চরে অনুষ্ঠিত সমুদ্র স্নান ও বাউল গানের প্রাচীন মহোৎসব।",
+        "image": "/culture/rash_mela.jpg"
       },
       {
         "name": "Lalon Smoronothsob (Kushtia)",
         "nameBn": "কুষ্টিয়ার লালন স্মরণোৎসব ও দোলমেলা",
         "period": "Dol Purnima (March) & October",
         "desc": "Spiritual congregation of thousands of Baul minstrels singing mystic philosopher Lalon Shah's verses.",
-        "descBn": "ছেঁউড়িয়ার লালন আখড়াবাড়িতে দেশ-বিদেশের হাজারো বাউল সাধকের সুরের মহামিলন।"
+        "descBn": "ছেঁউড়িয়ার লালন আখড়াবাড়িতে দেশ-বিদেশের হাজারো বাউল সাধকের সুরের মহামিলন।",
+        "image": "/culture/lalon_festival.jpg"
       }
     ],
     "traditions": [
@@ -2086,10 +2146,10 @@
       }
     ],
     "gallery": [
-      "/panoramas/khulna_day.jpg",
+      "/panoramas/Khulna_Day.jpg",
+      "/panoramas/Khulna_Evening.jpg",
       "/panoramas/khulna_day_alt.jpg",
-      "/panoramas/khulna_night.jpg",
-      "/panoramas/khulna_night_alt.jpg"
+      "/panoramas/khulna_night.jpg"
     ],
     "landmarks": [
       {
@@ -2304,7 +2364,8 @@
         "length": "31 km",
         "origin": "Bhairab River confluence",
         "role": "Economic lifeline of Khulna industrial metropolis, spanned by the Khan Jahan Ali Cable Bridge.",
-        "roleBn": "ভৈরব নদের শাখা এবং খুলনা মহানগর ও শিল্পাঞ্চলের প্রধান নদী, যার ওপর রূপসা সেতু অবস্থিত।"
+        "roleBn": "ভৈরব নদের শাখা এবং খুলনা মহানগর ও শিল্পাঞ্চলের প্রধান নদী, যার ওপর রূপসা সেতু অবস্থিত।",
+        "image": "/rivers/rupsha_river.jpg"
       },
       {
         "name": "Pashur River",
@@ -2312,7 +2373,8 @@
         "length": "142 km",
         "origin": "Rupsha continuation",
         "role": "Deepwater navigable riverway hosting Mongla Seaport and traversing the heart of Sundarbans.",
-        "roleBn": "মোংলা সমুদ্রবন্দরের প্রধান আন্তর্জাতিক নৌপথ যা সুন্দরবনের বন্যপ্রাণী অভয়ারণ্যের ভেতর দিয়ে সাগরে মিশেছে।"
+        "roleBn": "মোংলা সমুদ্রবন্দরের প্রধান আন্তর্জাতিক নৌপথ যা সুন্দরবনের বন্যপ্রাণী অভয়ারণ্যের ভেতর দিয়ে সাগরে মিশেছে।",
+        "image": "/rivers/pashur_river.jpg"
       },
       {
         "name": "Kopotakkho River",
@@ -2320,7 +2382,8 @@
         "length": "180 km",
         "origin": "Bhairab distributary",
         "role": "Immortalized by poet Michael Madhusudan Dutta in his famous sonnets at Sagardari.",
-        "roleBn": "মহাকবি মাইকেল মধুসূদন দত্তের অমর কবিতার স্মৃতিবিজড়িত সাগরদাঁড়ির ঐতিহাসিক নদ।"
+        "roleBn": "মহাকবি মাইকেল মধুসূদন দত্তের অমর কবিতার স্মৃতিবিজড়িত সাগরদাঁড়ির ঐতিহাসিক নদ।",
+        "image": "/rivers/kopotakkho_river.jpg"
       },
       {
         "name": "Bhairab River",
@@ -2328,7 +2391,8 @@
         "length": "160 km",
         "origin": "Meherpur border",
         "role": "Historic ancient river along which 15th-century saint Khan Jahan Ali established his mosque city.",
-        "roleBn": "পঞ্চদশ শতাব্দীর ইসলামি শহর বাগেরহাট ও খাঞ্জেলী স্থাপত্য এই ভৈরব নদের অববাহিকায় গড়ে ওঠে।"
+        "roleBn": "পঞ্চদশ শতাব্দীর ইসলামি শহর বাগেরহাট ও খাঞ্জেলী স্থাপত্য এই ভৈরব নদের অববাহিকায় গড়ে ওঠে।",
+        "image": "/rivers/bhairab_river.jpg"
       },
       {
         "name": "Madhumati River",
@@ -2336,7 +2400,8 @@
         "length": "130 km",
         "origin": "Gorai distributary",
         "role": "Freshwater boundary river separating Khulna and Dhaka divisions.",
-        "roleBn": "খুলনা ও ঢাকা বিভাগের মধ্যবর্তী সীমানা নির্ধারণকারী মিঠাপানির সুদৃশ্যক নদী।"
+        "roleBn": "খুলনা ও ঢাকা বিভাগের মধ্যবর্তী সীমানা নির্ধারণকারী মিঠাপানির সুদৃশ্যক নদী।",
+        "image": "/rivers/madhumati_river.jpg"
       }
     ]
   },
@@ -2541,56 +2606,64 @@
         "nameBn": "বরিশালের সর্ষে ইলিশ ভাপা",
         "district": "Barishal",
         "description": "Freshly caught silver hilsa from Kirtankhola steamed with pungent yellow mustard paste and green chilies.",
-        "descriptionBn": "পদ্মা ও কীর্তনখোলার রূপালি তাজা ইলিশ খাঁটি সরিষা বাটা ও কাঁচা মরিচে ভাপানো অবিসংবাদিত শ্রেষ্ঠ খাবার।"
+        "descriptionBn": "পদ্মা ও কীর্তনখোলার রূপালি তাজা ইলিশ খাঁটি সরিষা বাটা ও কাঁচা মরিচে ভাপানো অবিসংবাদিত শ্রেষ্ঠ খাবার।",
+        "image": "/delicacies/barishal_ilish_bhapa.jpg"
       },
       {
         "name": "Bhola Mahish Raw Milk Doi",
         "nameBn": "ভোলার মহিষের খাঁটি কাঁচা দুধের দই",
         "district": "Bhola",
         "description": "Extremely thick, dense curd made from free-range island water buffalo milk fermented in unglazed clay pots.",
-        "descriptionBn": "ভোলার চরাঞ্চলের মহিষের কাঁচা দুধে কোনো চিনি ছাড়া মাটির তালাইয়ে পাতা সুস্বাদু ঘন দই।"
+        "descriptionBn": "ভোলার চরাঞ্চলের মহিষের কাঁচা দুধে কোনো চিনি ছাড়া মাটির তালাইয়ে পাতা সুস্বাদু ঘন দই।",
+        "image": "/delicacies/bhola_mahish_doi.jpg"
       },
       {
         "name": "Jhalokatir Amra & Guava",
         "nameBn": "ঝালকাঠির পেয়ারা ও বরিশালের আমড়া",
         "district": "Jhalokati",
         "description": "Crisp sweet guavas traded on floating boat bazaars and juicy golden hog plums famous across the nation.",
-        "descriptionBn": "ভিমরুলীর ভাসমান নৌকার মিষ্টি পেয়ারা ও সুস্বাদু কাসুন্দি মাখা বরিশালের আমড়া।"
+        "descriptionBn": "ভিমরুলীর ভাসমান নৌকার মিষ্টি পেয়ারা ও সুস্বাদু কাসুন্দি মাখা বরিশালের আমড়া।",
+        "image": "/delicacies/jhalokati_amra_guava.jpg"
       },
       {
         "name": "Pirojpurer Balam Rice Payesh",
         "nameBn": "পিরোজপুরের বালাম চালের পায়েস",
         "district": "Pirojpur",
         "description": "Aromatic heritage grain cooked with pure date palm syrup and full-cream milk.",
-        "descriptionBn": "ঐতিহ্যবাহী সরু বালাম চাল ও শীতের নলেন গুড়ে রান্না করা সুস্বাদু ক্ষীর পায়েস।"
+        "descriptionBn": "ঐতিহ্যবাহী সরু বালাম চাল ও শীতের নলেন গুড়ে রান্না করা সুস্বাদু ক্ষীর পায়েস।",
+        "image": "/delicacies/balam_rice_payesh.jpg"
       },
       {
         "name": "Barishali Chital Machher Muitha",
         "nameBn": "চিতল মাছের মুইঠ্যা ভুনা",
         "district": "Barishal",
         "description": "Deboned clown knifefish dumplings simmered in rich spiced onion-garlic tomato gravy.",
-        "descriptionBn": "কাটা ছাড়ানো চিতল মাছের পেটির মাংস গোল বল বানিয়ে ঝাল ঝোল ভুনা।"
+        "descriptionBn": "কাটা ছাড়ানো চিতল মাছের পেটির মাংস গোল বল বানিয়ে ঝাল ঝোল ভুনা।",
+        "image": "/delicacies/chital_machher_muitha.jpg"
       },
       {
         "name": "Patuakhali Hilsha Paturi",
         "nameBn": "পটুয়াখালীর ইলিশ পাতুরি",
         "district": "Patuakhali",
         "description": "Coastal hilsa steaks marinated in grated coconut and baked in aromatic turmeric leaves.",
-        "descriptionBn": "উপকূলীয় হলুদ ও কলাপাতায় মোড়া নারকেল বাটা দিয়ে ভাজা তাজা ইলিশ।"
+        "descriptionBn": "উপকূলীয় হলুদ ও কলাপাতায় মোড়া নারকেল বাটা দিয়ে ভাজা তাজা ইলিশ।",
+        "image": "/delicacies/patuakhali_hilsha_paturi.jpg"
       },
       {
         "name": "Amtali Soft Chhana Sweet",
         "nameBn": "আমতলীর নরম ছানার মিষ্টি",
         "district": "Barguna",
         "description": "Southern riverine soft curd confectionery soaked in light sweet cardamom broth.",
-        "descriptionBn": "বরগুনার আমতলীতে তৈরি মুখে দিলেই মিলিয়ে যাওয়া নরম তাজা ছানার মিষ্টি।"
+        "descriptionBn": "বরগুনার আমতলীতে তৈরি মুখে দিলেই মিলিয়ে যাওয়া নরম তাজা ছানার মিষ্টি।",
+        "image": "/delicacies/amtali_chhana_sweet.jpg"
       },
       {
         "name": "Narkel Naru & Moa",
         "nameBn": "বরিশালের নারিকেল নাড়ু ও মুড়ির মোয়া",
         "district": "Barishal",
         "description": "Traditional winter crunchy snacks made with freshly grated coconut and liquid date palm jaggery.",
-        "descriptionBn": "খেজুরের গুড় ও তাজা নারিকেল কোরায় পাকানো চিরন্তন লোকজ নাড়ু ও মোয়া।"
+        "descriptionBn": "খেজুরের গুড় ও তাজা নারিকেল কোরায় পাকানো চিরন্তন লোকজ নাড়ু ও মোয়া।",
+        "image": "/delicacies/narkel_naru.jpg"
       }
     ],
     "festivals": [
@@ -2599,14 +2672,16 @@
         "nameBn": "ভাসমান পেয়ারা বাজার উৎসব",
         "period": "July to September (Monsoon)",
         "desc": "Boats laden with green guavas trading across backwaters in Bhimruli and Kuriana canals.",
-        "descBn": "ভিমরুলির আঁকাবাঁকা খালের মোহনায় নৌকায় নৌকায় বেচাকেনার এশিয়ার বৃহত্তম ভাসমান বাজার।"
+        "descBn": "ভিমরুলির আঁকাবাঁকা খালের মোহনায় নৌকায় নৌকায় বেচাকেনার এশিয়ার বৃহত্তম ভাসমান বাজার।",
+        "image": "/delicacies/jhalokati_amra_guava.jpg"
       },
       {
         "name": "Traditional Nouka Baich (Boat Race)",
         "nameBn": "কীর্তনখোলায় ঐতিহ্যবাহী নৌকা বাইচ",
         "period": "Bhadra & Ashwin (Autumn)",
         "desc": "Slim 100-oar speed boats chanting rowing songs, racing with vibrant flags and cheering crowds.",
-        "descBn": "কীর্তনখোলা ও সন্ধ্যা নদীর বুকে সারি গানের তালে তালে শতাধিক মাঝির বৈঠার ক্ষিপ্র লড়াই।"
+        "descBn": "কীর্তনখোলা ও সন্ধ্যা নদীর বুকে সারি গানের তালে তালে শতাধিক মাঝির বৈঠার ক্ষিপ্র লড়াই।",
+        "image": "/culture/nouka_baich.jpg"
       }
     ],
     "traditions": [
@@ -2624,7 +2699,8 @@
       }
     ],
     "gallery": [
-      "/panoramas/barishal_day.jpg",
+      "/panoramas/Barishal_Day.jpg",
+      "/panoramas/Barishal_Evening.jpg",
       "/panoramas/barishal_night.jpg"
     ],
     "landmarks": [
@@ -2858,7 +2934,8 @@
         "length": "16 km",
         "origin": "Arial Khan River",
         "role": "Barishal city's lifeline, renowned for massive multi-deck luxury passenger launch fleets.",
-        "roleBn": "বরিশাল শহরের বুক চিরে বয়ে চলা দেশের অন্যতম ব্যস্ততম আধুনিক নৌবহর ও লঞ্চ চলাচলের নদী।"
+        "roleBn": "বরিশাল শহরের বুক চিরে বয়ে চলা দেশের অন্যতম ব্যস্ততম আধুনিক নৌবহর ও লঞ্চ চলাচলের নদী।",
+        "image": "/rivers/kirtankhola_river.jpg"
       },
       {
         "name": "Meghna Lower Estuary",
@@ -2866,7 +2943,8 @@
         "length": "90 km in division",
         "origin": "Padma-Meghna confluence",
         "role": "Massive marine waterway embracing Bhola island, Bangladesh's largest producer of silver Hilsa.",
-        "roleBn": "দেশের বৃহত্তম দ্বীপ ভোলাকে ঘিরে থাকা রূপালি ইলিশের সবচেয়ে বড় প্রাকৃতিক বিচরণ ক্ষেত্র।"
+        "roleBn": "দেশের বৃহত্তম দ্বীপ ভোলাকে ঘিরে থাকা রূপালি ইলিশের সবচেয়ে বড় প্রাকৃতিক বিচরণ ক্ষেত্র।",
+        "image": "/rivers/meghna_river.jpg"
       },
       {
         "name": "Tetulia River",
@@ -2874,7 +2952,8 @@
         "length": "85 km",
         "origin": "Meghna distributary",
         "role": "Wide river separating Bhola island from mainland Barishal and Patuakhali.",
-        "roleBn": "ভোলা ও বরিশাল-পটুয়াখালীর মধ্যবর্তী সীমানা নির্ধারণকারী গভীর প্রমত্তা নদী।"
+        "roleBn": "ভোলা ও বরিশাল-পটুয়াখালীর মধ্যবর্তী সীমানা নির্ধারণকারী গভীর প্রমত্তা নদী।",
+        "image": "/rivers/tetulia_river.jpg"
       },
       {
         "name": "Payra River",
@@ -2882,7 +2961,8 @@
         "length": "60 km",
         "origin": "Buriswar confluence",
         "role": "Hosts the deepwater Payra Seaport and Payra Four-Lane Bridge connecting Kuakata beach.",
-        "roleBn": "পায়রা গভীর সমুদ্রবন্দর ও কুয়াকাটা সৈকতের সংযোগকারী পায়রা সেতু ধারণকারী নদী।"
+        "roleBn": "পায়রা গভীর সমুদ্রবন্দর ও কুয়াকাটা সৈকতের সংযোগকারী পায়রা সেতু ধারণকারী নদী।",
+        "image": "/rivers/payra_river.jpg"
       },
       {
         "name": "Arial Khan River",
@@ -2890,7 +2970,8 @@
         "length": "102 km",
         "origin": "Padma River branch",
         "role": "Historic meandering tributary carrying freshwater into the central Barishal delta.",
-        "roleBn": "পদ্মা থেকে সৃষ্ট বরিশালের কৃষি ও নদী যোগাযোগের ঐতিহাসিক প্রধান শাখা নদী।"
+        "roleBn": "পদ্মা থেকে সৃষ্ট বরিশালের কৃষি ও নদী যোগাযোগের ঐতিহাসিক প্রধান শাখা নদী।",
+        "image": "/rivers/arial_khan_river.jpg"
       }
     ]
   },
@@ -3094,56 +3175,64 @@
         "nameBn": "সিলেটের বিখ্যাত সাতকড়া গরুর মাংস",
         "district": "Sylhet",
         "description": "Fragrant wild citrus macroptera fruit rind simmered with tender beef chunks, creating an iconic tangy aroma.",
-        "descriptionBn": "পাহাড়ের টক-মিষ্টি সুগন্ধি সাতকড়ার খোসা দিয়ে ভুনা করা সিলেটের ঐতিহ্যবাহী গরুর মাংস।"
+        "descriptionBn": "পাহাড়ের টক-মিষ্টি সুগন্ধি সাতকড়ার খোসা দিয়ে ভুনা করা সিলেটের ঐতিহ্যবাহী গরুর মাংস।",
+        "image": "/delicacies/shatkora_beef.jpg"
       },
       {
         "name": "Seven-Layer Colored Tea",
         "nameBn": "শ্রীমঙ্গলের ঐতিহাসিক সাত রঙের চা",
         "district": "Moulvibazar",
         "description": "Pioneered by Ramesh Ram Goud in Sreemangal, featuring 7 distinct density layers of green, black, and spiced teas.",
-        "descriptionBn": "নীলকণ্ঠ চা কেবিনের কাচের গ্লাসে ঘনত্ব ও স্তরের বৈচিত্র্যে তৈরি বিশ্বখ্যাত সাত স্তরের চা।"
+        "descriptionBn": "নীলকণ্ঠ চা কেবিনের কাচের গ্লাসে ঘনত্ব ও স্তরের বৈচিত্র্যে তৈরি বিশ্বখ্যাত সাত স্তরের চা।",
+        "image": "/delicacies/seven_layer_tea.jpg"
       },
       {
         "name": "Sylheti Bakarkhani",
         "nameBn": "সিলেটের নোনতা বিস্কুট বাকরখানি",
         "district": "Sylhet",
         "description": "Savory layered flaky biscuit flatbread paired with spiced morning tea across the Surma valley.",
-        "descriptionBn": "সিলেটের সকালের চায়ের সাথে খাওয়ার মুচমুচে নোনতা ঘিয়ের বাকরখানি।"
+        "descriptionBn": "সিলেটের সকালের চায়ের সাথে খাওয়ার মুচমুচে নোনতা ঘিয়ের বাকরখানি।",
+        "image": "/delicacies/sylheti_bakarkhani.jpg"
       },
       {
         "name": "Chunga Pitha",
         "nameBn": "ঐতিহাসিক বাঁশের চুঙ্গা পিঠা",
         "district": "Sylhet",
         "description": "Aromatic sticky Bora rice slow-steamed inside special wild bamboo tubes over low straw fires.",
-        "descriptionBn": "পাহাড়ি ঢলু বাঁশের ভেতর বিন্নি চাল ভরে খড়ের আগুনে পুড়িয়ে তৈরি আদি উৎসবের পিঠা।"
+        "descriptionBn": "পাহাড়ি ঢলু বাঁশের ভেতর বিন্নি চাল ভরে খড়ের আগুনে পুড়িয়ে তৈরি আদি উৎসবের পিঠা।",
+        "image": "/delicacies/chunga_pitha.jpg"
       },
       {
         "name": "Tanguar Haor Boal & Baim",
         "nameBn": "টাঙ্গুয়ার হাওরের বাঘাইড় ও বোয়াল ভুনা",
         "district": "Sunamganj",
         "description": "Giant freshwater haor catfish cooked with fresh country tomatoes, mustard oil, and fiery green chilies.",
-        "descriptionBn": "মেঘালয়ের পাদদেশের স্বচ্ছ হাওরের বিশালাকার বোয়াল ও বাইন মাছের ঝাল কষা তরকারি।"
+        "descriptionBn": "মেঘালয়ের পাদদেশের স্বচ্ছ হাওরের বিশালাকার বোয়াল ও বাইন মাছের ঝাল কষা তরকারি।",
+        "image": "/delicacies/haor_boal_fish.jpg"
       },
       {
         "name": "Akhni Polao of Sylhet",
         "nameBn": "সিলেটি খাসির আখনি পোলাও",
         "district": "Sylhet",
         "description": "Aromatic spiced mutton pilaf cooked with mustard oil and tender meat cubes, signature wedding banquet dish.",
-        "descriptionBn": "বিরিয়ানির সিলেটি সংস্করণ, যাতে সুগন্ধি চাল ও খাসির মাংসের সাথে বিশেষ গরম মসলা ব্লেন্ড করা হয়।"
+        "descriptionBn": "বিরিয়ানির সিলেটি সংস্করণ, যাতে সুগন্ধি চাল ও খাসির মাংসের সাথে বিশেষ গরম মসলা ব্লেন্ড করা হয়।",
+        "image": "/delicacies/akhni_polao.jpg"
       },
       {
         "name": "Jaldubi Honey Pineapples",
         "nameBn": "জলডুবির মিষ্টি আনারস ও কমলা",
         "district": "Moulvibazar",
         "description": "Famous sweet honey pineapples and winter mandarin oranges harvested in the hills of Sreemangal.",
-        "descriptionBn": "মৌলভীবাজারের পাহাড়ের গায়ে চাষ করা রসে টইটম্বুর মিষ্টি জলডুবি আনারস ও সিলেটী কমলা।"
+        "descriptionBn": "মৌলভীবাজারের পাহাড়ের গায়ে চাষ করা রসে টইটম্বুর মিষ্টি জলডুবি আনারস ও সিলেটী কমলা।",
+        "image": "/delicacies/jaldubi_pineapple.jpg"
       },
       {
         "name": "Hakaluki Fresh Prawn Curry",
         "nameBn": "হাকালুকি হাওরের তাজা গলদা চিংড়ি",
         "district": "Moulvibazar",
         "description": "Sweet freshwater prawns caught in Hakaluki Haor cooked with seasonal country beans and turmeric.",
-        "descriptionBn": "বৃহত্তম হাকালুকি হাওরের মিষ্টি পানির চিংড়ি ও শিমের বিচি দিয়ে রান্না করা তরকারি।"
+        "descriptionBn": "বৃহত্তম হাকালুকি হাওরের মিষ্টি পানির চিংড়ি ও শিমের বিচি দিয়ে রান্না করা তরকারি।",
+        "image": "/delicacies/hakaluki_prawn.jpg"
       }
     ],
     "festivals": [
@@ -3152,14 +3241,16 @@
         "nameBn": "মণিপুরী মহারাসলীলা উৎসব",
         "period": "Kartik Purnima (November)",
         "desc": "Mesmerizing classical dance of Radha-Krishna performed in Madhabpur & Kamalganj under moonlight.",
-        "descBn": "কমলগঞ্জের মাধবপুরে পূর্ণিমা রাতে মণিপুরীদের অপূর্ব ঐতিহ্যবাহী পোশাক ও পদাবলীর রাস নৃত্য।"
+        "descBn": "কমলগঞ্জের মাধবপুরে পূর্ণিমা রাতে মণিপুরীদের অপূর্ব ঐতিহ্যবাহী পোশাক ও পদাবলীর রাস নৃত্য।",
+        "image": "/culture/raas_leela.jpg"
       },
       {
         "name": "Urs Sharif of Hazrat Shah Jalal",
         "nameBn": "হযরত শাহজালাল (র.) এর বার্ষিক ওরস",
         "period": "Lunar calendar",
         "desc": "Spiritual gathering of pilgrims from all faiths, qawwali singing and sacred pond festivities.",
-        "descBn": "দরগাহ শরিফে দেশ-বিদেশের লাখো ভক্তের আগমন, কাওয়ালি পরিবেশন ও গজারি মাছের পুকুর দর্শন।"
+        "descBn": "দরগাহ শরিফে দেশ-বিদেশের লাখো ভক্তের আগমন, কাওয়ালি পরিবেশন ও গজারি মাছের পুকুর দর্শন।",
+        "image": "/heritage/shah_jalal_dargah.jpg"
       }
     ],
     "traditions": [
@@ -3177,9 +3268,10 @@
       }
     ],
     "gallery": [
-      "/panoramas/sylhet_day.jpg",
-      "/panoramas/sylhet_night.jpg",
-      "/panoramas/sylhet_night_alt.jpg"
+      "/panoramas/Sylhet_Day.jpg",
+      "/panoramas/Sylhet_Evening.jpg",
+      "/panoramas/sylhet_night_alt.jpg",
+      "/panoramas/sylhet_night.jpg"
     ],
     "landmarks": [
       {
@@ -3394,7 +3486,8 @@
         "length": "250 km in BD",
         "origin": "Barak River, Manipur",
         "role": "Lifeline of Sylhet city, spanned by the 1936 historic Keane Bridge and Ali Amjad Clock.",
-        "roleBn": "ঐতিহাসিক ক্বীন ব্রিজ ধারণকারী সুরমা নদী যা সিলেটের বাণিজ্য ও সংস্কৃতির প্রধান প্রাণকেন্দ্র।"
+        "roleBn": "ঐতিহাসিক ক্বীন ব্রিজ ধারণকারী সুরমা নদী যা সিলেটের বাণিজ্য ও সংস্কৃতির প্রধান প্রাণকেন্দ্র।",
+        "image": "/rivers/surma_river.jpg"
       },
       {
         "name": "Kushiyara River",
@@ -3402,7 +3495,8 @@
         "length": "228 km in BD",
         "origin": "Barak bifurcation",
         "role": "Powerful southern branch feeding the gigantic Hakaluki and Tanguar Ramsar wetlands.",
-        "roleBn": "বরাক নদীর দক্ষিণাঞ্চলীয় শাখা যা হাকালুকি হাওরকে প্লাবিত করে মেহনায় মিলিত হয়।"
+        "roleBn": "বরাক নদীর দক্ষিণাঞ্চলীয় শাখা যা হাকালুকি হাওরকে প্লাবিত করে মেহনায় মিলিত হয়।",
+        "image": "/rivers/kushiyara_river.jpg"
       },
       {
         "name": "Piyain River",
@@ -3410,7 +3504,8 @@
         "length": "35 km",
         "origin": "Omgot, Meghalaya",
         "role": "Rapid mountain stream at Jaflong carrying millions of tons of natural stone boulders and sand.",
-        "roleBn": "জাফলংয়ের খাসিয়া পাহাড়ের কোল ঘেঁষে আসা পাথর ও বালু সমৃদ্ধ খরস্রোতা রূপসী নদী।"
+        "roleBn": "জাফলংয়ের খাসিয়া পাহাড়ের কোল ঘেঁষে আসা পাথর ও বালু সমৃদ্ধ খরস্রোতা রূপসী নদী।",
+        "image": "/rivers/piyain_river.jpg"
       },
       {
         "name": "Dholai River",
@@ -3418,7 +3513,8 @@
         "length": "40 km",
         "origin": "Cherrapunji range",
         "role": "Crystal-clear glacier-cold mountain water carving the white limestone riverbed at Bholaganj.",
-        "roleBn": "মেঘালয়ের চেরাপুঞ্জি থেকে নেমে আসা স্ফটিক স্বচ্ছ জলের নদী যা ভোলাগঞ্জ সাদা পাথর সৃষ্টি করেছে।"
+        "roleBn": "মেঘালয়ের চেরাপুঞ্জি থেকে নেমে আসা স্ফটিক স্বচ্ছ জলের নদী যা ভোলাগঞ্জ সাদা পাথর সৃষ্টি করেছে।",
+        "image": "/rivers/dholai_river.jpg"
       },
       {
         "name": "Khowai River",
@@ -3426,7 +3522,8 @@
         "length": "85 km in BD",
         "origin": "Atharamura Hills, Tripura",
         "role": "Fast-flowing transboundary river traversing Habiganj tea estates.",
-        "roleBn": "ত্রিপুরার পাহাড় থেকে নেমে এসে হবিগঞ্জ ও চুনারুঘাট দিয়ে প্রবাহিত খরস্রোতা নদী।"
+        "roleBn": "ত্রিপুরার পাহাড় থেকে নেমে এসে হবিগঞ্জ ও চুনারুঘাট দিয়ে প্রবাহিত খরস্রোতা নদী।",
+        "image": "/rivers/khowai_river.jpg"
       }
     ]
   },
@@ -3624,56 +3721,64 @@
         "nameBn": "রংপুরের বিশ্বখ্যাত হাঁড়িভাঙা আম",
         "district": "Rangpur",
         "description": "Fibreless, supremely sweet fleshy mango with small seed cultivated in Mithapukur, GI certified.",
-        "descriptionBn": "মিঠাপুকুরের বিশ্বখ্যাত আঁশহীন, রসাল, মাংসল ও অতুলনীয় সুস্বাদু হাঁড়িভাঙা আম।"
+        "descriptionBn": "মিঠাপুকুরের বিশ্বখ্যাত আঁশহীন, রসাল, মাংসল ও অতুলনীয় সুস্বাদু হাঁড়িভাঙা আম।",
+        "image": "/delicacies/haribhanga_mango.jpg"
       },
       {
         "name": "Gaibandhar Roshomunjuri",
         "nameBn": "গাইবান্ধার বিখ্যাত রসমঞ্জরী",
         "district": "Gaibandha",
         "description": "Tiny milk-soaked chhana pellets simmered in thick condensed cardamom rabri since 1948 by Ramesh Ghosh.",
-        "descriptionBn": "১৯৪৮ সালে রমেশ ঘোষের হাত ধরে তৈরি খাঁটি ছানার ছোট গুটি ও ক্ষীরসার অনন্য মিষ্টান্ন।"
+        "descriptionBn": "১৯৪৮ সালে রমেশ ঘোষের হাত ধরে তৈরি খাঁটি ছানার ছোট গুটি ও ক্ষীরসার অনন্য মিষ্টান্ন।",
+        "image": "/delicacies/gaibandha_roshomunjuri.jpg"
       },
       {
         "name": "Dinajpurer Kataribhog Rice",
         "nameBn": "দিনাজপুরের সুগন্ধি কাটারিভোগ চালের পোলাও",
         "district": "Dinajpur",
         "description": "Heritage aromatic needle-fine rice celebrated for subtle aroma and royal ceremonial pilafs.",
-        "descriptionBn": "সুঁচের মতো চিকন ও সুবাসিত কাটারিভোগ চালের সুস্বাদু পোলাও ও ফিরনি।"
+        "descriptionBn": "সুঁচের মতো চিকন ও সুবাসিত কাটারিভোগ চালের সুস্বাদু পোলাও ও ফিরনি।",
+        "image": "/delicacies/kataribhog_rice.jpg"
       },
       {
         "name": "Teesta River Boal Curry",
         "nameBn": "তিস্তা নদীর টাটকা বোয়াল মাছের ঝোল",
         "district": "Lalmonirhat",
         "description": "Sweet freshwater catfish caught from the rapid torrents of Teesta Barrage, cooked with root vegetables.",
-        "descriptionBn": "তিস্তা ব্যারেজের খরস্রোতা নদীর মিষ্টি পানির তাজা বোয়াল মাছের জিভে জল আনা তরকারি।"
+        "descriptionBn": "তিস্তা ব্যারেজের খরস্রোতা নদীর মিষ্টি পানির তাজা বোয়াল মাছের জিভে জল আনা তরকারি।",
+        "image": "/delicacies/teesta_boal_curry.jpg"
       },
       {
         "name": "Kurigram Shol Machher Jhol",
         "nameBn": "কুড়িগ্রামের শোল মাছ ও ফুলকপির ঝোল",
         "district": "Kurigram",
         "description": "Native snakehead murrel fish stew simmered with winter vegetables and green coriander.",
-        "descriptionBn": "ব্রহ্মপুত্র ও ধরলা নদীর দেশি শোল মাছের হালকা পাতলা ঝোল।"
+        "descriptionBn": "ব্রহ্মপুত্র ও ধরলা নদীর দেশি শোল মাছের হালকা পাতলা ঝোল।",
+        "image": "/delicacies/kurigram_shol_machh.jpg"
       },
       {
         "name": "Panchagarh Plainland Green Tea",
         "nameBn": "পঞ্চগড়ের সমতল ভূমির অর্গানিক চা",
         "district": "Panchagarh",
         "description": "Himalayan foothills organic black and green tea harvested from flat tea estates.",
-        "descriptionBn": "হিমালয়ের বাতাস গায়ে মেখে সমতল চা বাগানে উৎপাদিত স্বাস্থ্যকর অর্গানিক চা।"
+        "descriptionBn": "হিমালয়ের বাতাস গায়ে মেখে সমতল চা বাগানে উৎপাদিত স্বাস্থ্যকর অর্গানিক চা।",
+        "image": "/delicacies/panchagarh_tea.jpg"
       },
       {
         "name": "Nilphamari Chhana Sandesh",
         "nameBn": "নীলফামারীর ছানার মিষ্টি",
         "district": "Nilphamari",
         "description": "Artisanal cow milk cottage cheese sweet with delicate cardamom flavor.",
-        "descriptionBn": "উত্তরাঞ্চলের খাঁটি গরুর দুধের নরম মিষ্টি ও ক্ষীর।"
+        "descriptionBn": "উত্তরাঞ্চলের খাঁটি গরুর দুধের নরম মিষ্টি ও ক্ষীর।",
+        "image": "/delicacies/nilphamari_sandesh.jpg"
       },
       {
         "name": "Lalmonirhat Special Dal-Puri",
         "nameBn": "লালমনিরহাটের স্পেশাল ডালপুরি",
         "district": "Lalmonirhat",
         "description": "Crispy fried yellow lentil pastry served with spicy mustard gravy and mint sauce.",
-        "descriptionBn": "লালমনিরহাট স্টেশনের ঐতিহ্যবাহী মচমচে গরম ডালপুরি ও তেঁতুলের চাটনি।"
+        "descriptionBn": "লালমনিরহাট স্টেশনের ঐতিহ্যবাহী মচমচে গরম ডালপুরি ও তেঁতুলের চাটনি।",
+        "image": "/delicacies/lalmonirhat_dal_puri.jpg"
       }
     ],
     "festivals": [
@@ -3682,14 +3787,16 @@
         "nameBn": "কান্তজীউ রাসমেলা ও লোকজ প্রদর্শনী",
         "period": "Rash Purnima (November)",
         "desc": "Month-long historic mela surrounding the 1722 terracotta masterpiece temple of Maharaja Pran Nath.",
-        "descBn": "১৭২২ সালের বিশ্ববিখ্যাত টেরাকোটা কান্তজী মন্দিরের পাদদেশে আয়োজিত শতাব্দী প্রাচীন মেলা।"
+        "descBn": "১৭২২ সালের বিশ্ববিখ্যাত টেরাকোটা কান্তজী মন্দিরের পাদদেশে আয়োজিত শতাব্দী প্রাচীন মেলা।",
+        "image": "/heritage/kantajew_temple.jpg"
       },
       {
         "name": "Bhawaiya Folk Music Festival",
         "nameBn": "উত্তরবঙ্গের ভাওয়াইয়া সংগীত উৎসব",
         "period": "Winter Season",
         "desc": "Soulful cart-driver songs (Gariyal Bhai) echoing the hardships and romantic lore of Teesta plains.",
-        "descBn": "ও কি গাড়িয়াল ভাই... সুরে তিস্তা-ধরম্পাল অববাহিকার মানুষের জীবনগাঁথার ভাওয়াইয়া উৎসব।"
+        "descBn": "ও কি গাড়িয়াল ভাই... সুরে তিস্তা-ধরম্পাল অববাহিকার মানুষের জীবনগাঁথার ভাওয়াইয়া উৎসব।",
+        "image": "/culture/gambhira.jpg"
       }
     ],
     "traditions": [
@@ -3707,7 +3814,8 @@
       }
     ],
     "gallery": [
-      "/panoramas/rangpur_day.jpg",
+      "/panoramas/Rangpur_Day.jpg",
+      "/panoramas/Rangpur_Evening.jpg",
       "/panoramas/rangpur_night.jpg"
     ],
     "landmarks": [
@@ -3905,7 +4013,8 @@
         "length": "115 km in BD",
         "origin": "Tso Lhamo Lake, Sikkim Himalayas",
         "role": "The wild torrent river of northern Bangladesh, controlled by the colossal Teesta Barrage at Dooani.",
-        "roleBn": "সিকিম হিমালয় থেকে উৎপন্ন তিস্তা নদী, যার ওপর দেশের বৃহত্তম তিস্তা ব্যারেজ ও সেচ প্রকল্প অবস্থিত।"
+        "roleBn": "সিকিম হিমালয় থেকে উৎপন্ন তিস্তা নদী, যার ওপর দেশের বৃহত্তম তিস্তা ব্যারেজ ও সেচ প্রকল্প অবস্থিত।",
+        "image": "/rivers/teesta_river.jpg"
       },
       {
         "name": "Brahmaputra River (Entry Point)",
@@ -3913,7 +4022,8 @@
         "length": "120 km in region",
         "origin": "Tibet / Assam",
         "role": "Enters Bangladesh at Kurigram as a mammoth multi-channel river up to 10 km wide during floods.",
-        "roleBn": "কুড়িগ্রামের মধ্য দিয়ে বাংলাদেশে প্রবেশ করা সুবিশাল নদী যা উত্তরাঞ্চলের ভূপ্রকৃতি গঠন করেছে।"
+        "roleBn": "কুড়িগ্রামের মধ্য দিয়ে বাংলাদেশে প্রবেশ করা সুবিশাল নদী যা উত্তরাঞ্চলের ভূপ্রকৃতি গঠন করেছে।",
+        "image": "/rivers/old_brahmaputra_river.jpg"
       },
       {
         "name": "Dharla River",
@@ -3921,7 +4031,8 @@
         "length": "75 km in BD",
         "origin": "Himalayas via Jalpaiguri",
         "role": "Traverses Lalmonirhat and Kurigram, nourishing rich tobacco, corn, and mustard fields.",
-        "roleBn": "হিমালয়ের পাদদেশ থেকে নেমে আসা নদী যা কুড়িগ্রামের কৃষিতে গুরুত্বপূর্ণ অবদান রাখে।"
+        "roleBn": "হিমালয়ের পাদদেশ থেকে নেমে আসা নদী যা কুড়িগ্রামের কৃষিতে গুরুত্বপূর্ণ অবদান রাখে।",
+        "image": "/rivers/dharla_river.jpg"
       },
       {
         "name": "Ghaghat River",
@@ -3929,7 +4040,8 @@
         "length": "100 km",
         "origin": "Teesta distributary",
         "role": "Meanders past Rangpur metropolitan city, providing natural drainage to the central plains.",
-        "roleBn": "রংপুর শহরের পাশ দিয়ে বয়ে চলা ঐতিহাসিক নদী যা তাজহাট সংলগ্ন অঞ্চলকে সিঞ্চন করে।"
+        "roleBn": "রংপুর শহরের পাশ দিয়ে বয়ে চলা ঐতিহাসিক নদী যা তাজহাট সংলগ্ন অঞ্চলকে সিঞ্চন করে।",
+        "image": "/rivers/ghaghat_river.jpg"
       },
       {
         "name": "Karatoya (Upper Reach)",
@@ -3937,7 +4049,8 @@
         "length": "90 km in region",
         "origin": "Tetulia border",
         "role": "Cold mountain-fed headwater stream traversing the northernmost tea gardens.",
-        "roleBn": "তেঁতুলিয়া ও পঞ্চগড়ের সীমান্ত ঘেঁষা হিমালয়ের ঠান্ডা পানির প্রাচীন নদী।"
+        "roleBn": "তেঁতুলিয়া ও পঞ্চগড়ের সীমান্ত ঘেঁষা হিমালয়ের ঠান্ডা পানির প্রাচীন নদী।",
+        "image": "/rivers/karatoya_river.jpg"
       }
     ]
   },
@@ -4141,56 +4254,64 @@
         "nameBn": "মুক্তাগাছার আদি রাজকীয় মণ্ডা",
         "district": "Mymensingh",
         "description": "1824 AD royal sweet created by Ramgopal Modak for the Muktagacha zamindars, soft chhana and khoya disc.",
-        "descriptionBn": "১৮২৪ সালে রামগোপাল মোদক কর্তৃক মহারাজা রঘুনন্দনের দরবারে প্রথম প্রস্তুতকৃত ২০০ বছরের ঐতিহ্যবাহী খাঁটি ছানার মণ্ডা।"
+        "descriptionBn": "১৮২৪ সালে রামগোপাল মোদক কর্তৃক মহারাজা রঘুনন্দনের দরবারে প্রথম প্রস্তুতকৃত ২০০ বছরের ঐতিহ্যবাহী খাঁটি ছানার মণ্ডা।",
+        "image": "/delicacies/muktagacha_monda.jpg"
       },
       {
         "name": "Netrokonar Balish Mishti",
         "nameBn": "নেত্রকোণার ঐতিহাসিক বালিশ মিষ্টি",
         "district": "Netrokona",
         "description": "Enormous pillow-shaped cottage cheese sweet soaked in creamy sugar syrup and dusted with dried milk powder.",
-        "descriptionBn": "গয়ানাত ঘোষের সৃষ্ট বালিশের মতো সুবিশাল আকৃতির রসাল ক্ষীরযুক্ত মিষ্টি।"
+        "descriptionBn": "গয়ানাত ঘোষের সৃষ্ট বালিশের মতো সুবিশাল আকৃতির রসাল ক্ষীরযুক্ত মিষ্টি।",
+        "image": "/delicacies/netrokona_balish_mishti.jpg"
       },
       {
         "name": "Brahmaputra Bain & Chital Curry",
         "nameBn": "পুরাতন ব্রহ্মপুত্রের বাইন ও চিতল মাছের ঝোল",
         "district": "Mymensingh",
         "description": "Fresh riverine fish caught in the Old Brahmaputra cooked with roasted cumin and dry red chili paste.",
-        "descriptionBn": "শম্ভুগঞ্জ ঘাটের পুরাতন ব্রহ্মপুত্র নদের বড় বাইন মাছের ঝাল ভুনা।"
+        "descriptionBn": "শম্ভুগঞ্জ ঘাটের পুরাতন ব্রহ্মপুত্র নদের বড় বাইন মাছের ঝাল ভুনা।",
+        "image": "/delicacies/brahmaputra_chital_curry.jpg"
       },
       {
         "name": "Sherpurer Chhanar Payesh",
         "nameBn": "শেরপুরের ঐতিহ্যবাহী ছানার পায়েস",
         "district": "Sherpur",
         "description": "Delicate cottage cheese granules simmered in thickened condensed milk, saffron, and pistachios.",
-        "descriptionBn": "ঘন দুধে ছোট ছানার দানা ফেলে রান্না করা সুস্বাদু ক্ষীর ও পায়েস।"
+        "descriptionBn": "ঘন দুধে ছোট ছানার দানা ফেলে রান্না করা সুস্বাদু ক্ষীর ও পায়েস।",
+        "image": "/delicacies/sherpur_chhanar_payesh.jpg"
       },
       {
         "name": "Muktagacha Petha & Doi",
         "nameBn": "মুক্তাগাছার সুস্বাদু মিষ্টি দই",
         "district": "Mymensingh",
         "description": "Dense sweet clay pot yogurt made with fresh pasture-fed cow milk.",
-        "descriptionBn": "মাটির হাঁড়িতে পাতা প্রাকৃতিক মিষ্টি দই।"
+        "descriptionBn": "মাটির হাঁড়িতে পাতা প্রাকৃতিক মিষ্টি দই।",
+        "image": "/delicacies/muktagacha_petha.jpg"
       },
       {
         "name": "Birisiri Garo Traditional Delicacies",
         "nameBn": "বিরিশিরির গারো উপজাতীয় খাবার ও পিঠা",
         "district": "Netrokona",
         "description": "Indigenous wild bamboo shoot stew, steamed sticky bora rice, and herbs cooked in bamboo nodes.",
-        "descriptionBn": "সোমেশ্বরী নদী তীরের গারো ও হাজংদের বাঁশের চোঙায় তৈরি ঐতিহ্যবাহী খাবার ও পিঠা।"
+        "descriptionBn": "সোমেশ্বরী নদী তীরের গারো ও হাজংদের বাঁশের চোঙায় তৈরি ঐতিহ্যবাহী খাবার ও পিঠা।",
+        "image": "/delicacies/birisiri_garo_delicacies.jpg"
       },
       {
         "name": "Jamalpur Kalo Jam",
         "nameBn": "জামালপুরের ঐতিহ্যবাহী কালোজাম",
         "district": "Jamalpur",
         "description": "Deep-fried dark cottage cheese dumplings soaked in rosewater and cardamom sugar syrup.",
-        "descriptionBn": "জামালপুরের শতবর্ষী রসাল লালচে-কালো সুস্বাদু মিষ্টি।"
+        "descriptionBn": "জামালপুরের শতবর্ষী রসাল লালচে-কালো সুস্বাদু মিষ্টি।",
+        "image": "/delicacies/jamalpur_kalo_jam.jpg"
       },
       {
         "name": "Mymensingh Pitha Mela Bhapa",
         "nameBn": "ময়মনসিংহের ধনেপাতা ও শুঁটকির চিতই",
         "district": "Mymensingh",
         "description": "Steamed rice pancakes served with spicy coriander and dried fish mash on winter mornings.",
-        "descriptionBn": "শীতের সকালে মাটির খোলায় তৈরি গরম চিতই পিঠা ও লাল শুঁটকির ঝাল ভর্তা।"
+        "descriptionBn": "শীতের সকালে মাটির খোলায় তৈরি গরম চিতই পিঠা ও লাল শুঁটকির ঝাল ভর্তা।",
+        "image": "/delicacies/mymensingh_bhapa_pitha.jpg"
       }
     ],
     "festivals": [
@@ -4199,14 +4320,16 @@
         "nameBn": "ময়মনসিংহ গীতিকা ও মহুয়া পালা",
         "period": "Winter & Baishakh",
         "desc": "Centuries-old folk ballads of Mahua, Malua, and Dewan Madina collected by Dr. Dinesh Chandra Sen.",
-        "descBn": "চন্দ্রকুমার দে ও ড. দীনেশচন্দ্র সেন সংগৃহীত বিশ্বের অন্যতম শ্রেষ্ঠ প্রাচীন লোকগাঁথা মহুয়া পালা।"
+        "descBn": "চন্দ্রকুমার দে ও ড. দীনেশচন্দ্র সেন সংগৃহীত বিশ্বের অন্যতম শ্রেষ্ঠ প্রাচীন লোকগাঁথা মহুয়া পালা।",
+        "image": "/culture/lalon_festival.jpg"
       },
       {
         "name": "Garo Wangala Festival (Birishiri)",
         "nameBn": "গারোদের ওয়ানগালা নবান্ন উৎসব",
         "period": "Late Autumn (October/November)",
         "desc": "Thanksgiving festival to the Sun God Saljong with 100 drums (Dama), buffalo horn flutes and dances.",
-        "descBn": "সূর্যদেবতা সালজং-এর প্রতি কৃতজ্ঞতা জানিয়ে একশ ঢোলের তালে গারো তরুণ-তরুণীদের বর্ণিল নৃত্য।"
+        "descBn": "সূর্যদেবতা সালজং-এর প্রতি কৃতজ্ঞতা জানিয়ে একশ ঢোলের তালে গারো তরুণ-তরুণীদের বর্ণিল নৃত্য।",
+        "image": "/culture/wangala.jpg"
       }
     ],
     "traditions": [
@@ -4224,7 +4347,8 @@
       }
     ],
     "gallery": [
-      "/panoramas/mymensingh_day.jpg",
+      "/panoramas/Mymensingh_Day.jpg",
+      "/panoramas/Mymensingh_Evening.jpg",
       "/panoramas/mymensingh_day_alt.jpg",
       "/panoramas/mymensingh_night.jpg"
     ],
@@ -4441,7 +4565,8 @@
         "length": "180 km",
         "origin": "Jamuna diversion point at Bahadurabad",
         "role": "Historic channel that was the main Brahmaputra before the 1787 earthquake, lifeline of Mymensingh city.",
-        "roleBn": "১৭৮৭ সালের ভূমিকম্পের পূর্ব পর্যন্ত মূল ব্রহ্মপুত্র, যা শম্ভুগঞ্জ সেতু ধারণ করে এবং শহরের প্রাণ।"
+        "roleBn": "১৭৮৭ সালের ভূমিকম্পের পূর্ব পর্যন্ত মূল ব্রহ্মপুত্র, যা শম্ভুগঞ্জ সেতু ধারণ করে এবং শহরের প্রাণ।",
+        "image": "/rivers/old_brahmaputra_river.jpg"
       },
       {
         "name": "Shomeshwari River",
@@ -4449,7 +4574,8 @@
         "length": "45 km in BD",
         "origin": "Garo Hills, Meghalaya",
         "role": "Famed for crystal-clear turquoise waters and ceramic white kaolin clay hills at Birisiri, Durgapur.",
-        "roleBn": "বিরিশিরির চীনামাটির পাহাড়ের পাশ দিয়ে বয়ে চলা মেঘালয়ের স্বচ্ছ কাঁচের মতো ঠান্ডা পানির পাহাড়ি নদী।"
+        "roleBn": "বিরিশিরির চীনামাটির পাহাড়ের পাশ দিয়ে বয়ে চলা মেঘালয়ের স্বচ্ছ কাঁচের মতো ঠান্ডা পানির পাহাড়ি নদী।",
+        "image": "/rivers/shomeshwari_river.jpg"
       },
       {
         "name": "Kangsha River",
@@ -4457,7 +4583,8 @@
         "length": "120 km",
         "origin": "Garo Hills via Netrokona",
         "role": "Flows through Netrokona into the haors, immortalized in Bengali folk songs and ballads.",
-        "roleBn": "ময়মনসিংহ গীতিকা ও লোকসাহিত্যের স্মৃতিবিজড়িত নদী যা নেত্রকোণার হাওরাঞ্চলে মিশেছে।"
+        "roleBn": "ময়মনসিংহ গীতিকা ও লোকসাহিত্যের স্মৃতিবিজড়িত নদী যা নেত্রকোণার হাওরাঞ্চলে মিশেছে।",
+        "image": "/rivers/kangsha_river.jpg"
       },
       {
         "name": "Bhogai River",
@@ -4465,7 +4592,8 @@
         "length": "40 km",
         "origin": "Meghalaya foothills",
         "role": "Rapid hill river carrying mineral-rich sands and river pebbles into Nalitabari, Sherpur.",
-        "roleBn": "শেরপুরের নালিতাবাড়ী সীমান্ত দিয়ে নেমে আসা খরস্রোতা পাহাড়ি নদী।"
+        "roleBn": "শেরপুরের নালিতাবাড়ী সীমান্ত দিয়ে নেমে আসা খরস্রোতা পাহাড়ি নদী।",
+        "image": "/rivers/bhogai_river.jpg"
       },
       {
         "name": "Nitai River",
@@ -4473,7 +4601,8 @@
         "length": "35 km in BD",
         "origin": "Garo Hills",
         "role": "Transboundary hill stream feeding the northern agricultural border belt of Haluaghat.",
-        "roleBn": "হালুয়াঘাট সীমান্ত দিয়ে মেঘালয় পাহাড় থেকে নেমে আসা পরিচ্ছন্ন মিষ্টি পানির নদী।"
+        "roleBn": "হালুয়াঘাট সীমান্ত দিয়ে মেঘালয় পাহাড় থেকে নেমে আসা পরিচ্ছন্ন মিষ্টি পানির নদী।",
+        "image": "/rivers/nitai_river.jpg"
       }
     ]
   }

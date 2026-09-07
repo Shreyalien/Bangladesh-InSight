@@ -489,27 +489,53 @@ export default function DivisionPageView({
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
               {(division.delicacies || []).map((item, idx) => (
-                <div key={idx} className={`p-5 rounded-3xl border ${cardBg} space-y-3 hover:-translate-y-1 transition-all shadow-sm hover:shadow-lg`}>
-                  <div className="flex items-center justify-between">
-                    <span className="text-[10px] font-black px-2.5 py-0.5 rounded-full bg-amber-500/20 text-amber-400">
-                      {item.district || 'Origin'}
+                <div
+                  key={idx}
+                  onClick={() => {
+                    if (onOpenDetails) {
+                      onOpenDetails({
+                        name: item.name,
+                        nameBn: item.nameBn,
+                        title: item.name,
+                        titleBn: item.nameBn,
+                        type: 'REGIONAL DELICACY',
+                        district: item.district,
+                        details: item.description,
+                        detailsBn: item.descriptionBn,
+                        image: item.image
+                      });
+                    }
+                  }}
+                  className={`group rounded-3xl border cursor-pointer ${cardBg} overflow-hidden hover:-translate-y-1.5 transition-all duration-300 shadow-md hover:shadow-xl`}
+                >
+                  {/* Food Image Container */}
+                  <div className="relative h-44 w-full overflow-hidden bg-slate-950">
+                    <img
+                      src={item.image || '/panoramas/Dhaka_Day.jpg'}
+                      alt={item.name}
+                      onError={(e) => {
+                        e.currentTarget.onerror = null;
+                        e.currentTarget.src = division.dayImage || '/panoramas/Dhaka_Day.jpg';
+                      }}
+                      className="w-full h-full object-cover group-hover:scale-108 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent pointer-events-none" />
+                    <span className="absolute top-3 left-3 text-[10px] font-black px-2.5 py-0.5 rounded-full bg-amber-500 text-slate-950 shadow-md uppercase tracking-wider">
+                      {item.district || 'ORIGIN'}
                     </span>
-                    <Utensils className="w-3.5 h-3.5 text-amber-500/60" />
                   </div>
 
-                  <div>
-                    <h3 className="text-sm font-black text-amber-400">
+                  <div className="p-5 space-y-2.5">
+                    <h3 className="text-base font-black text-amber-500 group-hover:text-amber-400 transition-colors">
                       {isBengali ? (item.nameBn || item.name) : item.name}
                     </h3>
-                  </div>
-
-                  <p className={`text-xs leading-relaxed ${sub}`}>
-                    {isBengali ? (item.descriptionBn || item.description) : item.description}
-                  </p>
-
-                  <div className="pt-2 border-t border-slate-100 dark:border-white/5 flex items-center justify-between text-[11px] font-semibold text-slate-400">
-                    <span>{isBengali ? 'উৎস জেলা:' : 'Origin District:'}</span>
-                    <span className="text-amber-500 font-bold">{item.district}</span>
+                    <p className={`text-xs leading-relaxed line-clamp-3 ${sub}`}>
+                      {isBengali ? (item.descriptionBn || item.description) : item.description}
+                    </p>
+                    <div className="pt-2 border-t border-slate-100 dark:border-white/5 flex items-center justify-between text-[11px] font-semibold text-slate-400">
+                      <span>{isBengali ? 'উৎস জেলা:' : 'Origin District:'}</span>
+                      <span className="text-amber-500 font-bold">{item.district}</span>
+                    </div>
                   </div>
                 </div>
               ))}
@@ -560,28 +586,52 @@ export default function DivisionPageView({
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
               {(division.majorRiversDetailed || []).map((river, rIdx) => (
-                <div key={rIdx} className={`p-5 rounded-3xl border ${cardBg} space-y-3 shadow-md hover:shadow-xl transition-all`}>
-                  <div className="flex items-center justify-between">
-                    <span className="text-[10px] font-black px-2.5 py-0.5 rounded-full bg-sky-500/20 text-sky-400">
-                      {river.length ? river.length : 'River Basin'}
+                <div
+                  key={rIdx}
+                  onClick={() => {
+                    if (onOpenDetails) {
+                      onOpenDetails({
+                        name: river.name,
+                        nameBn: river.nameBn,
+                        title: river.name,
+                        titleBn: river.nameBn,
+                        type: 'RIVER & WATERWAY',
+                        details: river.role,
+                        detailsBn: river.roleBn,
+                        image: river.image
+                      });
+                    }
+                  }}
+                  className={`group rounded-3xl border cursor-pointer ${cardBg} overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-1.5`}
+                >
+                  {/* River Image Container */}
+                  <div className="relative h-44 w-full overflow-hidden bg-slate-950">
+                    <img
+                      src={river.image || '/panoramas/Dhaka_Day.jpg'}
+                      alt={river.name}
+                      onError={(e) => {
+                        e.currentTarget.onerror = null;
+                        e.currentTarget.src = division.dayImage || '/panoramas/Dhaka_Day.jpg';
+                      }}
+                      className="w-full h-full object-cover group-hover:scale-108 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent pointer-events-none" />
+                    <span className="absolute top-3 left-3 text-[10px] font-black px-2.5 py-0.5 rounded-full bg-sky-500 text-white shadow-md uppercase tracking-wider">
+                      {river.length || 'RIVER BASIN'}
                     </span>
-                    <Anchor className="w-3.5 h-3.5 text-sky-400/70" />
+                    <span className="absolute bottom-3 left-3 text-xs font-black text-white drop-shadow">
+                      {river.origin ? `${isBengali ? 'উৎস: ' : 'Origin: '}${river.origin}` : ''}
+                    </span>
                   </div>
 
-                  <div>
-                    <h4 className="text-base font-black text-sky-400">
+                  <div className="p-5 space-y-2">
+                    <h4 className="text-base font-black text-sky-400 group-hover:text-sky-300 transition-colors">
                       {isBengali ? river.nameBn : river.name}
                     </h4>
-                    {river.origin && (
-                      <p className="text-[10px] text-slate-400 mt-0.5">
-                        <strong>{isBengali ? 'উৎস:' : 'Origin:'}</strong> {river.origin}
-                      </p>
-                    )}
+                    <p className={`text-xs leading-relaxed line-clamp-3 ${sub}`}>
+                      {isBengali ? river.roleBn : river.role}
+                    </p>
                   </div>
-
-                  <p className={`text-xs leading-relaxed ${sub}`}>
-                    {isBengali ? river.roleBn : river.role}
-                  </p>
                 </div>
               ))}
             </div>
@@ -590,27 +640,42 @@ export default function DivisionPageView({
 
         {/* ═══ TAB 5: DISTRICTS ═══ */}
         {activeSection === 'districts' && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {divisionDistricts.map((dist) => (
               <div
                 key={dist.id}
                 onClick={() => onSelectDistrict && onSelectDistrict(dist)}
-                className={`p-4 rounded-3xl border cursor-pointer ${cardBg} hover:-translate-y-1 transition-all space-y-1.5`}
+                className={`group rounded-3xl border cursor-pointer ${cardBg} overflow-hidden hover:-translate-y-1.5 transition-all duration-300 shadow-md hover:shadow-xl`}
               >
-                <div className="flex items-center justify-between mb-1">
-                  <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400">
+                {/* District Image Header */}
+                <div className="relative h-40 w-full overflow-hidden bg-slate-950">
+                  <img
+                    src={dist.image || division.dayImage || '/panoramas/Dhaka_Day.jpg'}
+                    alt={dist.name}
+                    onError={(e) => {
+                      e.currentTarget.onerror = null;
+                      e.currentTarget.src = division.dayImage || '/panoramas/Dhaka_Day.jpg';
+                    }}
+                    className="w-full h-full object-cover group-hover:scale-108 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent pointer-events-none" />
+                  <span className="absolute top-3 left-3 text-[10px] font-bold px-2.5 py-0.5 rounded-full bg-emerald-500 text-slate-950 shadow-md">
                     {dist.area || 'District'}
                   </span>
-                  <MapPin className="w-3.5 h-3.5 text-slate-400" />
+                  <div className="absolute bottom-2.5 left-3 right-3 flex items-center justify-between text-white">
+                    <span className="text-sm font-black drop-shadow">{isBengali ? dist.nameBn : dist.name}</span>
+                    <span className="text-[10px] font-medium text-slate-300">{dist.hq ? `HQ: ${dist.hq}` : ''}</span>
+                  </div>
                 </div>
-                <h3 className="text-sm font-black">{isBengali ? dist.nameBn : dist.name}</h3>
-                <p className="text-[10px] text-slate-400">{dist.hq ? `HQ: ${dist.hq}` : ''}</p>
-                <p className={`text-xs line-clamp-2 ${sub}`}>
-                  {isBengali ? dist.overviewBn : dist.overview}
-                </p>
-                <div className="pt-1 flex items-center justify-between text-xs font-bold text-rose-500">
-                  <span>{isBengali ? 'বিস্তারিত দেখুন' : 'View Encyclopedia'}</span>
-                  <ChevronRight className="w-3.5 h-3.5" />
+
+                <div className="p-4 space-y-2">
+                  <p className={`text-xs line-clamp-2 ${sub}`}>
+                    {isBengali ? (dist.overviewBn || dist.heritage) : (dist.overview || dist.heritage)}
+                  </p>
+                  <div className="pt-2 border-t border-slate-100 dark:border-white/5 flex items-center justify-between text-xs font-bold text-rose-500">
+                    <span>{isBengali ? 'পূর্ণাঙ্গ জেলা গেজেটিয়ার' : 'View District Portal'}</span>
+                    <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+                  </div>
                 </div>
               </div>
             ))}
@@ -621,12 +686,28 @@ export default function DivisionPageView({
         {activeSection === 'culture' && (
           <div className="space-y-6">
             <h3 className="text-base font-black">{isBengali ? 'উৎসব ও মেলা' : 'Festivals & Fairs'}</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
               {(division.festivals || []).map((f, i) => (
-                <div key={i} className={`p-4 rounded-3xl border ${cardBg} space-y-1.5`}>
-                  <Sparkles className="w-4 h-4 text-purple-400" />
-                  <h4 className="text-xs font-black">{isBengali ? (f.nameBn || f.name) : f.name}</h4>
-                  <p className={`text-xs leading-relaxed ${sub}`}>{isBengali ? (f.descriptionBn || f.description) : f.description}</p>
+                <div key={i} className={`rounded-3xl border ${cardBg} overflow-hidden shadow-md hover:shadow-xl transition-all duration-300`}>
+                  <div className="relative h-44 w-full overflow-hidden bg-slate-950">
+                    <img
+                      src={f.image || division.dayImage || '/panoramas/Dhaka_Day.jpg'}
+                      alt={f.name}
+                      onError={(e) => {
+                        e.currentTarget.onerror = null;
+                        e.currentTarget.src = division.dayImage || '/panoramas/Dhaka_Day.jpg';
+                      }}
+                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none" />
+                    <span className="absolute top-3 left-3 text-[10px] font-black px-2.5 py-0.5 rounded-full bg-purple-600 text-white shadow">
+                      {isBengali ? 'ঐতিহ্যবাহী উৎসব' : 'FESTIVAL'}
+                    </span>
+                  </div>
+                  <div className="p-4 space-y-1.5">
+                    <h4 className="text-sm font-black text-purple-400">{isBengali ? (f.nameBn || f.name) : f.name}</h4>
+                    <p className={`text-xs leading-relaxed ${sub}`}>{isBengali ? (f.descriptionBn || f.description) : f.description}</p>
+                  </div>
                 </div>
               ))}
             </div>

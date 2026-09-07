@@ -127,23 +127,36 @@ export default function DistrictEncyclopedia({
                       key={dist.id}
                       onClick={() => onSelectDistrict(dist)}
                       className={isNightMode 
-                        ? 'group bg-slate-800/80 backdrop-blur-lg rounded-3xl p-5 border border-white/10 hover:border-rose-500/40 shadow-xl transition-all duration-300 hover:-translate-y-1.5 cursor-pointer flex flex-col justify-between' 
-                        : 'group bg-white rounded-3xl p-5 border border-slate-200 hover:border-rose-500/40 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1.5 cursor-pointer flex flex-col justify-between'}
+                        ? 'group bg-slate-800/80 backdrop-blur-lg rounded-3xl overflow-hidden border border-white/10 hover:border-rose-500/40 shadow-xl transition-all duration-300 hover:-translate-y-1.5 cursor-pointer flex flex-col justify-between' 
+                        : 'group bg-white rounded-3xl overflow-hidden border border-slate-200 hover:border-rose-500/40 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1.5 cursor-pointer flex flex-col justify-between'}
                     >
-                      <div>
-                        <div className="flex items-center justify-between mb-3">
-                          <div>
-                            <span className="px-2.5 py-0.5 rounded-full text-[10px] uppercase font-bold tracking-wider bg-rose-600/10 text-rose-600 dark:text-rose-400 border border-rose-500/20">
-                              {dist.divisionId.toUpperCase()} DIVISION
-                            </span>
-                            <h3 className="text-lg font-black text-slate-900 dark:text-white mt-1 group-hover:text-rose-600 transition-colors">
-                              {isBengali ? dist.nameBn : dist.name}
-                            </h3>
-                          </div>
-                          <div className="p-2 rounded-2xl bg-slate-100 dark:bg-slate-800 text-slate-500 group-hover:text-white group-hover:bg-rose-600 transition-all shadow-sm">
+                      {/* District Hero Image Header */}
+                      <div className="relative h-44 w-full overflow-hidden bg-slate-950">
+                        <img
+                          src={dist.image || '/panoramas/Dhaka_Day.jpg'}
+                          alt={dist.name}
+                          onError={(e) => {
+                            e.currentTarget.onerror = null;
+                            e.currentTarget.src = '/panoramas/Dhaka_Day.jpg';
+                          }}
+                          className="w-full h-full object-cover group-hover:scale-108 transition-transform duration-500"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent pointer-events-none" />
+                        <span className="absolute top-3 left-3 px-2.5 py-0.5 rounded-full text-[10px] uppercase font-bold tracking-wider bg-rose-600 text-white shadow">
+                          {dist.divisionId.toUpperCase()}
+                        </span>
+                        <div className="absolute bottom-2.5 left-4 right-4 flex items-center justify-between text-white">
+                          <h3 className="text-xl font-black drop-shadow">
+                            {isBengali ? dist.nameBn : dist.name}
+                          </h3>
+                          <div className="p-1.5 rounded-xl bg-black/40 backdrop-blur-md text-white group-hover:bg-rose-600 transition-colors">
                             <ArrowUpRight className="w-4 h-4" />
                           </div>
                         </div>
+                      </div>
+
+                      <div className="p-5 flex-1 flex flex-col justify-between">
+                        <div>
 
                         {/* Stats Bar */}
                         <div className="grid grid-cols-2 gap-2 p-2.5 rounded-2xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-white/5 text-[11px] mb-3.5">
@@ -189,6 +202,7 @@ export default function DistrictEncyclopedia({
                         {dist.touristTips}
                       </div>
                     </div>
+                  </div>
                   ))}
                 </div>
               </div>

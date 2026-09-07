@@ -23,7 +23,8 @@
     ],
     "delicacy": "Dhakaiya Biryani, Bakarkhani, Morog Polao",
     "heritage": "Mughal Capital Jahangirnagar (1610), 1952 Language Movement, 1971 Independence Proclamation at Historic Suhrawardy Udyan.",
-    "touristTips": "Explore Old Dhaka heritage trails on a rickshaw, visit Sadarghat launch terminal at sunset, and taste authentic saffron biryani."
+    "touristTips": "Explore Old Dhaka heritage trails on a rickshaw, visit Sadarghat launch terminal at sunset, and taste authentic saffron biryani.",
+    "image": "/heritage/lalbagh_fort.jpg"
   },
   {
     "id": "gazipur",
@@ -47,7 +48,8 @@
     ],
     "delicacy": "Jackfruit (National Fruit of Bangladesh), Traditional Pitha",
     "heritage": "Historic Bhawal Estate and famous Sannyasi case; premier research institutions and digital industrial hub.",
-    "touristTips": "Visit Bangabandhu Safari Park for open safari jeep rides and Bhawal Sal forest for eco-resort retreats."
+    "touristTips": "Visit Bangabandhu Safari Park for open safari jeep rides and Bhawal Sal forest for eco-resort retreats.",
+    "image": "/heritage/ahsan_manzil.jpg"
   },
   {
     "id": "narayanganj",
@@ -70,7 +72,8 @@
     ],
     "delicacy": "Sonargaon Jamdani Weave Heritage Sweets, Jhal Chhola",
     "heritage": "Ancient medieval capital of Bengal under Isa Khan; world capital of UNESCO-inscribed Jamdani handloom.",
-    "touristTips": "Walk through the eerie 19th-century deserted colonial mansions of Panam City and visit Shilpacharya Zainul Abedin Folk Art Museum."
+    "touristTips": "Walk through the eerie 19th-century deserted colonial mansions of Panam City and visit Shilpacharya Zainul Abedin Folk Art Museum.",
+    "image": "/heritage/panam_nagar.jpg"
   },
   {
     "id": "tangail",
@@ -94,7 +97,8 @@
     ],
     "delicacy": "Porabarir Chamcham (King of Sweets), Tangail Taant Cotton Shari",
     "heritage": "Birthplace of historic Tangail Taant weaving and authentic 1608 Atiya Mosque depicted on 10 Taka note.",
-    "touristTips": "Tour Mohera Zamindar Palace heritage resort and buy genuine GI-tagged Tangail handloom cotton saris from local weavers."
+    "touristTips": "Tour Mohera Zamindar Palace heritage resort and buy genuine GI-tagged Tangail handloom cotton saris from local weavers.",
+    "image": "/delicacies/porabarir_chamcham.jpg"
   },
   {
     "id": "munshiganj",
@@ -119,7 +123,8 @@
     ],
     "delicacy": "Bikrampuri Sweet Curd, Mawa Ghat Fresh Fried Ilish with Mustard & Green Chilies",
     "heritage": "Ancient capital of Bikrampur Kings; birthplace of Buddhist master Atish Dipankar and scientist Sir Jagadish Chandra Bose.",
-    "touristTips": "Drive across the Mawa expressway to enjoy fresh sizzling Padma Ilish fish fries right at the river pier."
+    "touristTips": "Drive across the Mawa expressway to enjoy fresh sizzling Padma Ilish fish fries right at the river pier.",
+    "image": "/heritage/padma_bridge.jpg"
   },
   {
     "id": "narsingdi",
@@ -141,7 +146,8 @@
     ],
     "delicacy": "Amriti Sweet, Sagar Kola (Banana), Lal Teer Vegetables",
     "heritage": "Wari-Bateshwar, ancient 6th century BCE urban civilization trading across the Indian Ocean.",
-    "touristTips": "Discover ancient silver punch-marked coins and Roman glass beads at Wari-Bateshwar excavation center."
+    "touristTips": "Discover ancient silver punch-marked coins and Roman glass beads at Wari-Bateshwar excavation center.",
+    "image": "/heritage/star_mosque.jpg"
   },
   {
     "id": "manikganj",
@@ -164,7 +170,8 @@
     ],
     "delicacy": "Hajar Gur (Legendary Date Palm Jaggery), Makhan Peda",
     "heritage": "Baliati Palace is one of the grandest 19th-century zamindar estates in South Asia with 200+ ornate rooms.",
-    "touristTips": "Marvel at the seven colossal buildings and ionic columns of Baliati Palace in Saturia."
+    "touristTips": "Marvel at the seven colossal buildings and ionic columns of Baliati Palace in Saturia.",
+    "image": "/heritage/curzon_hall.jpg"
   },
   {
     "id": "faridpur",
@@ -187,7 +194,8 @@
     ],
     "delicacy": "Khejurer Gur (Date Palm Syrup), Sandesh",
     "heritage": "Homeland of National Rural Poet Jasimuddin (author of Nakshi Kanthar Math); historic Faraizi movement.",
-    "touristTips": "Visit Jasimuddin folk museum on the banks of Kumar river in Ambikapur during annual Poush mela."
+    "touristTips": "Visit Jasimuddin folk museum on the banks of Kumar river in Ambikapur during annual Poush mela.",
+    "image": "/rivers/padma_river.jpg"
   },
   {
     "id": "gopalganj",
@@ -210,7 +218,8 @@
     ],
     "delicacy": "Mattha, Rosogolla, Chhana Sweets",
     "heritage": "Sacred birthplace and eternal resting place of the Father of the Nation Bangabandhu Sheikh Mujibur Rahman.",
-    "touristTips": "Pay respects at the tranquil red-brick and white marble Bangabandhu Mausoleum Complex in Tungipara."
+    "touristTips": "Pay respects at the tranquil red-brick and white marble Bangabandhu Mausoleum Complex in Tungipara.",
+    "image": "/heritage/martyrs_memorial.jpg"
   },
   {
     "id": "madaripur",
@@ -232,7 +241,8 @@
     ],
     "delicacy": "Kashmiri Sweet, Khejur Patali Gur",
     "heritage": "Named after Sufi Saint Badiuddin Zinda Shah Madar; key hub during anti-British Faraizi resistance led by Haji Shariatullah.",
-    "touristTips": "Stroll around the scenic Shakuni Lake walkway in the heart of Madaripur town."
+    "touristTips": "Stroll around the scenic Shakuni Lake walkway in the heart of Madaripur town.",
+    "image": "/rivers/arial_khan_river.jpg"
   },
   {
     "id": "rajbari",
@@ -255,7 +265,8 @@
     ],
     "delicacy": "Rajbari Chamcham, Padma River Hilsa",
     "heritage": "Homeland of legendary novelist Mir Mosharraf Hossain, author of timeless masterpiece Bishad Shindhu.",
-    "touristTips": "Visit Mir Mosharraf Hossain auditorium and memorial library in Padamdi."
+    "touristTips": "Visit Mir Mosharraf Hossain auditorium and memorial library in Padamdi.",
+    "image": "/heritage/hardinge_bridge.jpg"
   },
   {
     "id": "shariatpur",
@@ -278,7 +289,8 @@
     ],
     "delicacy": "Hilsa from Kirtinasha, Date Jaggery Sandesh",
     "heritage": "Named in honor of Haji Shariatullah, pioneer of 19th-century socio-religious Faraizi renaissance.",
-    "touristTips": "Experience the modern mega expressway connecting Janjira directly with Padma Bridge."
+    "touristTips": "Experience the modern mega expressway connecting Janjira directly with Padma Bridge.",
+    "image": "/heritage/padma_bridge.jpg"
   },
   {
     "id": "kishoreganj",
@@ -302,7 +314,8 @@
     ],
     "delicacy": "Haor Fresh Baim & Boal Fish, Kishorganj Balish Mishti (Pillow Sweet)",
     "heritage": "Birthplace of Chandravati (Bengali literature first woman poet) and Satyajit Ray grandfather Upendrakishore Ray Chowdhury.",
-    "touristTips": "Rent a traditional engine boat on Nikli Haor during monsoon to feel like cruising on an endless ocean."
+    "touristTips": "Rent a traditional engine boat on Nikli Haor during monsoon to feel like cruising on an endless ocean.",
+    "image": "/rivers/old_brahmaputra_river.jpg"
   },
   {
     "id": "chattogram",
@@ -328,7 +341,8 @@
     ],
     "delicacy": "Mezban Beef Gosht, Kala Bhuna, Chonakatha Shutki Bhorta",
     "heritage": "Historic 1930 Chittagong Armoury Raid led by Masterda Surya Sen; sacred Halda River (only natural carp breeding river).",
-    "touristTips": "Drive through South Asia first underwater river tunnel and enjoy red sunset with crab fry at Patenga beach."
+    "touristTips": "Drive through South Asia first underwater river tunnel and enjoy red sunset with crab fry at Patenga beach.",
+    "image": "/panoramas/chattogram_day.jpg"
   },
   {
     "id": "coxsbazar",
@@ -353,7 +367,8 @@
     ],
     "delicacy": "Fresh Coral & Red Snapper BBQ, Loitta Fry, Dried Fish (Shutki), Rupchanda Fish Curry",
     "heritage": "World longest unbroken natural sandy beach stretching 120 km; ancient Rakhine Buddhist pagodas in Ramu.",
-    "touristTips": "Ride an open-top Jeep down the spectacular Marine Drive highway between crashing ocean waves and emerald green mountains."
+    "touristTips": "Ride an open-top Jeep down the spectacular Marine Drive highway between crashing ocean waves and emerald green mountains.",
+    "image": "/heritage/coxs_bazar_beach.jpg"
   },
   {
     "id": "rangamati",
@@ -378,7 +393,8 @@
     ],
     "delicacy": "Bamboo Chicken, Hebaang (Fish Steamed in Banana Leaf), Pajon Curry",
     "heritage": "Spiritual heart of Chakma royalty and indigenous communities; largest artificial freshwater lake in South Asia.",
-    "touristTips": "Hire a long-tail boat to navigate through Shuvolong gorge and buy indigenous handmade pinon-hadi fabrics."
+    "touristTips": "Hire a long-tail boat to navigate through Shuvolong gorge and buy indigenous handmade pinon-hadi fabrics.",
+    "image": "/heritage/kaptai_lake.jpg"
   },
   {
     "id": "bandarban",
@@ -402,7 +418,8 @@
     ],
     "delicacy": "Mundhi Indigenous Noodles, Bamboo Shoot Delicacy, Sangu River Mountain Fish",
     "heritage": "Home to 11 diverse ethnic communities (Marma, Bawm, Mro, Tripura, etc.) and Bangladesh highest mountain peaks.",
-    "touristTips": "Experience trekking to turquoise crater Boga Lake and sunrise over sea of clouds from Nilgiri top."
+    "touristTips": "Experience trekking to turquoise crater Boga Lake and sunrise over sea of clouds from Nilgiri top.",
+    "image": "/heritage/buddha_dhatu_jadi.jpg"
   },
   {
     "id": "khagrachhari",
@@ -425,7 +442,8 @@
     ],
     "delicacy": "Sabrang Herb Curry, Bamboo Shoot Stir-Fry, Wild Forest Honey",
     "heritage": "Traditional Marma and Tripura folk culture; ancient natural limestone sub-terrestrial caves at Alutila.",
-    "touristTips": "Walk through the dark limestone Alutila Cave holding a flaming bamboo torch for an adrenaline thrill."
+    "touristTips": "Walk through the dark limestone Alutila Cave holding a flaming bamboo torch for an adrenaline thrill.",
+    "image": "/heritage/alutila_cave.jpg"
   },
   {
     "id": "cumilla",
@@ -449,7 +467,8 @@
     ],
     "delicacy": "Matri Bhandar Genuine Rasmalai, Khadi Cotton Clothing",
     "heritage": "8th-century archaeological center of Buddhist Deva and Chandra dynasties; birthplace of world-renowned hand-spun Khadi cloth.",
-    "touristTips": "Buy original Rasmalai directly from historic Matri Bhandar shop at Manoharpur in Cumilla town."
+    "touristTips": "Buy original Rasmalai directly from historic Matri Bhandar shop at Manoharpur in Cumilla town.",
+    "image": "/panoramas/chattogram_day.jpg"
   },
   {
     "id": "feni",
@@ -472,7 +491,8 @@
     ],
     "delicacy": "Feni Mahish Curd (Buffalo Yogurt), Khandaler Mishti",
     "heritage": "Muhuri Project is Bangladesh second largest irrigation project and winter habitat for migratory birds.",
-    "touristTips": "Watch sunset where Muhuri and Feni rivers meet the Bay of Bengal estuary."
+    "touristTips": "Watch sunset where Muhuri and Feni rivers meet the Bay of Bengal estuary.",
+    "image": "/heritage/karnaphuli_tunnel.jpg"
   },
   {
     "id": "brahmanbaria",
@@ -495,7 +515,8 @@
     ],
     "delicacy": "Chhanar Mukhi Sweet (GI Tagged), Titas River Hilsa",
     "heritage": "Cultural capital of classical music; ancestral land of Sarod maestro Ustad Alauddin Khan and epic novel Titash Ekti Nadir Naam.",
-    "touristTips": "Taste authentic melt-in-mouth GI-certified Chhanar Mukhi sweets."
+    "touristTips": "Taste authentic melt-in-mouth GI-certified Chhanar Mukhi sweets.",
+    "image": "/rivers/meghna_river.jpg"
   },
   {
     "id": "noakhali",
@@ -517,7 +538,8 @@
     ],
     "delicacy": "Narkel Naru, Chital Fish Kofta, Ghol & Buffalo Curd",
     "heritage": "Mahatma Gandhi peace mission at Joyag during 1946; Nijhum Dwip island home to 40,000+ spotted spotted deer.",
-    "touristTips": "Take a boat to Nijhum Dwip to watch herds of wild spotted deer grazing against mangrove forest margins."
+    "touristTips": "Take a boat to Nijhum Dwip to watch herds of wild spotted deer grazing against mangrove forest margins.",
+    "image": "/rivers/meghna_river.jpg"
   },
   {
     "id": "lakshmipur",
@@ -540,7 +562,8 @@
     ],
     "delicacy": "Moish Doi (Buffalo Milk Curd), Supera & Paan",
     "heritage": "Major hub of coastal fish landing, coconut orchards, and fertile alluvial farmland along the Lower Meghna estuary.",
-    "touristTips": "Experience traditional fishing boats pulling ashore fresh sparkling silver Hilsa at Motirhat."
+    "touristTips": "Experience traditional fishing boats pulling ashore fresh sparkling silver Hilsa at Motirhat.",
+    "image": "/rivers/meghna_river.jpg"
   },
   {
     "id": "chandpur",
@@ -563,7 +586,8 @@
     ],
     "delicacy": "Chandpur Padma-Meghna Hilsa (Ilish Capital of Bangladesh), One-Minute Mishti",
     "heritage": "Tri-river confluence where the mighty Padma, Meghna, and Dakatia merge together; known globally as the Hilsa Capital.",
-    "touristTips": "Visit Mollah Head point at sunset to observe two distinct river water colors mixing together."
+    "touristTips": "Visit Mollah Head point at sunset to observe two distinct river water colors mixing together.",
+    "image": "/rivers/padma_river.jpg"
   },
   {
     "id": "rajshahi",
@@ -587,7 +611,8 @@
     ],
     "delicacy": "Rajshahi Silk, Himsagar & Langra Mangoes, Kalojam",
     "heritage": "Capital of ancient Varendra civilization; global pioneer of mulberry silk weaving and cleanest green city in Bangladesh.",
-    "touristTips": "Stroll along the paved Padma T-Groin embankment at dusk and visit the Varendra research antiquities."
+    "touristTips": "Stroll along the paved Padma T-Groin embankment at dusk and visit the Varendra research antiquities.",
+    "image": "/heritage/varendra_museum.jpg"
   },
   {
     "id": "bogura",
@@ -612,7 +637,8 @@
     ],
     "delicacy": "Bogra Bogurar Doi (World Famous Sweet Curd), Kotkoti",
     "heritage": "Pundranagar at Mahasthangarh is the earliest fortified urban city site excavated in Bangladesh history.",
-    "touristTips": "Climb the ancient ramparts of Mahasthangarh citadel and savor thick baked red curd from Gourogopal or Asian Sweet."
+    "touristTips": "Climb the ancient ramparts of Mahasthangarh citadel and savor thick baked red curd from Gourogopal or Asian Sweet.",
+    "image": "/panoramas/rajshahi_day.jpg"
   },
   {
     "id": "pabna",
@@ -635,7 +661,8 @@
     ],
     "delicacy": "Pabna Pure Ghee, Peda, Chhanar Jilapi",
     "heritage": "Century-old railway steel truss engineering marvel Hardinge Bridge (1915); home to Bangladesh first nuclear energy plant.",
-    "touristTips": "Admire the architectural juxtaposition of historic 1915 Hardinge Bridge and modern Lalon Shah Highway Bridge over the Padma."
+    "touristTips": "Admire the architectural juxtaposition of historic 1915 Hardinge Bridge and modern Lalon Shah Highway Bridge over the Padma.",
+    "image": "/heritage/hardinge_bridge.jpg"
   },
   {
     "id": "sirajganj",
@@ -659,7 +686,8 @@
     ],
     "delicacy": "Sirajganj Milk Sweets, Dhaner Shish Doi, Handloom Cotton Gamchha & Lungi",
     "heritage": "Rabindranath Tagore spent years at Shahzadpur Kachharibari writing iconic poems like Sonar Tari and Postmaster.",
-    "touristTips": "Tour the serene Tagore memorial palace at Shahzadpur and admire the 9-towered Navaratna terracotta temple."
+    "touristTips": "Tour the serene Tagore memorial palace at Shahzadpur and admire the 9-towered Navaratna terracotta temple.",
+    "image": "/rivers/jamuna_river.jpg"
   },
   {
     "id": "natore",
@@ -681,7 +709,8 @@
     ],
     "delicacy": "Natore Kachagolla (GI Tagged King of Sweet Chhana)",
     "heritage": "Historic capital of Maharani Bhabani who ruled Bengal during 18th century; grand Italian-styled Uttara Ganabhaban palace.",
-    "touristTips": "Walk through the 41-acre royal gardens and deer enclosures of Uttara Ganabhaban and taste fresh warm Kachagolla."
+    "touristTips": "Walk through the 41-acre royal gardens and deer enclosures of Uttara Ganabhaban and taste fresh warm Kachagolla.",
+    "image": "/delicacies/natore_kanchagolla.jpg"
   },
   {
     "id": "naogaon",
@@ -704,7 +733,8 @@
     ],
     "delicacy": "Pera Sandesh, Fragrant Chinigura Aromatic Rice",
     "heritage": "8th-century Somapura Mahavihara built by King Dharmapala is the largest Buddhist vihara south of the Himalayas.",
-    "touristTips": "Spend a quiet afternoon exploring the massive central stupa and terracotta plaques of Paharpur UNESCO heritage site."
+    "touristTips": "Spend a quiet afternoon exploring the massive central stupa and terracotta plaques of Paharpur UNESCO heritage site.",
+    "image": "/heritage/somapura_mahavihara.jpg"
   },
   {
     "id": "chapai_nawabganj",
@@ -727,7 +757,8 @@
     ],
     "delicacy": "Fazli & Ashwina Mangoes, Shivganjer Chomchom, Kalaikari Ruti with Duck Curry",
     "heritage": "Medieval Sultanate capital of Gaur situated along the western frontier; undisputed Mango Capital of Bangladesh.",
-    "touristTips": "Visit the 15-domed black stone Choto Sona Mosque and taste roasted Kalai ruti with spicy duck curry."
+    "touristTips": "Visit the 15-domed black stone Choto Sona Mosque and taste roasted Kalai ruti with spicy duck curry.",
+    "image": "/panoramas/rajshahi_day.jpg"
   },
   {
     "id": "joypurhat",
@@ -750,7 +781,8 @@
     ],
     "delicacy": "Joypurhat Sugar & Sugarcane Gur, Chhoto Jamunar Fish",
     "heritage": "Ancient sugar hub and limestone deposits; Hinda Kasba mosque featuring pristine white Persian domes.",
-    "touristTips": "Tour the picturesque floral domes of Hinda-Kasba mosque and ancient Nandail water reservoir."
+    "touristTips": "Tour the picturesque floral domes of Hinda-Kasba mosque and ancient Nandail water reservoir.",
+    "image": "/heritage/somapura_mahavihara.jpg"
   },
   {
     "id": "khulna",
@@ -773,7 +805,8 @@
     ],
     "delicacy": "Chui Jhal Spicy Beef & Mutton, Sundarbans Raw Wild Honey, Tiger Prawns (Galda Chingri)",
     "heritage": "Southern industrial capital; gateway to the UNESCO World Heritage Sundarbans Mangrove Reserve.",
-    "touristTips": "Dine at Khulnas famous Abbas Hotel or Chuknagar to taste authentic slow-cooked Chui Jhal spicy beef."
+    "touristTips": "Dine at Khulnas famous Abbas Hotel or Chuknagar to taste authentic slow-cooked Chui Jhal spicy beef.",
+    "image": "/heritage/rupsha_bridge.jpg"
   },
   {
     "id": "jashore",
@@ -796,7 +829,8 @@
     ],
     "delicacy": "Jashore Khejur Gur (Date Palm Jaggery Patali), Jamtolar Sweet",
     "heritage": "First district of Bangladesh to be liberated from Pakistani occupation on December 7, 1971; birthplace of epic poet Madhusudan Dutt.",
-    "touristTips": "Visit Gadkhali early morning to see millions of freshly plucked roses, gerberas, and orchids being traded in color markets."
+    "touristTips": "Visit Gadkhali early morning to see millions of freshly plucked roses, gerberas, and orchids being traded in color markets.",
+    "image": "/panoramas/khulna_day.jpg"
   },
   {
     "id": "bagerhat",
@@ -820,7 +854,8 @@
     ],
     "delicacy": "Shrimp Curry (Bagda Chingri), Bagerhat Coconut Pitha",
     "heritage": "15th-century Khalifatabad mosque city founded by Sufi general Khan Jahan Ali, inscribed by UNESCO as World Heritage.",
-    "touristTips": "Marvel at the 77 low brick domes of Sixty Dome Mosque and observe the legendary marsh crocodiles of Khan Jahan Ali Dighi."
+    "touristTips": "Marvel at the 77 low brick domes of Sixty Dome Mosque and observe the legendary marsh crocodiles of Khan Jahan Ali Dighi.",
+    "image": "/heritage/sixty_dome_mosque.jpg"
   },
   {
     "id": "satkhira",
@@ -844,7 +879,8 @@
     ],
     "delicacy": "Satkhirar Sandesh & Pure Ghee, Sundarbans Khalsi Honey, Tiger Shrimp",
     "heritage": "Historic kingdom of Maharaja Pratapaditya of Bengal Baro Bhuiyans; home to Sundarbans western deep jungle creeks.",
-    "touristTips": "Take a boat cruise into the Sundarbans forest canopy from Munshiganj Satkhira gateway."
+    "touristTips": "Take a boat cruise into the Sundarbans forest canopy from Munshiganj Satkhira gateway.",
+    "image": "/heritage/kotka_sundarbans.jpg"
   },
   {
     "id": "kushtia",
@@ -868,7 +904,8 @@
     ],
     "delicacy": "Tiler Khaja (Sesame Crunch Sweet), Kulfi Malai",
     "heritage": "Cultural heart of Baul philosophy and mystic saint Fakir Lalon Shah; Tagore composed many Nobel-winning Gitanjali verses here.",
-    "touristTips": "Attend the mystical Lalon Dol Purnima music festival in Chheuriya where thousands of Bauls perform all night."
+    "touristTips": "Attend the mystical Lalon Dol Purnima music festival in Chheuriya where thousands of Bauls perform all night.",
+    "image": "/heritage/lalon_shah_akhra.jpg"
   },
   {
     "id": "jhenaidah",
@@ -892,7 +929,8 @@
     ],
     "delicacy": "Jhenaidah Banana, Peda, Khejur Gur",
     "heritage": "Land of folk mystic lyricist Pagla Kanai and mathematician Kazi Motahar Hossain; historic indigo resistance movements.",
-    "touristTips": "Admire the centuries-old African Baobab tree and the ruins of Naldanga Temple complex."
+    "touristTips": "Admire the centuries-old African Baobab tree and the ruins of Naldanga Temple complex.",
+    "image": "/rivers/kopotakkho_river.jpg"
   },
   {
     "id": "magura",
@@ -916,7 +954,8 @@
     ],
     "delicacy": "Magurar Sandesh, Sweet Curd, Madhumati Fresh Water Fish",
     "heritage": "Homeland of world-renowned all-rounder cricketer Shakib Al Hasan; historic kingdom of Raja Sitaram Ray.",
-    "touristTips": "Tour the ancient terracotta Siddheswari temple in Mohammadpur alongside the Gorai river."
+    "touristTips": "Tour the ancient terracotta Siddheswari temple in Mohammadpur alongside the Gorai river.",
+    "image": "/rivers/madhumati_river.jpg"
   },
   {
     "id": "chuadanga",
@@ -939,7 +978,8 @@
     ],
     "delicacy": "Chhana Sweets, Pure Cane Sugar Jaggery, Mathabhanga Fish",
     "heritage": "Carew & Co established in 1938 is the oldest organic distillery in the subcontinent; historic first provisional capital of 1971.",
-    "touristTips": "Tour the grand industrial heritage architecture of Carew & Co compound in Darshana."
+    "touristTips": "Tour the grand industrial heritage architecture of Carew & Co compound in Darshana.",
+    "image": "/heritage/mujibnagar_memorial.jpg"
   },
   {
     "id": "meherpur",
@@ -961,7 +1001,8 @@
     ],
     "delicacy": "Meherpur Sabri Banana, Kalo Jamun, Sweet Mangoes",
     "heritage": "On April 17, 1971, the first government of Independent Bangladesh took oath at Baidyanathtala (now Mujibnagar).",
-    "touristTips": "Explore the 23-pillar Mujibnagar Monument representing 23 years of Pakistani struggle, with life-size historic war dioramas."
+    "touristTips": "Explore the 23-pillar Mujibnagar Monument representing 23 years of Pakistani struggle, with life-size historic war dioramas.",
+    "image": "/heritage/mujibnagar_memorial.jpg"
   },
   {
     "id": "narail",
@@ -984,7 +1025,8 @@
     ],
     "delicacy": "Chitra River Crab, Milk Sandesh, Narail Pitha",
     "heritage": "Birthplace of globally acclaimed master painter SM Sultan, whose gigantic canvases captured the strength of Bengali peasantry.",
-    "touristTips": "Visit SM Sultan Memorial Gallery on the Chitra riverbank to see his original massive oil paintings and preserved boat Shishu Swarga."
+    "touristTips": "Visit SM Sultan Memorial Gallery on the Chitra riverbank to see his original massive oil paintings and preserved boat Shishu Swarga.",
+    "image": "/heritage/michael_madhusudan_birthplace.jpg"
   },
   {
     "id": "sylhet",
@@ -1011,7 +1053,8 @@
     ],
     "delicacy": "Sylheti Shatkora Beef, Nunor Bora, Bakarkhani, Fresh Assam-Ceylon Black Tea",
     "heritage": "1303 arrival of Sufi saint Hazrat Shah Jalal (R.); spiritual gateway of South Asia and highest remittance-earning region.",
-    "touristTips": "Take a serene country boat into the submerged mangrove-like canopy of Ratargul Freshwater Swamp Forest."
+    "touristTips": "Take a serene country boat into the submerged mangrove-like canopy of Ratargul Freshwater Swamp Forest.",
+    "image": "/heritage/shah_jalal_dargah.jpg"
   },
   {
     "id": "moulvibazar",
@@ -1035,7 +1078,8 @@
     ],
     "delicacy": "Nilkantha Seven Layer Tea, Manipuri Pitha, Pineapples",
     "heritage": "Produces 75%+ of Bangladesh tea; pristine evergreen rainforests with endangered wildlife at Lawachara.",
-    "touristTips": "Taste world-famous 7-colored multi-layered tea at Nilkantha Tea Cabin and trek through Lawachara jungle canopy."
+    "touristTips": "Taste world-famous 7-colored multi-layered tea at Nilkantha Tea Cabin and trek through Lawachara jungle canopy.",
+    "image": "/heritage/madhabkunda_waterfall.jpg"
   },
   {
     "id": "habiganj",
@@ -1059,7 +1103,8 @@
     ],
     "delicacy": "Haor Boro Fish Curry, Handloom Manipuri Shawls",
     "heritage": "Baniachong holds the distinction of being the largest village in Asia; Rema-Kalenga is the second largest natural forest in Bangladesh.",
-    "touristTips": "Walk the tree canopy trail inside Satchari National Park to spot rare birds and capped langurs."
+    "touristTips": "Walk the tree canopy trail inside Satchari National Park to spot rare birds and capped langurs.",
+    "image": "/rivers/khowai_river.jpg"
   },
   {
     "id": "sunamganj",
@@ -1083,7 +1128,8 @@
     ],
     "delicacy": "Freshwater Haor Fish (Airh, Chital, Baim), Sunamganjer Sandesh",
     "heritage": "Homeland of mystic philosopher songwriter Hason Raja and Baul king Shah Abdul Karim; Tanguar Haor is a global Ramsar biodiversity wetland.",
-    "touristTips": "Book a luxury wooden houseboat on Tanguar Haor for overnight starlight cruising and swim in turquoise Jadukata river."
+    "touristTips": "Book a luxury wooden houseboat on Tanguar Haor for overnight starlight cruising and swim in turquoise Jadukata river.",
+    "image": "/heritage/jaflong_sylhet.jpg"
   },
   {
     "id": "barishal",
@@ -1108,7 +1154,8 @@
     ],
     "delicacy": "Ilish Fish Mustard Jhol, Balam Rice, Sweet Amra (Hog Plum), Gournadir Doi",
     "heritage": "Referred to historically as the Venice of Bengal; homeland of poet Jibanananda Das (author of Banalata Sen) and Sher-e-Bangla A.K. Fazlul Huq.",
-    "touristTips": "Embark on an iconic multi-deck overnight launch journey from Dhaka to Barishal across the illuminated river highways."
+    "touristTips": "Embark on an iconic multi-deck overnight launch journey from Dhaka to Barishal across the illuminated river highways.",
+    "image": "/heritage/guthia_mosque.jpg"
   },
   {
     "id": "bhola",
@@ -1131,7 +1178,8 @@
     ],
     "delicacy": "Bhola Buffalo Milk Curd (Moish Doi), Meghna Coastal Hilsa, Fresh Coconut",
     "heritage": "The only island district of Bangladesh and largest offshore delta island; blessed with colossal natural gas reserves.",
-    "touristTips": "Ride the high-speed glass elevator of 225-foot Jacob Tower to overlook the vast green island landscapes and sea channels."
+    "touristTips": "Ride the high-speed glass elevator of 225-foot Jacob Tower to overlook the vast green island landscapes and sea channels.",
+    "image": "/heritage/monpura_island.jpg"
   },
   {
     "id": "patuakhali",
@@ -1156,7 +1204,8 @@
     ],
     "delicacy": "Crab Curry, Coral Fish Fry, Coconut Water, Pitha",
     "heritage": "Kuakata offers the rare panoramic spectacle of watching both sunrise and sunset over the sparkling Bay of Bengal from the same beach spot.",
-    "touristTips": "Wake up before dawn to watch the sunrise at Gangamati point and rent a beach bike along the 18 km sand stretch."
+    "touristTips": "Wake up before dawn to watch the sunrise at Gangamati point and rent a beach bike along the 18 km sand stretch.",
+    "image": "/heritage/kuakata_beach.jpg"
   },
   {
     "id": "pirojpur",
@@ -1180,7 +1229,8 @@
     ],
     "delicacy": "Sweet Guava, Amra, Sandhya River Prawns",
     "heritage": "Pioneered century-old riverine agricultural canal networks and nursery trading throughout Bangladesh.",
-    "touristTips": "Take a country dinghy boat tour through water canals shaded under lush fruit orchards during monsoon."
+    "touristTips": "Take a country dinghy boat tour through water canals shaded under lush fruit orchards during monsoon.",
+    "image": "/heritage/durga_sagar.jpg"
   },
   {
     "id": "barguna",
@@ -1204,7 +1254,8 @@
     ],
     "delicacy": "Fresh Coastal Dried Fish, Bagda Shrimp, Coconut Treats",
     "heritage": "Ancient coastal outpost safeguarding southwestern estuaries; pristine mangrove wildlife sanctuary at Haringhata.",
-    "touristTips": "Visit Shuvo Shondha beach where Payra river meets the open sea bordered by thick green Casuarina forests."
+    "touristTips": "Visit Shuvo Shondha beach where Payra river meets the open sea bordered by thick green Casuarina forests.",
+    "image": "/rivers/payra_river.jpg"
   },
   {
     "id": "jhalokati",
@@ -1227,7 +1278,8 @@
     ],
     "delicacy": "Shital Pati (Cooling Cane Mats), Jhalokati Sweet Doi, Guava Juice",
     "heritage": "Gabkhan channel is an artificial 18-km river canal built during British era to connect coastal waterway navigation.",
-    "touristTips": "Watch huge cargo steamers navigate through the high-span Gabkhan bridge channel."
+    "touristTips": "Watch huge cargo steamers navigate through the high-span Gabkhan bridge channel.",
+    "image": "/heritage/floating_guava_market.jpg"
   },
   {
     "id": "rangpur",
@@ -1251,7 +1303,8 @@
     ],
     "delicacy": "Haribhanga Sweet Mango, Rangpur Shatranji Handloom Rugs (GI Tagged), Pitha",
     "heritage": "Royal palace of Maharaja Jagadindra Roy; legendary Shatranji woven carpet craft dating back to Mughal emperor Akbar era.",
-    "touristTips": "Marvel at the marble staircase and colonial chandeliers of Tajhat Palace and Carmichael College red-brick campus."
+    "touristTips": "Marvel at the marble staircase and colonial chandeliers of Tajhat Palace and Carmichael College red-brick campus.",
+    "image": "/heritage/tajhat_palace.jpg"
   },
   {
     "id": "dinajpur",
@@ -1276,7 +1329,8 @@
     ],
     "delicacy": "Bedana & Madraji Litchi, Fragrant Kataribhog Rice, Papri Sweet",
     "heritage": "1752 Kantaji Temple is the most spectacular terracotta Hindu temple in South Asia, decorated with Ramayana illustrations.",
-    "touristTips": "Visit Kantaji Temple during sunset to capture the fiery golden glow of its thousands of terracotta relief carvings."
+    "touristTips": "Visit Kantaji Temple during sunset to capture the fiery golden glow of its thousands of terracotta relief carvings.",
+    "image": "/heritage/kantajew_temple.jpg"
   },
   {
     "id": "panchagarh",
@@ -1300,7 +1354,8 @@
     ],
     "delicacy": "Panchagarh Plainland Organic Tea, River Stone Trout Fish",
     "heritage": "Northernmost tip of Bangladesh; only spot in Bangladesh where Himalayan peak Mt. Kanchenjunga can be viewed with naked eyes.",
-    "touristTips": "Visit Tetulia Dak Bungalow in autumn (October-November) on a clear dawn to witness the majestic snow-capped Kanchenjunga."
+    "touristTips": "Visit Tetulia Dak Bungalow in autumn (October-November) on a clear dawn to witness the majestic snow-capped Kanchenjunga.",
+    "image": "/heritage/teesta_barrage.jpg"
   },
   {
     "id": "thakurgaon",
@@ -1323,7 +1378,8 @@
     ],
     "delicacy": "Suryapuri Mango, Peda Sweet, River Fish",
     "heritage": "The legendary Suryapuri mango tree at Baliadangi spans over 2 bighas with 19 major root branches.",
-    "touristTips": "Stand under the colossal umbrella shade of the 200-year-old Baliadangi ancient heritage mango tree."
+    "touristTips": "Stand under the colossal umbrella shade of the 200-year-old Baliadangi ancient heritage mango tree.",
+    "image": "/heritage/kantajew_temple.jpg"
   },
   {
     "id": "nilphamari",
@@ -1346,7 +1402,8 @@
     ],
     "delicacy": "Teesta Fish, Chini Mosque Sweets, Kataribhog Chira",
     "heritage": "Saidpur Railway Workshop is the largest and oldest railway repair facility in Bengal established in 1870.",
-    "touristTips": "Tour the dazzling China-porcelain tiled Chini Mosque in Saidpur with 27 minarets."
+    "touristTips": "Tour the dazzling China-porcelain tiled Chini Mosque in Saidpur with 27 minarets.",
+    "image": "/heritage/dimla_rajbari.jpg"
   },
   {
     "id": "kurigram",
@@ -1370,7 +1427,8 @@
     ],
     "delicacy": "Brahmaputra River Boal Fish, Kheer Chomchom, Chilmari Pitha",
     "heritage": "Immortalized in legendary folk songs such as Oki Gariyal Bhai on the historic Chilmari river ghat.",
-    "touristTips": "Take a boat trip across the wide expanse of the Brahmaputra River during golden hour."
+    "touristTips": "Take a boat trip across the wide expanse of the Brahmaputra River during golden hour.",
+    "image": "/rivers/dharla_river.jpg"
   },
   {
     "id": "lalmonirhat",
@@ -1393,7 +1451,8 @@
     ],
     "delicacy": "Corn Dishes, Teesta Fresh Fish, Sweet Sandesh",
     "heritage": "Strategic enclave corridor Tin Bigha; heritage railway junction connecting pre-partition Assam-Bengal rail routes.",
-    "touristTips": "Visit the historic Tin Bigha Corridor and Burimari border landscape."
+    "touristTips": "Visit the historic Tin Bigha Corridor and Burimari border landscape.",
+    "image": "/heritage/tin_bigha_corridor.jpg"
   },
   {
     "id": "gaibandha",
@@ -1417,7 +1476,8 @@
     ],
     "delicacy": "Gaibandhar Roshmonjuri (Signature Reduced Milk Sweet), River Ilish",
     "heritage": "Pioneered river char community development and world-famous Roshmonjuri milk sweet craft.",
-    "touristTips": "Taste authentic hot Roshmonjuri sweet prepared in earthen pans in Gaibandha town."
+    "touristTips": "Taste authentic hot Roshmonjuri sweet prepared in earthen pans in Gaibandha town.",
+    "image": "/rivers/teesta_river.jpg"
   },
   {
     "id": "mymensingh",
@@ -1442,7 +1502,8 @@
     ],
     "delicacy": "Muktagachar Monda (200-year-old Ramgopal Sweet), Malaikari, Fresh Brahmaputra River Fish",
     "heritage": "Maimansingha Gitika medieval folk ballads compiled by Dinesh Chandra Sen; premier agricultural science research in Asia.",
-    "touristTips": "Taste authentic GI-famed Monda at Muktagacha Gopal Pal heritage shop and stroll through Shashi Lodge Venus marble gardens."
+    "touristTips": "Taste authentic GI-famed Monda at Muktagacha Gopal Pal heritage shop and stroll through Shashi Lodge Venus marble gardens.",
+    "image": "/heritage/shashi_lodge.jpg"
   },
   {
     "id": "jamalpur",
@@ -1465,7 +1526,8 @@
     ],
     "delicacy": "Milir Pitha, Jamalpur Nakshi Pitha, Chhanar Polao Sweet",
     "heritage": "World famous artisan hub of intricate Nakshi Kantha hand-embroidered quilts and mustard oil.",
-    "touristTips": "Visit rural artisan cooperatives in Islampur to see women craft exquisite Nakshi Kantha needlework."
+    "touristTips": "Visit rural artisan cooperatives in Islampur to see women craft exquisite Nakshi Kantha needlework.",
+    "image": "/heritage/ananda_mohan_college.jpg"
   },
   {
     "id": "netrokona",
@@ -1489,7 +1551,8 @@
     ],
     "delicacy": "Balish Mishti of Goyanath (Pillow Sweet), Haor Fish, Someshwari Mahseer",
     "heritage": "Land of Baul songs and Hajong tribal revolution lead by Comrade Moni Singh; turquoise mineral lakes at Birishiri.",
-    "touristTips": "Ride an engine boat on crystal clear Someshwari River and photograph the turquoise water of Ceramic White Clay Lake in Durgapur."
+    "touristTips": "Ride an engine boat on crystal clear Someshwari River and photograph the turquoise water of Ceramic White Clay Lake in Durgapur.",
+    "image": "/heritage/birisiri_white_clay.jpg"
   },
   {
     "id": "sherpur",
@@ -1513,6 +1576,7 @@
     ],
     "delicacy": "Chhana Sandesh, Wild Garo Honey, Sticky Fragrant Biruin Rice",
     "heritage": "Bordered by lush Meghalaya hills with rich Koch and Garo indigenous customs; historical kingdom of Sher Ali Ghazi.",
-    "touristTips": "Climb the watchtower at Madhutila Eco Park for a panoramic view of the rolling green Garo Hills along the border."
+    "touristTips": "Climb the watchtower at Madhutila Eco Park for a panoramic view of the rolling green Garo Hills along the border.",
+    "image": "/heritage/garo_hills.jpg"
   }
 ]
