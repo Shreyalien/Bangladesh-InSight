@@ -30,8 +30,19 @@ export default function App() {
   const [selectedDetailItem, setSelectedDetailItem] = useState(null);
 
   useEffect(() => {
-    fetch('/api/divisions').then(r => r.json()).then(d => { if (Array.isArray(d)) setDivisions(d); }).catch(() => {});
-    fetch('/api/districts').then(r => r.json()).then(d => { if (Array.isArray(d)) setDistricts(d); }).catch(() => {});
+    fetch('/api/divisions')
+      .then(r => r.json())
+      .then(d => {
+        if (Array.isArray(d) && d.length > 0) {
+          setDivisions(d);
+          setCurrentDivision(prev => d.find(x => x.id === prev?.id) || d[0]);
+        }
+      })
+      .catch(() => {});
+    fetch('/api/districts')
+      .then(r => r.json())
+      .then(d => { if (Array.isArray(d)) setDistricts(d); })
+      .catch(() => {});
   }, []);
 
   useEffect(() => {

@@ -14,17 +14,12 @@ app.use(cors());
 app.use(express.json());
 
 // Load data files synchronously
+// Load data files dynamically
 const dataDir = path.join(__dirname, 'data');
 const loadJSON = (file) => {
   const filePath = path.join(dataDir, file);
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
 };
-
-const divisions = loadJSON('divisions.json');
-const districts = loadJSON('districts.json');
-const delicacies = loadJSON('delicacies.json');
-const quizData = loadJSON('quizData.json');
-const nationalData = loadJSON('national.json');
 
 // Health Check
 app.get('/api/health', (req, res) => {
@@ -36,28 +31,42 @@ app.get('/api/health', (req, res) => {
   });
 });
 
-// Divisions API
+// Divisions API (always serves latest data from disk)
 app.get('/api/divisions', (req, res) => {
-  res.json(divisions);
+  try {
+    res.json(loadJSON('divisions.json'));
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to load divisions' });
+  }
 });
 
 app.get('/api/divisions/:id', (req, res) => {
-  const { id } = req.params;
-  const division = divisions.find(d => d.id.toLowerCase() === id.toLowerCase());
-  if (!division) {
-    return res.status(404).json({ error: 'Division not found' });
+  try {
+    const { id } = req.params;
+    const allDivs = loadJSON('divisions.json');
+    const division = allDivs.find(d => d.id.toLowerCase() === id.toLowerCase());
+    if (!division) {
+      return res.status(404).json({ error: 'Division not found' });
+    }
+    res.json(division);
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to load division' });
   }
-  res.json(division);
 });
 
 // Districts API
 app.get('/api/districts', (req, res) => {
-  const { division } = req.query;
-  if (division) {
-    const filtered = districts.filter(d => d.divisionId.toLowerCase() === division.toLowerCase());
-    return res.json(filtered);
+  try {
+    const { division } = req.query;
+    const allDists = loadJSON('districts.json');
+    if (division) {
+      const filtered = allDists.filter(d => d.divisionId.toLowerCase() === division.toLowerCase());
+      return res.json(filtered);
+    }
+    res.json(allDists);
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to load districts' });
   }
-  res.json(districts);
 });
 
 app.get('/api/districts/:id', (req, res) => {
