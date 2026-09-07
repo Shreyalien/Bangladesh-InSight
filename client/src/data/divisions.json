@@ -380,7 +380,7 @@
         "est": "1678 AD",
         "description": "17th-century Mughal fortress complex commissioned by Prince Muhammad Azam, housing Pari Bibi’s marble mausoleum and Hammamkhana.",
         "descriptionBn": "১৬৭৮ সালে সুবাদার শাহজাদা মুহাম্মদ আজম কর্তৃক নির্মিত মুঘল স্থাপত্যের শ্রেষ্ঠ নিদর্শন, যাতে রয়েছে পরীবিবির মাজার ও দরবার হল।",
-        "image": "/panoramas/dhaka_night.jpg"
+        "image": "/heritage/lalbagh_fort.jpg"
       },
       {
         "name": "Ahsan Manzil",
@@ -400,7 +400,7 @@
         "est": "1982 AD",
         "description": "Iconic national monument at Savar designed by Syed Mainul Hossain, composed of 7 pairs of triangular wall planes symbolizing national liberation.",
         "descriptionBn": "সাভারে অবস্থিত ১৯৭১ সালের মহান মুক্তিযুদ্ধে আত্মোৎসর্গকারী বীর শহীদদের স্মরণে নির্মিত ১৫০ ফুট উঁচু জাতীয় স্মারক ভাস্কর্য।",
-        "image": "/panoramas/dhaka_day.jpg"
+        "image": "/heritage/martyrs_memorial.jpg"
       },
       {
         "name": "Padma Multipurpose Bridge",
@@ -410,7 +410,7 @@
         "est": "2022 AD",
         "description": "6.15 km road-rail truss bridge spanning the mighty Padma River, connecting southwestern Bangladesh with Dhaka.",
         "descriptionBn": "প্রমত্তা পদ্মার বুকে ৬.১৫ কিলোমিটার দীর্ঘ দ্বি-তলবিশিষ্ট ইস্পাত কাঠামোর ঐতিহাসিক মেগা সেতু।",
-        "image": "/panoramas/dhaka_day.jpg"
+        "image": "/heritage/padma_bridge.jpg"
       },
       {
         "name": "Panam Nagar",
@@ -420,7 +420,7 @@
         "est": "15th - 19th Century",
         "description": "Ancient merchant township in Sonargaon featuring 52 historic mansions built in neoclassical and colonial styles.",
         "descriptionBn": "সোনারগাঁওয়ে অবস্থিত ৫২টি সুদৃশ্য ইমারত সমৃদ্ধ উনিশ শতকের প্রাচীন অভিজাত বনিক নগরী।",
-        "image": "/panoramas/dhaka_day.jpg"
+        "image": "/heritage/panam_nagar.jpg"
       },
       {
         "name": "Tara Masjid (Star Mosque)",
@@ -430,7 +430,7 @@
         "est": "Early 18th Century",
         "description": "Historic mosque adorned with blue star motifs and delicate Chinitikri porcelain mosaics in Armanitola.",
         "descriptionBn": "আর্মানিটোলার মোঘল স্থাপত্যে নির্মিত চিনিটিকরি মোজাইক ও নীল তারকা খচিত বিখ্যাত ঐতিহাসিক মসজিদ।",
-        "image": "/panoramas/dhaka_day.jpg"
+        "image": "/heritage/star_mosque.jpg"
       },
       {
         "name": "Curzon Hall",
@@ -440,7 +440,7 @@
         "est": "1904 AD",
         "description": "Magnificent Indo-Saracenic red-brick educational masterpiece at Dhaka University campus.",
         "descriptionBn": "১৯০৪ সালে ভিত্তিপ্রস্তর স্থাপিত ঢাকা বিশ্ববিদ্যালয় ক্যাম্পাসের ইন্দো-ইউরোপীয় লাল ইটের ঐতিহাসিক নিদর্শন।",
-        "image": "/panoramas/dhaka_day.jpg"
+        "image": "/heritage/curzon_hall.jpg"
       },
       {
         "name": "Baitul Mukarram National Mosque",
@@ -450,7 +450,7 @@
         "est": "1968 AD",
         "description": "The national mosque of Bangladesh inspired by the holy Kaaba in Mecca, accommodating over 40,000 worshippers.",
         "descriptionBn": "পবিত্র কাবার আদলে ১৯৬৮ সালে নির্মিত বাংলাদেশের জাতীয় মসজিদ ও ইসলামি স্থাপত্যের অন্যতম কেন্দ্র।",
-        "image": "/panoramas/dhaka_day.jpg"
+        "image": "/heritage/baitul_mukarram.jpg"
       }
     ],
     "visualMarkersDay": [
@@ -982,7 +982,7 @@
         "est": "1945 AD",
         "description": "Sacred World War II military cemetery honoring 755 Allied soldiers who fell during the Burma campaigns.",
         "descriptionBn": "দ্বিতীয় বিশ্বযুদ্ধে বার্মা অভিযানে নিহত ৭৫৫ জন বীর সেনার স্মরণে নির্মিত আন্তর্জাতিক স্মৃতিসৌধ।",
-        "image": "/panoramas/chattogram_day.jpg"
+        "image": "/heritage/chittagong_war_cemetery.jpg"
       },
       {
         "name": "Buddha Dhatu Jadi (Golden Temple)",
@@ -1002,7 +1002,7 @@
         "est": "2023 AD",
         "description": "South Asia’s first underwater road tunnel, spanning 3.32 km beneath the bed of Karnaphuli River.",
         "descriptionBn": "কর্ণফুলী নদীর তলদেশ দিয়ে নির্মিত দক্ষিণ এশিয়ার সর্বপ্রথম ৩.৩২ কিলোমিটার নদীগর্ভস্থ সুড়ঙ্গ মহাসড়ক।",
-        "image": "/panoramas/chattogram_day.jpg"
+        "image": "/heritage/karnaphuli_tunnel.jpg"
       },
       {
         "name": "Chandanpura Mosque (Taj Masjid)",
@@ -1012,7 +1012,7 @@
         "est": "1870 AD",
         "description": "Famous for its 15 multicolored onion domes and towers decorated with brass and vibrant geometric art.",
         "descriptionBn": "চট্টগ্রামের চকবাজারে অবস্থিত ১৫টি বাহারি গম্বুজ ও মিনার সমৃদ্ধ শতবর্ষী ঐতিহাসিক মসজিদ।",
-        "image": "/panoramas/chattogram_day.jpg"
+        "image": "/heritage/chandanpura_mosque.jpg"
       },
       {
         "name": "Kaptai Lake & Hanging Bridge",
@@ -1022,7 +1022,7 @@
         "est": "1960 AD",
         "description": "Sprawling 700+ sq km freshwater reservoir surrounded by green hillocks and indigenous tribal villages.",
         "descriptionBn": "সবুজ পাহাড়ের বুক চিরে বয়ে চলা এশিয়ার বৃহত্তম কৃত্রিম মিঠাপানির হ্রদ ও রাঙ্গামাটির ঝুলন্ত সেতু।",
-        "image": "/panoramas/chattogram_day.jpg"
+        "image": "/heritage/kaptai_lake.jpg"
       },
       {
         "name": "Cox's Bazar Sea Beach",
@@ -1032,7 +1032,7 @@
         "est": "Ancient Coastline",
         "description": "World’s longest unbroken natural sandy sea beach stretching 120 km along the turquoise Bay of Bengal.",
         "descriptionBn": "বঙ্গোপসাগরের নীল জলরাশির কোল ঘেঁষে ১২০ কিলোমিটার দীর্ঘ পৃথিবীর দীর্ঘতম অবিচ্ছিন্ন বালুকাময় সৈকত।",
-        "image": "/panoramas/chattogram_night.jpg"
+        "image": "/heritage/coxs_bazar_beach.jpg"
       },
       {
         "name": "St. Martin's Island (Narikel Jinjira)",
@@ -1042,7 +1042,7 @@
         "est": "Natural Coral Atoll",
         "description": "Pristine 7.3 sq km marine island surrounded by living coral reefs and crystal clear blue sea.",
         "descriptionBn": "দেশের সর্বদক্ষিণে নীল জলরাশি ও জীবন্ত প্রবাল প্রাচীরে ঘেরা অপূর্ব নয়নাভিরাম সামুদ্রিক দ্বীপ।",
-        "image": "/panoramas/chattogram_day.jpg"
+        "image": "/heritage/st_martins_island.jpg"
       },
       {
         "name": "Alutila Mysterious Cave",
@@ -1052,7 +1052,7 @@
         "est": "Natural Limestone",
         "description": "100-meter ancient dark limestone subterranean tunnel with cold mountain stream flowing inside.",
         "descriptionBn": "খাগড়াছড়ির পাহাড়ে অবস্থিত প্রায় ১০০ মিটার দীর্ঘ অন্ধকার প্রাকৃতিক পাথুরে সুড়ঙ্গ ও ঝরনাধারা।",
-        "image": "/panoramas/chattogram_day.jpg"
+        "image": "/heritage/alutila_cave.jpg"
       }
     ],
     "visualMarkersDay": [
@@ -1567,7 +1567,7 @@
         "est": "1910 AD",
         "description": "First museum established in Bangladesh, housing rare stone sculptures, terracotta, and Sanskrit manuscripts.",
         "descriptionBn": "১৯১০ সালে প্রতিষ্ঠিত বাংলাদেশের সর্বপ্রথম প্রত্নতাত্ত্বিক গবেষণা জাদুঘর।",
-        "image": "/panoramas/rajshahi_day.jpg"
+        "image": "/heritage/varendra_museum.jpg"
       },
       {
         "name": "Puthia Royal Temple Complex",
@@ -1577,7 +1577,7 @@
         "est": "1823 AD",
         "description": "Largest cluster of historic terracotta Hindu temples in Bangladesh surrounding the grand Puthia Rajbari.",
         "descriptionBn": "পুঠিয়া মহারানীদের দ্বারা নির্মিত দেশের বৃহত্তম পোড়ামাটির অলংকরণে সমৃদ্ধ প্রাচীন মন্দির চত্বর।",
-        "image": "/panoramas/rajshahi_day.jpg"
+        "image": "/heritage/puthia_temple_complex.jpg"
       },
       {
         "name": "Kantajew Temple (Kantaji)",
@@ -1587,7 +1587,7 @@
         "est": "1752 AD",
         "description": "18th-century Navaratna Hindu temple covered with tens of thousands of terracotta plaques depicting the Ramayana.",
         "descriptionBn": "১৭৫২ সালে নির্মিত মহাভারত ও রামায়ণের দৃশ্যপট সম্বলিত অপূর্ব পোড়ামাটির কারুকার্যের শ্রেষ্ঠ মন্দির।",
-        "image": "/panoramas/rajshahi_day.jpg"
+        "image": "/heritage/kantajew_temple.jpg"
       },
       {
         "name": "Mahasthangarh Citadel",
@@ -1597,7 +1597,7 @@
         "est": "3rd Century BCE",
         "description": "Ancient fortress city of Pundranagar on the Karatoya River, the oldest fortified urban settlement in Bangladesh.",
         "descriptionBn": "করতোয়া নদীর তীরে অবস্থিত খ্রিস্টপূর্ব ৩য় শতকের প্রাচীন বাংলার সর্বপ্রথম নগর ও দুর্গনগরী।",
-        "image": "/panoramas/rajshahi_day.jpg"
+        "image": "/heritage/mahasthangarh.jpg"
       },
       {
         "name": "Bagha Shahi Mosque",
@@ -1607,7 +1607,7 @@
         "est": "1523 AD",
         "description": "Historic 10-domed Sultanate mosque built by Sultan Nusrat Shah, famous for its terracotta rosettes.",
         "descriptionBn": "সুলতান নুসরাত শাহ কর্তৃক নির্মিত ১৫২৩ সালের ১০ গম্বুজ বিশিষ্ট পোড়ামাটির নকশায় ঘেরা ঐতিহাসিক মসজিদ।",
-        "image": "/panoramas/rajshahi_day.jpg"
+        "image": "/heritage/bagha_mosque.jpg"
       },
       {
         "name": "Hardinge Bridge",
@@ -1617,7 +1617,7 @@
         "est": "1915 AD",
         "description": "Historic 1.8 km steel truss railway bridge over the Padma River, an enduring British engineering masterpiece.",
         "descriptionBn": "১৯১৫ সালে পদ্মার বুকে নির্মিত ঐতিহাসিক ব্রিটিশ স্টিল ট্রাস রেলসেতু।",
-        "image": "/panoramas/rajshahi_night.jpg"
+        "image": "/heritage/hardinge_bridge.jpg"
       },
       {
         "name": "Choto Sona Mosque",
@@ -1627,7 +1627,7 @@
         "est": "1493 AD",
         "description": "Exquisite 15-domed black basalt Sultanate mosque, historically adorned with gold gilding on its domes.",
         "descriptionBn": "সুলতান আলাউদ্দিন হোসেন শাহের আমলে নির্মিত কালো পাথর ও ১৫টি গম্বুজ বিশিষ্ট সুলতানি রত্ন।",
-        "image": "/panoramas/rajshahi_day.jpg"
+        "image": "/heritage/choto_sona_mosque.jpg"
       }
     ],
     "visualMarkersDay": [
@@ -2110,7 +2110,7 @@
         "est": "1459 AD",
         "description": "Resting place of the legendary saint who civilized the Sundarbans delta, famous for its historic crocodile pond.",
         "descriptionBn": "সুন্দরবন অববাহিকার পথপ্রদর্শক মহান দরবেশের মাজার ও কালাপাহাড়-ধলাপাহাড় কুমিরের ঐতিহাসিক দীঘি।",
-        "image": "/panoramas/khulna_night.jpg"
+        "image": "/heritage/khan_jahan_ali_mazar.jpg"
       },
       {
         "name": "Kotka Wildlife Sanctuary",
@@ -2120,7 +2120,7 @@
         "est": "Ancient Mangrove",
         "description": "Pristine coastal mangrove wilderness with wooden watchtowers, spotted deer herds, and Royal Bengal Tigers.",
         "descriptionBn": "বিশ্বের বৃহত্তম ম্যানগ্রোভ অরণ্য সুন্দরবনের প্রধান বন্যপ্রাণী অভয়ারণ্য ও ওয়াচটাওয়ার।",
-        "image": "/panoramas/khulna_day.jpg"
+        "image": "/heritage/kotka_sundarbans.jpg"
       },
       {
         "name": "Michael Madhusudan Dutta Birthplace",
@@ -2130,7 +2130,7 @@
         "est": "1824 AD",
         "description": "Ancestral manor on the Kopotakkho River where the pioneer of Bengali modern sonnets and epics was born.",
         "descriptionBn": "কপোতাক্ষ নদের তীরে অবস্থিত অমিত্রাক্ষর ছন্দের জনক মহাকবির স্মৃতিবিজড়িত পৈতৃক ভিটা।",
-        "image": "/panoramas/khulna_day.jpg"
+        "image": "/heritage/michael_madhusudan_birthplace.jpg"
       },
       {
         "name": "Historic Mujibnagar Memorial",
@@ -2140,7 +2140,7 @@
         "est": "1971 AD",
         "description": "Birthplace of independent Bangladesh’s first provisional government sworn in on 17 April 1971 with 23 brick pillars.",
         "descriptionBn": "১৯৭১ সালের ১৭ এপ্রিল বাংলাদেশের প্রথম অস্থায়ী সরকার শপথ গ্রহণের ঐতিহাসিক তীর্থভূমি।",
-        "image": "/panoramas/khulna_day.jpg"
+        "image": "/heritage/mujibnagar_memorial.jpg"
       },
       {
         "name": "Fakir Lalon Shah Akhra",
@@ -2150,7 +2150,7 @@
         "est": "1890 AD",
         "description": "Sanctuary of universal humanist Baul philosophy, songs, and communal spiritual congregation in Chheuriya.",
         "descriptionBn": "ছেঁউড়িয়ায় অবস্থিত মানবতার বাণী প্রচারক বাউল শিরোমণি লালন শাহের সমাধিসৌধ ও আখড়াবাড়ি।",
-        "image": "/panoramas/khulna_day.jpg"
+        "image": "/heritage/lalon_shah_akhra.jpg"
       },
       {
         "name": "Jessore Collectorate Building",
@@ -2160,7 +2160,7 @@
         "est": "1781 AD",
         "description": "Headquarters of the first civil district formed in Bengal during British rule.",
         "descriptionBn": "১৭৮১ সালে গঠিত অবিভক্ত বাংলার প্রথম প্রশাসনিক জেলা যশোরের শতবর্ষী স্থাপত্য।",
-        "image": "/panoramas/khulna_day.jpg"
+        "image": "/heritage/jessore_collectorate.jpg"
       },
       {
         "name": "Khan Jahan Ali Bridge (Rupsha)",
@@ -2170,7 +2170,7 @@
         "est": "2005 AD",
         "description": "1.36 km cable bridge connecting Khulna metropolis with Mongla Port and southern delta regions.",
         "descriptionBn": "রূপসা নদীর ওপর নির্মিত রূপসা সেতু, যা খুলনাকে মোংলা বন্দর ও দক্ষিণাঞ্চলের সাথে যুক্ত করেছে।",
-        "image": "/panoramas/khulna_day.jpg"
+        "image": "/heritage/rupsha_bridge.jpg"
       }
     ],
     "visualMarkersDay": [
@@ -2636,7 +2636,7 @@
         "est": "1903 AD",
         "description": "One of the grandest and largest red-brick Christian cathedrals in Asia, with a 5-story campanile tower bell.",
         "descriptionBn": "১৯০৩ সালে লাল ইটে নির্মিত এশিয়ার অন্যতম বৃহত্তম ও দৃষ্টিনন্দন গ্রীক-গোথিক স্থাপত্যের চার্চ।",
-        "image": "/panoramas/barishal_day.jpg"
+        "image": "/heritage/oxford_mission_church.jpg"
       },
       {
         "name": "Baitul Aman Guthia Mosque",
@@ -2656,7 +2656,7 @@
         "est": "1780 AD",
         "description": "45-acre historic artificial lake with a central wooded island excavated by Rani Durgabati of Madhabpasha.",
         "descriptionBn": "১৭৮০ সালে রানী দুর্গাবতী কর্তৃক প্রজাদের সুপেয় পানির জন্য খননকৃত বিশাল ঐতিহাসিক দীঘি ও দ্বীপ।",
-        "image": "/panoramas/barishal_day.jpg"
+        "image": "/heritage/durga_sagar.jpg"
       },
       {
         "name": "Tantunir Bari Heritage Mansion",
@@ -2666,7 +2666,7 @@
         "est": "19th Century",
         "description": "Historic riverfront zamindar residence displaying colonial wooden balconies and vintage brickwork.",
         "descriptionBn": "কীর্তনখোলা নদীর অববাহিকায় অবস্থিত শতবর্ষী নান্দনিক টেরাকোটা ও কাঠের কাজ খচিত প্রাচীন জমিদার বাড়ি।",
-        "image": "/panoramas/barishal_day.jpg"
+        "image": "/heritage/tantunir_bari.jpg"
       },
       {
         "name": "Kuakata Sunset & Sunrise Beach",
@@ -2676,7 +2676,7 @@
         "est": "Natural Bay of Bengal",
         "description": "The unique southern shoreline from where both sunrise and sunset can be viewed over open marine horizon.",
         "descriptionBn": "একই সৈকতে দাঁড়িয়ে সূর্যোদয় ও সূর্যাস্ত অবলোকন করার বিশ্বের অন্যতম বিরল প্রাকৃতিক সমুদ্রসৈকত।",
-        "image": "/panoramas/barishal_day.png"
+        "image": "/heritage/kuakata_beach.jpg"
       },
       {
         "name": "Floating Guava Market (Bhimruli)",
@@ -2686,7 +2686,7 @@
         "est": "Centuries-old Tradition",
         "description": "Vibrant network of river canals where farmers on wooden rowboats trade fresh sweet guavas.",
         "descriptionBn": "ঝালকাঠির আঁকাবাঁকা খালের মোহনায় শত শত ডিঙ্গি নৌকায় পেয়ারা কেনাবেচার এশিয়ার বৃহত্তম ভাসমান বাজার।",
-        "image": "/panoramas/barishal_day.jpg"
+        "image": "/heritage/floating_guava_market.jpg"
       },
       {
         "name": "Monpura Island",
@@ -2696,7 +2696,7 @@
         "est": "Deltaic Island",
         "description": "Isolated serene island in the Meghna estuary known for lush mangrove deer forests and fishing lifestyle.",
         "descriptionBn": "মেঘনার মোহনায় অবস্থিত অপার সৌন্দর্যের নির্জন সবুজ দ্বীপ ও প্রাকৃতিক জলাশয়।",
-        "image": "/panoramas/barishal_day.jpg"
+        "image": "/heritage/monpura_island.jpg"
       },
       {
         "name": "Kirtankhola Riverfront & Launch Fleet",
@@ -2706,7 +2706,7 @@
         "est": "19th Century",
         "description": "Lifeline of the \"Venice of Bengal\", famous for multi-deck luxury passenger vessels and waterways.",
         "descriptionBn": "বাংলার ভেনিস বরিশালের প্রাণসঞ্চারকারী নদী ও দেশের বৃহত্তম আধুনিক নৌবহরের টার্মিনাল।",
-        "image": "/panoramas/barishal_night.jpg"
+        "image": "/heritage/kirtankhola_river.jpg"
       }
     ],
     "visualMarkersDay": [
@@ -3190,7 +3190,7 @@
         "est": "1303 AD",
         "description": "Spiritual heart of greater Sylhet with sacred freshwater spring, giant catfish ponds, and ancient mosque.",
         "descriptionBn": "১৩০৩ সালে সিলেটে ইসলাম প্রচারকারী মহান সুফি সাধকের পুণ্য দরগাহ, চশমা-ই-হায়াত ও মাজার প্রাঙ্গণ।",
-        "image": "/panoramas/sylhet_day.jpg"
+        "image": "/heritage/shah_jalal_dargah.jpg"
       },
       {
         "name": "Keane Bridge",
@@ -3200,7 +3200,7 @@
         "est": "1936 AD",
         "description": "1,150-foot historic steel bowstring cantilever bridge over the Surma River, the iconic Gateway to Sylhet.",
         "descriptionBn": "১৯৩৬ সালে সুরমা নদীর ওপর নির্মিত সুরম্য লৌহ ধনুকাকৃতির আর্চ সেতু ও সিলেটের প্রবেশদ্বার।",
-        "image": "/panoramas/sylhet_day.png"
+        "image": "/heritage/keane_bridge.jpg"
       },
       {
         "name": "Ali Amjad's Clock Tower",
@@ -3210,7 +3210,7 @@
         "est": "1874 AD",
         "description": "Public Victorian clock tower built on the north bank of Surma River by the Nawab of Prithimpassa.",
         "descriptionBn": "সুরমা নদীর তীরে ১৮৭৪ সালে নওয়াব আলী আমজাদ কর্তৃক নির্মিত শতবর্ষী ঐতিহাসিক ঘড়িঘর।",
-        "image": "/panoramas/sylhet_day.jpg"
+        "image": "/heritage/ali_amjad_clock.jpg"
       },
       {
         "name": "Malnicherra Tea Estate",
@@ -3220,7 +3220,7 @@
         "est": "1854 AD",
         "description": "Oldest operational commercial tea estate in the Indian Subcontinent, carpeting rolling hills in emerald green.",
         "descriptionBn": "১৮৫৪ সালে প্রতিষ্ঠিত ভারতীয় উপমহাদেশের সর্বপ্রথম বাণিজ্যিক চা বাগান।",
-        "image": "/panoramas/sylhet_day.jpg"
+        "image": "/heritage/malnicherra_tea_estate.jpg"
       },
       {
         "name": "Bholaganj Sada Pathor",
@@ -3230,7 +3230,7 @@
         "est": "Dholai Riverbed",
         "description": "Crystal-clear glacier cold mountain water rushing over acres of white limestone stones from Meghalaya.",
         "descriptionBn": "মেঘালয় পাহাড়ের কোল ঘেঁষে বয়ে চলা ধলাই নদীর বুক জুড়ে শুভ্র সাদা পাথরের সমাহার।",
-        "image": "/panoramas/sylhet_day.jpg"
+        "image": "/heritage/bholaganj_sada_pathor.jpg"
       },
       {
         "name": "Jaflong & Dawki Riverway",
@@ -3250,7 +3250,7 @@
         "est": "Natural Wetland",
         "description": "Only freshwater flooded swamp forest in Bangladesh, navigated exclusively through serene wooden canoes.",
         "descriptionBn": "বর্ষাকালে জলে নিমজ্জিত হওয়া দেশের একমাত্র চিরসবুজ মিঠাপানির জলজ বন।",
-        "image": "/panoramas/sylhet_night_alt.jpg"
+        "image": "/heritage/ratargul_swamp_forest.jpg"
       },
       {
         "name": "Madhabkunda Natural Waterfall",
@@ -3260,7 +3260,7 @@
         "est": "Patharia Hills",
         "description": "Spectacular 200-foot natural waterfall tumbling through forested evergreen gorges into a deep pool.",
         "descriptionBn": "পাথারিয়া পাহাড়ের গহিন অরণ্যে অবস্থিত দেশের অন্যতম প্রধান ও সুউচ্চ প্রাকৃতিক জলপ্রপাত।",
-        "image": "/panoramas/sylhet_day.jpg"
+        "image": "/heritage/madhabkunda_waterfall.jpg"
       }
     ],
     "visualMarkersDay": [
@@ -3729,7 +3729,7 @@
         "est": "1916 AD",
         "description": "Sprawling 300-acre historic campus featuring colonial Indo-Saracenic curved roofs and red arches.",
         "descriptionBn": "১৯১৬ সালে প্রতিষ্ঠিত উত্তরবঙ্গের শ্রেষ্ঠ ঐতিহ্যবাহী উচ্চশিক্ষা কেন্দ্র ও ঐতিহাসিক ভবন।",
-        "image": "/panoramas/rangpur_day.jpg"
+        "image": "/heritage/carmichael_college.jpg"
       },
       {
         "name": "Dimla Rajbari",
@@ -3739,7 +3739,7 @@
         "est": "Late 19th Century",
         "description": "Historic zamindari mansion showing Greco-Roman columns, arched terraces, and vintage courtyard.",
         "descriptionBn": "ডিমলার জমিদারদের নান্দনিক প্রাচীন প্রাসাদ ও প্রত্নতাত্ত্বিক নিদর্শন।",
-        "image": "/panoramas/rangpur_day.jpg"
+        "image": "/heritage/dimla_rajbari.jpg"
       },
       {
         "name": "Ramsagar National Heritage Dighi",
@@ -3749,7 +3749,7 @@
         "est": "1750 AD",
         "description": "Largest historic man-made reservoir in Bangladesh, excavated by Raja Ramnath to provide famine relief.",
         "descriptionBn": "১৭৫০ সালে রাজা রামনাথ কর্তৃক দুর্ভিক্ষ পীড়িত মানুষের জন্য খননকৃত দেশের বৃহত্তম ঐতিহাসিক দীঘি।",
-        "image": "/panoramas/rangpur_day.jpg"
+        "image": "/heritage/ramsagar_dighi.jpg"
       },
       {
         "name": "Teesta Barrage (Dooani)",
@@ -3759,7 +3759,7 @@
         "est": "1990 AD",
         "description": "Bangladesh’s largest irrigation barrage on the Teesta River, transforming northern agriculture.",
         "descriptionBn": "তিস্তা নদীর ওপর নির্মিত দেশের বৃহত্তম আধুনিক জলকপাট ও সেচ প্রকল্প।",
-        "image": "/panoramas/rangpur_day.jpg"
+        "image": "/heritage/teesta_barrage.jpg"
       },
       {
         "name": "Tin Bigha Corridor",
@@ -3769,7 +3769,7 @@
         "est": "1992 AD",
         "description": "Historic sovereign corridor connecting Dahagram-Angarpota enclave residents with mainland Bangladesh.",
         "descriptionBn": "দহগ্রাম-আঙ্গোরপোতা ছিটমহলবাসীর বাংলাদেশের মূল ভূখণ্ডের সাথে যোগাযোগের ঐতিহাসিক করিডোর।",
-        "image": "/panoramas/rangpur_day.jpg"
+        "image": "/heritage/tin_bigha_corridor.jpg"
       },
       {
         "name": "Nayabad Historic Mosque",
@@ -3779,7 +3779,7 @@
         "est": "1793 AD",
         "description": "Three-domed mosque constructed by the Muslim master artisans who arrived to erect Kantajew Temple.",
         "descriptionBn": "১৭৯৩ সালে কান্তজিউ মন্দিরের কারিগরদের দ্বারা নির্মিত ৩ গম্বুজ বিশিষ্ট ঐতিহাসিক মসজিদ।",
-        "image": "/panoramas/rangpur_day.jpg"
+        "image": "/heritage/nayabad_mosque.jpg"
       },
       {
         "name": "Harano Masjid (Ancient Sahaba Mosque)",
@@ -3789,7 +3789,7 @@
         "est": "69 AH / 688 AD",
         "description": "One of the oldest excavated mosques in South Asia, bearing inscriptions from the era of the Sahaba.",
         "descriptionBn": "লালমনিরহাটে আবিষ্কৃত ৬৯ হিজরির প্রাচীন মসজিদ ও দক্ষিণ এশিয়ার অন্যতম সুপ্রাচীন ইসলামি নিদর্শন।",
-        "image": "/panoramas/rangpur_day.jpg"
+        "image": "/heritage/harano_masjid.jpg"
       }
     ],
     "visualMarkersDay": [
@@ -4237,7 +4237,7 @@
         "est": "1905 AD",
         "description": "Lavish palace built by Maharaja Shashikanta Acharya Chowdhury with imported Parisian marble statues and crystal chandeliers.",
         "descriptionBn": "মহারাজা শশীকান্ত আচার্য কর্তৃক ১৯০৫ সালে নির্মিত গ্রীক মার্বেল ভাস্কর্য ও বলরুম সমৃদ্ধ দৃষ্টিনন্দন রাজপ্রাসাদ।",
-        "image": "/panoramas/mymensingh_day_alt.jpg"
+        "image": "/heritage/shashi_lodge.jpg"
       },
       {
         "name": "Alexander Castle (Lohar Kuthi)",
@@ -4247,7 +4247,7 @@
         "est": "1879 AD",
         "description": "Historic 1879 iron manor built by Maharaja Suryakanta; Rabindranath Tagore and Mahatma Gandhi stayed here.",
         "descriptionBn": "১৮৭৯ সালে নির্মিত লোহার কুঠি, যেখানে কবিগুরু রবীন্দ্রনাথ ঠাকুর ও লর্ড কার্জন অবস্থান করেছিলেন।",
-        "image": "/panoramas/mymensingh_day.jpg"
+        "image": "/heritage/alexander_castle.jpg"
       },
       {
         "name": "Birisiri Ceramic White Clay Hills",
@@ -4257,7 +4257,7 @@
         "est": "Natural Porcelain Beds",
         "description": "Pristine turquoise green reservoir lakes cradled by white kaolin clay cliffs in Durgapur near Garo border.",
         "descriptionBn": "সোমেশ্বরী নদীর তীরে দুর্গাপুরে অবস্থিত প্রাকৃতিক চিনামাটির পাহাড় ও নীল জলের লেক।",
-        "image": "/panoramas/mymensingh_day.png"
+        "image": "/heritage/birisiri_white_clay.jpg"
       },
       {
         "name": "Muktagacha Sixteen Zamindar Rajbari",
@@ -4267,7 +4267,7 @@
         "est": "1727 AD",
         "description": "Historical palace with ornate wooden stage and courtyard, birthplace of the royal Muktagacha Monda sweet.",
         "descriptionBn": "১৭২৭ সালে প্রতিষ্ঠিত মুক্তাগাছার ১৬ হিস্যার রাজবাড়ি ও ঐতিহ্যবাহী মণ্ডার আদি উৎপত্তিস্থল।",
-        "image": "/panoramas/mymensingh_day.jpg"
+        "image": "/heritage/muktagacha_rajbari.jpg"
       },
       {
         "name": "Ananda Mohan College Historic Campus",
@@ -4277,7 +4277,7 @@
         "est": "1908 AD",
         "description": "Iconic century-old institution founded by national leader Ananda Mohan Bose on the Brahmaputra banks.",
         "descriptionBn": "১৯০৮ সালে ব্যারিস্টার আনন্দমোহন বসু কর্তৃক প্রতিষ্ঠিত ঐতিহ্যবাহী লাল ইটের বিদ্যা নিকেতন।",
-        "image": "/panoramas/mymensingh_day.jpg"
+        "image": "/heritage/ananda_mohan_college.jpg"
       },
       {
         "name": "Shambhuganj Brahmaputra Bridge",
@@ -4287,7 +4287,7 @@
         "est": "1991 AD",
         "description": "Major transportation artery spanning across the historic Old Brahmaputra river connecting greater Netrokona.",
         "descriptionBn": "পুরাতন ব্রহ্মপুত্র নদের ওপর নির্মিত ময়মনসিংহের পূর্বমুখী যোগাযোগের প্রধান লাইফলাইন সেতু।",
-        "image": "/panoramas/mymensingh_day.jpg"
+        "image": "/heritage/shambhuganj_bridge.jpg"
       },
       {
         "name": "Garo Hills & Border Foothills",
@@ -4297,7 +4297,7 @@
         "est": "Natural Foothills",
         "description": "Verdant undulating hills bordering Meghalaya, home to indigenous Garo and Hajong communities.",
         "descriptionBn": "ভারতের মেঘালয় সীমান্ত ঘেঁষা শেরপুরের নৈসর্গিক পাহাড়ি বনাঞ্চল ও গারো উপজাতীয় সংস্কৃতি।",
-        "image": "/panoramas/mymensingh_day.jpg"
+        "image": "/heritage/garo_hills.jpg"
       },
       {
         "name": "Mymensingh Museum & Zamindar Relics",
@@ -4307,7 +4307,7 @@
         "est": "1969 AD",
         "description": "Houses royal artifacts, ancient taxidermy, musical instruments, and sculptures from Bengal zamindars.",
         "descriptionBn": "বৃহত্তর ময়মনসিংহের প্রাচীন জমিদারদের দুর্লভ সামগ্রী ও ভাস্কর্য নিয়ে প্রতিষ্ঠিত জাদুঘর।",
-        "image": "/panoramas/mymensingh_day.jpg"
+        "image": "/heritage/mymensingh_museum.jpg"
       }
     ],
     "visualMarkersDay": [

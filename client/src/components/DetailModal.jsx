@@ -21,6 +21,10 @@ export default function DetailModal({ item, onClose, isBengali, isNightMode }) {
             <img
               src={item.image}
               alt={item.name || item.title}
+              onError={(e) => {
+                e.currentTarget.onerror = null;
+                e.currentTarget.src = '/panoramas/Dhaka_Day.jpg';
+              }}
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>

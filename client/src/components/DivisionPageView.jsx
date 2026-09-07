@@ -422,26 +422,37 @@ export default function DivisionPageView({
                   }}
                   className={`group rounded-3xl border cursor-pointer ${cardBg} hover:-translate-y-1.5 transition-all duration-300 p-6 space-y-3.5 shadow-md hover:shadow-2xl`}
                 >
-                  <div className="flex items-center justify-between">
-                    <span className="text-[10px] font-black px-2.5 py-0.5 rounded-full bg-rose-500/20 text-rose-400 uppercase tracking-wider">
+                  {/* Landmark Panoramic Header Image */}
+                  <div className="relative h-48 sm:h-52 w-full rounded-2xl overflow-hidden bg-slate-950 mb-3.5 shadow-inner">
+                    <img
+                      src={landmark.image || division.dayImage || '/panoramas/Dhaka_Day.jpg'}
+                      alt={landmark.name}
+                      onError={(e) => {
+                        e.currentTarget.onerror = null;
+                        e.currentTarget.src = division.dayImage || '/panoramas/Dhaka_Day.jpg';
+                      }}
+                      className="w-full h-full object-cover group-hover:scale-108 transition-transform duration-700 brightness-95 group-hover:brightness-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent pointer-events-none" />
+                    <span className="absolute top-3 left-3 text-[10px] font-black px-2.5 py-0.5 rounded-full bg-rose-600/90 text-white shadow-md backdrop-blur-md uppercase tracking-wider">
                       {landmark.type || 'HERITAGE'}
                     </span>
-                    <span className="text-xs text-slate-400 font-mono font-bold flex items-center gap-1">
+                    <span className="absolute top-3 right-3 text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-900/80 text-rose-300 border border-white/10 backdrop-blur-md flex items-center gap-1">
                       <MapPin className="w-3 h-3 text-rose-400" />
                       <span>{landmark.district || ''}</span>
                     </span>
+                    {landmark.est && (
+                      <span className="absolute bottom-2.5 left-3 text-[10px] font-bold px-2.5 py-0.5 rounded-full bg-black/70 text-amber-300 border border-white/10 backdrop-blur-md flex items-center gap-1">
+                        <Calendar className="w-3 h-3 text-amber-400" />
+                        <span>{isBengali ? `প্রতিষ্ঠাকাল: ${landmark.est}` : `Est: ${landmark.est}`}</span>
+                      </span>
+                    )}
                   </div>
 
                   <div>
                     <h3 className="text-base font-black font-display group-hover:text-rose-500 transition-colors">
                       {isBengali ? (landmark.nameBn || landmark.name) : landmark.name}
                     </h3>
-                    {landmark.est && (
-                      <span className="text-[11px] text-amber-400 font-bold block mt-0.5 flex items-center gap-1">
-                        <Calendar className="w-3 h-3" />
-                        <span>{isBengali ? `প্রতিষ্ঠাকাল: ${landmark.est}` : `Established: ${landmark.est}`}</span>
-                      </span>
-                    )}
                   </div>
 
                   <p className={`text-xs leading-relaxed line-clamp-4 ${sub}`}>

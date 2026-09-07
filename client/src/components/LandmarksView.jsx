@@ -11,16 +11,42 @@ export default function LandmarksView({
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
 
-  // Collect all hotspots from all divisions
-  const allLandmarks = divisions.flatMap(div => 
-    (div.hotspots || []).map(h => ({
-      ...h,
-      divisionName: div.name,
-      divisionNameBn: div.nameBn,
-      divisionId: div.id,
-      divisionColor: div.themeColor
-    }))
-  );
+  // Collect all landmarks and unique hotspots from all divisions
+  const allLandmarks = divisions.flatMap(div => {
+    const list = [];
+    (div.landmarks || []).forEach((l, idx) => {
+      list.push({
+        id: l.id || `${div.id}-landmark-${idx}`,
+        title: l.name,
+        titleBn: l.nameBn,
+        category: l.type || 'HERITAGE SITE',
+        district: l.district,
+        details: l.description,
+        detailsBn: l.descriptionBn,
+        est: l.est,
+        builtBy: l.builtBy || l.dynasty,
+        image: l.image || div.dayImage || '/panoramas/Dhaka_Day.jpg',
+        divisionName: div.name,
+        divisionNameBn: div.nameBn,
+        divisionId: div.id,
+        divisionColor: div.themeColor
+      });
+    });
+    (div.hotspots || []).forEach((h, hIdx) => {
+      if (!list.some(item => item.title?.toLowerCase() === h.title?.toLowerCase())) {
+        list.push({
+          ...h,
+          id: h.id || `${div.id}-hotspot-${hIdx}`,
+          image: h.image || div.dayImage || '/panoramas/Dhaka_Day.jpg',
+          divisionName: div.name,
+          divisionNameBn: div.nameBn,
+          divisionId: div.id,
+          divisionColor: div.themeColor
+        });
+      }
+    });
+    return list;
+  });
 
   const categories = [
     { id: 'all', name: 'All Categories', nameBn: 'সকল ক্যাটাগরি' },
@@ -154,8 +180,12 @@ export default function LandmarksView({
                 {/* Image & Badges */}
                 <div className="relative h-52 w-full overflow-hidden bg-slate-950">
                   <img 
-                    src={landmark.image || '/panoramas/dhaka_day.png'} 
+                    src={landmark.image || '/panoramas/Dhaka_Day.jpg'} 
                     alt={landmark.title}
+                    onError={(e) => {
+                      e.currentTarget.onerror = null;
+                      e.currentTarget.src = '/panoramas/Dhaka_Day.jpg';
+                    }}
                     className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700" 
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
