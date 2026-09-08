@@ -21,6 +21,12 @@ const loadJSON = (file) => {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
 };
 
+const loadDivisions = () => loadJSON('divisions.json');
+const loadDistricts = () => loadJSON('districts.json');
+const loadDelicacies = () => loadJSON('delicacies.json');
+const loadNational = () => loadJSON('national.json');
+const loadQuiz = () => loadJSON('quizData.json');
+
 // Health Check
 app.get('/api/health', (req, res) => {
   res.json({
@@ -34,7 +40,7 @@ app.get('/api/health', (req, res) => {
 // Divisions API (always serves latest data from disk)
 app.get('/api/divisions', (req, res) => {
   try {
-    res.json(loadJSON('divisions.json'));
+    res.json(loadDivisions());
   } catch (err) {
     res.status(500).json({ error: 'Failed to load divisions' });
   }
@@ -43,7 +49,7 @@ app.get('/api/divisions', (req, res) => {
 app.get('/api/divisions/:id', (req, res) => {
   try {
     const { id } = req.params;
-    const allDivs = loadJSON('divisions.json');
+    const allDivs = loadDivisions();
     const division = allDivs.find(d => d.id.toLowerCase() === id.toLowerCase());
     if (!division) {
       return res.status(404).json({ error: 'Division not found' });
@@ -58,7 +64,7 @@ app.get('/api/divisions/:id', (req, res) => {
 app.get('/api/districts', (req, res) => {
   try {
     const { division } = req.query;
-    const allDists = loadJSON('districts.json');
+    const allDists = loadDistricts();
     if (division) {
       const filtered = allDists.filter(d => d.divisionId.toLowerCase() === division.toLowerCase());
       return res.json(filtered);
@@ -70,91 +76,121 @@ app.get('/api/districts', (req, res) => {
 });
 
 app.get('/api/districts/:id', (req, res) => {
-  const { id } = req.params;
-  const district = districts.find(d => d.id.toLowerCase() === id.toLowerCase());
-  if (!district) {
-    return res.status(404).json({ error: 'District not found' });
+  try {
+    const { id } = req.params;
+    const districts = loadDistricts();
+    const district = districts.find(d => d.id.toLowerCase() === id.toLowerCase());
+    if (!district) {
+      return res.status(404).json({ error: 'District not found' });
+    }
+    res.json(district);
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to load district' });
   }
-  res.json(district);
 });
 
 // Delicacies & Traditional Sweets API
 app.get('/api/delicacies', (req, res) => {
-  const { category, district } = req.query;
-  let results = delicacies;
-  if (category) {
-    results = results.filter(d => d.category.toLowerCase() === category.toLowerCase());
+  try {
+    const { category, district } = req.query;
+    let results = loadDelicacies();
+    if (category) {
+      results = results.filter(d => d.category.toLowerCase() === category.toLowerCase());
+    }
+    if (district) {
+      results = results.filter(d => d.district.toLowerCase() === district.toLowerCase());
+    }
+    res.json(results);
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to load delicacies' });
   }
-  if (district) {
-    results = results.filter(d => d.district.toLowerCase() === district.toLowerCase());
-  }
-  res.json(results);
 });
 
 // National Symbols & Data API
 app.get('/api/national', (req, res) => {
-  res.json(nationalData);
+  try {
+    res.json(loadNational());
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to load national data' });
+  }
 });
 
 // Heritage Quiz API
 app.get('/api/quiz', (req, res) => {
-  res.json(quizData);
+  try {
+    res.json(loadQuiz());
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to load quiz data' });
+  }
 });
 
 // Global Search API
 app.get('/api/search', (req, res) => {
-  const q = (req.query.q || '').toLowerCase().trim();
-  if (!q) {
-    return res.json({ divisions: [], districts: [], delicacies: [] });
+  try {
+    const q = (req.query.q || '').toLowerCase().trim();
+    if (!q) {
+      return res.json({ divisions: [], districts: [], delicacies: [] });
+    }
+
+    const divisions = loadDivisions();
+    const districts = loadDistricts();
+    const delicacies = loadDelicacies();
+
+    const matchedDivisions = divisions.filter(d => 
+      d.name.toLowerCase().includes(q) || 
+      d.nameBn.includes(q) ||
+      d.tagline.toLowerCase().includes(q)
+    );
+
+    const matchedDistricts = districts.filter(d => 
+      d.name.toLowerCase().includes(q) || 
+      d.nameBn.includes(q) ||
+      (d.delicacy && d.delicacy.toLowerCase().includes(q)) ||
+      (d.landmarks && d.landmarks.some(l => l.toLowerCase().includes(q)))
+    );
+
+    const matchedDelicacies = delicacies.filter(d => 
+      d.name.toLowerCase().includes(q) || 
+      d.district.toLowerCase().includes(q) ||
+      (d.desc && d.desc.toLowerCase().includes(q))
+    );
+
+    res.json({
+      query: q,
+      divisions: matchedDivisions,
+      districts: matchedDistricts,
+      delicacies: matchedDelicacies
+    });
+  } catch (err) {
+    res.status(500).json({ error: 'Search failed' });
   }
-
-  const matchedDivisions = divisions.filter(d => 
-    d.name.toLowerCase().includes(q) || 
-    d.nameBn.includes(q) ||
-    d.tagline.toLowerCase().includes(q)
-  );
-
-  const matchedDistricts = districts.filter(d => 
-    d.name.toLowerCase().includes(q) || 
-    d.nameBn.includes(q) ||
-    d.delicacy.toLowerCase().includes(q) ||
-    d.landmarks.some(l => l.toLowerCase().includes(q))
-  );
-
-  const matchedDelicacies = delicacies.filter(d => 
-    d.name.toLowerCase().includes(q) || 
-    d.district.toLowerCase().includes(q) ||
-    d.desc.toLowerCase().includes(q)
-  );
-
-  res.json({
-    query: q,
-    divisions: matchedDivisions,
-    districts: matchedDistricts,
-    delicacies: matchedDelicacies
-  });
 });
 
 // Smart Itinerary Trip Generator Endpoint
 app.post('/api/itinerary', (req, res) => {
-  const { selectedDistricts = [], days = 3 } = req.body;
-  const chosenDistricts = districts.filter(d => selectedDistricts.includes(d.id));
+  try {
+    const { selectedDistricts = [], days = 3 } = req.body;
+    const districts = loadDistricts();
+    const chosenDistricts = districts.filter(d => selectedDistricts.includes(d.id));
 
-  const plan = chosenDistricts.map((dist, idx) => ({
-    day: (idx % days) + 1,
-    district: dist.name,
-    districtBn: dist.nameBn,
-    morning: `Explore iconic sites: ${dist.landmarks.slice(0, 2).join(', ')}`,
-    afternoon: `Experience local culture and taste famous ${dist.delicacy}`,
-    evening: `Sunset views along the ${dist.rivers[0] || 'river'} and artisan bazaars`,
-    tips: dist.touristTips
-  }));
+    const plan = chosenDistricts.map((dist, idx) => ({
+      day: (idx % days) + 1,
+      district: dist.name,
+      districtBn: dist.nameBn,
+      morning: `Explore iconic sites: ${(dist.landmarks || []).slice(0, 2).join(', ')}`,
+      afternoon: `Experience local culture and taste famous ${dist.delicacy || 'sweets'}`,
+      evening: `Sunset views along the ${(dist.rivers && dist.rivers[0]) || 'river'} and artisan bazaars`,
+      tips: dist.touristTips
+    }));
 
-  res.json({
-    totalDays: days,
-    districtsCovered: chosenDistricts.length,
-    plan
-  });
+    res.json({
+      totalDays: days,
+      districtsCovered: chosenDistricts.length,
+      plan
+    });
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to generate itinerary' });
+  }
 });
 
 
